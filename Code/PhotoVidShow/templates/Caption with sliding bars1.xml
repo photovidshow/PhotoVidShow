@@ -1,0 +1,107 @@
+<Template Version="1.0.0" Name="Caption with sliding bars 1" Description="Shows a text caption with a sliding bars effect.&#xD;&#xA;&#xD;&#xA;">
+  <Slideshow>
+    <Slide Type="BlankStillPictureSlide" PanZoom="True" DisplayTimeLength="6" UsesDefaultTransitionEffect="True" ForceMBSubFrames="30" ThumbnailPreviewTime="3" Color="Color [Black]">
+      <TransitionEffect Type="SimpleAlphaBlendTransitionEffect" Length="0.5" Index="1" />
+      <Decoration Type="GroupedDecoration" MotionBlur="True" RenderMethod="7" MoveAsSlidePanZoom="True">
+        <CoverageArea X="0" Y="0" Width="1" Height="1" />
+        <Decoration Type="ImageDecoration" Aspect="2" Brightness="1.92,1.97,2" Contrast="1,1,0.99">
+          <CoverageArea X="0" Y="0" Width="1" Height="1" />
+          <Image Filename="templates\media\black.jpg" />
+        </Decoration>
+        <Decoration Type="ImageDecoration" EndOffsetTime="5.3" InEffect="MoveRightMore" OutEffect="MoveRightfast " Brightness="1.15,1.18,1.24">
+          <CoverageArea X="-0.1565217" Y="0.4767933" Width="1.177866" Height="0.1181435" />
+          <Image Filename="templates\media\black.jpg" />
+        </Decoration>
+        <Decoration Type="TextDecoration" StartOffsetTime="0.9" EndOffsetTime="4.5" InEffect="MoveLeftMore" OutEffect="MoveLeftMore " Text="Text1 text1 text1 text1" TemplateEditable="1">
+          <CoverageArea X="0.2600791" Y="0.4739803" Width="0.487747" Height="0.1209564" />
+          <TextStyle Name="Vanilla" FontName="Segoe UI" FontSize="48.26477" OutLine="True" OutLineColour="Color [White]" Alignment="Center" OutlineLength="4" OutlineAlpha="87" />
+        </Decoration>
+        <Decoration Type="ImageDecoration" EndOffsetTime="5.5" InEffect="MoveUpFast" OutEffect="MoveUpFast " Brightness="1.04,1.28,1.49">
+          <AlphaMap Filename="outlinemasks\smooth edge.jpg" />
+          <CoverageArea X="-0.02055336" Y="0.4317862" Width="1.026087" Height="0.04781997" />
+          <Image Filename="templates\media\black.jpg" />
+        </Decoration>
+        <Decoration Type="ImageDecoration" StartOffsetTime="0.7" EndOffsetTime="4.9" InEffect="MoveRightFast" OutEffect="MoveLeftFast " Brightness="1.91,1.97,2">
+          <AlphaMap Filename="outlinemasks\gradient edge.jpg" />
+          <CoverageArea X="-0.04426878" Y="0.4697609" Width="1.089328" Height="0.009845288" />
+          <Image Filename="templates\media\black.jpg" />
+        </Decoration>
+      </Decoration>
+      <Decoration Type="ImageDecoration" Border="True">
+        <CoverageArea X="0" Y="0" Width="1" Height="1" />
+        <Image Filename="borders\vignette1.pvsi" />
+      </Decoration>
+      <PanZoom StartRotation="-0.2150018" EndRotation="-2.005895" PanZoomOnAll="True">
+        <StartArea X="0.01106719" Y="0.01687764" Width="0.9596838" Height="0.9592124" />
+        <EndArea X="0.02456647" Y="0.04113111" Width="0.9190751" Height="0.9190751" />
+        <Equation Type="Linear" />
+      </PanZoom>
+    </Slide>
+  </Slideshow>
+  <DecorationEffectsDatabase>
+    <DecorationEffect Name="MoveLeftMore" Length="1" MotionBlur="15">
+      <TransitionEffect Type="SimpleAlphaBlendTransitionEffect" Length="1.5" EndDelay="0.5" />
+      <Movement Type="StraightLineMovement" InitialDelay="0" EndDelay="0">
+        <Start X="1" Y="0" Z="0" />
+        <End X="0" Y="0" Z="0" />
+        <Equation Type="NonLinear" />
+      </Movement>
+    </DecorationEffect>
+    <DecorationEffect Name="MoveRightMore" Length="1" MotionBlur="15">
+      <TransitionEffect Type="SimpleAlphaBlendTransitionEffect" Length="1.5" EndDelay="0.5" />
+      <Movement Type="StraightLineMovement" InitialDelay="0" EndDelay="0">
+        <Start X="-1" Y="0" Z="0" />
+        <End X="0" Y="0" Z="0" />
+        <Equation Type="NonLinear" />
+      </Movement>
+    </DecorationEffect>
+    <DecorationEffect Name="MoveUpFast" Length="1" MotionBlur="15">
+      <TransitionEffect Type="SimpleAlphaBlendTransitionEffect" Length="1.5" EndDelay="0.5" />
+      <Movement Type="StraightLineMovement" InitialDelay="0" EndDelay="0">
+        <Start X="0" Y="2" Z="0" />
+        <End X="0" Y="0" Z="0" />
+        <Equation Type="NonLinear" />
+      </Movement>
+    </DecorationEffect>
+    <DecorationEffect Name="MoveRightFast" Length="1" MotionBlur="15">
+      <TransitionEffect Type="SimpleAlphaBlendTransitionEffect" Length="1.5" EndDelay="0.5" />
+      <Movement Type="StraightLineMovement" InitialDelay="0" EndDelay="0">
+        <Start X="-2" Y="0" Z="0" />
+        <End X="0" Y="0" Z="0" />
+        <Equation Type="NonLinear" />
+      </Movement>
+    </DecorationEffect>
+    <DecorationEffect Name="MoveLeftMore " Length="1" MotionBlur="15">
+      <TransitionEffect Type="SimpleAlphaBlendTransitionEffect" Length="1.5" InitialDelay="0.5" />
+      <Movement Type="StraightLineMovement" InitialDelay="0" EndDelay="0">
+        <Start X="0" Y="0" Z="0" />
+        <End X="-1" Y="0" Z="0" />
+        <Equation Type="NonLinear" />
+      </Movement>
+    </DecorationEffect>
+    <DecorationEffect Name="MoveUpFast " Length="1" MotionBlur="15">
+      <TransitionEffect Type="SimpleAlphaBlendTransitionEffect" Length="1.5" InitialDelay="0.5" />
+      <Movement Type="StraightLineMovement" InitialDelay="0" EndDelay="0">
+        <Start X="0" Y="0" Z="0" />
+        <End X="0" Y="-2" Z="0" />
+        <Equation Type="NonLinear" />
+      </Movement>
+    </DecorationEffect>
+    <DecorationEffect Name="MoveRightfast " Length="1" MotionBlur="15">
+      <TransitionEffect Type="SimpleAlphaBlendTransitionEffect" Length="1.5" InitialDelay="0.5" />
+      <Movement Type="StraightLineMovement" InitialDelay="0" EndDelay="0">
+        <Start X="0" Y="0" Z="0" />
+        <End X="2" Y="0" Z="0" />
+        <Equation Type="NonLinear" />
+      </Movement>
+    </DecorationEffect>
+    <DecorationEffect Name="MoveLeftFast " Length="1" MotionBlur="15">
+      <TransitionEffect Type="SimpleAlphaBlendTransitionEffect" Length="1.5" InitialDelay="0.5" />
+      <Movement Type="StraightLineMovement" InitialDelay="0" EndDelay="0">
+        <Start X="0" Y="0" Z="0" />
+        <End X="-2" Y="0" Z="0" />
+        <Equation Type="NonLinear" />
+      </Movement>
+    </DecorationEffect>
+  </DecorationEffectsDatabase>
+</Template>

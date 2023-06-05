@@ -1,0 +1,27 @@
+<Template Version="1.0.0" Name="Intro sequence grow 2 line text" Description="Intro sequence with two lines of text slowly growing&#xD;&#xA;">
+  <Slideshow>
+    <Slide Type="BlankStillPictureSlide" PanZoom="False" DisplayTimeLength="12" UsesDefaultTransitionEffect="True" ThumbnailPreviewTime="10.5" Color="Color [Black]">
+      <TransitionEffect Type="SimpleAlphaBlendTransitionEffect" Length="1.5" Index="1" />
+      <Decoration Type="TextDecoration" InEffect="TextGrowIndividualLetters" Text="My slideshow presentation" HintEditTime="10.5">
+        <CoverageArea X="0.21" Y="0.302391" Width="0.58" Height="0.1201373" />
+        <TextStyle Name="Vanilla" FontName="Segoe UI" FontSize="44.06218" OutLine="True" OutLineColour="Color [White]" Alignment="Center" OutlineLength="4" OutlineAlpha="14" />
+      </Decoration>
+      <Decoration Type="TextDecoration" StartOffsetTime="3.82" InEffect="TextGrowIndividualLetters" Text="Text2 text2 text2 text2&#xD;&#xA;" HintEditTime="10.5">
+        <CoverageArea X="0.372332" Y="0.4345992" Width="0.2529644" Height="0.06188467" />
+        <TextStyle Name="Vanilla" FontName="Segoe UI" FontSize="23.01339" OutLine="True" OutLineColour="Color [White]" Alignment="Center" OutlineLength="4" OutlineAlpha="14" />
+      </Decoration>
+      <PanZoom>
+        <StartArea X="0" Y="0" Width="1" Height="1" />
+        <EndArea X="0" Y="0" Width="1" Height="1" />
+        <Equation Type="Linear" />
+      </PanZoom>
+    </Slide>
+  </Slideshow>
+  <DecorationEffectsDatabase>
+    <DecorationEffect Name="TextGrowIndividualLetters" Length="8" HasCharDelay="True" CharTimeOffset="0" CharOrder="0">
+      <Zoom InitialDelay="0" EndDelay="0" StartZoom="0.001" EndZoom="1" OneOverZ="False">
+        <Equation Type="NonLinear" />
+      </Zoom>
+    </DecorationEffect>
+  </DecorationEffectsDatabase>
+</Template>

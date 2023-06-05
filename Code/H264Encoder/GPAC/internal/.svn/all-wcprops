@@ -1,0 +1,113 @@
+K 25
+svn:wc:ra_dav:version-url
+V 50
+/svnroot/direct264/!svn/ver/313/x264/GPAC/internal
+END
+mesh.h
+K 25
+svn:wc:ra_dav:version-url
+V 57
+/svnroot/direct264/!svn/ver/287/x264/GPAC/internal/mesh.h
+END
+compositor_dev.h
+K 25
+svn:wc:ra_dav:version-url
+V 67
+/svnroot/direct264/!svn/ver/287/x264/GPAC/internal/compositor_dev.h
+END
+swf_dev.h
+K 25
+svn:wc:ra_dav:version-url
+V 60
+/svnroot/direct264/!svn/ver/287/x264/GPAC/internal/swf_dev.h
+END
+crypt_dev.h
+K 25
+svn:wc:ra_dav:version-url
+V 62
+/svnroot/direct264/!svn/ver/287/x264/GPAC/internal/crypt_dev.h
+END
+vobsub.h
+K 25
+svn:wc:ra_dav:version-url
+V 59
+/svnroot/direct264/!svn/ver/287/x264/GPAC/internal/vobsub.h
+END
+laser_dev.h
+K 25
+svn:wc:ra_dav:version-url
+V 62
+/svnroot/direct264/!svn/ver/287/x264/GPAC/internal/laser_dev.h
+END
+odf_dev.h
+K 25
+svn:wc:ra_dav:version-url
+V 60
+/svnroot/direct264/!svn/ver/287/x264/GPAC/internal/odf_dev.h
+END
+avilib.h
+K 25
+svn:wc:ra_dav:version-url
+V 59
+/svnroot/direct264/!svn/ver/287/x264/GPAC/internal/avilib.h
+END
+terminal_dev.h
+K 25
+svn:wc:ra_dav:version-url
+V 65
+/svnroot/direct264/!svn/ver/287/x264/GPAC/internal/terminal_dev.h
+END
+ogg.h
+K 25
+svn:wc:ra_dav:version-url
+V 56
+/svnroot/direct264/!svn/ver/287/x264/GPAC/internal/ogg.h
+END
+config_static.h
+K 25
+svn:wc:ra_dav:version-url
+V 66
+/svnroot/direct264/!svn/ver/287/x264/GPAC/internal/config_static.h
+END
+scenegraph_dev.h
+K 25
+svn:wc:ra_dav:version-url
+V 67
+/svnroot/direct264/!svn/ver/287/x264/GPAC/internal/scenegraph_dev.h
+END
+media_dev.h
+K 25
+svn:wc:ra_dav:version-url
+V 62
+/svnroot/direct264/!svn/ver/287/x264/GPAC/internal/media_dev.h
+END
+bifs_tables.h
+K 25
+svn:wc:ra_dav:version-url
+V 64
+/svnroot/direct264/!svn/ver/287/x264/GPAC/internal/bifs_tables.h
+END
+bifs_dev.h
+K 25
+svn:wc:ra_dav:version-url
+V 61
+/svnroot/direct264/!svn/ver/287/x264/GPAC/internal/bifs_dev.h
+END
+ietf_dev.h
+K 25
+svn:wc:ra_dav:version-url
+V 61
+/svnroot/direct264/!svn/ver/287/x264/GPAC/internal/ietf_dev.h
+END
+isomedia_dev.h
+K 25
+svn:wc:ra_dav:version-url
+V 65
+/svnroot/direct264/!svn/ver/287/x264/GPAC/internal/isomedia_dev.h
+END
+camera.h
+K 25
+svn:wc:ra_dav:version-url
+V 59
+/svnroot/direct264/!svn/ver/287/x264/GPAC/internal/camera.h
+END

@@ -1,0 +1,36 @@
+<Template Version="1.0.0" Name="Photo frame 7" Description="Shows an image in a photo frame">
+  <Slideshow>
+    <Slide Type="BlankStillPictureSlide" PanZoom="True" DisplayTimeLength="8" UsesDefaultTransitionEffect="True" MasterBackgroundAspect="1.777778" MastetAspectType="2" Color="Color [Black]">
+      <TransitionEffect Type="HBlurWhiteout" Length="1.5" Index="3" />
+      <Decoration Type="GroupedDecoration" MotionBlur="False" RenderMethod="7" MoveAsSlidePanZoom="True">
+        <CoverageArea X="0" Y="0" Width="1" Height="1" />
+        <Decoration Type="ImageDecoration" TemplateFramework="True" Aspect="2">
+          <CoverageArea X="0" Y="0" Width="1" Height="1" />
+          <Image Filename="templates\media\photo frame 11.jpg" />
+        </Decoration>
+        <Decoration Type="ImageDecoration" DegreesRot="1.316912" Aspect="2" OriTemImageNum="1">
+          <AlphaMap Filename="outlinemasks\smooth edge.jpg" />
+          <CoverageArea X="0.370751" Y="0.2714487" Width="0.2671937" Height="0.3755274" />
+          <Image Filename="image1" />
+        </Decoration>
+        <Decoration Type="ImageDecoration" RenderMethod="4">
+          <CoverageArea X="0" Y="0" Width="1" Height="1" />
+          <Image Filename="filters\color mix 24(mod1x).pvsi" />
+        </Decoration>
+        <Decoration Type="BlurFilterDecoration" BlurFilterType="1">
+          <CoverageArea X="0" Y="0" Width="1" Height="1" />
+        </Decoration>
+      </Decoration>
+      <Decoration Type="ImageDecoration" Border="True">
+        <CoverageArea X="0" Y="0" Width="1" Height="1" />
+        <Image Filename="borders\vignette1.pvsi" />
+      </Decoration>
+      <PanZoom StartRotation="-2.031778" EndRotation="1.440511" PanZoomOnAll="True">
+        <StartArea X="0.2222222" Y="0.1846154" Width="0.5858586" Height="0.5871795" />
+        <EndArea X="0.03896104" Y="0.03076923" Width="0.9393939" Height="0.9384615" />
+        <Equation Type="Linear" />
+      </PanZoom>
+    </Slide>
+  </Slideshow>
+  <DecorationEffectsDatabase />
+</Template>

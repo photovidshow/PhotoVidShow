@@ -1,0 +1,172 @@
+<Template Version="1.0.0" Name="Wall 4 scroll left with text" Description="Draws 4 images one at a time to a scrolling wall with text.&#xD;&#xA;">
+  <Slideshow>
+    <Slide Type="BlankStillPictureSlide" PanZoom="True" DisplayTimeLength="39" UsesDefaultTransitionEffect="True" ForceMBSubFrames="20" ThumbnailPreviewTime="30.5" Color="Color [Black]">
+      <TransitionEffect Type="CameraSnapshotTransitionEffect" Length="0.3" Index="11" />
+      <Decoration Type="ImageDecoration" MoveAsSlidePanZoom="True">
+        <CoverageArea X="0" Y="-0.00140647" Width="1" Height="1" />
+        <Image Filename="templates\media\blackbrick.jpg" />
+      </Decoration>
+      <Decoration Type="ImageDecoration" Aspect="3" OriTemImageNum="1" StartOffsetTime="2" InEffect="WallImageScrollLeft1InEffect" OutEffect="WallImageScrollLeft1OutEffect" Brightness="0.9,0.9,0.9" Contrast="0.7,0.7,0.7">
+        <CoverageArea X="0.296875" Y="0.04629629" Width="0.2200521" Height="0.2939815" />
+        <Image Filename="image1" />
+      </Decoration>
+      <Decoration Type="ImageDecoration" TemplateFramework="True" StartOffsetTime="2" InEffect="WallImageScrollLeft1InEffect" OutEffect="WallImageScrollLeft1OutEffect" UsePreviousDecorationCoverageAreaPercent="4" Brightness="0.9,0.9,0.9" Contrast="0.8,0.8,0.8">
+        <AlphaMap Filename="outlinemasks\smooth edge.jpg" />
+        <Image Filename="templates\media\overlays\thinframe.png" />
+      </Decoration>
+      <Decoration Type="TextDecoration" DegreesRot="-12" StartOffsetTime="2.76" EndOffsetTime="8.8" InEffect="Fade" OutEffect="Fade " Text="Text1 text1 text1 text1" TemplateEditable="1" HintEditTime="4">
+        <CoverageArea X="0.08379447" Y="0.1969058" Width="0.3264822" Height="0.06891702" />
+        <TextStyle FontName="Arial" FontSize="29.59404" OutLine="True" OutLineColour="Color [Black]" Alignment="Center" FontColor2="Color [Silver]" Gradient="True" OutlineLength="5" OutlineAlpha="83" />
+      </Decoration>
+      <Decoration Type="ImageDecoration" Aspect="3" OriTemImageNum="2" StartOffsetTime="11" InEffect="WallImageScrollLeft2InEffect" OutEffect="WallImageScrollLeft2OutEffect" Brightness="0.9,0.9,0.9" Contrast="0.7,0.7,0.7">
+        <CoverageArea X="0.3046875" Y="0.7314815" Width="0.2122396" Height="0.2662037" />
+        <Image Filename="image2" />
+      </Decoration>
+      <Decoration Type="ImageDecoration" TemplateFramework="True" StartOffsetTime="11" InEffect="WallImageScrollLeft2InEffect" OutEffect="WallImageScrollLeft2OutEffect" UsePreviousDecorationCoverageAreaPercent="4" Brightness="0.9,0.9,0.9" Contrast="0.8,0.8,0.8">
+        <AlphaMap Filename="outlinemasks\smooth edge.jpg" />
+        <Image Filename="templates\media\overlays\thinframe.png" />
+      </Decoration>
+      <Decoration Type="TextDecoration" DegreesRot="12" StartOffsetTime="11.8" EndOffsetTime="17.8" InEffect="Fade" OutEffect="Fade " Text="Text2 text2 text2 text2" TemplateEditable="1" HintEditTime="13">
+        <CoverageArea X="0.0833201" Y="0.769339" Width="0.3264822" Height="0.06891702" />
+        <TextStyle FontName="Arial" FontSize="29.59404" OutLine="True" OutLineColour="Color [Black]" Alignment="Center" FontColor2="Color [Silver]" Gradient="True" OutlineLength="5" OutlineAlpha="83" />
+      </Decoration>
+      <Decoration Type="ImageDecoration" Aspect="3" OriTemImageNum="3" StartOffsetTime="20" InEffect="WallImageScrollLeft3InEffect" OutEffect="WallImageScrollLeft3OutEffect" Brightness="0.9,0.9,0.9" Contrast="0.7,0.7,0.7">
+        <CoverageArea X="0.3041667" Y="0.2666667" Width="0.21875" Height="0.2888889" />
+        <Image Filename="image3" />
+      </Decoration>
+      <Decoration Type="ImageDecoration" TemplateFramework="True" StartOffsetTime="20" InEffect="WallImageScrollLeft3InEffect" OutEffect="WallImageScrollLeft3OutEffect" UsePreviousDecorationCoverageAreaPercent="4" Brightness="0.9,0.9,0.9" Contrast="0.8,0.8,0.8">
+        <AlphaMap Filename="outlinemasks\smooth edge.jpg" />
+        <Image Filename="templates\media\overlays\thinframe.png" />
+      </Decoration>
+      <Decoration Type="TextDecoration" DegreesRot="-12" StartOffsetTime="20.8" EndOffsetTime="26.8" InEffect="Fade" OutEffect="Fade " Text="Text3 text3 text3 text3" TemplateEditable="1" HintEditTime="22">
+        <CoverageArea X="0.0872727" Y="0.230661" Width="0.3264822" Height="0.06891702" />
+        <TextStyle FontName="Arial" FontSize="29.59404" OutLine="True" OutLineColour="Color [Black]" Alignment="Center" FontColor2="Color [Silver]" Gradient="True" OutlineLength="5" OutlineAlpha="83" />
+      </Decoration>
+      <Decoration Type="ImageDecoration" Aspect="3" OriTemImageNum="4" StartOffsetTime="29" InEffect="WallImageScrollLeft4InEffect" OutEffect="WallImageScrollLeft4OutEffect" Brightness="0.9,0.9,0.9" Contrast="0.7,0.7,0.7">
+        <CoverageArea X="0.3" Y="0.5111111" Width="0.21875" Height="0.2888889" />
+        <Image Filename="image4" />
+      </Decoration>
+      <Decoration Type="ImageDecoration" TemplateFramework="True" StartOffsetTime="29" InEffect="WallImageScrollLeft4InEffect" OutEffect="WallImageScrollLeft4OutEffect" UsePreviousDecorationCoverageAreaPercent="4" Brightness="0.9,0.9,0.9" Contrast="0.8,0.8,0.8">
+        <AlphaMap Filename="outlinemasks\smooth edge.jpg" />
+        <Image Filename="templates\media\overlays\thinframe.png" />
+      </Decoration>
+      <Decoration Type="TextDecoration" DegreesRot="15" StartOffsetTime="29.8" EndOffsetTime="35.8" InEffect="Fade" OutEffect="Fade " Text="Text4 text4 text4 text4" TemplateEditable="1" HintEditTime="31">
+        <CoverageArea X="0.0928063" Y="0.7243319" Width="0.3264822" Height="0.06891702" />
+        <TextStyle FontName="Arial" FontSize="29.59404" OutLine="True" OutLineColour="Color [Black]" Alignment="Center" FontColor2="Color [Silver]" Gradient="True" OutlineLength="5" OutlineAlpha="83" />
+      </Decoration>
+      <Decoration Type="ImageDecoration" RenderMethod="5" Border="True">
+        <CoverageArea X="0" Y="0" Width="1" Height="1" />
+        <Image Filename="borders\spotlight bright(mod2x).pvsi" />
+      </Decoration>
+      <PanZoom>
+        <StartArea X="0.4456354" Y="0.2962963" Width="0.4088542" Height="0.4097222" />
+        <EndArea X="0.1263021" Y="0.2962963" Width="0.41" Height="0.41" />
+        <Equation Type="Linear" />
+      </PanZoom>
+    </Slide>
+  </Slideshow>
+  <DecorationEffectsDatabase>
+    <DecorationEffect Name="Fade" Length="1">
+      <TransitionEffect Type="SimpleAlphaBlendTransitionEffect" Length="1.5" />
+    </DecorationEffect>
+    <DecorationEffect Name="Fade " Length="1">
+      <TransitionEffect Type="SimpleAlphaBlendTransitionEffect" Length="1.5" />
+    </DecorationEffect>
+    <DecorationEffect Name="WallImageScrollLeft1InEffect" Length="9" TemplateOnlyEffect="True">
+      <TransitionEffect Type="SimpleAlphaBlendTransitionEffect" Length="1.5" EndDelay="0.87" />
+      <Movement Type="StraightLineMovement" InitialDelay="0.81" EndDelay="0">
+        <Start X="-0.15" Y="0" Z="0" />
+        <End X="0.15" Y="0" Z="0" />
+        <Equation Type="NonLinear" />
+      </Movement>
+      <Rotation InitialDelay="0.81" EndDelay="0" StartRotation="-12" EndRotation="-5" XOffset="1" YOffset="0">
+        <Equation Type="NonLinear" />
+      </Rotation>
+      <Zoom InitialDelay="0.81" EndDelay="0" StartZoom="2" EndZoom="1">
+        <Equation Type="NonLinear" />
+      </Zoom>
+    </DecorationEffect>
+    <DecorationEffect Name="WallImageScrollLeft1OutEffect" Length="28" TemplateOnlyEffect="True">
+      <Movement Type="StraightLineMovement" InitialDelay="0" EndDelay="0">
+        <Start X="0.15" Y="0" Z="0" />
+        <End X="0.71" Y="0" Z="0" />
+        <Equation Type="Linear" />
+      </Movement>
+      <Rotation InitialDelay="0" EndDelay="0" StartRotation="-5" EndRotation="-5" XOffset="1" YOffset="0">
+        <Equation Type="Linear" />
+      </Rotation>
+    </DecorationEffect>
+    <DecorationEffect Name="WallImageScrollLeft2InEffect" Length="9" TemplateOnlyEffect="True">
+      <TransitionEffect Type="SimpleAlphaBlendTransitionEffect" Length="1.5" EndDelay="0.87" />
+      <Movement Type="StraightLineMovement" InitialDelay="0.81" EndDelay="0">
+        <Start X="-0.15" Y="0" Z="0" />
+        <End X="0.15" Y="0" Z="0" />
+        <Equation Type="NonLinear" />
+      </Movement>
+      <Rotation InitialDelay="0.81" EndDelay="0" StartRotation="12" EndRotation="5" XOffset="1" YOffset="0">
+        <Equation Type="NonLinear" />
+      </Rotation>
+      <Zoom InitialDelay="0.81" EndDelay="0" StartZoom="2" EndZoom="1">
+        <Equation Type="NonLinear" />
+      </Zoom>
+    </DecorationEffect>
+    <DecorationEffect Name="WallImageScrollLeft2OutEffect" Length="19" TemplateOnlyEffect="True">
+      <Movement Type="StraightLineMovement" InitialDelay="0" EndDelay="0">
+        <Start X="0.15" Y="0" Z="0" />
+        <End X="0.53" Y="0" Z="0" />
+        <Equation Type="Linear" />
+      </Movement>
+      <Rotation InitialDelay="0" EndDelay="0" StartRotation="5" EndRotation="5" XOffset="1" YOffset="0">
+        <Equation Type="Linear" />
+      </Rotation>
+    </DecorationEffect>
+    <DecorationEffect Name="WallImageScrollLeft3InEffect" Length="9" TemplateOnlyEffect="True">
+      <TransitionEffect Type="SimpleAlphaBlendTransitionEffect" Length="1.5" EndDelay="0.87" />
+      <Movement Type="StraightLineMovement" InitialDelay="0.81" EndDelay="0">
+        <Start X="-0.15" Y="0" Z="0" />
+        <End X="0.15" Y="0" Z="0" />
+        <Equation Type="NonLinear" />
+      </Movement>
+      <Rotation InitialDelay="0.81" EndDelay="0" StartRotation="-12" EndRotation="5" XOffset="0.5" YOffset="-0.2">
+        <Equation Type="NonLinear" />
+      </Rotation>
+      <Zoom InitialDelay="0.81" EndDelay="0" StartZoom="2" EndZoom="1">
+        <Equation Type="NonLinear" />
+      </Zoom>
+    </DecorationEffect>
+    <DecorationEffect Name="WallImageScrollLeft3OutEffect" Length="10" TemplateOnlyEffect="True">
+      <Movement Type="StraightLineMovement" InitialDelay="0" EndDelay="0">
+        <Start X="0.15" Y="0" Z="0" />
+        <End X="0.35" Y="0" Z="0" />
+        <Equation Type="Linear" />
+      </Movement>
+      <Rotation InitialDelay="0" EndDelay="0" StartRotation="5" EndRotation="5" XOffset="0.5" YOffset="-0.2">
+        <Equation Type="Linear" />
+      </Rotation>
+    </DecorationEffect>
+    <DecorationEffect Name="WallImageScrollLeft4InEffect" Length="9" TemplateOnlyEffect="True">
+      <TransitionEffect Type="SimpleAlphaBlendTransitionEffect" Length="1.5" EndDelay="0.87" />
+      <Movement Type="StraightLineMovement" InitialDelay="0.81" EndDelay="0">
+        <Start X="-0.15" Y="0" Z="0" />
+        <End X="0.15" Y="0" Z="0" />
+        <Equation Type="NonLinear" />
+      </Movement>
+      <Rotation InitialDelay="0.81" EndDelay="0" StartRotation="15" EndRotation="-7" XOffset="0.5" YOffset="0.2">
+        <Equation Type="NonLinear" />
+      </Rotation>
+      <Zoom InitialDelay="0.81" EndDelay="0" StartZoom="2" EndZoom="1">
+        <Equation Type="NonLinear" />
+      </Zoom>
+    </DecorationEffect>
+    <DecorationEffect Name="WallImageScrollLeft4OutEffect" Length="1" TemplateOnlyEffect="True">
+      <Movement Type="StraightLineMovement" InitialDelay="0" EndDelay="0">
+        <Start X="0.15" Y="0" Z="0" />
+        <End X="0.17" Y="0" Z="0" />
+        <Equation Type="Linear" />
+      </Movement>
+      <Rotation InitialDelay="0" EndDelay="0" StartRotation="-7" EndRotation="-7" XOffset="0.5" YOffset="0.2">
+        <Equation Type="Linear" />
+      </Rotation>
+    </DecorationEffect>
+  </DecorationEffectsDatabase>
+</Template>

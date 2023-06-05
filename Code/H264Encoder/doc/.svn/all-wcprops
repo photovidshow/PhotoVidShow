@@ -1,0 +1,35 @@
+K 25
+svn:wc:ra_dav:version-url
+V 40
+/svnroot/direct264/!svn/ver/313/x264/doc
+END
+standards.txt
+K 25
+svn:wc:ra_dav:version-url
+V 54
+/svnroot/direct264/!svn/ver/287/x264/doc/standards.txt
+END
+vui.txt
+K 25
+svn:wc:ra_dav:version-url
+V 48
+/svnroot/direct264/!svn/ver/287/x264/doc/vui.txt
+END
+threads.txt
+K 25
+svn:wc:ra_dav:version-url
+V 52
+/svnroot/direct264/!svn/ver/287/x264/doc/threads.txt
+END
+ratecontrol.txt
+K 25
+svn:wc:ra_dav:version-url
+V 56
+/svnroot/direct264/!svn/ver/287/x264/doc/ratecontrol.txt
+END
+regression_test.txt
+K 25
+svn:wc:ra_dav:version-url
+V 60
+/svnroot/direct264/!svn/ver/287/x264/doc/regression_test.txt
+END

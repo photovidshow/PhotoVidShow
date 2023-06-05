@@ -1,0 +1,49 @@
+<Template Version="1.0.0" Name="Quick spin spring in" Description="Spin and spring in down and right&#xD;&#xA;">
+  <Slideshow>
+    <Slide Type="BlankStillPictureSlide" PanZoom="True" DisplayTimeLength="8" UsesDefaultTransitionEffect="True" ForceMBSubFrames="20" Color="Color [A=255, R=128, G=128, B=192]">
+      <TransitionEffect Type="SimpleAlphaBlendTransitionEffect" Length="0.3" Index="1" />
+      <Decoration Type="GroupedDecoration" MotionBlur="False" RenderMethod="7" MoveAsSlidePanZoom="True">
+        <CoverageArea X="0" Y="0" Width="1" Height="1" />
+        <Decoration Type="ImageDecoration" Aspect="3" OriTemImageNum="1" StartOffsetTime="0.3" InEffect="MoveSpinSpringDownRightTemplate">
+          <AlphaMap Filename="outlinemasks\smooth edge.jpg" />
+          <CoverageArea X="0.143492" Y="0" Width="0.713016" Height="1" />
+          <Image Filename="image1" />
+        </Decoration>
+        <Decoration Type="TextDecoration" StartOffsetTime="0.3" InEffect="QuickSlowRight" Text="Text text text text text text" TemplateEditable="1">
+          <CoverageArea X="0.2681444" Y="0.8498728" Width="0.4594194" Height="0.08406816" />
+          <TextStyle Name="Galangal" FontName="Arial" FontSize="38.54446" FontColor="Color [A=255, R=254, G=250, B=233]" OutLine="True" OutLineColour="Color [A=255, R=248, G=217, B=92]" Alignment="Center" FontColor2="Color [A=255, R=251, G=237, B=181]" Gradient="True" ShadowAlpha="166" ShadowOffsetX="3.106055" ShadowOffsetY="1.382905" OutlineLength="4" OutlineAlpha="5" />
+        </Decoration>
+      </Decoration>
+      <Decoration Type="ImageDecoration" PostTrans="True" Border="True">
+        <CoverageArea X="0" Y="0" Width="1" Height="1" />
+        <Image Filename="borders\vignette1.pvsi" />
+      </Decoration>
+      <PanZoom PanZoomOnAll="True">
+        <StartArea X="0.03794466" Y="0.02953587" Width="0.9367088" Height="0.9367089" />
+        <EndArea X="0" Y="0" Width="1" Height="1" />
+        <Equation Type="Linear" />
+      </PanZoom>
+    </Slide>
+  </Slideshow>
+  <DecorationEffectsDatabase>
+    <DecorationEffect Name="QuickSlowRight" LengthSetToDecorationLength="True" MotionBlur="30">
+      <TransitionEffect Type="SimpleAlphaBlendTransitionEffect" Length="1.5" EndDelay="0.99" />
+      <Movement Type="StraightLineMovement" InitialDelay="0" EndDelay="0">
+        <Start X="-0.4" Y="0" Z="0" />
+        <End X="0" Y="0" Z="0" />
+        <Equation Type="QuickSlow" />
+      </Movement>
+    </DecorationEffect>
+    <DecorationEffect Name="MoveSpinSpringDownRightTemplate" Length="2" MotionBlur="30" TemplateOnlyEffect="True">
+      <TransitionEffect Type="SimpleAlphaBlendTransitionEffect" Length="1.5" EndDelay="0.52" />
+      <Movement Type="StraightLineMovement" TranslateXY="True" InitialDelay="0" EndDelay="0">
+        <Start X="-0.4" Y="-0.4" Z="0" />
+        <End X="0" Y="0" Z="0" />
+        <Equation Type="Spring" />
+      </Movement>
+      <Rotation InitialDelay="0" EndDelay="0" StartRotation="220" EndRotation="0" XOffset="0" YOffset="0">
+        <Equation Type="Spring" />
+      </Rotation>
+    </DecorationEffect>
+  </DecorationEffectsDatabase>
+</Template>

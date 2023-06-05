@@ -1,0 +1,313 @@
+<Template Version="1.0.0" Name="Xmas 2" Description="Pan around xmas2&#xD;&#xA;">
+  <Slideshow>
+    <Slide Type="MultiSlideSlide" PanZoom="False" DisplayTimeLength="13.78333" UsesDefaultTransitionEffect="True">
+      <TransitionEffect Type="BatmanTransitionEffect" Length="0.76" Index="176" Filename="clipart\snowfl.wmf" StartRot="0" EndRot="90" Brightness="1.3" Contrast="1.1" />
+      <Slide Type="BlankStillPictureSlide" PanZoom="True" DisplayTimeLength="4" UsesDefaultTransitionEffect="True" Color="Color [Black]">
+        <TransitionEffect Type="SimpleAlphaBlendTransitionEffect" Length="0" Index="1" />
+        <Decoration Type="GroupedDecoration" MotionBlur="False" RenderMethod="7" MoveAsSlidePanZoom="True">
+          <CoverageArea X="0" Y="0" Width="1" Height="1" />
+          <Decoration Type="ImageDecoration" Aspect="3" OriTemImageNum="4">
+            <CoverageArea X="0" Y="0" Width="1" Height="1" />
+            <Image Filename="templates\media\Christmas1.pvsi" />
+          </Decoration>
+          <Decoration Type="ImageDecoration" DegreesRot="-8" Aspect="2" OriTemImageNum="1">
+            <CoverageArea X="0.4701258" Y="0.4167832" Width="0.2012579" Height="0.2699301" />
+            <Image Filename="image1" />
+          </Decoration>
+          <Decoration Type="ImageDecoration" DegreesRot="-8" TemplateFramework="True" UsePreviousDecorationCoverageAreaPercent="4">
+            <AlphaMap Filename="outlinemasks\smooth edge.jpg" />
+            <Image Filename="templates\media\overlays\thinframewhite.png" />
+          </Decoration>
+          <Decoration Type="TextDecoration" DegreesRot="-8" OriTemImageNum="10" Alpha="0.1" Text="Headline text here&#xD;&#xA;more headline text" TemplateEditable="2">
+            <CoverageArea X="0.677673" Y="0.4503497" Width="0.1643082" Height="0.08531468" />
+            <TextStyle Name="XmasBold" FontName="Segoe UI" FontSize="33.19561" Bold="True" OutLine="True" OutLineColour="Color [Black]" Alignment="Center" OutlineLength="9" OutlineAlpha="33" />
+          </Decoration>
+          <Decoration Type="TextDecoration" DegreesRot="-8" OriTemImageNum="11" Alpha="0.1" Text="Other text other text&#xD;&#xA; other text other text" TemplateEditable="2">
+            <CoverageArea X="0.7051887" Y="0.5356643" Width="0.1108491" Height="0.05594406" />
+            <TextStyle Name="Ginger" FontName="Segoe UI" FontSize="21.83969" FontColor="Color [A=255, R=244, G=194, B=77]" OutLine="True" OutLineColour="Color [Black]" Alignment="Center" OutlineLength="9" OutlineAlpha="33" />
+          </Decoration>
+          <Decoration Type="ImageDecoration" TemplateFramework="True">
+            <CoverageArea X="0.572327" Y="0.3034965" Width="0.1124214" Height="0.2" />
+            <Image Filename="clipart\snowflake.png" />
+          </Decoration>
+          <Decoration Type="ColourTransformDecoration" br="0.9" bg="0.86" bb="0.85" cr="1.15" cg="1.15" cb="1.15" gamma="1">
+            <CoverageArea X="0" Y="0" Width="1" Height="1" />
+          </Decoration>
+          <Decoration Type="VideoDecoration" VideoName="filters\particles(add).pvsv" Volume="0" GlobalPlayer="True" FlipY="True" RenderMethod="1">
+            <CoverageArea X="0" Y="0" Width="1" Height="1" />
+          </Decoration>
+        </Decoration>
+        <Decoration Type="ImageDecoration" PostTrans="True" Border="True">
+          <CoverageArea X="0" Y="0" Width="1" Height="1" />
+          <Image Filename="borders\vignette1.pvsi" />
+        </Decoration>
+        <PanZoom StartRotation="0.6917601" EndRotation="-8.811509" PanZoomOnAll="True">
+          <StartArea X="0.5180818" Y="0.2699301" Width="0.3301887" Height="0.3300699" />
+          <EndArea X="0.4308176" Y="0.3174825" Width="0.4009434" Height="0.4013986" />
+          <Equation Type="NonLinear" />
+        </PanZoom>
+      </Slide>
+      <Slide Type="BlankStillPictureSlide" PanZoom="True" DisplayTimeLength="0.8" UsesDefaultTransitionEffect="True" ForceMBSubFrames="30" Color="Color [Black]">
+        <TransitionEffect Type="SimpleAlphaBlendTransitionEffect" Length="0" Index="1" />
+        <Decoration Type="GroupedDecoration" MotionBlur="False" RenderMethod="7" MoveAsSlidePanZoom="True">
+          <CoverageArea X="0" Y="0" Width="1" Height="1" />
+          <Decoration Type="ImageDecoration" Aspect="3" OriTemImageNum="4">
+            <CoverageArea X="0" Y="0" Width="1" Height="1" />
+            <Image Filename="templates\media\Christmas1.pvsi" />
+          </Decoration>
+          <Decoration Type="ImageDecoration" DegreesRot="-8" Aspect="2" OriTemImageNum="1">
+            <CoverageArea X="0.4701258" Y="0.4167832" Width="0.2012579" Height="0.2699301" />
+            <Image Filename="image1" />
+          </Decoration>
+          <Decoration Type="ImageDecoration" DegreesRot="-8" TemplateFramework="True" UsePreviousDecorationCoverageAreaPercent="4">
+            <AlphaMap Filename="outlinemasks\smooth edge.jpg" />
+            <Image Filename="templates\media\overlays\thinframewhite.png" />
+          </Decoration>
+          <Decoration Type="TextDecoration" DegreesRot="-8" OriTemImageNum="10" Alpha="0.1" Text="Headline text here&#xD;&#xA;more headline text" TemplateEditable="2">
+            <CoverageArea X="0.677673" Y="0.4503497" Width="0.1643082" Height="0.08531468" />
+            <TextStyle Name="XmasBold" FontName="Segoe UI" FontSize="33.19561" Bold="True" OutLine="True" OutLineColour="Color [Black]" Alignment="Center" OutlineLength="9" OutlineAlpha="33" />
+          </Decoration>
+          <Decoration Type="TextDecoration" DegreesRot="-8" OriTemImageNum="11" Alpha="0.1" Text="Other text other text&#xD;&#xA; other text other text" TemplateEditable="2">
+            <CoverageArea X="0.7051887" Y="0.5356643" Width="0.1108491" Height="0.05594406" />
+            <TextStyle Name="Ginger" FontName="Segoe UI" FontSize="21.83969" FontColor="Color [A=255, R=244, G=194, B=77]" OutLine="True" OutLineColour="Color [Black]" Alignment="Center" OutlineLength="9" OutlineAlpha="33" />
+          </Decoration>
+          <Decoration Type="ImageDecoration" TemplateFramework="True">
+            <CoverageArea X="0.572327" Y="0.3034965" Width="0.1124214" Height="0.2" />
+            <Image Filename="clipart\snowflake.png" />
+          </Decoration>
+          <Decoration Type="ImageDecoration" DegreesRot="12.87337" Aspect="2" OriTemImageNum="2">
+            <CoverageArea X="0.2051887" Y="0.06153846" Width="0.1281447" Height="0.3062937" />
+            <Image Filename="image2" />
+          </Decoration>
+          <Decoration Type="ImageDecoration" DegreesRot="12.87337" TemplateFramework="True" UsePreviousDecorationCoverageAreaPercent="4">
+            <AlphaMap Filename="outlinemasks\smooth edge.jpg" />
+            <Image Filename="templates\media\overlays\thinframewhite.png" />
+          </Decoration>
+          <Decoration Type="TextDecoration" DegreesRot="13.3925" OriTemImageNum="12" Alpha="0.1" Text="Headline text here&#xD;&#xA;more headline text" TemplateEditable="2">
+            <CoverageArea X="0.341195" Y="0.220979" Width="0.1312893" Height="0.06853147" />
+            <TextStyle Name="XmasBold" FontName="Segoe UI" FontSize="26.52472" Bold="True" OutLine="True" OutLineColour="Color [Black]" Alignment="Center" OutlineLength="9" OutlineAlpha="33" />
+          </Decoration>
+          <Decoration Type="TextDecoration" DegreesRot="13.3925" OriTemImageNum="13" Alpha="0.1" Text="Other text other text&#xD;&#xA; other text other text" TemplateEditable="2">
+            <CoverageArea X="0.3466981" Y="0.2895105" Width="0.1037736" Height="0.05314685" />
+            <TextStyle Name="Ginger" FontName="Segoe UI" FontSize="20.44566" FontColor="Color [A=255, R=244, G=194, B=77]" OutLine="True" OutLineColour="Color [Black]" Alignment="Center" OutlineLength="9" OutlineAlpha="33" />
+          </Decoration>
+          <Decoration Type="ImageDecoration" TemplateFramework="True">
+            <CoverageArea X="0.2311321" Y="0.3006993" Width="0.1132075" Height="0.2" />
+            <Image Filename="clipart\snowflake.png" />
+          </Decoration>
+          <Decoration Type="ImageDecoration" TemplateFramework="True">
+            <CoverageArea X="0.3624214" Y="0.07832168" Width="0.06918239" Height="0.1202797" />
+            <Image Filename="clipart\snowflake.png" />
+          </Decoration>
+          <Decoration Type="ColourTransformDecoration" br="0.9" bg="0.86" bb="0.85" cr="1.15" cg="1.15" cb="1.15" gamma="1">
+            <CoverageArea X="0" Y="0" Width="1" Height="1" />
+          </Decoration>
+          <Decoration Type="VideoDecoration" VideoName="filters\particles(add).pvsv" Volume="0" GlobalPlayer="True" FlipY="True" RenderMethod="1">
+            <CoverageArea X="0" Y="0" Width="1" Height="1" />
+          </Decoration>
+        </Decoration>
+        <Decoration Type="ImageDecoration" PostTrans="True" Border="True">
+          <CoverageArea X="0" Y="0" Width="1" Height="1" />
+          <Image Filename="borders\vignette1.pvsi" />
+        </Decoration>
+        <PanZoom StartRotation="-8.811509" EndRotation="5.716993" PanZoomOnAll="True">
+          <StartArea X="0.4308176" Y="0.3174825" Width="0.4009434" Height="0.4013986" />
+          <EndArea X="0.1918239" Y="0.08111888" Width="0.3466981" Height="0.3468531" />
+          <Equation Type="NonLinear" />
+        </PanZoom>
+      </Slide>
+      <Slide Type="BlankStillPictureSlide" PanZoom="True" DisplayTimeLength="4" UsesDefaultTransitionEffect="True" Color="Color [Black]">
+        <TransitionEffect Type="SimpleAlphaBlendTransitionEffect" Length="0" Index="1" />
+        <Decoration Type="GroupedDecoration" MotionBlur="False" RenderMethod="7" MoveAsSlidePanZoom="True">
+          <CoverageArea X="0" Y="0" Width="1" Height="1" />
+          <Decoration Type="ImageDecoration" Aspect="3" OriTemImageNum="4">
+            <CoverageArea X="0" Y="0" Width="1" Height="1" />
+            <Image Filename="templates\media\Christmas1.pvsi" />
+          </Decoration>
+          <Decoration Type="ImageDecoration" DegreesRot="-8" Aspect="2" OriTemImageNum="1">
+            <CoverageArea X="0.4701258" Y="0.4167832" Width="0.2012579" Height="0.2699301" />
+            <Image Filename="image1" />
+          </Decoration>
+          <Decoration Type="ImageDecoration" DegreesRot="-8" TemplateFramework="True" UsePreviousDecorationCoverageAreaPercent="4">
+            <AlphaMap Filename="outlinemasks\smooth edge.jpg" />
+            <Image Filename="templates\media\overlays\thinframewhite.png" />
+          </Decoration>
+          <Decoration Type="TextDecoration" DegreesRot="-8" OriTemImageNum="10" Alpha="0.1" Text="Headline text here&#xD;&#xA;more headline text" TemplateEditable="2">
+            <CoverageArea X="0.677673" Y="0.4503497" Width="0.1643082" Height="0.08531468" />
+            <TextStyle Name="XmasBold" FontName="Segoe UI" FontSize="33.19561" Bold="True" OutLine="True" OutLineColour="Color [Black]" Alignment="Center" OutlineLength="9" OutlineAlpha="33" />
+          </Decoration>
+          <Decoration Type="TextDecoration" DegreesRot="-8" OriTemImageNum="11" Alpha="0.1" Text="Other text other text&#xD;&#xA; other text other text" TemplateEditable="2">
+            <CoverageArea X="0.7051887" Y="0.5356643" Width="0.1108491" Height="0.05594406" />
+            <TextStyle Name="Ginger" FontName="Segoe UI" FontSize="21.83969" FontColor="Color [A=255, R=244, G=194, B=77]" OutLine="True" OutLineColour="Color [Black]" Alignment="Center" OutlineLength="9" OutlineAlpha="33" />
+          </Decoration>
+          <Decoration Type="ImageDecoration" TemplateFramework="True">
+            <CoverageArea X="0.572327" Y="0.3034965" Width="0.1124214" Height="0.2" />
+            <Image Filename="clipart\snowflake.png" />
+          </Decoration>
+          <Decoration Type="ImageDecoration" DegreesRot="12.87337" Aspect="2" OriTemImageNum="2">
+            <CoverageArea X="0.2051887" Y="0.06153846" Width="0.1281447" Height="0.3062937" />
+            <Image Filename="image2" />
+          </Decoration>
+          <Decoration Type="ImageDecoration" DegreesRot="12.87337" TemplateFramework="True" UsePreviousDecorationCoverageAreaPercent="4">
+            <AlphaMap Filename="outlinemasks\smooth edge.jpg" />
+            <Image Filename="templates\media\overlays\thinframewhite.png" />
+          </Decoration>
+          <Decoration Type="TextDecoration" DegreesRot="13.3925" OriTemImageNum="12" Alpha="0.1" Text="Headline text here&#xD;&#xA;more headline text" TemplateEditable="2">
+            <CoverageArea X="0.341195" Y="0.220979" Width="0.1312893" Height="0.06853147" />
+            <TextStyle Name="XmasBold" FontName="Segoe UI" FontSize="26.52472" Bold="True" OutLine="True" OutLineColour="Color [Black]" Alignment="Center" OutlineLength="9" OutlineAlpha="33" />
+          </Decoration>
+          <Decoration Type="TextDecoration" DegreesRot="13.3925" OriTemImageNum="13" Alpha="0.1" Text="Other text other text&#xD;&#xA; other text other text" TemplateEditable="2">
+            <CoverageArea X="0.3466981" Y="0.2895105" Width="0.1037736" Height="0.05314685" />
+            <TextStyle Name="Ginger" FontName="Segoe UI" FontSize="20.44566" FontColor="Color [A=255, R=244, G=194, B=77]" OutLine="True" OutLineColour="Color [Black]" Alignment="Center" OutlineLength="9" OutlineAlpha="33" />
+          </Decoration>
+          <Decoration Type="ImageDecoration" TemplateFramework="True">
+            <CoverageArea X="0.2311321" Y="0.3006993" Width="0.1132075" Height="0.2" />
+            <Image Filename="clipart\snowflake.png" />
+          </Decoration>
+          <Decoration Type="ImageDecoration" TemplateFramework="True">
+            <CoverageArea X="0.3624214" Y="0.07832168" Width="0.06918239" Height="0.1202797" />
+            <Image Filename="clipart\snowflake.png" />
+          </Decoration>
+          <Decoration Type="ColourTransformDecoration" br="0.9" bg="0.86" bb="0.85" cr="1.15" cg="1.15" cb="1.15" gamma="1">
+            <CoverageArea X="0" Y="0" Width="1" Height="1" />
+          </Decoration>
+          <Decoration Type="VideoDecoration" VideoName="filters\particles(add).pvsv" Volume="0" GlobalPlayer="True" FlipY="True" RenderMethod="1">
+            <CoverageArea X="0" Y="0" Width="1" Height="1" />
+          </Decoration>
+        </Decoration>
+        <Decoration Type="ImageDecoration" PostTrans="True" Border="True">
+          <CoverageArea X="0" Y="0" Width="1" Height="1" />
+          <Image Filename="borders\vignette1.pvsi" />
+        </Decoration>
+        <PanZoom StartRotation="5.716993" EndRotation="-2.444244" PanZoomOnAll="True">
+          <StartArea X="0.1918239" Y="0.08111888" Width="0.3466981" Height="0.3468531" />
+          <EndArea X="0.1705975" Y="0.05874126" Width="0.3552448" Height="0.3552448" />
+          <Equation Type="Linear" />
+        </PanZoom>
+      </Slide>
+      <Slide Type="BlankStillPictureSlide" PanZoom="True" DisplayTimeLength="1" UsesDefaultTransitionEffect="True" ForceMBSubFrames="30" Color="Color [Black]">
+        <TransitionEffect Type="SimpleAlphaBlendTransitionEffect" Length="0" Index="1" />
+        <Decoration Type="GroupedDecoration" MotionBlur="False" RenderMethod="7" MoveAsSlidePanZoom="True">
+          <CoverageArea X="0" Y="0" Width="1" Height="1" />
+          <Decoration Type="ImageDecoration" Aspect="3" OriTemImageNum="4">
+            <CoverageArea X="0" Y="0" Width="1" Height="1" />
+            <Image Filename="templates\media\Christmas1.pvsi" />
+          </Decoration>
+          <Decoration Type="ImageDecoration" DegreesRot="12.87337" Aspect="2" OriTemImageNum="2">
+            <CoverageArea X="0.2051887" Y="0.06153846" Width="0.1281447" Height="0.3062937" />
+            <Image Filename="image2" />
+          </Decoration>
+          <Decoration Type="ImageDecoration" DegreesRot="12.87337" TemplateFramework="True" UsePreviousDecorationCoverageAreaPercent="4">
+            <AlphaMap Filename="outlinemasks\smooth edge.jpg" />
+            <Image Filename="templates\media\overlays\thinframewhite.png" />
+          </Decoration>
+          <Decoration Type="TextDecoration" DegreesRot="13.3925" OriTemImageNum="12" Alpha="0.1" Text="Headline text here&#xD;&#xA;more headline text" TemplateEditable="2">
+            <CoverageArea X="0.341195" Y="0.220979" Width="0.1312893" Height="0.06853147" />
+            <TextStyle Name="XmasBold" FontName="Segoe UI" FontSize="26.52472" Bold="True" OutLine="True" OutLineColour="Color [Black]" Alignment="Center" OutlineLength="9" OutlineAlpha="33" />
+          </Decoration>
+          <Decoration Type="TextDecoration" DegreesRot="13.3925" OriTemImageNum="13" Alpha="0.1" Text="Other text other text&#xD;&#xA; other text other text" TemplateEditable="2">
+            <CoverageArea X="0.3466981" Y="0.2895105" Width="0.1037736" Height="0.05314685" />
+            <TextStyle Name="Ginger" FontName="Segoe UI" FontSize="20.44566" FontColor="Color [A=255, R=244, G=194, B=77]" OutLine="True" OutLineColour="Color [Black]" Alignment="Center" OutlineLength="9" OutlineAlpha="33" />
+          </Decoration>
+          <Decoration Type="ImageDecoration" TemplateFramework="True">
+            <CoverageArea X="0.2311321" Y="0.3006993" Width="0.1132075" Height="0.2" />
+            <Image Filename="clipart\snowflake.png" />
+          </Decoration>
+          <Decoration Type="ImageDecoration" TemplateFramework="True">
+            <CoverageArea X="0.3624214" Y="0.07832168" Width="0.06918239" Height="0.1202797" />
+            <Image Filename="clipart\snowflake.png" />
+          </Decoration>
+          <Decoration Type="ImageDecoration" DegreesRot="-6.428748" Aspect="2" OriTemImageNum="3">
+            <CoverageArea X="0.1611635" Y="0.772028" Width="0.1493711" Height="0.1972028" />
+            <Image Filename="image3" />
+          </Decoration>
+          <Decoration Type="ImageDecoration" DegreesRot="-6.428748" TemplateFramework="True" UsePreviousDecorationCoverageAreaPercent="4">
+            <AlphaMap Filename="outlinemasks\smooth edge.jpg" />
+            <Image Filename="templates\media\overlays\thinframewhite.png" />
+          </Decoration>
+          <Decoration Type="TextDecoration" DegreesRot="-4.398705" OriTemImageNum="14" Alpha="0.1" Text="Headline text here&#xD;&#xA;more headline text" TemplateEditable="2">
+            <CoverageArea X="0.3199686" Y="0.8153846" Width="0.1312893" Height="0.06853147" />
+            <TextStyle Name="XmasBold" FontName="Segoe UI" FontSize="26.52472" Bold="True" OutLine="True" OutLineColour="Color [Black]" Alignment="Center" OutlineLength="9" OutlineAlpha="33" />
+          </Decoration>
+          <Decoration Type="TextDecoration" DegreesRot="-4" OriTemImageNum="15" Alpha="0.1" Text="Other text other text&#xD;&#xA; other text other text" TemplateEditable="2">
+            <CoverageArea X="0.3427673" Y="0.8825175" Width="0.09512579" Height="0.04755245" />
+            <TextStyle Name="Ginger" FontName="Segoe UI" FontSize="18.74185" FontColor="Color [A=255, R=244, G=194, B=77]" OutLine="True" OutLineColour="Color [Black]" Alignment="Center" OutlineLength="9" OutlineAlpha="33" />
+          </Decoration>
+          <Decoration Type="ImageDecoration" TemplateFramework="True">
+            <CoverageArea X="0.3891509" Y="0.5370629" Width="0.06839623" Height="0.1174825" />
+            <Image Filename="clipart\snowflake.png" />
+          </Decoration>
+          <Decoration Type="ImageDecoration" TemplateFramework="True">
+            <CoverageArea X="0.1650943" Y="0.6895105" Width="0.07861635" Height="0.1370629" />
+            <Image Filename="clipart\snowflake.png" />
+          </Decoration>
+          <Decoration Type="ColourTransformDecoration" br="0.9" bg="0.86" bb="0.85" cr="1.15" cg="1.15" cb="1.15" gamma="1">
+            <CoverageArea X="0" Y="0" Width="1" Height="1" />
+          </Decoration>
+          <Decoration Type="VideoDecoration" VideoName="filters\particles(add).pvsv" Volume="0" GlobalPlayer="True" FlipY="True" RenderMethod="1">
+            <CoverageArea X="0" Y="0" Width="1" Height="1" />
+          </Decoration>
+        </Decoration>
+        <Decoration Type="ImageDecoration" PostTrans="True" Border="True">
+          <CoverageArea X="0" Y="0" Width="1" Height="1" />
+          <Image Filename="borders\vignette1.pvsi" />
+        </Decoration>
+        <PanZoom StartRotation="-2.444244" EndRotation="-2.81784" PanZoomOnAll="True">
+          <StartArea X="0.1705975" Y="0.05874126" Width="0.3552448" Height="0.3552448" />
+          <EndArea X="0.1540881" Y="0.5734265" Width="0.4048742" Height="0.4041958" />
+          <Equation Type="NonLinear" />
+        </PanZoom>
+      </Slide>
+      <Slide Type="BlankStillPictureSlide" PanZoom="True" DisplayTimeLength="4" UsesDefaultTransitionEffect="True" Color="Color [Black]">
+        <TransitionEffect Type="BatmanTransitionEffect" Length="0.76" Index="176" Filename="clipart\snowfl.wmf" StartRot="0" EndRot="90" Brightness="1.3" Contrast="1.1" />
+        <Decoration Type="GroupedDecoration" MotionBlur="False" RenderMethod="7" MoveAsSlidePanZoom="True">
+          <CoverageArea X="0" Y="0" Width="1" Height="1" />
+          <Decoration Type="ImageDecoration" Aspect="3" OriTemImageNum="4">
+            <CoverageArea X="0" Y="0" Width="1" Height="1" />
+            <Image Filename="templates\media\Christmas1.pvsi" />
+          </Decoration>
+          <Decoration Type="ImageDecoration" DegreesRot="-6.428748" Aspect="2" OriTemImageNum="3">
+            <CoverageArea X="0.1611635" Y="0.772028" Width="0.1493711" Height="0.1972028" />
+            <Image Filename="image3" />
+          </Decoration>
+          <Decoration Type="ImageDecoration" DegreesRot="-6.428748" TemplateFramework="True" UsePreviousDecorationCoverageAreaPercent="4">
+            <AlphaMap Filename="outlinemasks\smooth edge.jpg" />
+            <Image Filename="templates\media\overlays\thinframewhite.png" />
+          </Decoration>
+          <Decoration Type="TextDecoration" DegreesRot="-4.398705" OriTemImageNum="14" Alpha="0.1" Text="Headline text here&#xD;&#xA;more headline text" TemplateEditable="2">
+            <CoverageArea X="0.3199686" Y="0.8153846" Width="0.1312893" Height="0.06853147" />
+            <TextStyle Name="XmasBold" FontName="Segoe UI" FontSize="26.52472" Bold="True" OutLine="True" OutLineColour="Color [Black]" Alignment="Center" OutlineLength="9" OutlineAlpha="33" />
+          </Decoration>
+          <Decoration Type="TextDecoration" DegreesRot="-4" OriTemImageNum="15" Alpha="0.1" Text="Other text other text&#xD;&#xA; other text other text" TemplateEditable="2">
+            <CoverageArea X="0.3427673" Y="0.8825175" Width="0.09512579" Height="0.04755245" />
+            <TextStyle Name="Ginger" FontName="Segoe UI" FontSize="18.74185" FontColor="Color [A=255, R=244, G=194, B=77]" OutLine="True" OutLineColour="Color [Black]" Alignment="Center" OutlineLength="9" OutlineAlpha="33" />
+          </Decoration>
+          <Decoration Type="ImageDecoration" TemplateFramework="True">
+            <CoverageArea X="0.3891509" Y="0.5370629" Width="0.06839623" Height="0.1174825" />
+            <Image Filename="clipart\snowflake.png" />
+          </Decoration>
+          <Decoration Type="ImageDecoration" TemplateFramework="True">
+            <CoverageArea X="0.1650943" Y="0.6895105" Width="0.07861635" Height="0.1370629" />
+            <Image Filename="clipart\snowflake.png" />
+          </Decoration>
+          <Decoration Type="ColourTransformDecoration" br="0.9" bg="0.86" bb="0.85" cr="1.15" cg="1.15" cb="1.15" gamma="1">
+            <CoverageArea X="0" Y="0" Width="1" Height="1" />
+          </Decoration>
+          <Decoration Type="VideoDecoration" VideoName="filters\particles(add).pvsv" Volume="0" GlobalPlayer="True" FlipY="True" RenderMethod="1">
+            <CoverageArea X="0" Y="0" Width="1" Height="1" />
+          </Decoration>
+        </Decoration>
+        <Decoration Type="ImageDecoration" Border="True">
+          <CoverageArea X="0" Y="0" Width="1" Height="1" />
+          <Image Filename="borders\vignette1.pvsi" />
+        </Decoration>
+        <PanZoom StartRotation="-2.81784" PanZoomOnAll="True">
+          <StartArea X="0.1540881" Y="0.5734265" Width="0.4048742" Height="0.4041958" />
+          <EndArea X="0.1545064" Y="0.6615776" Width="0.3390558" Height="0.3384224" />
+          <Equation Type="Linear" />
+        </PanZoom>
+      </Slide>
+    </Slide>
+  </Slideshow>
+  <DecorationEffectsDatabase />
+</Template>

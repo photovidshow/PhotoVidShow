@@ -1,0 +1,89 @@
+<Template Version="1.0.0" Name="Pop in photo 3b" Description="Pops in 3 images with a photo frame&#xD;&#xA;">
+  <Slideshow>
+    <Slide Type="BlankStillPictureSlide" PanZoom="False" DisplayTimeLength="9" UsesDefaultTransitionEffect="True" Color="Color [Black]">
+      <TransitionEffect Type="SimpleAlphaBlendTransitionEffect" Length="0.7" Index="1" />
+      <Decoration Type="VideoDecoration" VideoName="menutemplates\abstract video2.pvsv" Volume="0" GlobalPlayer="True" FlipY="True" RenderMethod="7" Background="True">
+        <CoverageArea X="0" Y="-0.0007824898" Width="1" Height="1.001565" />
+      </Decoration>
+      <Decoration Type="ImageDecoration" TemplateFramework="True" Aspect="2" StartOffsetTime="1" InEffect="PopInQuckSlowPopIn" Alpha="0.9">
+        <AlphaMap Filename="outlinemasks\smooth edge.jpg" />
+        <CoverageArea X="0.3659538" Y="0.06426735" Width="0.2991329" Height="0.3984576" />
+        <Image Filename="templates\media\black.jpg" />
+      </Decoration>
+      <Decoration Type="ImageDecoration" TemplateFramework="True" Aspect="2" StartOffsetTime="1" InEffect="PopInQuckSlowPopIn">
+        <AlphaMap Filename="outlinemasks\smooth edge.jpg" />
+        <CoverageArea X="0.3575786" Y="0.05" Width="0.3" Height="0.4" />
+        <Image Filename="templates\media\white.jpg" />
+      </Decoration>
+      <Decoration Type="ImageDecoration" Aspect="2" OriTemImageNum="1" StartOffsetTime="1" InEffect="PopInQuckSlowPopIn">
+        <AlphaMap Filename="outlinemasks\smooth edge.jpg" />
+        <CoverageArea X="0.3673988" Y="0.06426735" Width="0.2803468" Height="0.3161954" />
+        <Image Filename="image1" />
+      </Decoration>
+      <Decoration Type="TextDecoration" StartOffsetTime="1" InEffect="PopInQuckSlowPopIn" Text="Text1 text1 text1" TemplateEditable="1">
+        <CoverageArea X="0.4132272" Y="0.377892" Width="0.1915803" Height="0.06287374" />
+        <TextStyle FontName="Segoe UI" FontSize="18.66667" FontColor="Color [A=255, R=110, G=121, B=138]" Alignment="Center" />
+      </Decoration>
+      <Decoration Type="ImageDecoration" TemplateFramework="True" Aspect="2" StartOffsetTime="2" InEffect="PopInQuckSlowPopIn" Alpha="0.9">
+        <AlphaMap Filename="outlinemasks\smooth edge.jpg" />
+        <CoverageArea X="0.1459538" Y="0.5643" Width="0.2991329" Height="0.3984576" />
+        <Image Filename="templates\media\black.jpg" />
+      </Decoration>
+      <Decoration Type="ImageDecoration" TemplateFramework="True" Aspect="2" StartOffsetTime="2" InEffect="PopInQuckSlowPopIn">
+        <AlphaMap Filename="outlinemasks\smooth edge.jpg" />
+        <CoverageArea X="0.1375786" Y="0.55" Width="0.3" Height="0.4" />
+        <Image Filename="templates\media\white.jpg" />
+      </Decoration>
+      <Decoration Type="ImageDecoration" Aspect="2" OriTemImageNum="2" StartOffsetTime="2" InEffect="PopInQuckSlowPopIn">
+        <AlphaMap Filename="outlinemasks\smooth edge.jpg" />
+        <CoverageArea X="0.1473988" Y="0.5643" Width="0.2803468" Height="0.3161954" />
+        <Image Filename="image2" />
+      </Decoration>
+      <Decoration Type="TextDecoration" StartOffsetTime="2" InEffect="PopInQuckSlowPopIn" Text="Text2 text2 text2" TemplateEditable="1">
+        <CoverageArea X="0.1932" Y="0.8766067" Width="0.1907514" Height="0.06260172" />
+        <TextStyle FontName="Segoe UI" FontSize="18.58591" FontColor="Color [A=255, R=110, G=121, B=138]" Alignment="Center" />
+      </Decoration>
+      <Decoration Type="ImageDecoration" TemplateFramework="True" Aspect="2" StartOffsetTime="3" InEffect="PopInQuckSlowPopIn" Alpha="0.9">
+        <AlphaMap Filename="outlinemasks\smooth edge.jpg" />
+        <CoverageArea X="0.5708092" Y="0.5655527" Width="0.2976879" Height="0.3984576" />
+        <Image Filename="templates\media\black.jpg" />
+      </Decoration>
+      <Decoration Type="ImageDecoration" TemplateFramework="True" Aspect="2" StartOffsetTime="3" InEffect="PopInQuckSlowPopIn">
+        <AlphaMap Filename="outlinemasks\smooth edge.jpg" />
+        <CoverageArea X="0.5624" Y="0.55" Width="0.3" Height="0.4" />
+        <Image Filename="templates\media\white.jpg" />
+      </Decoration>
+      <Decoration Type="ImageDecoration" Aspect="2" OriTemImageNum="3" StartOffsetTime="3" InEffect="PopInQuckSlowPopIn">
+        <AlphaMap Filename="outlinemasks\smooth edge.jpg" />
+        <CoverageArea X="0.572" Y="0.5643" Width="0.2814" Height="0.3161954" />
+        <Image Filename="image3" />
+      </Decoration>
+      <Decoration Type="TextDecoration" StartOffsetTime="3" InEffect="PopInQuckSlowPopIn" Text="Test3 text3 text3" TemplateEditable="1">
+        <CoverageArea X="0.612013" Y="0.8766067" Width="0.1907139" Height="0.06287374" />
+        <TextStyle FontName="Segoe UI" FontSize="18.66666" FontColor="Color [A=255, R=110, G=121, B=138]" Alignment="Center" />
+      </Decoration>
+      <Decoration Type="ColourTransformDecoration" br="0.82" bg="0.89" bb="0.92" cr="1.37" cg="1.42" cb="1.48" gamma="1">
+        <CoverageArea X="0" Y="0" Width="1" Height="1" />
+      </Decoration>
+      <Decoration Type="ImageDecoration" RenderMethod="4">
+        <CoverageArea X="0" Y="0" Width="1" Height="1" />
+        <Image Filename="filters\color mix 16(mod1x).pvsi" />
+      </Decoration>
+      <PanZoom>
+        <StartArea X="0" Y="0" Width="1" Height="1" />
+        <EndArea X="0" Y="0" Width="1" Height="1" />
+        <Equation Type="Linear" />
+      </PanZoom>
+    </Slide>
+  </Slideshow>
+  <DecorationEffectsDatabase>
+    <DecorationEffect Name="PopInQuckSlowPopIn" LengthSetToDecorationLength="True" MotionBlur="30" TemplateOnlyEffect="True">
+      <TransitionEffect Type="SimpleAlphaBlendTransitionEffect" Length="1.5" EndDelay="0.99" />
+      <Movement Type="StraightLineMovement" TranslateXY="True" InitialDelay="0" EndDelay="0">
+        <Start X="0" Y="0" Z="3" />
+        <End X="0" Y="0" Z="1" />
+        <Equation Type="QuickSlow" />
+      </Movement>
+    </DecorationEffect>
+  </DecorationEffectsDatabase>
+</Template>

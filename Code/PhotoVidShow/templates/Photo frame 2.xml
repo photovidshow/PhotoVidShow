@@ -1,0 +1,36 @@
+<Template Version="1.0.0" Name="Photo frame 2" Description="Shows an image in a photo frame">
+  <Slideshow>
+    <Slide Type="BlankStillPictureSlide" PanZoom="True" DisplayTimeLength="8" UsesDefaultTransitionEffect="True" MasterBackgroundAspect="1.777778" MastetAspectType="2" Color="Color [Black]">
+      <TransitionEffect Type="CameraSnapshotTransitionEffect" Length="0.3" Index="70" />
+      <Decoration Type="GroupedDecoration" MotionBlur="False" RenderMethod="7" MoveAsSlidePanZoom="True">
+        <CoverageArea X="0" Y="0" Width="1" Height="1" />
+        <Decoration Type="ImageDecoration" TemplateFramework="True" Aspect="2">
+          <CoverageArea X="0" Y="0" Width="1" Height="1" />
+          <Image Filename="templates\media\photo frame2.jpg" />
+        </Decoration>
+        <Decoration Type="ImageDecoration" DegreesRot="1.582354" Aspect="2" OriTemImageNum="1">
+          <AlphaMap Filename="outlinemasks\smooth edge.jpg" />
+          <CoverageArea X="0.4189723" Y="0.3614627" Width="0.1881423" Height="0.2728551" />
+          <Image Filename="image1" />
+        </Decoration>
+        <Decoration Type="ImageDecoration" RenderMethod="4">
+          <CoverageArea X="0" Y="0" Width="1" Height="1" />
+          <Image Filename="filters\color mix 24(mod1x).pvsi" />
+        </Decoration>
+        <Decoration Type="BlurFilterDecoration" BlurFilterType="1">
+          <CoverageArea X="0" Y="0" Width="1" Height="1" />
+        </Decoration>
+      </Decoration>
+      <Decoration Type="ImageDecoration" Border="True">
+        <CoverageArea X="0" Y="0" Width="1" Height="1" />
+        <Image Filename="borders\vignette1.pvsi" />
+      </Decoration>
+      <PanZoom StartRotation="0.8386396" EndRotation="1.194568" PanZoomOnAll="True">
+        <StartArea X="0.2572254" Y="0.2262211" Width="0.4797688" Height="0.4797688" />
+        <EndArea X="0.1500722" Y="0.1666667" Width="0.6666667" Height="0.6666667" />
+        <Equation Type="Linear" />
+      </PanZoom>
+    </Slide>
+  </Slideshow>
+  <DecorationEffectsDatabase />
+</Template>

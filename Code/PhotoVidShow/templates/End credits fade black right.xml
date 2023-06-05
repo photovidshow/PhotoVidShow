@@ -1,0 +1,37 @@
+<Template Version="1.0.0" Name="End scroll credits fade black right" Description="Scrolls up credits with a faded black right side&#xD;&#xA;">
+  <Slideshow>
+    <Slide Type="BlankStillPictureSlide" PanZoom="False" DisplayTimeLength="15" UsesDefaultTransitionEffect="True" Color="Color [Black]">
+      <TransitionEffect Type="SimpleAlphaBlendTransitionEffect" Length="1.5" Index="1" />
+      <Decoration Type="ImageDecoration" Aspect="2" OriTemImageNum="1">
+        <CoverageArea X="0.0007905138" Y="0" Width="1" Height="1" />
+        <Image Filename="image1" />
+      </Decoration>
+      <Decoration Type="ImageDecoration" RenderMethod="4">
+        <CoverageArea X="0" Y="0" Width="1" Height="1" />
+        <Image Filename="filters\fade right black(mod1x).pvsi" />
+      </Decoration>
+      <Decoration Type="TextDecoration" InEffect="ScrollCreditsUpRightShaded" Alpha="0.25" Text="enter credits text here.......&#xD;&#xA;enter credits text here.......&#xD;&#xA;enter credits text here.......&#xD;&#xA;enter credits text here.......&#xD;&#xA;enter credits text here.......&#xD;&#xA;enter credits text here.......&#xD;&#xA;enter credits text here.......&#xD;&#xA;enter credits text here.......&#xD;&#xA;enter credits text here.......&#xD;&#xA;enter credits text here.......&#xD;&#xA;enter credits text here.......&#xD;&#xA;enter credits text here.......&#xD;&#xA;enter credits text here.......&#xD;&#xA;enter credits text here.......&#xD;&#xA;&#xD;&#xA;&#xD;&#xA;&#xD;&#xA;&#xD;&#xA;&#xD;&#xA;&#xD;&#xA;" TemplateEditable="2">
+        <CoverageArea X="0.5961531" Y="0.02937063" Width="0.329183" Height="1.31983" />
+        <TextStyle Name="Vanilla" FontName="Segoe UI" FontSize="21.33334" OutLine="True" OutLineColour="Color [White]" Alignment="Center" OutlineLength="4" OutlineAlpha="14" />
+      </Decoration>
+      <Decoration Type="ImageDecoration" RenderMethod="4" Border="True">
+        <CoverageArea X="0" Y="0" Width="1" Height="1" />
+        <Image Filename="borders\vignette3(mod1x).pvsi" />
+      </Decoration>
+      <PanZoom>
+        <StartArea X="0" Y="0" Width="1" Height="1" />
+        <EndArea X="0" Y="0" Width="1" Height="1" />
+        <Equation Type="Linear" />
+      </PanZoom>
+    </Slide>
+  </Slideshow>
+  <DecorationEffectsDatabase>
+    <DecorationEffect Name="ScrollCreditsUpRightShaded" LengthSetToDecorationLength="True" TemplateOnlyEffect="True">
+      <Movement Type="StraightLineMovement" InitialDelay="0" EndDelay="0">
+        <Start X="0" Y="1" Z="0" />
+        <End X="0" Y="-1" Z="0" />
+        <Equation Type="Linear" />
+      </Movement>
+    </DecorationEffect>
+  </DecorationEffectsDatabase>
+</Template>

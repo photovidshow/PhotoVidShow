@@ -1,0 +1,43 @@
+float4 params0: register(C0);
+
+
+// params0[0] = delta
+// params0[1] = 1-delta
+
+
+struct PS_INPUT
+{
+    float4 Position   : POSITION;
+    float2 Texture0   : TEXCOORD0;
+    float2 Texture1   : TEXCOORD1;
+};
+
+struct PS_OUTPUT
+{
+    float4 Color   : COLOR0;
+};
+
+
+sampler2D Texture1Sampler : register(S0);
+
+PS_OUTPUT ps_main( in PS_INPUT In )
+{
+    PS_OUTPUT pixelColor;
+
+    pixelColor.Color = tex2D(Texture1Sampler, In.Texture0);
+
+    float4 Color = pixelColor.Color;
+   
+    Color.rgb = (Color.r+Color.g+Color.b)/3.0f; 
+     
+    if (Color.r<0.2 || Color.r>0.9) Color.r = 0; else Color.r = 1.0f;  
+    if (Color.g<0.2 || Color.g>0.9) Color.g = 0; else Color.g = 1.0f; 
+    if (Color.b<0.2 || Color.b>0.9) Color.b = 0; else Color.b = 1.0f;
+
+    // mix original color with sepia based on delta (because used on some transition effects)
+    pixelColor.Color.r = (pixelColor.Color.r*params0[1]) + (Color.r*params0[0]);
+    pixelColor.Color.g = (pixelColor.Color.g*params0[1]) + (Color.g*params0[0]);
+    pixelColor.Color.b = (pixelColor.Color.b*params0[1]) + (Color.b*params0[0]);
+
+    return pixelColor;
+}

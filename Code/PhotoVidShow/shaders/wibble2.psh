@@ -1,0 +1,33 @@
+float4 params0: register(C0);
+float4 params1: register(C1);
+
+
+// params0[0] = delta
+// params0[1] = 1-delta
+
+
+struct PS_INPUT
+{
+    float4 Position   : POSITION;
+    float2 Texture0   : TEXCOORD0;
+    float2 Texture1   : TEXCOORD1;
+};
+
+struct PS_OUTPUT
+{
+    float4 Color   : COLOR0;
+};
+
+
+sampler2D Texture1Sampler : register(S0);
+
+PS_OUTPUT ps_main( in PS_INPUT In )
+{
+    PS_OUTPUT pixelColor;
+   
+    In.Texture0.y = In.Texture0.y + (sin((In.Texture0.x )*(50*params0[0]))*(0.08*params0[0]));   
+    In.Texture0.x = In.Texture0.x + (cos((In.Texture0.y )*(50*params0[0]))*(0.08*params0[0])); 
+
+    pixelColor.Color = tex2D(Texture1Sampler, In.Texture0);
+    return pixelColor;
+}

@@ -1,0 +1,101 @@
+K 25
+svn:wc:ra_dav:version-url
+V 44
+/svnroot/direct264/!svn/ver/313/x264/encoder
+END
+set.h
+K 25
+svn:wc:ra_dav:version-url
+V 50
+/svnroot/direct264/!svn/ver/287/x264/encoder/set.h
+END
+slicetype.c
+K 25
+svn:wc:ra_dav:version-url
+V 56
+/svnroot/direct264/!svn/ver/311/x264/encoder/slicetype.c
+END
+ratecontrol.h
+K 25
+svn:wc:ra_dav:version-url
+V 58
+/svnroot/direct264/!svn/ver/311/x264/encoder/ratecontrol.h
+END
+me.c
+K 25
+svn:wc:ra_dav:version-url
+V 49
+/svnroot/direct264/!svn/ver/311/x264/encoder/me.c
+END
+analyse.h
+K 25
+svn:wc:ra_dav:version-url
+V 54
+/svnroot/direct264/!svn/ver/309/x264/encoder/analyse.h
+END
+me.h
+K 25
+svn:wc:ra_dav:version-url
+V 49
+/svnroot/direct264/!svn/ver/309/x264/encoder/me.h
+END
+macroblock.c
+K 25
+svn:wc:ra_dav:version-url
+V 57
+/svnroot/direct264/!svn/ver/309/x264/encoder/macroblock.c
+END
+encoder.c
+K 25
+svn:wc:ra_dav:version-url
+V 54
+/svnroot/direct264/!svn/ver/312/x264/encoder/encoder.c
+END
+macroblock.h
+K 25
+svn:wc:ra_dav:version-url
+V 57
+/svnroot/direct264/!svn/ver/309/x264/encoder/macroblock.h
+END
+rdo.c
+K 25
+svn:wc:ra_dav:version-url
+V 50
+/svnroot/direct264/!svn/ver/309/x264/encoder/rdo.c
+END
+lookahead.c
+K 25
+svn:wc:ra_dav:version-url
+V 56
+/svnroot/direct264/!svn/ver/311/x264/encoder/lookahead.c
+END
+cavlc.c
+K 25
+svn:wc:ra_dav:version-url
+V 52
+/svnroot/direct264/!svn/ver/309/x264/encoder/cavlc.c
+END
+cabac.c
+K 25
+svn:wc:ra_dav:version-url
+V 52
+/svnroot/direct264/!svn/ver/309/x264/encoder/cabac.c
+END
+set.c
+K 25
+svn:wc:ra_dav:version-url
+V 50
+/svnroot/direct264/!svn/ver/311/x264/encoder/set.c
+END
+ratecontrol.c
+K 25
+svn:wc:ra_dav:version-url
+V 58
+/svnroot/direct264/!svn/ver/311/x264/encoder/ratecontrol.c
+END
+analyse.c
+K 25
+svn:wc:ra_dav:version-url
+V 54
+/svnroot/direct264/!svn/ver/309/x264/encoder/analyse.c
+END

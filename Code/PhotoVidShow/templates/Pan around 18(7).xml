@@ -1,0 +1,74 @@
+<Template Version="1.0.0" Name="Pan around 18" Description="Pan around part 18">
+  <Slideshow>
+    <Slide Type="BlankStillPictureSlide" PanZoom="False" DisplayTimeLength="8" UsesDefaultTransitionEffect="True" ForceMBSubFrames="30" MasterBackgroundAspect="1.33311" Color="Color [Black]">
+      <TransitionEffect Type="CameraSnapshotTransitionEffect" Length="0.3" Index="11" />
+      <Decoration Type="GroupedDecoration" MotionBlur="False" RenderMethod="7" InEffect="Pan18SlowMove">
+        <CoverageArea X="0" Y="0" Width="1" Height="1" />
+        <Decoration Type="ImageDecoration" Background="True">
+          <CoverageArea X="0" Y="0" Width="1" Height="1" />
+          <Image Filename="menutemplates\background104.pvsi" />
+        </Decoration>
+        <Decoration Type="ImageDecoration" TemplateFramework="True" Aspect="3" Mask="True">
+          <CoverageArea X="0" Y="0" Width="1" Height="1" />
+          <Image Filename="templates\media\overlays\masks\panaroundframe6mask.png" />
+        </Decoration>
+        <Decoration Type="ImageDecoration" DegreesRot="-12.94177" RenderMethod="9" Aspect="2" OriTemImageNum="1">
+          <CoverageArea X="0.1565217" Y="0.4542897" Width="0.2411067" Height="0.326301" />
+          <Image Filename="image1" />
+        </Decoration>
+        <Decoration Type="ImageDecoration" DegreesRot="20.1363" RenderMethod="10" Aspect="2" OriTemImageNum="2">
+          <CoverageArea X="0.2363636" Y="0.1997187" Width="0.1747036" Height="0.3347398" />
+          <Image Filename="image2" />
+        </Decoration>
+        <Decoration Type="ImageDecoration" DegreesRot="-15" RenderMethod="8" Aspect="2" OriTemImageNum="3">
+          <CoverageArea X="0.2750988" Y="0.3558368" Width="0.1620553" Height="0.3319269" />
+          <Image Filename="image3" />
+        </Decoration>
+        <Decoration Type="ImageDecoration" DegreesRot="-21.89261" RenderMethod="10" Aspect="2" OriTemImageNum="4">
+          <CoverageArea X="0.6047431" Y="0.1912799" Width="0.1596838" Height="0.3361463" />
+          <Image Filename="image4" />
+        </Decoration>
+        <Decoration Type="ImageDecoration" DegreesRot="10.52511" RenderMethod="8" Aspect="2" OriTemImageNum="5">
+          <CoverageArea X="0.6079051" Y="0.440225" Width="0.2363636" Height="0.326301" />
+          <Image Filename="image5" />
+        </Decoration>
+        <Decoration Type="ImageDecoration" DegreesRot="18.2471" RenderMethod="9" Aspect="2" OriTemImageNum="6">
+          <CoverageArea X="0.5581028" Y="0.3656821" Width="0.1588933" Height="0.3291139" />
+          <Image Filename="image6" />
+        </Decoration>
+        <Decoration Type="ImageDecoration" RenderMethod="11" Aspect="2" OriTemImageNum="7">
+          <CoverageArea X="0.4086956" Y="0.2798875" Width="0.1826087" Height="0.4261603" />
+          <Image Filename="image7" />
+        </Decoration>
+        <Decoration Type="ImageDecoration" TemplateFramework="True" Aspect="3">
+          <CoverageArea X="0" Y="0" Width="1" Height="1" />
+          <Image Filename="templates\media\overlays\panaroundframe6.png" />
+        </Decoration>
+      </Decoration>
+      <Decoration Type="ImageDecoration" PostTrans="True" Border="True">
+        <CoverageArea X="0" Y="0" Width="1" Height="1" />
+        <Image Filename="borders\vignette1.pvsi" />
+      </Decoration>
+      <PanZoom>
+        <StartArea X="0" Y="0" Width="1" Height="1" />
+        <EndArea X="0" Y="0" Width="1" Height="1" />
+        <Equation Type="Linear" />
+      </PanZoom>
+    </Slide>
+  </Slideshow>
+  <DecorationEffectsDatabase>
+    <DecorationEffect Name="Pan18SlowMove" Length="8" TemplateOnlyEffect="True">
+      <Movement Type="StraightLineMovement" InitialDelay="0.1375" EndDelay="0">
+        <Start X="-0.235" Y="0.01" Z="0" />
+        <End X="0" Y="0.01" Z="0" />
+        <Equation Type="Spring" />
+      </Movement>
+      <Rotation InitialDelay="0.1375" EndDelay="0" StartRotation="4" EndRotation="0" XOffset="0" YOffset="0">
+        <Equation Type="NonLinear" />
+      </Rotation>
+      <Zoom InitialDelay="0.1375" EndDelay="0" StartZoom="1.6" EndZoom="1.4">
+        <Equation Type="NonLinear" />
+      </Zoom>
+    </DecorationEffect>
+  </DecorationEffectsDatabase>
+</Template>

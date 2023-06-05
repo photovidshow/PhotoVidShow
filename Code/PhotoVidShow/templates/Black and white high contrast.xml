@@ -1,0 +1,22 @@
+<Template Version="1.0.0" Name="Black and white high contrast" Description="Makes the slide black and white with a high contrast filter&#xD;&#xA;&#xD;&#xA;&#xD;&#xA;">
+  <Slideshow>
+    <Slide Type="BlankStillPictureSlide" PanZoom="True" DisplayTimeLength="8" UsesDefaultTransitionEffect="True" ReCalcSlideLengthOnImage1Change="True" Color="Color [Black]">
+      <TransitionEffect Type="SimpleAlphaBlendTransitionEffect" Length="1.5" Index="1" />
+      <Decoration Type="ImageDecoration" Aspect="3" OriTemImageNum="1" MoveAsSlidePanZoom="True">
+        <CoverageArea X="0" Y="0" Width="1" Height="1" />
+        <Image Filename="image1" />
+      </Decoration>
+      <Decoration Type="MonotoneTransformDecoration">
+        <CoverageArea X="0" Y="0" Width="1" Height="1" />
+      </Decoration>
+      <Decoration Type="ColourTransformDecoration" br="0.85" bg="0.85" bb="0.85" cr="1.6" cg="1.6" cb="1.6" gamma="1">
+        <CoverageArea X="0" Y="0" Width="1" Height="1" />
+      </Decoration>
+      <PanZoom ReGenerateOnImageChange="True">
+        <StartArea X="0.125" Y="0.125" Width="0.75" Height="0.75" />
+        <EndArea X="0.21485" Y="0.21485" Width="0.5703" Height="0.5703" />
+      </PanZoom>
+    </Slide>
+  </Slideshow>
+  <DecorationEffectsDatabase />
+</Template>

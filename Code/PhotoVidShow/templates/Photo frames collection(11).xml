@@ -1,0 +1,680 @@
+<Template Version="1.0.0" Name="Photo frames collection 11" Description="Show 11 images in photo frames one after another.&#xD;&#xA;">
+  <Slideshow>
+    <Slide Type="MultiSlideSlide" PanZoom="False" DisplayTimeLength="101.1833" UsesDefaultTransitionEffect="True" ForceMBSubFrames="30">
+      <TransitionEffect Type="CameraSnapshotTransitionEffect" Length="0.3" Index="70" />
+      <Slide Type="BlankStillPictureSlide" PanZoom="True" DisplayTimeLength="8" UsesDefaultTransitionEffect="True" MasterBackgroundAspect="1.201201" Color="Color [Black]">
+        <TransitionEffect Type="CameraSnapshotTransitionEffect" Length="0.3" Index="70" />
+        <Decoration Type="GroupedDecoration" MotionBlur="False" RenderMethod="7" MoveAsSlidePanZoom="True">
+          <CoverageArea X="0" Y="0" Width="1" Height="1" />
+          <Decoration Type="ImageDecoration" TemplateFramework="True" Aspect="3">
+            <CoverageArea X="0" Y="0" Width="1" Height="1" />
+            <Image Filename="templates\media\Photo frame all.pvsi" />
+          </Decoration>
+          <Decoration Type="ImageDecoration" Aspect="2" OriTemImageNum="1">
+            <AlphaMap Filename="outlinemasks\smooth edge.jpg" />
+            <CoverageArea X="0.4063241" Y="0.3994374" Width="0.09249012" Height="0.188467" />
+            <Image Filename="image1" />
+          </Decoration>
+          <Decoration Type="ImageDecoration" DegreesRot="1.789911" Aspect="2" OriTemImageNum="2">
+            <AlphaMap Filename="outlinemasks\smooth edge.jpg" />
+            <CoverageArea X="0.401581" Y="0.1954993" Width="0.0513834" Height="0.07454289" />
+            <Image Filename="image2" />
+          </Decoration>
+          <Decoration Type="ImageDecoration" Aspect="2" OriTemImageNum="3">
+            <AlphaMap Filename="outlinemasks\smooth edge.jpg" />
+            <CoverageArea X="0.6988142" Y="0.5513362" Width="0.08932807" Height="0.1040788" />
+            <Image Filename="image3" />
+          </Decoration>
+          <Decoration Type="ImageDecoration" Aspect="2" OriTemImageNum="4">
+            <AlphaMap Filename="outlinemasks\smooth edge.jpg" />
+            <CoverageArea X="0.4197628" Y="0.6863573" Width="0.06719368" Height="0.161744" />
+            <Image Filename="image4" />
+          </Decoration>
+          <Decoration Type="ImageDecoration" Aspect="2" OriTemImageNum="5">
+            <AlphaMap Filename="outlinemasks\smooth edge.jpg" />
+            <CoverageArea X="0.2743083" Y="0.5822785" Width="0.07509881" Height="0.06891702" />
+            <Image Filename="image5" />
+          </Decoration>
+          <Decoration Type="ImageDecoration" Aspect="2" OriTemImageNum="6">
+            <AlphaMap Filename="outlinemasks\smooth edge.jpg" />
+            <CoverageArea X="0.5055" Y="0.109" Width="0.0961" Height="0.2075" />
+            <Image Filename="image6" />
+          </Decoration>
+          <Decoration Type="ImageDecoration" Aspect="2" OriTemImageNum="7">
+            <AlphaMap Filename="outlinemasks\smooth edge.jpg" />
+            <CoverageArea X="0.2158103" Y="0.2756681" Width="0.1249012" Height="0.1983122" />
+            <Image Filename="image7" />
+          </Decoration>
+          <Decoration Type="ImageDecoration" Aspect="2" OriTemImageNum="8">
+            <AlphaMap Filename="outlinemasks\smooth edge.jpg" />
+            <CoverageArea X="0.5383399" Y="0.4036568" Width="0.06640317" Height="0.1153305" />
+            <Image Filename="image8" />
+          </Decoration>
+          <Decoration Type="ImageDecoration" DegreesRot="1.385542" Aspect="2" OriTemImageNum="9">
+            <AlphaMap Filename="outlinemasks\smooth edge.jpg" />
+            <CoverageArea X="0.6513834" Y="0.257384" Width="0.09644268" Height="0.2076375" />
+            <Image Filename="image9" />
+          </Decoration>
+          <Decoration Type="ImageDecoration" Aspect="2" OriTemImageNum="10">
+            <AlphaMap Filename="outlinemasks\smooth edge.jpg" />
+            <CoverageArea X="0.2924901" Y="0.09985935" Width="0.04901186" Height="0.07032349" />
+            <Image Filename="image10" />
+          </Decoration>
+          <Decoration Type="ImageDecoration" DegreesRot="1.57655" Aspect="2" OriTemImageNum="11">
+            <AlphaMap Filename="outlinemasks\smooth edge.jpg" />
+            <CoverageArea X="0.5509881" Y="0.6371308" Width="0.09407115" Height="0.1322082" />
+            <Image Filename="image11" />
+          </Decoration>
+          <Decoration Type="ImageDecoration" RenderMethod="4">
+            <CoverageArea X="0" Y="0" Width="1" Height="1" />
+            <Image Filename="filters\color mix 24(mod1x).pvsi" />
+          </Decoration>
+          <Decoration Type="VideoDecoration" VideoName="filters\optical blue lens flare(add).pvsv" Volume="0" GlobalPlayer="True" FlipY="True" RenderMethod="1">
+            <CoverageArea X="0" Y="0" Width="1" Height="1" />
+          </Decoration>
+          <Decoration Type="ColourTransformDecoration" br="1" bg="1" bb="0.9" cr="1.04" cg="1.04" cb="1.04" gamma="1">
+            <CoverageArea X="0" Y="0" Width="1" Height="1" />
+          </Decoration>
+        </Decoration>
+        <Decoration Type="ImageDecoration" Border="True">
+          <CoverageArea X="0" Y="0" Width="1" Height="1" />
+          <Image Filename="borders\vignette1.pvsi" />
+        </Decoration>
+        <PanZoom PanZoomOnAll="True">
+          <StartArea X="0.1774892" Y="0.04102564" Width="0.6493506" Height="0.6487179" />
+          <EndArea X="0.1702742" Y="0.2641026" Width="0.6565657" Height="0.6589743" />
+          <Equation Type="Linear" />
+        </PanZoom>
+      </Slide>
+      <Slide Type="BlankStillPictureSlide" PanZoom="True" DisplayTimeLength="8" UsesDefaultTransitionEffect="True" MasterBackgroundAspect="1.777778" MastetAspectType="2" Color="Color [Black]">
+        <TransitionEffect Type="CameraSnapshotTransitionEffect" Length="0.3" Index="70" />
+        <Decoration Type="GroupedDecoration" MotionBlur="False" RenderMethod="7" MoveAsSlidePanZoom="True">
+          <CoverageArea X="0" Y="0" Width="1" Height="1" />
+          <Decoration Type="ImageDecoration" TemplateFramework="True" Aspect="2">
+            <CoverageArea X="0" Y="0" Width="1" Height="1" />
+            <Image Filename="templates\media\photo frame1.jpg" />
+          </Decoration>
+          <Decoration Type="ImageDecoration" Aspect="2" OriTemImageNum="1">
+            <AlphaMap Filename="outlinemasks\smooth edge.jpg" />
+            <CoverageArea X="0.3383399" Y="0.2292546" Width="0.2656127" Height="0.5316456" />
+            <Image Filename="image1" />
+          </Decoration>
+          <Decoration Type="ImageDecoration" Aspect="2" OriTemImageNum="5">
+            <AlphaMap Filename="outlinemasks\smooth edge.jpg" />
+            <CoverageArea X="-0.1059289" Y="0.7609001" Width="0.2774704" Height="0.1940928" />
+            <Image Filename="image5" />
+          </Decoration>
+          <Decoration Type="ImageDecoration" Aspect="2" OriTemImageNum="7">
+            <AlphaMap Filename="outlinemasks\smooth edge.jpg" />
+            <CoverageArea X="-0.0687747" Y="-0.06188467" Width="0.2221344" Height="0.509142" />
+            <Image Filename="image7" />
+          </Decoration>
+          <Decoration Type="ImageDecoration" Aspect="2" OriTemImageNum="8">
+            <AlphaMap Filename="outlinemasks\smooth edge.jpg" />
+            <CoverageArea X="0.7193676" Y="0.2348804" Width="0.1960474" Height="0.3445851" />
+            <Image Filename="image8" />
+          </Decoration>
+          <Decoration Type="ImageDecoration" DegreesRot="1.417923" Aspect="2" OriTemImageNum="11">
+            <AlphaMap Filename="outlinemasks\smooth edge.jpg" />
+            <CoverageArea X="0.7575758" Y="0.9179487" Width="0.5757576" Height="0.7025641" />
+            <Image Filename="image11" />
+          </Decoration>
+          <Decoration Type="ImageDecoration" RenderMethod="4">
+            <CoverageArea X="0" Y="0" Width="1" Height="1" />
+            <Image Filename="filters\color mix 24(mod1x).pvsi" />
+          </Decoration>
+          <Decoration Type="VideoDecoration" VideoName="filters\optical blue lens flare(add).pvsv" Volume="0" GlobalPlayer="True" FlipY="True" RenderMethod="1">
+            <CoverageArea X="0" Y="0" Width="1" Height="1" />
+          </Decoration>
+          <Decoration Type="ColourTransformDecoration" br="1" bg="1" bb="0.9" cr="1.04" cg="1.04" cb="1.04" gamma="1">
+            <CoverageArea X="0" Y="0" Width="1" Height="1" />
+          </Decoration>
+          <Decoration Type="BlurFilterDecoration" BlurFilterType="1">
+            <CoverageArea X="0" Y="0" Width="1" Height="1" />
+          </Decoration>
+        </Decoration>
+        <Decoration Type="ImageDecoration" Border="True">
+          <CoverageArea X="0" Y="0" Width="1" Height="1" />
+          <Image Filename="borders\vignette1.pvsi" />
+        </Decoration>
+        <PanZoom EndRotation="-0.7986009" PanZoomOnAll="True">
+          <StartArea X="0" Y="0" Width="1" Height="1" />
+          <EndArea X="0.1794466" Y="0.1786217" Width="0.6395257" Height="0.6395257" />
+          <Equation Type="Linear" />
+        </PanZoom>
+      </Slide>
+      <Slide Type="BlankStillPictureSlide" PanZoom="True" DisplayTimeLength="8" UsesDefaultTransitionEffect="True" MasterBackgroundAspect="1.777778" MastetAspectType="2" Color="Color [Black]">
+        <TransitionEffect Type="CameraSnapshotTransitionEffect" Length="0.3" Index="70" />
+        <Decoration Type="GroupedDecoration" MotionBlur="False" RenderMethod="7" MoveAsSlidePanZoom="True">
+          <CoverageArea X="0" Y="0" Width="1" Height="1" />
+          <Decoration Type="ImageDecoration" TemplateFramework="True" Aspect="2">
+            <CoverageArea X="0" Y="0" Width="1" Height="1" />
+            <Image Filename="templates\media\photo frame2.jpg" />
+          </Decoration>
+          <Decoration Type="ImageDecoration" DegreesRot="1.582354" Aspect="2" OriTemImageNum="2">
+            <AlphaMap Filename="outlinemasks\smooth edge.jpg" />
+            <CoverageArea X="0.4189723" Y="0.3614627" Width="0.1881423" Height="0.2728551" />
+            <Image Filename="image2" />
+          </Decoration>
+          <Decoration Type="ImageDecoration" Aspect="2" OriTemImageNum="7">
+            <AlphaMap Filename="outlinemasks\smooth edge.jpg" />
+            <CoverageArea X="-0.1826087" Y="0.6554149" Width="0.3660079" Height="0.6090014" />
+            <Image Filename="image7" />
+          </Decoration>
+          <Decoration Type="ImageDecoration" Aspect="2" OriTemImageNum="10">
+            <AlphaMap Filename="outlinemasks\smooth edge.jpg" />
+            <CoverageArea X="-0.0687747" Y="-0.1153305" Width="0.255336" Height="0.3755274" />
+            <Image Filename="image10" />
+          </Decoration>
+          <Decoration Type="ImageDecoration" RenderMethod="4">
+            <CoverageArea X="0" Y="0" Width="1" Height="1" />
+            <Image Filename="filters\color mix 24(mod1x).pvsi" />
+          </Decoration>
+          <Decoration Type="VideoDecoration" VideoName="filters\optical blue lens flare(add).pvsv" Volume="0" GlobalPlayer="True" FlipY="True" RenderMethod="1">
+            <CoverageArea X="0" Y="0" Width="1" Height="1" />
+          </Decoration>
+          <Decoration Type="ColourTransformDecoration" br="1" bg="1" bb="0.9" cr="1.04" cg="1.04" cb="1.04" gamma="1">
+            <CoverageArea X="0" Y="0" Width="1" Height="1" />
+          </Decoration>
+          <Decoration Type="BlurFilterDecoration" BlurFilterType="1">
+            <CoverageArea X="0" Y="0" Width="1" Height="1" />
+          </Decoration>
+        </Decoration>
+        <Decoration Type="ImageDecoration" Border="True">
+          <CoverageArea X="0" Y="0" Width="1" Height="1" />
+          <Image Filename="borders\vignette1.pvsi" />
+        </Decoration>
+        <PanZoom StartRotation="0.8386396" EndRotation="1.194568" PanZoomOnAll="True">
+          <StartArea X="0.2572254" Y="0.2262211" Width="0.4797688" Height="0.4797688" />
+          <EndArea X="0.1500722" Y="0.1666667" Width="0.6666667" Height="0.6666667" />
+          <Equation Type="Linear" />
+        </PanZoom>
+      </Slide>
+      <Slide Type="BlankStillPictureSlide" PanZoom="True" DisplayTimeLength="8" UsesDefaultTransitionEffect="True" MasterBackgroundAspect="1.777778" MastetAspectType="2" Color="Color [Black]">
+        <TransitionEffect Type="CameraSnapshotTransitionEffect" Length="0.3" Index="70" />
+        <Decoration Type="GroupedDecoration" MotionBlur="False" RenderMethod="7" MoveAsSlidePanZoom="True">
+          <CoverageArea X="0" Y="0" Width="1" Height="1" />
+          <Decoration Type="ImageDecoration" TemplateFramework="True" Aspect="2">
+            <CoverageArea X="0" Y="0" Width="1" Height="1" />
+            <Image Filename="templates\media\photo frame3.jpg" />
+          </Decoration>
+          <Decoration Type="ImageDecoration" Aspect="2" OriTemImageNum="3">
+            <AlphaMap Filename="outlinemasks\smooth edge.jpg" />
+            <CoverageArea X="0.4704185" Y="0.2923077" Width="0.3434343" Height="0.3948718" />
+            <Image Filename="image3" />
+          </Decoration>
+          <Decoration Type="ImageDecoration" DegreesRot="1.71493" Aspect="2" OriTemImageNum="11">
+            <AlphaMap Filename="outlinemasks\smooth edge.jpg" />
+            <CoverageArea X="-0.3419913" Y="0.6205128" Width="0.5959596" Height="0.7179487" />
+            <Image Filename="image11" />
+          </Decoration>
+          <Decoration Type="ImageDecoration" RenderMethod="4">
+            <CoverageArea X="0" Y="0" Width="1" Height="1" />
+            <Image Filename="filters\color mix 24(mod1x).pvsi" />
+          </Decoration>
+          <Decoration Type="VideoDecoration" VideoName="filters\optical blue lens flare(add).pvsv" Volume="0" GlobalPlayer="True" FlipY="True" RenderMethod="1">
+            <CoverageArea X="0" Y="0" Width="1" Height="1" />
+          </Decoration>
+          <Decoration Type="ColourTransformDecoration" br="1" bg="1" bb="0.9" cr="1.04" cg="1.04" cb="1.04" gamma="1">
+            <CoverageArea X="0" Y="0" Width="1" Height="1" />
+          </Decoration>
+          <Decoration Type="BlurFilterDecoration" BlurFilterType="1">
+            <CoverageArea X="0" Y="0" Width="1" Height="1" />
+          </Decoration>
+        </Decoration>
+        <Decoration Type="ImageDecoration" Border="True">
+          <CoverageArea X="0" Y="0" Width="1" Height="1" />
+          <Image Filename="borders\vignette1.pvsi" />
+        </Decoration>
+        <PanZoom PanZoomOnAll="True">
+          <StartArea X="0.1168831" Y="0.0974359" Width="0.8124098" Height="0.8128205" />
+          <EndArea X="0.1875902" Y="0.0974359" Width="0.8124098" Height="0.8128205" />
+          <Equation Type="Linear" />
+        </PanZoom>
+      </Slide>
+      <Slide Type="BlankStillPictureSlide" PanZoom="True" DisplayTimeLength="8" UsesDefaultTransitionEffect="True" MasterBackgroundAspect="1.777778" MastetAspectType="2" Color="Color [Black]">
+        <TransitionEffect Type="CameraSnapshotTransitionEffect" Length="0.3" Index="70" />
+        <Decoration Type="GroupedDecoration" MotionBlur="False" RenderMethod="7" MoveAsSlidePanZoom="True">
+          <CoverageArea X="0" Y="0" Width="1" Height="1" />
+          <Decoration Type="ImageDecoration" TemplateFramework="True" Aspect="2">
+            <CoverageArea X="0" Y="0" Width="1" Height="1" />
+            <Image Filename="templates\media\photo frame4.jpg" />
+          </Decoration>
+          <Decoration Type="ImageDecoration" Aspect="2" OriTemImageNum="4">
+            <AlphaMap Filename="outlinemasks\smooth edge.jpg" />
+            <CoverageArea X="0.3982684" Y="0.2692308" Width="0.1904762" Height="0.4641026" />
+            <Image Filename="image4" />
+          </Decoration>
+          <Decoration Type="ImageDecoration" Aspect="2" OriTemImageNum="5">
+            <AlphaMap Filename="outlinemasks\smooth edge.jpg" />
+            <CoverageArea X="-0.2453102" Y="-0.4948718" Width="0.4314574" Height="0.6564103" />
+            <Image Filename="image5" />
+          </Decoration>
+          <Decoration Type="ImageDecoration" DegreesRot="2.216794" Aspect="2" OriTemImageNum="11">
+            <AlphaMap Filename="outlinemasks\smooth edge.jpg" />
+            <CoverageArea X="0.7763348" Y="0.1435897" Width="0.4992785" Height="0.374359" />
+            <Image Filename="image11" />
+          </Decoration>
+          <Decoration Type="ImageDecoration" RenderMethod="4">
+            <CoverageArea X="0" Y="0" Width="1" Height="1" />
+            <Image Filename="filters\color mix 24(mod1x).pvsi" />
+          </Decoration>
+          <Decoration Type="VideoDecoration" VideoName="filters\optical blue lens flare(add).pvsv" Volume="0" GlobalPlayer="True" FlipY="True" RenderMethod="1">
+            <CoverageArea X="0" Y="0" Width="1" Height="1" />
+          </Decoration>
+          <Decoration Type="ColourTransformDecoration" br="1" bg="1" bb="0.9" cr="1.04" cg="1.04" cb="1.04" gamma="1">
+            <CoverageArea X="0" Y="0" Width="1" Height="1" />
+          </Decoration>
+          <Decoration Type="BlurFilterDecoration" BlurFilterType="1">
+            <CoverageArea X="0" Y="0" Width="1" Height="1" />
+          </Decoration>
+        </Decoration>
+        <Decoration Type="ImageDecoration" Border="True">
+          <CoverageArea X="0" Y="0" Width="1" Height="1" />
+          <Image Filename="borders\vignette1.pvsi" />
+        </Decoration>
+        <PanZoom PanZoomOnAll="True">
+          <StartArea X="0" Y="0.1552" Width="0.8448" Height="0.8448" />
+          <EndArea X="0.1552" Y="0" Width="0.8448" Height="0.8448" />
+          <Equation Type="Linear" />
+        </PanZoom>
+      </Slide>
+      <Slide Type="BlankStillPictureSlide" PanZoom="True" DisplayTimeLength="8" UsesDefaultTransitionEffect="True" MasterBackgroundAspect="1.777778" MastetAspectType="2" Color="Color [Black]">
+        <TransitionEffect Type="CameraSnapshotTransitionEffect" Length="0.3" Index="70" />
+        <Decoration Type="GroupedDecoration" MotionBlur="False" RenderMethod="7" MoveAsSlidePanZoom="True">
+          <CoverageArea X="0" Y="0" Width="1" Height="1" />
+          <Decoration Type="ImageDecoration" TemplateFramework="True" Aspect="2">
+            <CoverageArea X="0" Y="0" Width="1" Height="1" />
+            <Image Filename="templates\media\photo frame5.jpg" />
+          </Decoration>
+          <Decoration Type="ImageDecoration" Aspect="2" OriTemImageNum="5">
+            <AlphaMap Filename="outlinemasks\smooth edge.jpg" />
+            <CoverageArea X="0.3564214" Y="0.357" Width="0.2796214" Height="0.252" />
+            <Image Filename="image5" />
+          </Decoration>
+          <Decoration Type="ImageDecoration" RenderMethod="4">
+            <CoverageArea X="0" Y="0" Width="1" Height="1" />
+            <Image Filename="filters\color mix 24(mod1x).pvsi" />
+          </Decoration>
+          <Decoration Type="VideoDecoration" VideoName="filters\optical blue lens flare(add).pvsv" Volume="0" GlobalPlayer="True" FlipY="True" RenderMethod="1">
+            <CoverageArea X="0" Y="0" Width="1" Height="1" />
+          </Decoration>
+          <Decoration Type="ColourTransformDecoration" br="1" bg="1" bb="0.9" cr="1.04" cg="1.04" cb="1.04" gamma="1">
+            <CoverageArea X="0" Y="0" Width="1" Height="1" />
+          </Decoration>
+          <Decoration Type="BlurFilterDecoration" BlurFilterType="1">
+            <CoverageArea X="0" Y="0" Width="1" Height="1" />
+          </Decoration>
+        </Decoration>
+        <Decoration Type="ImageDecoration" Border="True">
+          <CoverageArea X="0" Y="0" Width="1" Height="1" />
+          <Image Filename="borders\vignette1.pvsi" />
+        </Decoration>
+        <PanZoom StartRotation="-3.219776" PanZoomOnAll="True">
+          <StartArea X="0.08369409" Y="0.1025641" Width="0.7846154" Height="0.7846154" />
+          <EndArea X="0.2106782" Y="0.1948718" Width="0.5483406" Height="0.5461538" />
+          <Equation Type="Linear" />
+        </PanZoom>
+      </Slide>
+      <Slide Type="BlankStillPictureSlide" PanZoom="True" DisplayTimeLength="8" UsesDefaultTransitionEffect="True" MasterBackgroundAspect="1.777778" MastetAspectType="2" Color="Color [Black]">
+        <TransitionEffect Type="CameraSnapshotTransitionEffect" Length="0.3" Index="70" />
+        <Decoration Type="GroupedDecoration" MotionBlur="False" RenderMethod="7" MoveAsSlidePanZoom="True">
+          <CoverageArea X="0" Y="0" Width="1" Height="1" />
+          <Decoration Type="ImageDecoration" TemplateFramework="True" Aspect="2">
+            <CoverageArea X="0" Y="0" Width="1" Height="1" />
+            <Image Filename="templates\media\photo frame6.jpg" />
+          </Decoration>
+          <Decoration Type="ImageDecoration" DegreesRot="1.776044" Aspect="2" OriTemImageNum="2">
+            <AlphaMap Filename="outlinemasks\smooth edge.jpg" />
+            <CoverageArea X="0.07909441" Y="0.4498715" Width="0.144894" Height="0.2055" />
+            <Image Filename="image2" />
+          </Decoration>
+          <Decoration Type="ImageDecoration" Aspect="2" OriTemImageNum="6">
+            <AlphaMap Filename="outlinemasks\smooth edge.jpg" />
+            <CoverageArea X="0.3838384" Y="0.2051282" Width="0.2669553" Height="0.584" />
+            <Image Filename="image6" />
+          </Decoration>
+          <Decoration Type="ImageDecoration" DegreesRot="1.256285" Aspect="2" OriTemImageNum="9">
+            <AlphaMap Filename="outlinemasks\smooth edge.jpg" />
+            <CoverageArea X="0.8051948" Y="0.6410257" Width="0.5036075" Height="0.7538462" />
+            <Image Filename="image9" />
+          </Decoration>
+          <Decoration Type="ImageDecoration" RenderMethod="4">
+            <CoverageArea X="0" Y="0" Width="1" Height="1" />
+            <Image Filename="filters\color mix 24(mod1x).pvsi" />
+          </Decoration>
+          <Decoration Type="VideoDecoration" VideoName="filters\optical blue lens flare(add).pvsv" Volume="0" GlobalPlayer="True" FlipY="True" RenderMethod="1">
+            <CoverageArea X="0" Y="0" Width="1" Height="1" />
+          </Decoration>
+          <Decoration Type="ColourTransformDecoration" br="1" bg="1" bb="0.9" cr="1.04" cg="1.04" cb="1.04" gamma="1">
+            <CoverageArea X="0" Y="0" Width="1" Height="1" />
+          </Decoration>
+          <Decoration Type="BlurFilterDecoration" BlurFilterType="1">
+            <CoverageArea X="0" Y="0" Width="1" Height="1" />
+          </Decoration>
+        </Decoration>
+        <Decoration Type="ImageDecoration" Border="True">
+          <CoverageArea X="0" Y="0" Width="1" Height="1" />
+          <Image Filename="borders\vignette1.pvsi" />
+        </Decoration>
+        <PanZoom EndRotation="1.347727" PanZoomOnAll="True">
+          <StartArea X="0.1645022" Y="0.1820513" Width="0.6911977" Height="0.6923077" />
+          <EndArea X="0.07792208" Y="0.06666667" Width="0.8282828" Height="0.8282828" />
+          <Equation Type="Linear" />
+        </PanZoom>
+      </Slide>
+      <Slide Type="BlankStillPictureSlide" PanZoom="True" DisplayTimeLength="8" UsesDefaultTransitionEffect="True" MasterBackgroundAspect="1.777778" MastetAspectType="2" Color="Color [Black]">
+        <TransitionEffect Type="CameraSnapshotTransitionEffect" Length="0.3" Index="70" />
+        <Decoration Type="GroupedDecoration" MotionBlur="False" RenderMethod="7" MoveAsSlidePanZoom="True">
+          <CoverageArea X="0" Y="0" Width="1" Height="1" />
+          <Decoration Type="ImageDecoration" TemplateFramework="True" Aspect="2">
+            <CoverageArea X="0" Y="0" Width="1" Height="1" />
+            <Image Filename="templates\media\photo frame7.jpg" />
+          </Decoration>
+          <Decoration Type="ImageDecoration" Aspect="2" OriTemImageNum="1">
+            <AlphaMap Filename="outlinemasks\smooth edge.jpg" />
+            <CoverageArea X="0.7070707" Y="0.5615385" Width="0.2597403" Height="0.5461538" />
+            <Image Filename="image1" />
+          </Decoration>
+          <Decoration Type="ImageDecoration" DegreesRot="1.77147" Aspect="2" OriTemImageNum="2">
+            <AlphaMap Filename="outlinemasks\smooth edge.jpg" />
+            <CoverageArea X="0.6984127" Y="-0.1051282" Width="0.1385281" Height="0.2820513" />
+            <Image Filename="image2" />
+          </Decoration>
+          <Decoration Type="ImageDecoration" Aspect="2" OriTemImageNum="7">
+            <AlphaMap Filename="outlinemasks\smooth edge.jpg" />
+            <CoverageArea X="0.1529582" Y="0.1974359" Width="0.3665224" Height="0.5846154" />
+            <Image Filename="image7" />
+          </Decoration>
+          <Decoration Type="ImageDecoration" RenderMethod="4">
+            <CoverageArea X="0" Y="0" Width="1" Height="1" />
+            <Image Filename="filters\color mix 24(mod1x).pvsi" />
+          </Decoration>
+          <Decoration Type="VideoDecoration" VideoName="filters\optical blue lens flare(add).pvsv" Volume="0" GlobalPlayer="True" FlipY="True" RenderMethod="1">
+            <CoverageArea X="0" Y="0" Width="1" Height="1" />
+          </Decoration>
+          <Decoration Type="ColourTransformDecoration" br="1" bg="1" bb="0.9" cr="1.04" cg="1.04" cb="1.04" gamma="1">
+            <CoverageArea X="0" Y="0" Width="1" Height="1" />
+          </Decoration>
+          <Decoration Type="BlurFilterDecoration" BlurFilterType="1">
+            <CoverageArea X="0" Y="0" Width="1" Height="1" />
+          </Decoration>
+        </Decoration>
+        <Decoration Type="ImageDecoration" Border="True">
+          <CoverageArea X="0" Y="0" Width="1" Height="1" />
+          <Image Filename="borders\vignette1.pvsi" />
+        </Decoration>
+        <PanZoom PanZoomOnAll="True">
+          <StartArea X="0" Y="0.1744023" Width="0.6158103" Height="0.6146273" />
+          <EndArea X="0" Y="0.05063291" Width="0.8030942" Height="0.8030942" />
+          <Equation Type="Linear" />
+        </PanZoom>
+      </Slide>
+      <Slide Type="BlankStillPictureSlide" PanZoom="True" DisplayTimeLength="8" UsesDefaultTransitionEffect="True" MasterBackgroundAspect="1.777778" MastetAspectType="2" Color="Color [Black]">
+        <TransitionEffect Type="CameraSnapshotTransitionEffect" Length="0.3" Index="70" />
+        <Decoration Type="GroupedDecoration" MotionBlur="False" RenderMethod="7" MoveAsSlidePanZoom="True">
+          <CoverageArea X="0" Y="0" Width="1" Height="1" />
+          <Decoration Type="ImageDecoration" TemplateFramework="True" Aspect="2">
+            <CoverageArea X="0" Y="0" Width="1" Height="1" />
+            <Image Filename="templates\media\photo frame8.jpg" />
+          </Decoration>
+          <Decoration Type="ImageDecoration" Aspect="2" OriTemImageNum="1">
+            <AlphaMap Filename="outlinemasks\smooth edge.jpg" />
+            <CoverageArea X="-0.1875902" Y="0.2692308" Width="0.3968254" Height="0.8384615" />
+            <Image Filename="image1" />
+          </Decoration>
+          <Decoration Type="ImageDecoration" Aspect="2" OriTemImageNum="8">
+            <AlphaMap Filename="outlinemasks\smooth edge.jpg" />
+            <CoverageArea X="0.365" Y="0.2745" Width="0.2585" Height="0.458" />
+            <Image Filename="image8" />
+          </Decoration>
+          <Decoration Type="ImageDecoration" DegreesRot="2" Aspect="2" OriTemImageNum="9">
+            <AlphaMap Filename="outlinemasks\smooth edge.jpg" />
+            <CoverageArea X="0.8066378" Y="-0.1846154" Width="0.4704185" Height="0.7" />
+            <Image Filename="image9" />
+          </Decoration>
+          <Decoration Type="ImageDecoration" RenderMethod="4">
+            <CoverageArea X="0" Y="0" Width="1" Height="1" />
+            <Image Filename="filters\color mix 24(mod1x).pvsi" />
+          </Decoration>
+          <Decoration Type="VideoDecoration" VideoName="filters\optical blue lens flare(add).pvsv" Volume="0" GlobalPlayer="True" FlipY="True" RenderMethod="1">
+            <CoverageArea X="0" Y="0" Width="1" Height="1" />
+          </Decoration>
+          <Decoration Type="ColourTransformDecoration" br="1" bg="1" bb="0.9" cr="1.04" cg="1.04" cb="1.04" gamma="1">
+            <CoverageArea X="0" Y="0" Width="1" Height="1" />
+          </Decoration>
+          <Decoration Type="BlurFilterDecoration" BlurFilterType="1">
+            <CoverageArea X="0" Y="0" Width="1" Height="1" />
+          </Decoration>
+        </Decoration>
+        <Decoration Type="ImageDecoration" Border="True">
+          <CoverageArea X="0" Y="0" Width="1" Height="1" />
+          <Image Filename="borders\vignette1.pvsi" />
+        </Decoration>
+        <PanZoom StartRotation="2.960455" EndRotation="-2.658724" PanZoomOnAll="True">
+          <StartArea X="0.1313131" Y="0.1333333" Width="0.7402598" Height="0.7402597" />
+          <EndArea X="0.04906205" Y="0.06153846" Width="0.8831169" Height="0.8831169" />
+          <Equation Type="Linear" />
+        </PanZoom>
+      </Slide>
+      <Slide Type="BlankStillPictureSlide" PanZoom="True" DisplayTimeLength="8" UsesDefaultTransitionEffect="True" MasterBackgroundAspect="1.777778" MastetAspectType="2" Color="Color [Black]">
+        <TransitionEffect Type="CameraSnapshotTransitionEffect" Length="0.3" Index="70" />
+        <Decoration Type="GroupedDecoration" MotionBlur="False" RenderMethod="7" MoveAsSlidePanZoom="True">
+          <CoverageArea X="0" Y="0" Width="1" Height="1" />
+          <Decoration Type="ImageDecoration" TemplateFramework="True" Aspect="2">
+            <CoverageArea X="0" Y="0" Width="1" Height="1" />
+            <Image Filename="templates\media\photo frame 9.jpg" />
+          </Decoration>
+          <Decoration Type="ImageDecoration" Aspect="2" OriTemImageNum="6">
+            <AlphaMap Filename="outlinemasks\smooth edge.jpg" />
+            <CoverageArea X="0.04046243" Y="-0.05655527" Width="0.2731214" Height="0.4344473" />
+            <Image Filename="image6" />
+          </Decoration>
+          <Decoration Type="ImageDecoration" Aspect="2" OriTemImageNum="8">
+            <AlphaMap Filename="outlinemasks\smooth edge.jpg" />
+            <CoverageArea X="0.1343931" Y="0.6349614" Width="0.1936416" Height="0.3376" />
+            <Image Filename="image8" />
+          </Decoration>
+          <Decoration Type="ImageDecoration" DegreesRot="1.537772" Aspect="2" OriTemImageNum="9">
+            <AlphaMap Filename="outlinemasks\smooth edge.jpg" />
+            <CoverageArea X="0.466763" Y="0.2236504" Width="0.2716763" Height="0.588689" />
+            <Image Filename="image9" />
+          </Decoration>
+          <Decoration Type="ImageDecoration" RenderMethod="4">
+            <CoverageArea X="0" Y="0" Width="1" Height="1" />
+            <Image Filename="filters\color mix 24(mod1x).pvsi" />
+          </Decoration>
+          <Decoration Type="VideoDecoration" VideoName="filters\optical blue lens flare(add).pvsv" Volume="0" GlobalPlayer="True" FlipY="True" RenderMethod="1">
+            <CoverageArea X="0" Y="0" Width="1" Height="1" />
+          </Decoration>
+          <Decoration Type="ColourTransformDecoration" br="1" bg="1" bb="0.9" cr="1.04" cg="1.04" cb="1.04" gamma="1">
+            <CoverageArea X="0" Y="0" Width="1" Height="1" />
+          </Decoration>
+          <Decoration Type="BlurFilterDecoration" BlurFilterType="1">
+            <CoverageArea X="0" Y="0" Width="1" Height="1" />
+          </Decoration>
+        </Decoration>
+        <Decoration Type="ImageDecoration" Border="True">
+          <CoverageArea X="0" Y="0" Width="1" Height="1" />
+          <Image Filename="borders\vignette1.pvsi" />
+        </Decoration>
+        <PanZoom StartRotation="4.831299" PanZoomOnAll="True">
+          <StartArea X="0.3391053" Y="0.2512821" Width="0.5281385" Height="0.525641" />
+          <EndArea X="0.1457431" Y="0.07179487" Width="0.8542569" Height="0.8538461" />
+          <Equation Type="Linear" />
+        </PanZoom>
+      </Slide>
+      <Slide Type="BlankStillPictureSlide" PanZoom="True" DisplayTimeLength="8" UsesDefaultTransitionEffect="True" MasterBackgroundAspect="1.777778" MastetAspectType="2" Color="Color [Black]">
+        <TransitionEffect Type="CameraSnapshotTransitionEffect" Length="0.3" Index="70" />
+        <Decoration Type="GroupedDecoration" MotionBlur="False" RenderMethod="7" MoveAsSlidePanZoom="True">
+          <CoverageArea X="0" Y="0" Width="1" Height="1" />
+          <Decoration Type="ImageDecoration" TemplateFramework="True" Aspect="2">
+            <CoverageArea X="0" Y="0" Width="1" Height="1" />
+            <Image Filename="templates\media\photo frame10.jpg" />
+          </Decoration>
+          <Decoration Type="ImageDecoration" Aspect="2" OriTemImageNum="10">
+            <AlphaMap Filename="outlinemasks\smooth edge.jpg" />
+            <CoverageArea X="0.3867244" Y="0.3276" Width="0.1991342" Height="0.2826" />
+            <Image Filename="image10" />
+          </Decoration>
+          <Decoration Type="ImageDecoration" RenderMethod="4">
+            <CoverageArea X="0" Y="0" Width="1" Height="1" />
+            <Image Filename="filters\color mix 24(mod1x).pvsi" />
+          </Decoration>
+          <Decoration Type="VideoDecoration" VideoName="filters\optical blue lens flare(add).pvsv" Volume="0" GlobalPlayer="True" FlipY="True" RenderMethod="1">
+            <CoverageArea X="0" Y="0" Width="1" Height="1" />
+          </Decoration>
+          <Decoration Type="ColourTransformDecoration" br="1" bg="1" bb="0.9" cr="1.04" cg="1.04" cb="1.04" gamma="1">
+            <CoverageArea X="0" Y="0" Width="1" Height="1" />
+          </Decoration>
+          <Decoration Type="BlurFilterDecoration" BlurFilterType="1">
+            <CoverageArea X="0" Y="0" Width="1" Height="1" />
+          </Decoration>
+        </Decoration>
+        <Decoration Type="ImageDecoration" Border="True">
+          <CoverageArea X="0" Y="0" Width="1" Height="1" />
+          <Image Filename="borders\vignette1.pvsi" />
+        </Decoration>
+        <PanZoom StartRotation="-1.046099" PanZoomOnAll="True">
+          <StartArea X="0.2063492" Y="0.174359" Width="0.5699856" Height="0.5699856" />
+          <EndArea X="0.3160173" Y="0.2820513" Width="0.3549784" Height="0.3564103" />
+          <Equation Type="Linear" />
+        </PanZoom>
+      </Slide>
+      <Slide Type="BlankStillPictureSlide" PanZoom="True" DisplayTimeLength="8" UsesDefaultTransitionEffect="True" MasterBackgroundAspect="1.777778" MastetAspectType="2" Color="Color [Black]">
+        <TransitionEffect Type="HBlurWhiteout" Length="1.5" Index="3" />
+        <Decoration Type="GroupedDecoration" MotionBlur="False" RenderMethod="7" MoveAsSlidePanZoom="True">
+          <CoverageArea X="0" Y="0" Width="1" Height="1" />
+          <Decoration Type="ImageDecoration" TemplateFramework="True" Aspect="2">
+            <CoverageArea X="0" Y="0" Width="1" Height="1" />
+            <Image Filename="templates\media\photo frame 11.jpg" />
+          </Decoration>
+          <Decoration Type="ImageDecoration" Aspect="2" OriTemImageNum="1">
+            <AlphaMap Filename="outlinemasks\smooth edge.jpg" />
+            <CoverageArea X="-0.1589595" Y="-0.3341902" Width="0.3742774" Height="0.4447301" />
+            <Image Filename="image1" />
+          </Decoration>
+          <Decoration Type="ImageDecoration" Aspect="2" OriTemImageNum="3">
+            <AlphaMap Filename="outlinemasks\smooth edge.jpg" />
+            <CoverageArea X="0.7846821" Y="-0.4601542" Width="0.5433526" Height="0.7892031" />
+            <Image Filename="image3" />
+          </Decoration>
+          <Decoration Type="ImageDecoration" Aspect="2" OriTemImageNum="4">
+            <AlphaMap Filename="outlinemasks\smooth edge.jpg" />
+            <CoverageArea X="-0.1921965" Y="0.4113111" Width="0.3771676" Height="0.4652956" />
+            <Image Filename="image4" />
+          </Decoration>
+          <Decoration Type="ImageDecoration" DegreesRot="1.316912" Aspect="2" OriTemImageNum="11">
+            <AlphaMap Filename="outlinemasks\smooth edge.jpg" />
+            <CoverageArea X="0.370751" Y="0.2714487" Width="0.2671937" Height="0.3755274" />
+            <Image Filename="image11" />
+          </Decoration>
+          <Decoration Type="ImageDecoration" RenderMethod="4">
+            <CoverageArea X="0" Y="0" Width="1" Height="1" />
+            <Image Filename="filters\color mix 24(mod1x).pvsi" />
+          </Decoration>
+          <Decoration Type="VideoDecoration" VideoName="filters\optical blue lens flare(add).pvsv" Volume="0" GlobalPlayer="True" FlipY="True" RenderMethod="1">
+            <CoverageArea X="0" Y="0" Width="1" Height="1" />
+          </Decoration>
+          <Decoration Type="ColourTransformDecoration" br="1" bg="1" bb="0.9" cr="1.04" cg="1.04" cb="1.04" gamma="1">
+            <CoverageArea X="0" Y="0" Width="1" Height="1" />
+          </Decoration>
+          <Decoration Type="BlurFilterDecoration" BlurFilterType="1">
+            <CoverageArea X="0" Y="0" Width="1" Height="1" />
+          </Decoration>
+        </Decoration>
+        <Decoration Type="ImageDecoration" Border="True">
+          <CoverageArea X="0" Y="0" Width="1" Height="1" />
+          <Image Filename="borders\vignette1.pvsi" />
+        </Decoration>
+        <PanZoom StartRotation="-2.031778" EndRotation="1.440511" PanZoomOnAll="True">
+          <StartArea X="0.2222222" Y="0.1846154" Width="0.5858586" Height="0.5871795" />
+          <EndArea X="0.03896104" Y="0.03076923" Width="0.9393939" Height="0.9384615" />
+          <Equation Type="Linear" />
+        </PanZoom>
+      </Slide>
+      <Slide Type="BlankStillPictureSlide" PanZoom="True" DisplayTimeLength="10" UsesDefaultTransitionEffect="True" MasterBackgroundAspect="1.201201" Color="Color [Black]">
+        <TransitionEffect Type="CameraSnapshotTransitionEffect" Length="0.3" Index="70" />
+        <Decoration Type="GroupedDecoration" MotionBlur="False" RenderMethod="7" MoveAsSlidePanZoom="True">
+          <CoverageArea X="0" Y="0" Width="1" Height="1" />
+          <Decoration Type="ImageDecoration" TemplateFramework="True" Aspect="3">
+            <CoverageArea X="0" Y="0" Width="1" Height="1" />
+            <Image Filename="templates\media\Photo frame all.pvsi" />
+          </Decoration>
+          <Decoration Type="ImageDecoration" Aspect="2" OriTemImageNum="1">
+            <AlphaMap Filename="outlinemasks\smooth edge.jpg" />
+            <CoverageArea X="0.4063241" Y="0.3994374" Width="0.09249012" Height="0.188467" />
+            <Image Filename="image1" />
+          </Decoration>
+          <Decoration Type="ImageDecoration" DegreesRot="1.789911" Aspect="2" OriTemImageNum="2">
+            <AlphaMap Filename="outlinemasks\smooth edge.jpg" />
+            <CoverageArea X="0.401581" Y="0.1954993" Width="0.0513834" Height="0.07454289" />
+            <Image Filename="image2" />
+          </Decoration>
+          <Decoration Type="ImageDecoration" Aspect="2" OriTemImageNum="3">
+            <AlphaMap Filename="outlinemasks\smooth edge.jpg" />
+            <CoverageArea X="0.6988142" Y="0.5513362" Width="0.08932807" Height="0.1040788" />
+            <Image Filename="image3" />
+          </Decoration>
+          <Decoration Type="ImageDecoration" Aspect="2" OriTemImageNum="4">
+            <AlphaMap Filename="outlinemasks\smooth edge.jpg" />
+            <CoverageArea X="0.4197628" Y="0.6863573" Width="0.06719368" Height="0.161744" />
+            <Image Filename="image4" />
+          </Decoration>
+          <Decoration Type="ImageDecoration" Aspect="2" OriTemImageNum="5">
+            <AlphaMap Filename="outlinemasks\smooth edge.jpg" />
+            <CoverageArea X="0.2743083" Y="0.5822785" Width="0.07509881" Height="0.06891702" />
+            <Image Filename="image5" />
+          </Decoration>
+          <Decoration Type="ImageDecoration" Aspect="2" OriTemImageNum="6">
+            <AlphaMap Filename="outlinemasks\smooth edge.jpg" />
+            <CoverageArea X="0.5055" Y="0.109" Width="0.0961" Height="0.2075" />
+            <Image Filename="image6" /> 
+          </Decoration>
+          <Decoration Type="ImageDecoration" Aspect="2" OriTemImageNum="7">
+            <AlphaMap Filename="outlinemasks\smooth edge.jpg" />
+            <CoverageArea X="0.2158103" Y="0.2756681" Width="0.1249012" Height="0.1983122" />
+            <Image Filename="image7" />
+          </Decoration>
+          <Decoration Type="ImageDecoration" Aspect="2" OriTemImageNum="8">
+            <AlphaMap Filename="outlinemasks\smooth edge.jpg" />
+            <CoverageArea X="0.5383399" Y="0.4036568" Width="0.06640317" Height="0.1153305" />
+            <Image Filename="image8" />
+          </Decoration>
+          <Decoration Type="ImageDecoration" DegreesRot="1.385542" Aspect="2" OriTemImageNum="9">
+            <AlphaMap Filename="outlinemasks\smooth edge.jpg" />
+            <CoverageArea X="0.6513834" Y="0.257384" Width="0.09644268" Height="0.2076375" />
+            <Image Filename="image9" />
+          </Decoration>
+          <Decoration Type="ImageDecoration" Aspect="2" OriTemImageNum="10">
+            <AlphaMap Filename="outlinemasks\smooth edge.jpg" />
+            <CoverageArea X="0.2924901" Y="0.09985935" Width="0.04901186" Height="0.07032349" />
+            <Image Filename="image10" />
+          </Decoration>
+          <Decoration Type="ImageDecoration" DegreesRot="1.57655" Aspect="2" OriTemImageNum="11">
+            <AlphaMap Filename="outlinemasks\smooth edge.jpg" />
+            <CoverageArea X="0.5509881" Y="0.6371308" Width="0.09407115" Height="0.1322082" />
+            <Image Filename="image11" />
+          </Decoration>
+          <Decoration Type="ImageDecoration" RenderMethod="4">
+            <CoverageArea X="0" Y="0" Width="1" Height="1" />
+            <Image Filename="filters\color mix 24(mod1x).pvsi" />
+          </Decoration>
+          <Decoration Type="VideoDecoration" VideoName="filters\light leaks2(add).pvsv" Volume="0" GlobalPlayer="True" FlipY="True" RenderMethod="1">
+            <CoverageArea X="0" Y="0" Width="1" Height="1" />
+          </Decoration>
+        </Decoration>
+        <Decoration Type="ImageDecoration" Border="True">
+          <CoverageArea X="0" Y="0" Width="1" Height="1" />
+          <Image Filename="borders\vignette1.pvsi" />
+        </Decoration>
+        <PanZoom InitialDelay="0.21" EndDelay="0.87" PanZoomOnAll="True">
+          <StartArea X="0.2914863" Y="0.3076923" Width="0.3809524" Height="0.3794872" />
+          <EndArea X="0.1630592" Y="0.1692308" Width="0.6666667" Height="0.6666667" />
+          <Equation Type="NonLinear" />
+        </PanZoom>
+      </Slide>
+    </Slide>
+  </Slideshow>
+  <DecorationEffectsDatabase />
+</Template>

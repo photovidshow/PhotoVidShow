@@ -1,0 +1,62 @@
+<Template Version="1.0.0" Name="Pack from left" Description="Show a pack of 5 images all moving in from the left&#xD;&#xA;">
+  <Slideshow>
+    <Slide Type="BlankStillPictureSlide" PanZoom="False" DisplayTimeLength="9" UsesDefaultTransitionEffect="True" ForceMBSubFrames="30" ThumbnailPreviewTime="1.5" Color="Color [Black]">
+      <TransitionEffect Type="SimpleAlphaBlendTransitionEffect" Length="1.5" Index="1" />
+      <Decoration Type="ImageDecoration" Aspect="2" OriTemImageNum="1">
+        <CoverageArea X="0.25" Y="0" Width="0.760372" Height="1" />
+        <Image Filename="image1" />
+      </Decoration>
+      <Decoration Type="ImageDecoration" Aspect="2" OriTemImageNum="2" InEffect="PackMoveRightImage2">
+        <CoverageArea X="-0.5" Y="0" Width="0.75" Height="1" />
+        <Image Filename="image2" />
+      </Decoration>
+      <Decoration Type="ImageDecoration" Aspect="2" OriTemImageNum="3" InEffect="PackMoveRightImage3">
+        <CoverageArea X="-0.5625" Y="0" Width="0.75" Height="1" />
+        <Image Filename="image3" />
+      </Decoration>
+      <Decoration Type="ImageDecoration" Aspect="2" OriTemImageNum="4" InEffect="PackMoveRightImage4">
+        <CoverageArea X="-0.625" Y="0" Width="0.750375" Height="1" />
+        <Image Filename="image4" />
+      </Decoration>
+      <Decoration Type="ImageDecoration" Aspect="2" OriTemImageNum="5" InEffect="PackMoveRightImage5" MoveAsSlidePanZoom="True">
+        <CoverageArea X="-0.6875" Y="0" Width="0.75" Height="1" />
+        <Image Filename="image5" />
+      </Decoration>
+      <PanZoom>
+        <StartArea X="0.125" Y="0.25" Width="0.75" Height="0.75" />
+        <EndArea X="0.125" Y="0" Width="0.75" Height="0.75" />
+        <Equation Type="Linear" />
+      </PanZoom>
+    </Slide>
+  </Slideshow>
+  <DecorationEffectsDatabase>
+    <DecorationEffect Name="PackMoveRightImage2" Length="9" MotionBlur="15" TemplateOnlyEffect="True">
+      <Movement Type="StraightLineMovement" InitialDelay="0.16" EndDelay="0.73">
+        <Start X="0" Y="0" Z="0" />
+        <End X="0.6875" Y="0" Z="0" />
+        <Equation Type="NonLinear" />
+      </Movement>
+    </DecorationEffect>
+    <DecorationEffect Name="PackMoveRightImage3" Length="9" MotionBlur="15" TemplateOnlyEffect="True">
+      <Movement Type="StraightLineMovement" InitialDelay="0.33" EndDelay="0.56">
+        <Start X="0" Y="0" Z="0" />
+        <End X="0.6875" Y="0" Z="0" />
+        <Equation Type="NonLinear" />
+      </Movement>
+    </DecorationEffect>
+    <DecorationEffect Name="PackMoveRightImage4" Length="9" MotionBlur="15" TemplateOnlyEffect="True">
+      <Movement Type="StraightLineMovement" InitialDelay="0.5" EndDelay="0.39">
+        <Start X="0" Y="0" Z="0" />
+        <End X="0.6875" Y="0" Z="0" />
+        <Equation Type="NonLinear" />
+      </Movement>
+    </DecorationEffect>
+    <DecorationEffect Name="PackMoveRightImage5" Length="9" MotionBlur="15" TemplateOnlyEffect="True">
+      <Movement Type="StraightLineMovement" InitialDelay="0.66" EndDelay="0.23">
+        <Start X="0" Y="0" Z="0" />
+        <End X="0.6875" Y="0" Z="0" />
+        <Equation Type="NonLinear" />
+      </Movement>
+    </DecorationEffect>
+  </DecorationEffectsDatabase>
+</Template>

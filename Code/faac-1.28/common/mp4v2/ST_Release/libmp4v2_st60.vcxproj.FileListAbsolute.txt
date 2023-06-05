@@ -1,0 +1,2 @@
+C:\dev\PhotoVidShowRoot\PhotoVidShow\Code\faac-1.28\common\mp4v2\ST_Release\libmp4v2_st60.lib
+C:\Users\Stuar\Documents\PhotoVidShowBuild\Code\faac-1.28\common\mp4v2\ST_Release\libmp4v2_st60.lib

@@ -1,0 +1,230 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<Project ToolsVersion="4.0" xmlns="http://schemas.microsoft.com/developer/msbuild/2003">
+  <ItemGroup>
+    <Filter Include="Source Files">
+      <UniqueIdentifier>{4FC737F1-C7A5-4376-A066-2A32D752A2FF}</UniqueIdentifier>
+      <Extensions>cpp;c;cxx;def;odl;idl;hpj;bat;asm;asmx</Extensions>
+    </Filter>
+    <Filter Include="Header Files">
+      <UniqueIdentifier>{93995380-89BD-4b04-88EB-625FBE52EBFB}</UniqueIdentifier>
+      <Extensions>h;hpp;hxx;hm;inl;inc;xsd</Extensions>
+    </Filter>
+    <Filter Include="Resource Files">
+      <UniqueIdentifier>{67DA6AB6-F800-4c08-8B7A-83BB121AAD01}</UniqueIdentifier>
+      <Extensions>rc;ico;cur;bmp;dlg;rc2;rct;bin;rgs;gif;jpg;jpeg;jpe;resx</Extensions>
+    </Filter>
+  </ItemGroup>
+  <ItemGroup>
+    <ClCompile Include="allcodecs.c">
+      <Filter>Source Files</Filter>
+    </ClCompile>
+    <ClCompile Include="allformats.c">
+      <Filter>Source Files</Filter>
+    </ClCompile>
+    <ClCompile Include="avio.c">
+      <Filter>Source Files</Filter>
+    </ClCompile>
+    <ClCompile Include="aviobuf.c">
+      <Filter>Source Files</Filter>
+    </ClCompile>
+    <ClCompile Include="cmdutils.c">
+      <Filter>Source Files</Filter>
+    </ClCompile>
+    <ClCompile Include="common.c">
+      <Filter>Source Files</Filter>
+    </ClCompile>
+    <ClCompile Include="cutils.c">
+      <Filter>Source Files</Filter>
+    </ClCompile>
+    <ClCompile Include="dsputil.c">
+      <Filter>Source Files</Filter>
+    </ClCompile>
+    <ClCompile Include="eval.c">
+      <Filter>Source Files</Filter>
+    </ClCompile>
+    <ClCompile Include="faandct.c">
+      <Filter>Source Files</Filter>
+    </ClCompile>
+    <ClCompile Include="ffserver.c">
+      <Filter>Source Files</Filter>
+    </ClCompile>
+    <ClCompile Include="file.c">
+      <Filter>Source Files</Filter>
+    </ClCompile>
+    <ClCompile Include="framehook.c">
+      <Filter>Source Files</Filter>
+    </ClCompile>
+    <ClCompile Include="h263.c">
+      <Filter>Source Files</Filter>
+    </ClCompile>
+    <ClCompile Include="img.c">
+      <Filter>Source Files</Filter>
+    </ClCompile>
+    <ClCompile Include="imgconvert.c">
+      <Filter>Source Files</Filter>
+    </ClCompile>
+    <ClCompile Include="integer.c">
+      <Filter>Source Files</Filter>
+    </ClCompile>
+    <ClCompile Include="jfdctfst.c">
+      <Filter>Source Files</Filter>
+    </ClCompile>
+    <ClCompile Include="jfdctint.c">
+      <Filter>Source Files</Filter>
+    </ClCompile>
+    <ClCompile Include="jrevdct.c">
+      <Filter>Source Files</Filter>
+    </ClCompile>
+    <ClCompile Include="mem.c">
+      <Filter>Source Files</Filter>
+    </ClCompile>
+    <ClCompile Include="motion_est.c">
+      <Filter>Source Files</Filter>
+    </ClCompile>
+    <ClCompile Include="mpeg.c">
+      <Filter>Source Files</Filter>
+    </ClCompile>
+    <ClCompile Include="mpeg12.c">
+      <Filter>Source Files</Filter>
+    </ClCompile>
+    <ClCompile Include="mpegencoder2.c">
+      <Filter>Source Files</Filter>
+    </ClCompile>
+    <ClCompile Include="mpegvideo.c">
+      <Filter>Source Files</Filter>
+    </ClCompile>
+    <ClCompile Include="os_support.c">
+      <Filter>Source Files</Filter>
+    </ClCompile>
+    <ClCompile Include="ratecontrol.c">
+      <Filter>Source Files</Filter>
+    </ClCompile>
+    <ClCompile Include="rational.c">
+      <Filter>Source Files</Filter>
+    </ClCompile>
+    <ClCompile Include="raw.c">
+      <Filter>Source Files</Filter>
+    </ClCompile>
+    <ClCompile Include="simple_idct.c">
+      <Filter>Source Files</Filter>
+    </ClCompile>
+    <ClCompile Include="utils.c">
+      <Filter>Source Files</Filter>
+    </ClCompile>
+    <ClCompile Include="utils2.c">
+      <Filter>Source Files</Filter>
+    </ClCompile>
+    <ClCompile Include="vp3dsp.c">
+      <Filter>Source Files</Filter>
+    </ClCompile>
+    <ClCompile Include="yuv.c">
+      <Filter>Source Files</Filter>
+    </ClCompile>
+    <ClCompile Include="yuv4mpeg.c">
+      <Filter>Source Files</Filter>
+    </ClCompile>
+    <ClCompile Include="i386\gcc\i386\vp3dsp_sse2.c">
+      <Filter>Source Files</Filter>
+    </ClCompile>
+  </ItemGroup>
+  <ItemGroup>
+    <ClInclude Include="avcodec.h">
+      <Filter>Header Files</Filter>
+    </ClInclude>
+    <ClInclude Include="avformat.h">
+      <Filter>Header Files</Filter>
+    </ClInclude>
+    <ClInclude Include="avio.h">
+      <Filter>Header Files</Filter>
+    </ClInclude>
+    <ClInclude Include="bswap.h">
+      <Filter>Header Files</Filter>
+    </ClInclude>
+    <ClInclude Include="cmdutils.h">
+      <Filter>Header Files</Filter>
+    </ClInclude>
+    <ClInclude Include="common.h">
+      <Filter>Header Files</Filter>
+    </ClInclude>
+    <ClInclude Include="config.h">
+      <Filter>Header Files</Filter>
+    </ClInclude>
+    <ClInclude Include="dsputil.h">
+      <Filter>Header Files</Filter>
+    </ClInclude>
+    <ClInclude Include="faandct.h">
+      <Filter>Header Files</Filter>
+    </ClInclude>
+    <ClInclude Include="framehook.h">
+      <Filter>Header Files</Filter>
+    </ClInclude>
+    <ClInclude Include="h263data.h">
+      <Filter>Header Files</Filter>
+    </ClInclude>
+    <ClInclude Include="imgconvert_template.h">
+      <Filter>Header Files</Filter>
+    </ClInclude>
+    <ClInclude Include="integer.h">
+      <Filter>Header Files</Filter>
+    </ClInclude>
+    <ClInclude Include="mpeg12data.h">
+      <Filter>Header Files</Filter>
+    </ClInclude>
+    <ClInclude Include="mpeg4data.h">
+      <Filter>Header Files</Filter>
+    </ClInclude>
+    <ClInclude Include="mpegencoder2.h">
+      <Filter>Header Files</Filter>
+    </ClInclude>
+    <ClInclude Include="mpegvideo.h">
+      <Filter>Header Files</Filter>
+    </ClInclude>
+    <ClInclude Include="i386\msvcmmx.h">
+      <Filter>Header Files</Filter>
+    </ClInclude>
+    <ClInclude Include="os_support.h">
+      <Filter>Header Files</Filter>
+    </ClInclude>
+    <ClInclude Include="rational.h">
+      <Filter>Header Files</Filter>
+    </ClInclude>
+    <ClInclude Include="resource.h">
+      <Filter>Header Files</Filter>
+    </ClInclude>
+    <ClInclude Include="rtp.h">
+      <Filter>Header Files</Filter>
+    </ClInclude>
+    <ClInclude Include="rtsp.h">
+      <Filter>Header Files</Filter>
+    </ClInclude>
+    <ClInclude Include="rtspcodes.h">
+      <Filter>Header Files</Filter>
+    </ClInclude>
+    <ClInclude Include="simple_idct.h">
+      <Filter>Header Files</Filter>
+    </ClInclude>
+    <ClInclude Include="stdafx.h">
+      <Filter>Header Files</Filter>
+    </ClInclude>
+    <ClInclude Include="vp3data.h">
+      <Filter>Header Files</Filter>
+    </ClInclude>
+  </ItemGroup>
+  <ItemGroup>
+    <CustomBuild Include="i386\gcc\i386\dsputil_mmx.c">
+      <Filter>Source Files</Filter>
+    </CustomBuild>
+    <CustomBuild Include="i386\gcc\i386\fdct_mmx.c">
+      <Filter>Source Files</Filter>
+    </CustomBuild>
+    <CustomBuild Include="i386\gcc\i386\idct_mmx.c">
+      <Filter>Source Files</Filter>
+    </CustomBuild>
+    <CustomBuild Include="i386\gcc\i386\mpegvideo_mmx.c">
+      <Filter>Source Files</Filter>
+    </CustomBuild>
+    <CustomBuild Include="i386\gcc\i386\vp3dsp_mmx.c">
+      <Filter>Source Files</Filter>
+    </CustomBuild>
+  </ItemGroup>
+</Project>

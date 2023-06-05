@@ -1,0 +1,38 @@
+<Template Version="1.0.0" Name="Intro sequence 2 line text 2" Description="Intro sequence with two lines of text both applied with quick slow effect&#xD;&#xA;&#xD;&#xA;&#xD;&#xA;">
+  <Slideshow>
+    <Slide Type="BlankStillPictureSlide" PanZoom="False" DisplayTimeLength="9" UsesDefaultTransitionEffect="True" ThumbnailPreviewTime="5.5" Color="Color [Black]">
+      <TransitionEffect Type="SimpleAlphaBlendTransitionEffect" Length="1.5" Index="1" />
+      <Decoration Type="TextDecoration" InEffect="QuickSlowDown" Text="My slideshow presentation" TemplateEditable="1" HintEditTime="5.5">
+        <CoverageArea X="0.21" Y="0.302391" Width="0.58" Height="0.1201373" />
+        <TextStyle Name="Vanilla" FontName="Segoe UI" FontSize="44.06217" OutLine="True" OutLineColour="Color [White]" Alignment="Center" OutlineLength="4" OutlineAlpha="14" />
+      </Decoration>
+      <Decoration Type="TextDecoration" StartOffsetTime="0.72" InEffect="QuickSlowUp" Text="Text2 text2 text2 text2&#xD;&#xA;" TemplateEditable="1" HintEditTime="5.5">
+        <CoverageArea X="0.3720764" Y="0.4345992" Width="0.2534756" Height="0.06287374" />
+        <TextStyle Name="Vanilla" FontName="Segoe UI" FontSize="23.0599" OutLine="True" OutLineColour="Color [White]" Alignment="Center" OutlineLength="4" OutlineAlpha="14" />
+      </Decoration>
+      <PanZoom>
+        <StartArea X="0" Y="0" Width="1" Height="1" />
+        <EndArea X="0" Y="0" Width="1" Height="1" />
+        <Equation Type="Linear" />
+      </PanZoom>
+    </Slide>
+  </Slideshow>
+  <DecorationEffectsDatabase>
+    <DecorationEffect Name="QuickSlowUp" LengthSetToDecorationLength="True" MotionBlur="30">
+      <TransitionEffect Type="SimpleAlphaBlendTransitionEffect" Length="1.5" EndDelay="0.99" />
+      <Movement Type="StraightLineMovement" InitialDelay="0" EndDelay="0">
+        <Start X="0" Y="0.4" Z="0" />
+        <End X="0" Y="0" Z="0" />
+        <Equation Type="QuickSlow" />
+      </Movement>
+    </DecorationEffect>
+    <DecorationEffect Name="QuickSlowDown" LengthSetToDecorationLength="True" MotionBlur="30">
+      <TransitionEffect Type="SimpleAlphaBlendTransitionEffect" Length="1.5" EndDelay="0.99" />
+      <Movement Type="StraightLineMovement" InitialDelay="0" EndDelay="0">
+        <Start X="0" Y="-0.4" Z="0" />
+        <End X="0" Y="0" Z="0" />
+        <Equation Type="QuickSlow" />
+      </Movement>
+    </DecorationEffect>
+  </DecorationEffectsDatabase>
+</Template>

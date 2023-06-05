@@ -1,0 +1,36 @@
+<Template Version="1.0.0" Name="Photo frame 6" Description="Shows an image in a photo frame">
+  <Slideshow>
+    <Slide Type="BlankStillPictureSlide" PanZoom="True" DisplayTimeLength="8" UsesDefaultTransitionEffect="True" MasterBackgroundAspect="1.777778" MastetAspectType="2" Color="Color [Black]">
+      <TransitionEffect Type="CameraSnapshotTransitionEffect" Length="0.3" Index="70" />
+      <Decoration Type="GroupedDecoration" MotionBlur="False" RenderMethod="7" MoveAsSlidePanZoom="True">
+        <CoverageArea X="0" Y="0" Width="1" Height="1" />
+        <Decoration Type="ImageDecoration" TemplateFramework="True" Aspect="2">
+          <CoverageArea X="0" Y="0" Width="1" Height="1" />
+          <Image Filename="templates\media\photo frame10.jpg" />
+        </Decoration>
+        <Decoration Type="ImageDecoration" Aspect="2" OriTemImageNum="1">
+          <AlphaMap Filename="outlinemasks\smooth edge.jpg" />
+          <CoverageArea X="0.3867244" Y="0.3276" Width="0.1991342" Height="0.2826" />
+          <Image Filename="image1" />
+        </Decoration>
+        <Decoration Type="ImageDecoration" RenderMethod="4">
+          <CoverageArea X="0" Y="0" Width="1" Height="1" />
+          <Image Filename="filters\color mix 24(mod1x).pvsi" />
+        </Decoration>
+        <Decoration Type="BlurFilterDecoration" BlurFilterType="1">
+          <CoverageArea X="0" Y="0" Width="1" Height="1" />
+        </Decoration>
+      </Decoration>
+      <Decoration Type="ImageDecoration" Border="True">
+        <CoverageArea X="0" Y="0" Width="1" Height="1" />
+        <Image Filename="borders\vignette1.pvsi" />
+      </Decoration>
+      <PanZoom StartRotation="-1.046099" PanZoomOnAll="True">
+        <StartArea X="0.2063492" Y="0.174359" Width="0.5699856" Height="0.5699856" />
+        <EndArea X="0.3160173" Y="0.2820513" Width="0.3549784" Height="0.3564103" />
+        <Equation Type="Linear" />
+      </PanZoom>
+    </Slide>
+  </Slideshow>
+  <DecorationEffectsDatabase />
+</Template>

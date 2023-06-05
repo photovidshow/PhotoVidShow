@@ -1,0 +1,17 @@
+<Template Version="1.0.0" Name="Intro Video" Description="">
+  <Slideshow>
+    <Slide Type="BlankStillPictureSlide" PanZoom="False" DisplayTimeLength="8" UsesDefaultTransitionEffect="True" ReCalcSlideLengthOnImage1Change="True" Color="Color [Black]">
+      <TransitionEffect Type="SimpleAlphaBlendTransitionEffect" Length="1.5" Index="1" />
+      <Decoration Type="ImageDecoration" OriTemImageNum="1">
+        <CoverageArea X="0" Y="-0.04601812" Width="1" Height="1.092036" />
+        <Image Filename="image1" />
+      </Decoration>
+      <PanZoom>
+        <StartArea X="0" Y="0" Width="1" Height="1" />
+        <EndArea X="0" Y="0" Width="1" Height="1" />
+        <Equation Type="Linear" />
+      </PanZoom>
+    </Slide>
+  </Slideshow>
+  <DecorationEffectsDatabase />
+</Template>

@@ -1,0 +1,78 @@
+<Template Version="1.0.0" Name="Text blur 2" Description="Draws a slide with text and switches focus between text and the slide&#xD;&#xA;&#xD;&#xA;">
+  <Slideshow>
+    <Slide Type="MultiSlideSlide" PanZoom="False" DisplayTimeLength="8" UsesDefaultTransitionEffect="True" ThumbnailPreviewTime="1" PreviewPlayWhenEditMedia="false">
+      <TransitionEffect Type="SimpleAlphaBlendTransitionEffect" Length="1.5" Index="1" />
+      <Slide Type="BlankStillPictureSlide" PanZoom="True" DisplayTimeLength="8" UsesDefaultTransitionEffect="True" ThumbnailPreviewTime="1" Color="Color [Black]" PreviewPlayWhenEditMedia="false">
+      
+        <TransitionEffect Type="AlphaBlendSlideMixer" Length="8" Index="1" />
+        <Decoration Type="ImageDecoration" Aspect="2" OriTemImageNum="1" MoveAsSlidePanZoom="True">
+          <CoverageArea X="0.125" Y="0" Width="0.75" Height="1" />
+          <Image Filename="image1" />
+        </Decoration>
+        <Decoration Type="TextDecoration" OriTemImageNum="11" InEffect="MoveDownSlow" Text="Text1 text1 text1 text1" TemplateEditable="1" BlurAmount="2">
+          <CoverageArea X="0.45" Y="0.19" Width="0.3259073" Height="0.08083766" />
+          <TextStyle Name="Black pepper" FontName="Segoe UI" FontSize="59.99999" FontColor="Color [Black]" OutLine="True" OutLineColour="Color [Black]" Alignment="Far" OutlineLength="3" OutlineAlpha="41" />
+        </Decoration>
+        <Decoration Type="TextDecoration" OriTemImageNum="12" InEffect="MoveDownLeftSlow" Text="Text2" TemplateEditable="1" BlurAmount="2">
+          <CoverageArea X="0.6285201" Y="0.2405063" Width="0.148555" Height="0.1257475" />
+          <TextStyle Name="Black pepper bold" FontName="Segoe UI" FontSize="93.33331" FontColor="Color [Black]" Bold="True" OutLine="True" OutLineColour="Color [Black]" Alignment="Far" OutlineLength="3" OutlineAlpha="41" />
+        </Decoration>
+        <PanZoom>
+          <StartArea X="0.125" Y="0.125" Width="0.75" Height="0.75" />
+          <EndArea X="0.1965318" Y="0.18509" Width="0.6604046" Height="0.6580977" />
+          <Equation Type="Linear" />
+        </PanZoom>
+      <Slide Type="BlankStillPictureSlide" PanZoom="True" DisplayTimeLength="8" UsesDefaultTransitionEffect="True" ThumbnailPreviewTime="1" Color="Color [Black]">
+        <TransitionEffect Type="SimpleAlphaBlendTransitionEffect" Length="1.5" Index="1" />
+        <Decoration Type="ImageDecoration" Aspect="2" OriTemImageNum="1" MoveAsSlidePanZoom="True">
+          <CoverageArea X="0.125" Y="0" Width="0.75" Height="1" />
+          <Image Filename="image1" />
+        </Decoration>
+        <Decoration Type="BlurFilterDecoration">
+          <CoverageArea X="0" Y="0" Width="1" Height="1" />
+        </Decoration>
+        <Decoration Type="BlurFilterDecoration">
+          <CoverageArea X="0" Y="0" Width="1" Height="1" />
+        </Decoration>
+        <Decoration Type="BlurFilterDecoration">
+          <CoverageArea X="0" Y="0" Width="1" Height="1" />
+        </Decoration>
+        <Decoration Type="BlurFilterDecoration">
+          <CoverageArea X="0" Y="0" Width="1" Height="1" />
+        </Decoration>
+        <Decoration Type="TextDecoration" OriTemImageNum="11" InEffect="MoveDownSlow" Text="Text1 text1 text1 text1" TemplateEditable="1" HintEditTime="4.4">
+          <CoverageArea X="0.45" Y="0.19" Width="0.3259073" Height="0.08083766" />
+          <TextStyle Name="Black pepper" FontName="Segoe UI" FontSize="59.99999" FontColor="Color [Black]" OutLine="True" OutLineColour="Color [Black]" Alignment="Far" OutlineLength="3" OutlineAlpha="41" />
+        </Decoration>
+        <Decoration Type="TextDecoration" OriTemImageNum="12" InEffect="MoveDownLeftSlow" Text="Text2" TemplateEditable="1" HintEditTime="4.4">
+          <CoverageArea X="0.6285201" Y="0.2405063" Width="0.148555" Height="0.1257475" />
+          <TextStyle Name="Black pepper bold" FontName="Segoe UI" FontSize="93.33331" FontColor="Color [Black]" Bold="True" OutLine="True" OutLineColour="Color [Black]" Alignment="Far" OutlineLength="3" OutlineAlpha="41" />
+        </Decoration>
+        <PanZoom>
+          <StartArea X="0.125" Y="0.125" Width="0.75" Height="0.75" />
+          <EndArea X="0.1965318" Y="0.18509" Width="0.6604046" Height="0.6580977" />
+          <Equation Type="Linear" />
+        </PanZoom>
+      </Slide>
+      </Slide>
+    </Slide>
+  </Slideshow>
+  <DecorationEffectsDatabase>
+    <DecorationEffect Name="MoveDownSlow" LengthSetToDecorationLength="True">
+      <TransitionEffect Type="SimpleAlphaBlendTransitionEffect" Length="1.5" EndDelay="0.94" />
+      <Movement Type="StraightLineMovement" InitialDelay="0" EndDelay="0">
+        <Start X="0" Y="0" Z="0" />
+        <End X="0" Y="0.03" Z="0" />
+        <Equation Type="Linear" />
+      </Movement>
+    </DecorationEffect>
+    <DecorationEffect Name="MoveDownLeftSlow" LengthSetToDecorationLength="True">
+      <TransitionEffect Type="SimpleAlphaBlendTransitionEffect" Length="1.5" EndDelay="0.94" />
+      <Movement Type="StraightLineMovement" InitialDelay="0" EndDelay="0">
+        <Start X="0" Y="0" Z="0" />
+        <End X="-0.02" Y="0.03" Z="0" />
+        <Equation Type="Linear" />
+      </Movement>
+    </DecorationEffect>
+  </DecorationEffectsDatabase>
+</Template>

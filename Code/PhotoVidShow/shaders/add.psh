@@ -1,0 +1,30 @@
+
+
+struct PS_INPUT
+{
+    float4 Position   : POSITION;
+    float2 Texture0   : TEXCOORD0;
+    float2 Texture1   : TEXCOORD1;
+};
+
+
+struct PS_OUTPUT
+{
+    float4 Color   : COLOR0;
+};
+
+sampler2D Tex0 : register(s0);
+sampler2D Tex1 : register(s1);
+
+
+PS_OUTPUT ps_main( in PS_INPUT In )
+{
+    PS_OUTPUT Out;                             
+
+    Out.Color = tex2D(Tex0, In.Texture0);       
+    float4 t1 = tex2D(Tex1, In.Texture1);       
+
+    Out.Color += t1 ;
+
+    return Out;                                
+}

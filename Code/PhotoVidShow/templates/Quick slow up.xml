@@ -1,0 +1,35 @@
+<Template Version="1.0.0" Name="Quick slow up" Description="Moves an image up and then continues to pan up slowly&#xD;&#xA;&#xD;&#xA;">
+  <Slideshow>
+    <Slide Type="BlankStillPictureSlide" PanZoom="False" DisplayTimeLength="8" UsesDefaultTransitionEffect="True" ForceMBSubFrames="20" Color="Color [A=255, R=128, G=128, B=192]">
+      <TransitionEffect Type="SimpleAlphaBlendTransitionEffect" Length="0.3" Index="1" />
+      <Decoration Type="ImageDecoration" Aspect="2" OriTemImageNum="1" StartOffsetTime="0.3" InEffect="QuickSlowUp">
+        <AlphaMap Filename="outlinemasks\smooth edge.jpg" />
+        <CoverageArea X="0.143492" Y="0" Width="0.713016" Height="1" />
+        <Image Filename="image1" />
+      </Decoration>
+      <Decoration Type="TextDecoration" StartOffsetTime="0.3" InEffect="QuickSlowUp" Text="Text text text text text text" TemplateEditable="1">
+        <CoverageArea X="0.2690854" Y="0.85" Width="0.4603984" Height="0.08424731" />
+        <TextStyle Name="Galangal" FontName="Arial" FontSize="29.299" FontColor="Color [A=255, R=254, G=250, B=233]" OutLine="True" OutLineColour="Color [A=255, R=248, G=217, B=92]" Alignment="Center" FontColor2="Color [A=255, R=251, G=237, B=181]" Gradient="True" ShadowAlpha="166" ShadowOffsetX="3.106055" ShadowOffsetY="1.382905" OutlineLength="4" OutlineAlpha="5" />
+      </Decoration>
+      <Decoration Type="ImageDecoration" PostTrans="True" Border="True">
+        <CoverageArea X="0" Y="0" Width="1" Height="1" />
+        <Image Filename="borders\vignette1.pvsi" />
+      </Decoration>
+      <PanZoom>
+        <StartArea X="0.18485" Y="0.18485" Width="0.6303" Height="0.6303" />
+        <EndArea X="0.125" Y="0.125" Width="0.75" Height="0.75" />
+        <Equation Type="Linear" />
+      </PanZoom>
+    </Slide>
+  </Slideshow>
+  <DecorationEffectsDatabase>
+    <DecorationEffect Name="QuickSlowUp" LengthSetToDecorationLength="True" MotionBlur="30">
+      <TransitionEffect Type="SimpleAlphaBlendTransitionEffect" Length="1.5" EndDelay="0.99" />
+      <Movement Type="StraightLineMovement" InitialDelay="0" EndDelay="0">
+        <Start X="0" Y="0.4" Z="0" />
+        <End X="0" Y="0" Z="0" />
+        <Equation Type="QuickSlow" />
+      </Movement>
+    </DecorationEffect>
+  </DecorationEffectsDatabase>
+</Template>

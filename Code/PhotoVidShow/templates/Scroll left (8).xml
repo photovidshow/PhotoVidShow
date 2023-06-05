@@ -1,0 +1,96 @@
+<Template Version="1.0.0" Name="Scroll left 8" Description="Scroll left 8 images&#xD;&#xA;">
+  <Slideshow>
+    <Slide Type="MultiSlideSlide" PanZoom="False" DisplayTimeLength="23.86667" UsesDefaultTransitionEffect="True" ForceMBSubFrames="30">
+      <TransitionEffect Type="SimpleAlphaBlendTransitionEffect" Length="1.5" Index="1" />
+      <Slide Type="BlankStillPictureSlide" PanZoom="False" DisplayTimeLength="5" UsesDefaultTransitionEffect="True" Color="Color [White]">
+        <TransitionEffect Type="MoveToNextSlideTransitionEffect" Direction="0" BorderFrac="0" Length="3" Index="24" />
+        <Decoration Type="ImageDecoration" Aspect="2" OriTemImageNum="1" MoveAsSlidePanZoom="True">
+          <CoverageArea X="0.0125" Y="0.02" Width="0.9775" Height="0.96" />
+          <Image Filename="image1" />
+        </Decoration>
+        <PanZoom>
+          <StartArea X="0.125" Y="0.125" Width="0.75" Height="0.75" />
+          <EndArea X="0.19505" Y="0.19505" Width="0.6099001" Height="0.6099001" />
+        </PanZoom>
+      </Slide>
+      <Slide Type="BlankStillPictureSlide" PanZoom="False" DisplayTimeLength="6" UsesDefaultTransitionEffect="True" Color="Color [White]">
+        <TransitionEffect Type="MoveToNextSlideTransitionEffect" Direction="0" BorderFrac="0" Length="3" Index="24" />
+        <Decoration Type="ImageDecoration" Aspect="2" OriTemImageNum="2" MoveAsSlidePanZoom="True">
+          <CoverageArea X="0.0125" Y="0.02" Width="0.9775" Height="0.96" />
+          <Image Filename="image2" />
+        </Decoration>
+        <PanZoom>
+          <StartArea X="0.125" Y="0.125" Width="0.75" Height="0.75" />
+          <EndArea X="0.19505" Y="0.19505" Width="0.6099001" Height="0.6099001" />
+        </PanZoom>
+      </Slide>
+      <Slide Type="BlankStillPictureSlide" PanZoom="False" DisplayTimeLength="6" UsesDefaultTransitionEffect="True" Color="Color [White]">
+        <TransitionEffect Type="MoveToNextSlideTransitionEffect" Direction="0" BorderFrac="0" Length="3" Index="24" />
+        <Decoration Type="ImageDecoration" Aspect="2" OriTemImageNum="3" MoveAsSlidePanZoom="True">
+          <CoverageArea X="0.0125" Y="0.02" Width="0.9775" Height="0.96" />
+          <Image Filename="image3" />
+        </Decoration>
+        <PanZoom>
+          <StartArea X="0.125" Y="0.125" Width="0.75" Height="0.75" />
+          <EndArea X="0.19505" Y="0.19505" Width="0.6099001" Height="0.6099001" />
+        </PanZoom>
+      </Slide>
+      <Slide Type="BlankStillPictureSlide" PanZoom="False" DisplayTimeLength="6" UsesDefaultTransitionEffect="True" Color="Color [White]">
+        <TransitionEffect Type="MoveToNextSlideTransitionEffect" Direction="0" BorderFrac="0" Length="3" Index="24" />
+        <Decoration Type="ImageDecoration" Aspect="2" OriTemImageNum="4" MoveAsSlidePanZoom="True">
+          <CoverageArea X="0.0125" Y="0.02" Width="0.9775" Height="0.96" />
+          <Image Filename="image4" />
+        </Decoration>
+        <PanZoom>
+          <StartArea X="0.125" Y="0.125" Width="0.75" Height="0.75" />
+          <EndArea X="0.19505" Y="0.19505" Width="0.6099001" Height="0.6099001" />
+        </PanZoom>
+      </Slide>
+      <Slide Type="BlankStillPictureSlide" PanZoom="False" DisplayTimeLength="6" UsesDefaultTransitionEffect="True" Color="Color [White]">
+        <TransitionEffect Type="MoveToNextSlideTransitionEffect" Direction="0" BorderFrac="0" Length="3" Index="24" />
+        <Decoration Type="ImageDecoration" Aspect="2" OriTemImageNum="5" MoveAsSlidePanZoom="True">
+          <CoverageArea X="0.0125" Y="0.02" Width="0.9775" Height="0.96" />
+          <Image Filename="image5" />
+        </Decoration>
+        <PanZoom>
+          <StartArea X="0.125" Y="0.125" Width="0.75" Height="0.75" />
+          <EndArea X="0.19505" Y="0.19505" Width="0.6099001" Height="0.6099001" />
+        </PanZoom>
+      </Slide>
+      <Slide Type="BlankStillPictureSlide" PanZoom="False" DisplayTimeLength="6" UsesDefaultTransitionEffect="True" Color="Color [White]">
+        <TransitionEffect Type="MoveToNextSlideTransitionEffect" Direction="0" BorderFrac="0" Length="3" Index="24" />
+        <Decoration Type="ImageDecoration" Aspect="2" OriTemImageNum="6" MoveAsSlidePanZoom="True">
+          <CoverageArea X="0.0125" Y="0.02" Width="0.9775" Height="0.96" />
+          <Image Filename="image6" />
+        </Decoration>
+        <PanZoom>
+          <StartArea X="0.125" Y="0.125" Width="0.75" Height="0.75" />
+          <EndArea X="0.19505" Y="0.19505" Width="0.6099001" Height="0.6099001" />
+        </PanZoom>
+      </Slide>
+      <Slide Type="BlankStillPictureSlide" PanZoom="False" DisplayTimeLength="6" UsesDefaultTransitionEffect="True" Color="Color [White]">
+        <TransitionEffect Type="MoveToNextSlideTransitionEffect" Direction="0" BorderFrac="0" Length="3" Index="24" />
+        <Decoration Type="ImageDecoration" Aspect="2" OriTemImageNum="7" MoveAsSlidePanZoom="True">
+          <CoverageArea X="0.0125" Y="0.02" Width="0.9775" Height="0.96" />
+          <Image Filename="image7" />
+        </Decoration>
+        <PanZoom>
+          <StartArea X="0.125" Y="0.125" Width="0.75" Height="0.75" />
+          <EndArea X="0.19505" Y="0.19505" Width="0.6099001" Height="0.6099001" />
+        </PanZoom>
+      </Slide>
+      <Slide Type="BlankStillPictureSlide" PanZoom="False" DisplayTimeLength="4" UsesDefaultTransitionEffect="True" Color="Color [White]">
+        <TransitionEffect Type="SimpleAlphaBlendTransitionEffect" Length="1.5" Index="1" />
+        <Decoration Type="ImageDecoration" Aspect="2" OriTemImageNum="8" MoveAsSlidePanZoom="True">
+          <CoverageArea X="0.0125" Y="0.02" Width="0.9775" Height="0.96" />
+          <Image Filename="image8" />
+        </Decoration>
+        <PanZoom>
+          <StartArea X="0.125" Y="0.125" Width="0.75" Height="0.75" />
+          <EndArea X="0.19505" Y="0.19505" Width="0.6099001" Height="0.6099001" />
+        </PanZoom>
+      </Slide>
+    </Slide>
+  </Slideshow>
+  <DecorationEffectsDatabase />
+</Template>

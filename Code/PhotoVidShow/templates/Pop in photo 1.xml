@@ -1,0 +1,51 @@
+<Template Version="1.0.0" Name="Pop in photo 1" Description="Pops in an image with a photo frame&#xD;&#xA;">
+  <Slideshow>
+    <Slide Type="BlankStillPictureSlide" PanZoom="False" DisplayTimeLength="8" UsesDefaultTransitionEffect="True" Color="Color [Black]">
+      <TransitionEffect Type="SimpleAlphaBlendTransitionEffect" Length="0.7" Index="1" />
+      <Decoration Type="VideoDecoration" VideoName="menutemplates\abstract video2.pvsv" Volume="0" GlobalPlayer="True" FlipY="True" RenderMethod="7" Background="True">
+        <CoverageArea X="0" Y="-0.0007824898" Width="1" Height="1.001565" />
+      </Decoration>
+      <Decoration Type="ImageDecoration" TemplateFramework="True" Aspect="2" StartOffsetTime="2" InEffect="PopInQuckSlowPopIn" Alpha="0.9">
+        <AlphaMap Filename="outlinemasks\smooth edge.jpg" />
+        <CoverageArea X="0.1401734" Y="0.1156812" Width="0.7384393" Height="0.7969152" />
+        <Image Filename="templates\media\black.jpg" />
+      </Decoration>
+      <Decoration Type="ImageDecoration" TemplateFramework="True" Aspect="2" StartOffsetTime="2" InEffect="PopInQuckSlowPopIn">
+        <AlphaMap Filename="outlinemasks\smooth edge.jpg" />
+        <CoverageArea X="0.13" Y="0.1" Width="0.74" Height="0.8" />
+        <Image Filename="templates\media\white.jpg" />
+      </Decoration>
+      <Decoration Type="ImageDecoration" Aspect="2" OriTemImageNum="1" StartOffsetTime="2" InEffect="PopInQuckSlowPopIn">
+        <AlphaMap Filename="outlinemasks\smooth edge.jpg" />
+        <CoverageArea X="0.1478261" Y="0.1336146" Width="0.7019763" Height="0.6577468" />
+        <Image Filename="image1" />
+      </Decoration>
+      <Decoration Type="TextDecoration" StartOffsetTime="2" InEffect="PopInQuckSlowPopIn" Text="Text1 text1 text1" TemplateEditable="1">
+        <CoverageArea X="0.3720997" Y="0.8073136" Width="0.2458401" Height="0.080681" />
+        <TextStyle FontName="Segoe UI" FontSize="23.95349" FontColor="Color [A=255, R=110, G=121, B=138]" Alignment="Center" />
+      </Decoration>
+      <Decoration Type="ColourTransformDecoration" br="0.82" bg="0.89" bb="0.92" cr="1.37" cg="1.42" cb="1.48" gamma="1">
+        <CoverageArea X="0" Y="0" Width="1" Height="1" />
+      </Decoration>
+      <Decoration Type="ImageDecoration" RenderMethod="4">
+        <CoverageArea X="0" Y="0" Width="1" Height="1" />
+        <Image Filename="filters\color mix 16(mod1x).pvsi" />
+      </Decoration>
+      <PanZoom>
+        <StartArea X="0" Y="0" Width="1" Height="1" />
+        <EndArea X="0" Y="0" Width="1" Height="1" />
+        <Equation Type="Linear" />
+      </PanZoom>
+    </Slide>
+  </Slideshow>
+  <DecorationEffectsDatabase>
+    <DecorationEffect Name="PopInQuckSlowPopIn" LengthSetToDecorationLength="True" MotionBlur="30" TemplateOnlyEffect="True">
+      <TransitionEffect Type="SimpleAlphaBlendTransitionEffect" Length="1.5" EndDelay="0.99" />
+      <Movement Type="StraightLineMovement" TranslateXY="True" InitialDelay="0" EndDelay="0">
+        <Start X="0" Y="0" Z="3" />
+        <End X="0" Y="0" Z="1" />
+        <Equation Type="QuickSlow" />
+      </Movement>
+    </DecorationEffect>
+  </DecorationEffectsDatabase>
+</Template>

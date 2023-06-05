@@ -1,0 +1,458 @@
+<Template Version="1.0.0" Name="Pinboard pan 1" Description="Pans around a pin board with 10 images&#xD;&#xA;">
+  <Slideshow>
+    <Slide Type="MultiSlideSlide" PanZoom="False" DisplayTimeLength="32.18333" UsesDefaultTransitionEffect="True" ForceMBSubFrames="30">
+      <TransitionEffect Type="MoveToNextSlideTransitionEffect" Direction="1" BorderFrac="0" Length="0.7" Index="25" />
+      <Slide Type="BlankStillPictureSlide" PanZoom="True" DisplayTimeLength="3" UsesDefaultTransitionEffect="True" Color="Color [Black]" MasterBackgroundAspect="0.7484375">
+        <TransitionEffect Type="MoveToNextSlideTransitionEffect" Direction="1" BorderFrac="0" Length="0" Index="25" />
+        <Decoration Type="GroupedDecoration" MotionBlur="False" RenderMethod="7" MoveAsSlidePanZoom="True">
+          <CoverageArea X="0" Y="0" Width="1" Height="1" />
+          <Decoration Type="ImageDecoration" DegreesRot="-17.95617" Aspect="2" OriTemImageNum="1">
+            <CoverageArea X="0.338725" Y="0.1916084" Width="0.1807877" Height="0.2377622" />
+            <Image Filename="image1" />
+          </Decoration>
+          <Decoration Type="ImageDecoration" DegreesRot="10.58732" Aspect="2" OriTemImageNum="2">
+            <CoverageArea X="0.4858491" Y="0.5188811" Width="0.1878931" Height="0.248951" />
+            <Image Filename="image2" />
+          </Decoration>
+          <Decoration Type="ColourTransformDecoration" br="1" bg="0.9" bb="0.9" cr="1.04" cg="1.05" cb="1.05" gamma="1">
+            <CoverageArea X="0" Y="0" Width="1" Height="1" />
+          </Decoration>
+          <Decoration Type="ImageDecoration" TemplateFramework="True" Aspect="3">
+            <CoverageArea X="0" Y="0" Width="1" Height="1" />
+            <Image Filename="templates\media\overlays\twopinboard.pvsi" />
+          </Decoration>
+        </Decoration>
+        <Decoration Type="ImageDecoration" PostTrans="True" Border="True">
+          <CoverageArea X="0" Y="0" Width="1" Height="1" />
+          <Image Filename="borders\vignette1.pvsi" />
+        </Decoration>
+        <PanZoom InitialDelay="0.1" EndRotation="-6.312925" PanZoomOnAll="True">
+          <StartArea X="0.2916667" Y="0.004195804" Width="0.4174528" Height="0.4167832" />
+          <EndArea X="0.302673" Y="0.158042" Width="0.3073899" Height="0.3076923" />
+          <Equation Type="NonLinear" />
+        </PanZoom>
+      </Slide>
+      <Slide Type="BlankStillPictureSlide" PanZoom="True" DisplayTimeLength="1" UsesDefaultTransitionEffect="True" Color="Color [Black]" MasterBackgroundAspect="0.7484375">
+        <TransitionEffect Type="MoveToNextSlideTransitionEffect" Direction="2" BorderFrac="0" Length="0" Index="22" />
+        <Decoration Type="GroupedDecoration" MotionBlur="False" RenderMethod="7" MoveAsSlidePanZoom="True">
+          <CoverageArea X="0" Y="0" Width="1" Height="1" />
+          <Decoration Type="ImageDecoration" DegreesRot="-17.95617" Aspect="2" OriTemImageNum="1">
+            <CoverageArea X="0.338725" Y="0.1916084" Width="0.1807877" Height="0.2377622" />
+            <Image Filename="image1" />
+          </Decoration>
+          <Decoration Type="ImageDecoration" DegreesRot="10.58732" Aspect="2" OriTemImageNum="2">
+            <CoverageArea X="0.4858491" Y="0.5188811" Width="0.1878931" Height="0.248951" />
+            <Image Filename="image2" />
+          </Decoration>
+          <Decoration Type="ColourTransformDecoration" br="1" bg="0.9" bb="0.9" cr="1.04" cg="1.05" cb="1.05" gamma="1">
+            <CoverageArea X="0" Y="0" Width="1" Height="1" />
+          </Decoration>
+          <Decoration Type="ImageDecoration" TemplateFramework="True" Aspect="3">
+            <CoverageArea X="0" Y="0" Width="1" Height="1" />
+            <Image Filename="templates\media\overlays\twopinboard.pvsi" />
+          </Decoration>
+        </Decoration>
+        <Decoration Type="ImageDecoration" PostTrans="True" Border="True">
+          <CoverageArea X="0" Y="0" Width="1" Height="1" />
+          <Image Filename="borders\vignette1.pvsi" />
+        </Decoration>
+        <PanZoom StartRotation="-6.312925" EndRotation="0.3005648" PanZoomOnAll="True">
+          <StartArea X="0.302673" Y="0.158042" Width="0.3073899" Height="0.3076923" />
+          <EndArea X="0.3596838" Y="0.4655415" Width="0.3328063" Height="0.3328063" />
+          <Equation Type="NonLinear" />
+        </PanZoom>
+      </Slide>
+      <Slide Type="BlankStillPictureSlide" PanZoom="True" DisplayTimeLength="3" UsesDefaultTransitionEffect="True" Color="Color [Black]" MasterBackgroundAspect="0.7484375">
+        <TransitionEffect Type="MoveToNextSlideTransitionEffect" Direction="2" BorderFrac="0" Length="0.7" Index="22" />
+        <Decoration Type="GroupedDecoration" MotionBlur="False" RenderMethod="7" MoveAsSlidePanZoom="True">
+          <CoverageArea X="0" Y="0" Width="1" Height="1" />
+          <Decoration Type="ImageDecoration" DegreesRot="-17.95617" Aspect="2" OriTemImageNum="1">
+            <CoverageArea X="0.338725" Y="0.1916084" Width="0.1807877" Height="0.2377622" />
+            <Image Filename="image1" />
+          </Decoration>
+          <Decoration Type="ImageDecoration" DegreesRot="10.58732" Aspect="2" OriTemImageNum="2">
+            <CoverageArea X="0.4858491" Y="0.5188811" Width="0.1878931" Height="0.248951" />
+            <Image Filename="image2" />
+          </Decoration>
+          <Decoration Type="ColourTransformDecoration" br="1" bg="0.9" bb="0.9" cr="1.04" cg="1.05" cb="1.05" gamma="1">
+            <CoverageArea X="0" Y="0" Width="1" Height="1" />
+          </Decoration>
+          <Decoration Type="ImageDecoration" TemplateFramework="True" Aspect="3">
+            <CoverageArea X="0" Y="0" Width="1" Height="1" />
+            <Image Filename="templates\media\overlays\twopinboard.pvsi" />
+          </Decoration>
+        </Decoration>
+        <Decoration Type="ImageDecoration" PostTrans="True" Border="True">
+          <CoverageArea X="0" Y="0" Width="1" Height="1" />
+          <Image Filename="borders\vignette1.pvsi" />
+        </Decoration>
+        <PanZoom EndDelay="0.89" StartRotation="0.3005648" EndRotation="10.10504" PanZoomOnAll="True">
+          <StartArea X="0.3596838" Y="0.4655415" Width="0.3328063" Height="0.3328063" />
+          <EndArea X="0.3600629" Y="0.4657343" Width="0.3333333" Height="0.3328671" />
+          <Equation Type="NonLinear" />
+        </PanZoom>
+      </Slide>
+      <Slide Type="BlankStillPictureSlide" PanZoom="True" DisplayTimeLength="3" UsesDefaultTransitionEffect="True" Color="Color [Black]" MasterBackgroundAspect="0.7484375">
+        <TransitionEffect Type="MoveToNextSlideTransitionEffect" Direction="1" BorderFrac="0" Length="0" Index="25" />
+        <Decoration Type="GroupedDecoration" MotionBlur="False" RenderMethod="7" MoveAsSlidePanZoom="True">
+          <CoverageArea X="0" Y="0" Width="1" Height="1" />
+          <Decoration Type="ImageDecoration" DegreesRot="17.42544" Aspect="2" OriTemImageNum="3">
+            <CoverageArea X="0.4827044" Y="0.193007" Width="0.1784591" Height="0.2363636" />
+            <Image Filename="image3" />
+          </Decoration>
+          <Decoration Type="ImageDecoration" DegreesRot="-10.38886" Aspect="2" OriTemImageNum="4">
+            <CoverageArea X="0.3294025" Y="0.5202797" Width="0.1839623" Height="0.2433566" />
+            <Image Filename="image4" />
+          </Decoration>
+          <Decoration Type="ColourTransformDecoration" br="1" bg="0.9" bb="0.9" cr="1.04" cg="1.05" cb="1.05" gamma="1">
+            <CoverageArea X="0" Y="0" Width="1" Height="1" />
+          </Decoration>
+          <Decoration Type="ImageDecoration" FlipX="True" TemplateFramework="True" Aspect="3">
+            <CoverageArea X="0" Y="0" Width="1" Height="1" />
+            <Image Filename="templates\media\overlays\twopinboard.pvsi" />
+          </Decoration>
+        </Decoration>
+        <Decoration Type="ImageDecoration" PostTrans="True" Border="True">
+          <CoverageArea X="0" Y="0" Width="1" Height="1" />
+          <Image Filename="borders\vignette1.pvsi" />
+        </Decoration>
+        <PanZoom InitialDelay="0.09" StartRotation="5.079701" EndRotation="10.39264" PanZoomOnAll="True">
+          <StartArea X="0.3058176" Y="0.03216783" Width="0.3828616" Height="0.3818182" />
+          <EndArea X="0.3427673" Y="0.1202797" Width="0.3490566" Height="0.3482518" />
+          <Equation Type="NonLinear" />
+        </PanZoom>
+      </Slide>
+      <Slide Type="BlankStillPictureSlide" PanZoom="True" DisplayTimeLength="1" UsesDefaultTransitionEffect="True" Color="Color [Black]" MasterBackgroundAspect="0.7484375">
+        <TransitionEffect Type="MoveToNextSlideTransitionEffect" Direction="1" BorderFrac="0" Length="0" Index="25" />
+        <Decoration Type="GroupedDecoration" MotionBlur="False" RenderMethod="7" MoveAsSlidePanZoom="True">
+          <CoverageArea X="0" Y="0" Width="1" Height="1" />
+          <Decoration Type="ImageDecoration" DegreesRot="17.42544" Aspect="2" OriTemImageNum="3">
+            <CoverageArea X="0.4827044" Y="0.193007" Width="0.1784591" Height="0.2363636" />
+            <Image Filename="image3" />
+          </Decoration>
+          <Decoration Type="ImageDecoration" DegreesRot="-10.38886" Aspect="2" OriTemImageNum="4">
+            <CoverageArea X="0.3294025" Y="0.5202797" Width="0.1839623" Height="0.2433566" />
+            <Image Filename="image4" />
+          </Decoration>
+          <Decoration Type="ColourTransformDecoration" br="1" bg="0.9" bb="0.9" cr="1.04" cg="1.05" cb="1.05" gamma="1">
+            <CoverageArea X="0" Y="0" Width="1" Height="1" />
+          </Decoration>
+          <Decoration Type="ImageDecoration" FlipX="True" TemplateFramework="True" Aspect="3">
+            <CoverageArea X="0" Y="0" Width="1" Height="1" />
+            <Image Filename="templates\media\overlays\twopinboard.pvsi" />
+          </Decoration>
+        </Decoration>
+        <Decoration Type="ImageDecoration" PostTrans="True" Border="True">
+          <CoverageArea X="0" Y="0" Width="1" Height="1" />
+          <Image Filename="borders\vignette1.pvsi" />
+        </Decoration>
+        <PanZoom InitialDelay="0.05" StartRotation="10.39264" EndRotation="7.188284" PanZoomOnAll="True">
+          <StartArea X="0.3427673" Y="0.1202797" Width="0.3490566" Height="0.3482518" />
+          <EndArea X="0.3075099" Y="0.4936709" Width="0.3106719" Height="0.310672" />
+          <Equation Type="NonLinear" />
+        </PanZoom>
+      </Slide>
+      <Slide Type="BlankStillPictureSlide" PanZoom="True" DisplayTimeLength="3" UsesDefaultTransitionEffect="True" Color="Color [Black]" MasterBackgroundAspect="0.7484375">
+        <TransitionEffect Type="MoveToNextSlideTransitionEffect" Direction="1" BorderFrac="0" Length="0.7" Index="25" />
+        <Decoration Type="GroupedDecoration" MotionBlur="False" RenderMethod="7" MoveAsSlidePanZoom="True">
+          <CoverageArea X="0" Y="0" Width="1" Height="1" />
+          <Decoration Type="ImageDecoration" DegreesRot="17.42544" Aspect="2" OriTemImageNum="3">
+            <CoverageArea X="0.4827044" Y="0.193007" Width="0.1784591" Height="0.2363636" />
+            <Image Filename="image3" />
+          </Decoration>
+          <Decoration Type="ImageDecoration" DegreesRot="-10.38886" Aspect="2" OriTemImageNum="4">
+            <CoverageArea X="0.3294025" Y="0.5202797" Width="0.1839623" Height="0.2433566" />
+            <Image Filename="image4" />
+          </Decoration>
+          <Decoration Type="ColourTransformDecoration" br="1" bg="0.9" bb="0.9" cr="1.04" cg="1.05" cb="1.05" gamma="1">
+            <CoverageArea X="0" Y="0" Width="1" Height="1" />
+          </Decoration>
+          <Decoration Type="ImageDecoration" FlipX="True" TemplateFramework="True" Aspect="3">
+            <CoverageArea X="0" Y="0" Width="1" Height="1" />
+            <Image Filename="templates\media\overlays\twopinboard.pvsi" />
+          </Decoration>
+        </Decoration>
+        <Decoration Type="ImageDecoration" PostTrans="True" Border="True">
+          <CoverageArea X="0" Y="0" Width="1" Height="1" />
+          <Image Filename="borders\vignette1.pvsi" />
+        </Decoration>
+        <PanZoom InitialDelay="0.05" EndDelay="0.81" StartRotation="7.188284" EndRotation="-6.814462" PanZoomOnAll="True">
+          <StartArea X="0.3075099" Y="0.4936709" Width="0.3106719" Height="0.310672" />
+          <EndArea X="0.2995283" Y="0.4895105" Width="0.2767296" Height="0.2769231" />
+          <Equation Type="NonLinear" />
+        </PanZoom>
+      </Slide>
+      <Slide Type="BlankStillPictureSlide" PanZoom="True" DisplayTimeLength="3" UsesDefaultTransitionEffect="True" Color="Color [Black]" MasterBackgroundAspect="0.7484375">
+        <TransitionEffect Type="MoveToNextSlideTransitionEffect" Direction="1" BorderFrac="0" Length="0" Index="25" />
+        <Decoration Type="GroupedDecoration" MotionBlur="False" RenderMethod="7" MoveAsSlidePanZoom="True">
+          <CoverageArea X="0" Y="0" Width="1" Height="1" />
+          <Decoration Type="ImageDecoration" DegreesRot="-17.8787" Aspect="2" OriTemImageNum="5">
+            <CoverageArea X="0.3388365" Y="0.1944056" Width="0.177673" Height="0.234965" />
+            <Image Filename="image5" />
+          </Decoration>
+          <Decoration Type="ImageDecoration" DegreesRot="10.22901" Aspect="2" OriTemImageNum="6">
+            <CoverageArea X="0.4889937" Y="0.5188811" Width="0.1839623" Height="0.241958" />
+            <Image Filename="image6" />
+          </Decoration>
+          <Decoration Type="ColourTransformDecoration" br="1" bg="0.9" bb="0.9" cr="1.04" cg="1.05" cb="1.05" gamma="1">
+            <CoverageArea X="0" Y="0" Width="1" Height="1" />
+          </Decoration>
+          <Decoration Type="ImageDecoration" TemplateFramework="True" Aspect="3">
+            <CoverageArea X="0" Y="0" Width="1" Height="1" />
+            <Image Filename="templates\media\overlays\twopinboard.pvsi" />
+          </Decoration>
+        </Decoration>
+        <Decoration Type="ImageDecoration" PostTrans="True" Border="True">
+          <CoverageArea X="0" Y="0" Width="1" Height="1" />
+          <Image Filename="borders\vignette1.pvsi" />
+        </Decoration>
+        <PanZoom InitialDelay="0.21" StartRotation="-6.814462" EndRotation="-14.77514" PanZoomOnAll="True">
+          <StartArea X="0.3035573" Y="0.07032349" Width="0.3486166" Height="0.3488045" />
+          <EndArea X="0.315415" Y="0.1181435" Width="0.3486166" Height="0.347398" />
+          <Equation Type="Linear" />
+        </PanZoom>
+      </Slide>
+      <Slide Type="BlankStillPictureSlide" PanZoom="True" DisplayTimeLength="1" UsesDefaultTransitionEffect="True" Color="Color [Black]" MasterBackgroundAspect="0.7484375">
+        <TransitionEffect Type="MoveToNextSlideTransitionEffect" Direction="2" BorderFrac="0" Length="0" Index="22" />
+        <Decoration Type="GroupedDecoration" MotionBlur="False" RenderMethod="7" MoveAsSlidePanZoom="True">
+          <CoverageArea X="0" Y="0" Width="1" Height="1" />
+          <Decoration Type="ImageDecoration" DegreesRot="-17.8787" Aspect="2" OriTemImageNum="5">
+            <CoverageArea X="0.3388365" Y="0.1944056" Width="0.177673" Height="0.234965" />
+            <Image Filename="image5" />
+          </Decoration>
+          <Decoration Type="ImageDecoration" DegreesRot="10.22901" Aspect="2" OriTemImageNum="6">
+            <CoverageArea X="0.4889937" Y="0.5188811" Width="0.1839623" Height="0.241958" />
+            <Image Filename="image6" />
+          </Decoration>
+          <Decoration Type="ColourTransformDecoration" br="1" bg="0.9" bb="0.9" cr="1.04" cg="1.05" cb="1.05" gamma="1">
+            <CoverageArea X="0" Y="0" Width="1" Height="1" />
+          </Decoration>
+          <Decoration Type="ImageDecoration" TemplateFramework="True" Aspect="3">
+            <CoverageArea X="0" Y="0" Width="1" Height="1" />
+            <Image Filename="templates\media\overlays\twopinboard.pvsi" />
+          </Decoration>
+        </Decoration>
+        <Decoration Type="ImageDecoration" PostTrans="True" Border="True">
+          <CoverageArea X="0" Y="0" Width="1" Height="1" />
+          <Image Filename="borders\vignette1.pvsi" />
+        </Decoration>
+        <PanZoom StartRotation="-14.77514" EndRotation="-14.79511" PanZoomOnAll="True">
+          <StartArea X="0.315415" Y="0.1181435" Width="0.3486166" Height="0.347398" />
+          <EndArea X="0.3612648" Y="0.4725738" Width="0.3296443" Height="0.3296443" />
+          <Equation Type="NonLinear" />
+        </PanZoom>
+      </Slide>
+      <Slide Type="BlankStillPictureSlide" PanZoom="True" DisplayTimeLength="3" UsesDefaultTransitionEffect="True" Color="Color [Black]" MasterBackgroundAspect="0.7484375">
+        <TransitionEffect Type="MoveToNextSlideTransitionEffect" Direction="2" BorderFrac="0" Length="0.7" Index="22" />
+        <Decoration Type="GroupedDecoration" MotionBlur="False" RenderMethod="7" MoveAsSlidePanZoom="True">
+          <CoverageArea X="0" Y="0" Width="1" Height="1" />
+          <Decoration Type="ImageDecoration" DegreesRot="-17.8787" Aspect="2" OriTemImageNum="5">
+            <CoverageArea X="0.3388365" Y="0.1944056" Width="0.177673" Height="0.234965" />
+            <Image Filename="image5" />
+          </Decoration>
+          <Decoration Type="ImageDecoration" DegreesRot="10.22901" Aspect="2" OriTemImageNum="6">
+            <CoverageArea X="0.4889937" Y="0.5188811" Width="0.1839623" Height="0.241958" />
+            <Image Filename="image6" />
+          </Decoration>
+          <Decoration Type="ColourTransformDecoration" br="1" bg="0.9" bb="0.9" cr="1.04" cg="1.05" cb="1.05" gamma="1">
+            <CoverageArea X="0" Y="0" Width="1" Height="1" />
+          </Decoration>
+          <Decoration Type="ImageDecoration" TemplateFramework="True" Aspect="3">
+            <CoverageArea X="0" Y="0" Width="1" Height="1" />
+            <Image Filename="templates\media\overlays\twopinboard.pvsi" />
+          </Decoration>
+        </Decoration>
+        <Decoration Type="ImageDecoration" PostTrans="True" Border="True">
+          <CoverageArea X="0" Y="0" Width="1" Height="1" />
+          <Image Filename="borders\vignette1.pvsi" />
+        </Decoration>
+        <PanZoom EndDelay="0.9" StartRotation="-14.79511" EndRotation="2.488406" PanZoomOnAll="True">
+          <StartArea X="0.3612648" Y="0.4725738" Width="0.3296443" Height="0.3296443" />
+          <EndArea X="0.3616352" Y="0.4727273" Width="0.3301887" Height="0.3300699" />
+          <Equation Type="Linear" />
+        </PanZoom>
+      </Slide>
+      <Slide Type="BlankStillPictureSlide" PanZoom="True" DisplayTimeLength="3" UsesDefaultTransitionEffect="True" Color="Color [Black]" MasterBackgroundAspect="0.7484375">
+        <TransitionEffect Type="MoveToNextSlideTransitionEffect" Direction="1" BorderFrac="0" Length="0" Index="25" />
+        <Decoration Type="GroupedDecoration" MotionBlur="False" RenderMethod="7" MoveAsSlidePanZoom="True">
+          <CoverageArea X="0" Y="0" Width="1" Height="1" />
+          <Decoration Type="ImageDecoration" DegreesRot="-17.8787" Aspect="2" OriTemImageNum="7">
+            <CoverageArea X="0.3388365" Y="0.1944056" Width="0.177673" Height="0.234965" />
+            <Image Filename="image7" />
+          </Decoration>
+          <Decoration Type="ImageDecoration" DegreesRot="10.22901" Aspect="2" OriTemImageNum="8">
+            <CoverageArea X="0.4889937" Y="0.5188811" Width="0.1839623" Height="0.241958" />
+            <Image Filename="image8" />
+          </Decoration>
+          <Decoration Type="ColourTransformDecoration" br="1" bg="0.9" bb="0.9" cr="1.04" cg="1.05" cb="1.05" gamma="1">
+            <CoverageArea X="0" Y="0" Width="1" Height="1" />
+          </Decoration>
+          <Decoration Type="ImageDecoration" TemplateFramework="True" Aspect="3">
+            <CoverageArea X="0" Y="0" Width="1" Height="1" />
+            <Image Filename="templates\media\overlays\twopinboard.pvsi" />
+          </Decoration>
+        </Decoration>
+        <Decoration Type="ImageDecoration" PostTrans="True" Border="True">
+          <CoverageArea X="0" Y="0" Width="1" Height="1" />
+          <Image Filename="borders\vignette1.pvsi" />
+        </Decoration>
+        <PanZoom InitialDelay="0.1" EndRotation="2.488406" PanZoomOnAll="True">
+          <StartArea X="0.3451258" Y="0" Width="0.3191824" Height="0.3191824" />
+          <EndArea X="0.2971698" Y="0.1496504" Width="0.3812893" Height="0.3818182" />
+          <Equation Type="Linear" />
+        </PanZoom>
+      </Slide>
+      <Slide Type="BlankStillPictureSlide" PanZoom="True" DisplayTimeLength="1" UsesDefaultTransitionEffect="True" Color="Color [Black]" MasterBackgroundAspect="0.7484375">
+        <TransitionEffect Type="MoveToNextSlideTransitionEffect" Direction="1" BorderFrac="0" Length="0" Index="25" />
+        <Decoration Type="GroupedDecoration" MotionBlur="False" RenderMethod="7" MoveAsSlidePanZoom="True">
+          <CoverageArea X="0" Y="0" Width="1" Height="1" />
+          <Decoration Type="ImageDecoration" DegreesRot="-17.8787" Aspect="2" OriTemImageNum="7">
+            <CoverageArea X="0.3388365" Y="0.1944056" Width="0.177673" Height="0.234965" />
+            <Image Filename="image7" />
+          </Decoration>
+          <Decoration Type="ImageDecoration" DegreesRot="10.22901" Aspect="2" OriTemImageNum="8">
+            <CoverageArea X="0.4889937" Y="0.5188811" Width="0.1839623" Height="0.241958" />
+            <Image Filename="image8" />
+          </Decoration>
+          <Decoration Type="ColourTransformDecoration" br="1" bg="0.9" bb="0.9" cr="1.04" cg="1.05" cb="1.05" gamma="1">
+            <CoverageArea X="0" Y="0" Width="1" Height="1" />
+          </Decoration>
+          <Decoration Type="ImageDecoration" TemplateFramework="True" Aspect="3">
+            <CoverageArea X="0" Y="0" Width="1" Height="1" />
+            <Image Filename="templates\media\overlays\twopinboard.pvsi" />
+          </Decoration>
+        </Decoration>
+        <Decoration Type="ImageDecoration" PostTrans="True" Border="True">
+          <CoverageArea X="0" Y="0" Width="1" Height="1" />
+          <Image Filename="borders\vignette1.pvsi" />
+        </Decoration>
+        <PanZoom StartRotation="2.488406" EndRotation="3.770977" PanZoomOnAll="True">
+          <StartArea X="0.2971698" Y="0.1496504" Width="0.3812893" Height="0.3818182" />
+          <EndArea X="0.3573123" Y="0.4416315" Width="0.3320158" Height="0.3320158" />
+          <Equation Type="NonLinear" />
+        </PanZoom>
+      </Slide>
+      <Slide Type="BlankStillPictureSlide" PanZoom="True" DisplayTimeLength="3" UsesDefaultTransitionEffect="True" Color="Color [Black]" MasterBackgroundAspect="0.7484375">
+        <TransitionEffect Type="MoveToNextSlideTransitionEffect" Direction="1" BorderFrac="0" Length="0.7" Index="25" />
+        <Decoration Type="GroupedDecoration" MotionBlur="False" RenderMethod="7" MoveAsSlidePanZoom="True">
+          <CoverageArea X="0" Y="0" Width="1" Height="1" />
+          <Decoration Type="ImageDecoration" DegreesRot="-17.8787" Aspect="2" OriTemImageNum="7">
+            <CoverageArea X="0.3388365" Y="0.1944056" Width="0.177673" Height="0.234965" />
+            <Image Filename="image7" />
+          </Decoration>
+          <Decoration Type="ImageDecoration" DegreesRot="10.22901" Aspect="2" OriTemImageNum="8">
+            <CoverageArea X="0.4889937" Y="0.5188811" Width="0.1839623" Height="0.241958" />
+            <Image Filename="image8" />
+          </Decoration>
+          <Decoration Type="ColourTransformDecoration" br="1" bg="0.9" bb="0.9" cr="1.04" cg="1.05" cb="1.05" gamma="1">
+            <CoverageArea X="0" Y="0" Width="1" Height="1" />
+          </Decoration>
+          <Decoration Type="ImageDecoration" TemplateFramework="True" Aspect="3">
+            <CoverageArea X="0" Y="0" Width="1" Height="1" />
+            <Image Filename="templates\media\overlays\twopinboard.pvsi" />
+          </Decoration>
+        </Decoration>
+        <Decoration Type="ImageDecoration" PostTrans="True" Border="True">
+          <CoverageArea X="0" Y="0" Width="1" Height="1" />
+          <Image Filename="borders\vignette1.pvsi" />
+        </Decoration>
+        <PanZoom EndDelay="0.8" StartRotation="3.770977" EndRotation="10.848" PanZoomOnAll="True">
+          <StartArea X="0.3573123" Y="0.4416315" Width="0.3320158" Height="0.3320158" />
+          <EndArea X="0.3577044" Y="0.441958" Width="0.3325472" Height="0.3314685" />
+          <Equation Type="Linear" />
+        </PanZoom>
+      </Slide>
+      <Slide Type="BlankStillPictureSlide" PanZoom="True" DisplayTimeLength="3" UsesDefaultTransitionEffect="True" Color="Color [Black]" MasterBackgroundAspect="0.7484375">
+        <TransitionEffect Type="MoveToNextSlideTransitionEffect" Direction="1" BorderFrac="0" Length="0" Index="25" />
+        <Decoration Type="GroupedDecoration" MotionBlur="False" RenderMethod="7" MoveAsSlidePanZoom="True">
+          <CoverageArea X="0" Y="0" Width="1" Height="1" />
+          <Decoration Type="ImageDecoration" DegreesRot="-107.8189" Aspect="2" OriTemImageNum="9">
+            <CoverageArea X="0.2366352" Y="0.5146853" Width="0.2460692" Height="0.3216783" />
+            <Image Filename="image9" />
+          </Decoration>
+          <Decoration Type="ImageDecoration" DegreesRot="-79.69515" Aspect="2" OriTemImageNum="10">
+            <CoverageArea X="0.4803459" Y="0.1426573" Width="0.2531447" Height="0.3300699" />
+            <Image Filename="image10" />
+          </Decoration>
+          <Decoration Type="ColourTransformDecoration" br="1" bg="0.9" bb="0.9" cr="1.04" cg="1.05" cb="1.05" gamma="1">
+            <CoverageArea X="0" Y="0" Width="1" Height="1" />
+          </Decoration>
+          <Decoration Type="ImageDecoration" Rotate="270" TemplateFramework="True" Aspect="3">
+            <CoverageArea X="0" Y="0" Width="1" Height="1" />
+            <Image Filename="templates\media\overlays\twopinboard.pvsi" />
+          </Decoration>
+        </Decoration>
+        <Decoration Type="ImageDecoration" PostTrans="True" Border="True">
+          <CoverageArea X="0" Y="0" Width="1" Height="1" />
+          <Image Filename="borders\vignette1.pvsi" />
+        </Decoration>
+        <PanZoom InitialDelay="0.2" StartRotation="-169.7551" EndRotation="-106.4763" PanZoomOnAll="True">
+          <StartArea X="0.2901186" Y="0.5105485" Width="0.3802372" Height="0.3797468" />
+          <EndArea X="0.1075099" Y="0.2967651" Width="0.4490119" Height="0.4486639" />
+          <Equation Type="NonLinear" />
+        </PanZoom>
+      </Slide>
+      <Slide Type="BlankStillPictureSlide" PanZoom="True" DisplayTimeLength="1" UsesDefaultTransitionEffect="True" Color="Color [Black]" MasterBackgroundAspect="0.7484375">
+        <TransitionEffect Type="MoveToNextSlideTransitionEffect" Direction="1" BorderFrac="0" Length="0" Index="25" />
+        <Decoration Type="GroupedDecoration" MotionBlur="False" RenderMethod="7" MoveAsSlidePanZoom="True">
+          <CoverageArea X="0" Y="0" Width="1" Height="1" />
+          <Decoration Type="ImageDecoration" DegreesRot="-107.8189" Aspect="2" OriTemImageNum="9">
+            <CoverageArea X="0.2366352" Y="0.5146853" Width="0.2460692" Height="0.3216783" />
+            <Image Filename="image9" />
+          </Decoration>
+          <Decoration Type="ImageDecoration" DegreesRot="-79.69515" Aspect="2" OriTemImageNum="10">
+            <CoverageArea X="0.4803459" Y="0.1426573" Width="0.2531447" Height="0.3300699" />
+            <Image Filename="image10" />
+          </Decoration>
+          <Decoration Type="ColourTransformDecoration" br="1" bg="0.9" bb="0.9" cr="1.04" cg="1.05" cb="1.05" gamma="1">
+            <CoverageArea X="0" Y="0" Width="1" Height="1" />
+          </Decoration>
+          <Decoration Type="ImageDecoration" Rotate="270" TemplateFramework="True" Aspect="3">
+            <CoverageArea X="0" Y="0" Width="1" Height="1" />
+            <Image Filename="templates\media\overlays\twopinboard.pvsi" />
+          </Decoration>
+        </Decoration>
+        <Decoration Type="ImageDecoration" PostTrans="True" Border="True">
+          <CoverageArea X="0" Y="0" Width="1" Height="1" />
+          <Image Filename="borders\vignette1.pvsi" />
+        </Decoration>
+        <PanZoom StartRotation="-106.4763" EndRotation="-96.60375" PanZoomOnAll="True">
+          <StartArea X="0.1075099" Y="0.2967651" Width="0.4490119" Height="0.4486639" />
+          <EndArea X="0.3383399" Y="0.2376934" Width="0.5130435" Height="0.511955" />
+          <Equation Type="NonLinear" />
+        </PanZoom>
+      </Slide>
+      <Slide Type="BlankStillPictureSlide" PanZoom="True" DisplayTimeLength="3" UsesDefaultTransitionEffect="True" Color="Color [Black]" MasterBackgroundAspect="0.7484375">
+        <TransitionEffect Type="MoveToNextSlideTransitionEffect" Direction="1" BorderFrac="0" Length="0.7" Index="25" />
+        <Decoration Type="GroupedDecoration" MotionBlur="False" RenderMethod="7" MoveAsSlidePanZoom="True">
+          <CoverageArea X="0" Y="0" Width="1" Height="1" />
+          <Decoration Type="ImageDecoration" DegreesRot="-107.8189" Aspect="2" OriTemImageNum="9">
+            <CoverageArea X="0.2366352" Y="0.5146853" Width="0.2460692" Height="0.3216783" />
+            <Image Filename="image9" />
+          </Decoration>
+          <Decoration Type="ImageDecoration" DegreesRot="-79.69515" Aspect="2" OriTemImageNum="10">
+            <CoverageArea X="0.4803459" Y="0.1426573" Width="0.2531447" Height="0.3300699" />
+            <Image Filename="image10" />
+          </Decoration>
+          <Decoration Type="ColourTransformDecoration" br="1" bg="0.9" bb="0.9" cr="1.04" cg="1.05" cb="1.05" gamma="1">
+            <CoverageArea X="0" Y="0" Width="1" Height="1" />
+          </Decoration>
+          <Decoration Type="ImageDecoration" Rotate="270" TemplateFramework="True" Aspect="3">
+            <CoverageArea X="0" Y="0" Width="1" Height="1" />
+            <Image Filename="templates\media\overlays\twopinboard.pvsi" />
+          </Decoration>
+        </Decoration>
+        <Decoration Type="ImageDecoration" PostTrans="True" Border="True">
+          <CoverageArea X="0" Y="0" Width="1" Height="1" />
+          <Image Filename="borders\vignette1.pvsi" />
+        </Decoration>
+        <PanZoom EndDelay="0.9" StartRotation="-96.60375" EndRotation="-90" PanZoomOnAll="True">
+          <StartArea X="0.3383399" Y="0.2376934" Width="0.5130435" Height="0.511955" />
+          <EndArea X="0.3238994" Y="0.2167832" Width="0.5542453" Height="0.5538462" />
+          <Equation Type="Linear" />
+        </PanZoom>
+      </Slide>
+    </Slide>
+  </Slideshow>
+  <DecorationEffectsDatabase />
+</Template>

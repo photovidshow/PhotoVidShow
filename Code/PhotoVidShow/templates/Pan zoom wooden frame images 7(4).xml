@@ -1,0 +1,164 @@
+<Template Version="1.0.0" Name="Pan zoom 4 images 7" Description="Pans and zooms around 4 images with a wooden background">
+  <Slideshow>
+    <Slide Type="MultiSlideSlide" PanZoom="False" DisplayTimeLength="12.98333" UsesDefaultTransitionEffect="True" ForceMBSubFrames="15">
+      <TransitionEffect Type="SimpleAlphaBlendTransitionEffect" Length="0.5" Index="1" />
+      <Slide Type="BlankStillPictureSlide" PanZoom="True" DisplayTimeLength="3" UsesDefaultTransitionEffect="True" ForceMBSubFrames="15" MasterBackgroundAspect="1.502817" Color="Color [Black]">
+        <TransitionEffect Type="SimpleAlphaBlendTransitionEffect" Length="0" Index="1" />
+        <Decoration Type="GroupedDecoration" MotionBlur="False" RenderMethod="7" MoveAsSlidePanZoom="True">
+          <CoverageArea X="0" Y="0" Width="1" Height="1" />
+          <Decoration Type="ImageDecoration" FlipX="True" FlipY="True" TemplateFramework="True" Aspect="3" Mask="True">
+            <CoverageArea X="0" Y="0" Width="1" Height="1" />
+            <Image Filename="templates\media\overlays\masks\fourimagemask.png" />
+          </Decoration>
+          <Decoration Type="ImageDecoration" DegreesRot="-7.907163" RenderMethod="8" Aspect="2" OriTemImageNum="4">
+            <CoverageArea X="0.5683795" Y="0.4697609" Width="0.2932806" Height="0.3094234" />
+            <Image Filename="image4" />
+          </Decoration>
+          <Decoration Type="ImageDecoration" DegreesRot="5.165241" RenderMethod="9" Aspect="2" OriTemImageNum="3">
+            <CoverageArea X="0.512253" Y="0.1420534" Width="0.2608696" Height="0.3052039" />
+            <Image Filename="image3" />
+          </Decoration>
+          <Decoration Type="ImageDecoration" DegreesRot="11" RenderMethod="10" Aspect="2" OriTemImageNum="1">
+            <CoverageArea X="0.4150198" Y="0.3094234" Width="0.1699605" Height="0.4331927" />
+            <Image Filename="image1" />
+          </Decoration>
+          <Decoration Type="ImageDecoration" Rotate="90" DegreesRot="-65.34058" RenderMethod="11" Aspect="2" OriTemImageNum="2">
+            <CoverageArea X="0.1130435" Y="0.2700422" Width="0.3992095" Height="0.4317862" />
+            <Image Filename="image2" />
+          </Decoration>
+          <Decoration Type="ImageDecoration" FlipX="True" FlipY="True" TemplateFramework="True" Aspect="3">
+            <CoverageArea X="0" Y="0" Width="1" Height="1" />
+            <Image Filename="templates\media\overlays\fourimageframe.pvsi" />
+          </Decoration>
+        </Decoration>
+        <Decoration Type="ImageDecoration" Border="True">
+          <CoverageArea X="0" Y="0" Width="1" Height="1" />
+          <Image Filename="borders\vignette1.pvsi" />
+        </Decoration>
+        <PanZoom EndRotation="3.930879" PanZoomOnAll="True">
+          <StartArea X="0.3249012" Y="0.5991561" Width="0.3288538" Height="0.3277074" />
+          <EndArea X="0.3288538" Y="0.3009845" Width="0.3612648" Height="0.3614627" />
+          <Equation Type="NonLinear" />
+        </PanZoom>
+      </Slide>
+      <Slide Type="BlankStillPictureSlide" PanZoom="True" DisplayTimeLength="3" UsesDefaultTransitionEffect="True" ForceMBSubFrames="15" MasterBackgroundAspect="1.502817" Color="Color [Black]">
+        <TransitionEffect Type="SimpleAlphaBlendTransitionEffect" Length="0" Index="1" />
+        <Decoration Type="GroupedDecoration" MotionBlur="False" RenderMethod="7" MoveAsSlidePanZoom="True">
+          <CoverageArea X="0" Y="0" Width="1" Height="1" />
+          <Decoration Type="ImageDecoration" FlipX="True" FlipY="True" TemplateFramework="True" Aspect="3" Mask="True">
+            <CoverageArea X="0" Y="0" Width="1" Height="1" />
+            <Image Filename="templates\media\overlays\masks\fourimagemask.png" />
+          </Decoration>
+          <Decoration Type="ImageDecoration" DegreesRot="-7.907163" RenderMethod="8" Aspect="2" OriTemImageNum="4">
+            <CoverageArea X="0.5683795" Y="0.4697609" Width="0.2932806" Height="0.3094234" />
+            <Image Filename="image4" />
+          </Decoration>
+          <Decoration Type="ImageDecoration" DegreesRot="5.165241" RenderMethod="9" Aspect="2" OriTemImageNum="3">
+            <CoverageArea X="0.512253" Y="0.1420534" Width="0.2608696" Height="0.3052039" />
+            <Image Filename="image3" />
+          </Decoration>
+          <Decoration Type="ImageDecoration" DegreesRot="11" RenderMethod="10" Aspect="2" OriTemImageNum="1">
+            <CoverageArea X="0.4150198" Y="0.3094234" Width="0.1699605" Height="0.4331927" />
+            <Image Filename="image1" />
+          </Decoration>
+          <Decoration Type="ImageDecoration" Rotate="90" DegreesRot="-65.34058" RenderMethod="11" Aspect="2" OriTemImageNum="2">
+            <CoverageArea X="0.1130435" Y="0.2700422" Width="0.3992095" Height="0.4317862" />
+            <Image Filename="image2" />
+          </Decoration>
+          <Decoration Type="ImageDecoration" FlipX="True" FlipY="True" TemplateFramework="True" Aspect="3">
+            <CoverageArea X="0" Y="0" Width="1" Height="1" />
+            <Image Filename="templates\media\overlays\fourimageframe.pvsi" />
+          </Decoration>
+        </Decoration>
+        <Decoration Type="ImageDecoration" Border="True">
+          <CoverageArea X="0" Y="0" Width="1" Height="1" />
+          <Image Filename="borders\vignette1.pvsi" />
+        </Decoration>
+        <PanZoom StartRotation="3.930879" EndRotation="5.71317" PanZoomOnAll="True">
+          <StartArea X="0.3288538" Y="0.3009845" Width="0.3612648" Height="0.3614627" />
+          <EndArea X="0.09011858" Y="0.2250352" Width="0.5280632" Height="0.5288326" />
+          <Equation Type="NonLinear" />
+        </PanZoom>
+      </Slide>
+      <Slide Type="BlankStillPictureSlide" PanZoom="True" DisplayTimeLength="3" UsesDefaultTransitionEffect="True" ForceMBSubFrames="15" MasterBackgroundAspect="1.502817" Color="Color [Black]">
+        <TransitionEffect Type="SimpleAlphaBlendTransitionEffect" Length="0" Index="1" />
+        <Decoration Type="GroupedDecoration" MotionBlur="False" RenderMethod="7" MoveAsSlidePanZoom="True">
+          <CoverageArea X="0" Y="0" Width="1" Height="1" />
+          <Decoration Type="ImageDecoration" FlipX="True" FlipY="True" TemplateFramework="True" Aspect="3" Mask="True">
+            <CoverageArea X="0" Y="0" Width="1" Height="1" />
+            <Image Filename="templates\media\overlays\masks\fourimagemask.png" />
+          </Decoration>
+          <Decoration Type="ImageDecoration" DegreesRot="-7.907163" RenderMethod="8" Aspect="2" OriTemImageNum="4">
+            <CoverageArea X="0.5683795" Y="0.4697609" Width="0.2932806" Height="0.3094234" />
+            <Image Filename="image4" />
+          </Decoration>
+          <Decoration Type="ImageDecoration" DegreesRot="5.165241" RenderMethod="9" Aspect="2" OriTemImageNum="3">
+            <CoverageArea X="0.512253" Y="0.1420534" Width="0.2608696" Height="0.3052039" />
+            <Image Filename="image3" />
+          </Decoration>
+          <Decoration Type="ImageDecoration" DegreesRot="11" RenderMethod="10" Aspect="2" OriTemImageNum="1">
+            <CoverageArea X="0.4150198" Y="0.3094234" Width="0.1699605" Height="0.4331927" />
+            <Image Filename="image1" />
+          </Decoration>
+          <Decoration Type="ImageDecoration" Rotate="90" DegreesRot="-65.34058" RenderMethod="11" Aspect="2" OriTemImageNum="2">
+            <CoverageArea X="0.1130435" Y="0.2700422" Width="0.3992095" Height="0.4317862" />
+            <Image Filename="image2" />
+          </Decoration>
+          <Decoration Type="ImageDecoration" FlipX="True" FlipY="True" TemplateFramework="True" Aspect="3">
+            <CoverageArea X="0" Y="0" Width="1" Height="1" />
+            <Image Filename="templates\media\overlays\fourimageframe.pvsi" />
+          </Decoration>
+        </Decoration>
+        <Decoration Type="ImageDecoration" Border="True">
+          <CoverageArea X="0" Y="0" Width="1" Height="1" />
+          <Image Filename="borders\vignette1.pvsi" />
+        </Decoration>
+        <PanZoom StartRotation="5.71317" EndRotation="6.397925" PanZoomOnAll="True">
+          <StartArea X="0.09011858" Y="0.2250352" Width="0.5280632" Height="0.5288326" />
+          <EndArea X="0.4814229" Y="0.08860759" Width="0.3818182" Height="0.3825598" />
+          <Equation Type="NonLinear" />
+        </PanZoom>
+      </Slide>
+      <Slide Type="BlankStillPictureSlide" PanZoom="True" DisplayTimeLength="4" UsesDefaultTransitionEffect="True" ForceMBSubFrames="15" MasterBackgroundAspect="1.502817" Color="Color [Black]">
+        <TransitionEffect Type="SimpleAlphaBlendTransitionEffect" Length="0.5" Index="1" />
+        <Decoration Type="GroupedDecoration" MotionBlur="False" RenderMethod="7" MoveAsSlidePanZoom="True">
+          <CoverageArea X="0" Y="0" Width="1" Height="1" />
+          <Decoration Type="ImageDecoration" FlipX="True" FlipY="True" TemplateFramework="True" Aspect="3" Mask="True">
+            <CoverageArea X="0" Y="0" Width="1" Height="1" />
+            <Image Filename="templates\media\overlays\masks\fourimagemask.png" />
+          </Decoration>
+          <Decoration Type="ImageDecoration" DegreesRot="-7.907163" RenderMethod="8" Aspect="2" OriTemImageNum="4">
+            <CoverageArea X="0.5683795" Y="0.4697609" Width="0.2932806" Height="0.3094234" />
+            <Image Filename="image4" />
+          </Decoration>
+          <Decoration Type="ImageDecoration" DegreesRot="5.165241" RenderMethod="9" Aspect="2" OriTemImageNum="3">
+            <CoverageArea X="0.512253" Y="0.1420534" Width="0.2608696" Height="0.3052039" />
+            <Image Filename="image3" />
+          </Decoration>
+          <Decoration Type="ImageDecoration" DegreesRot="11" RenderMethod="10" Aspect="2" OriTemImageNum="1">
+            <CoverageArea X="0.4150198" Y="0.3094234" Width="0.1699605" Height="0.4331927" />
+            <Image Filename="image1" />
+          </Decoration>
+          <Decoration Type="ImageDecoration" Rotate="90" DegreesRot="-65.34058" RenderMethod="11" Aspect="2" OriTemImageNum="2">
+            <CoverageArea X="0.1130435" Y="0.2700422" Width="0.3992095" Height="0.4317862" />
+            <Image Filename="image2" />
+          </Decoration>
+          <Decoration Type="ImageDecoration" FlipX="True" FlipY="True" TemplateFramework="True" Aspect="3">
+            <CoverageArea X="0" Y="0" Width="1" Height="1" />
+            <Image Filename="templates\media\overlays\fourimageframe.pvsi" />
+          </Decoration>
+        </Decoration>
+        <Decoration Type="ImageDecoration" Border="True">
+          <CoverageArea X="0" Y="0" Width="1" Height="1" />
+          <Image Filename="borders\vignette1.pvsi" />
+        </Decoration>
+        <PanZoom EndDelay="0.72" StartRotation="6.397925" EndRotation="-3.90336" PanZoomOnAll="True">
+          <StartArea X="0.4814229" Y="0.08860759" Width="0.3818182" Height="0.3825598" />
+          <EndArea X="0.5193676" Y="0.443038" Width="0.372332" Height="0.3727145" />
+          <Equation Type="NonLinear" />
+        </PanZoom>
+      </Slide>
+    </Slide>
+  </Slideshow>
+  <DecorationEffectsDatabase />
+</Template>

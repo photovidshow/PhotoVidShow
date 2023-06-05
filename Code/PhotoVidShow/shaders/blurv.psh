@@ -1,0 +1,58 @@
+// globals
+float4 params:  register(c0);
+
+static const float BlurWeights[13] = 
+{
+ 1.0f / 4096.0f,
+ 12.0f / 4096.0f,
+ 66.0f / 4096.0f,
+ 220.0f / 4096.0f,
+ 495.0f / 4096.0f,
+ 792.0f / 4096.0f,
+ 924.0f / 4096.0f,
+ 792.0f / 4096.0f,
+ 495.0f / 4096.0f,
+ 220.0f / 4096.0f,
+ 66.0f / 4096.0f,
+ 12.0f / 4096.0f,
+ 1.0f / 4096.0f,
+}; 
+
+
+struct PS_INPUT
+{
+    float4 Position   : POSITION;
+    float2 Texture0   : TEXCOORD0;
+    float2 Texture1   : TEXCOORD1;
+};
+
+struct PS_OUTPUT
+{
+    float4 Color   : COLOR0;
+};
+
+
+sampler2D g_SampTex  : register(s0);
+
+//Vertical Blur
+PS_OUTPUT ps_main( in PS_INPUT In )
+{
+
+    PS_OUTPUT Out;
+
+    Out.Color =0;
+  
+    for (int i = 0; i < 13; i++)
+    {    
+       float2 newuv = In.Texture0;
+       newuv[1]+=params[0]*i;
+       newuv[1]-=params[1];
+
+       Out.Color += tex2D( g_SampTex,newuv) * BlurWeights[i] ;
+    }
+
+
+
+    return Out;
+}
+              

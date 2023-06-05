@@ -1,0 +1,28 @@
+<Template Version="1.0.0" Name="Letterbox border fill" Description="Fills the letterbox border area with a stretched and blurry copy of the original image&#xD;&#xA;">
+  <Slideshow>
+    <Slide Type="BlankStillPictureSlide" PanZoom="False" DisplayTimeLength="8" UsesDefaultTransitionEffect="True" ReCalcSlideLengthOnImage1Change="True" Color="Color [Black]">
+      <TransitionEffect Type="SimpleAlphaBlendTransitionEffect" Length="1.5" Index="1" />
+      <Decoration Type="ImageDecoration" Aspect="2" OriTemImageNum="1" MoveAsSlidePanZoom="True">
+        <CoverageArea X="0" Y="-0.05555552" Width="1" Height="1.111111" />
+        <Image Filename="image1" />
+      </Decoration>
+      <Decoration Type="BlurFilterDecoration" StrengthF="2">
+        <CoverageArea X="0" Y="0" Width="1" Height="1" />
+      </Decoration>
+      <Decoration Type="BlurFilterDecoration" StrengthF="2">
+        <CoverageArea X="0" Y="0" Width="1" Height="1" />
+      </Decoration>
+      <Decoration Type="ImageDecoration" Aspect="3" OriTemImageNum="1">
+        <AlphaMap Filename="outlinemasks\gradient edge.jpg" />
+        <CoverageArea X="0.04999998" Y="0" Width="0.9" Height="1" />
+        <Image Filename="image1" />
+      </Decoration>
+      <PanZoom ReGenerateOnImageChange="False">
+        <StartArea X="0.0584" Y="0" Width="0.8832" Height="0.8832" />
+        <EndArea X="0.0584" Y="0.1168" Width="0.8832" Height="0.8832" />
+        <Equation Type="Linear" />
+      </PanZoom>
+    </Slide>
+  </Slideshow>
+  <DecorationEffectsDatabase />
+</Template>

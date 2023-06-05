@@ -1,0 +1,19 @@
+<Template Version="1.0.0" Name="High contrast" Description="Adds a high contrast filter to a slide&#xD;&#xA;">
+  <Slideshow>
+    <Slide Type="BlankStillPictureSlide" PanZoom="True" DisplayTimeLength="8" UsesDefaultTransitionEffect="True" ReCalcSlideLengthOnImage1Change="True" Color="Color [Black]">
+      <TransitionEffect Type="SimpleAlphaBlendTransitionEffect" Length="1.5" Index="1" />
+      <Decoration Type="ImageDecoration" Aspect="3" OriTemImageNum="1" MoveAsSlidePanZoom="True">
+        <CoverageArea X="0" Y="0" Width="1" Height="1" />
+        <Image Filename="image1" />
+      </Decoration>
+      <Decoration Type="ColourTransformDecoration" br="0.7" bg="0.7" bb="0.7" cr="1.6" cg="1.6" cb="1.6" gamma="1">
+        <CoverageArea X="0" Y="0" Width="1" Height="1" />
+      </Decoration>
+      <PanZoom ReGenerateOnImageChange="True">
+        <StartArea X="0.125" Y="0.25" Width="0.75" Height="0.75" />
+        <EndArea X="0.125" Y="0" Width="0.75" Height="0.75" />
+      </PanZoom>
+    </Slide>
+  </Slideshow>
+  <DecorationEffectsDatabase />
+</Template>

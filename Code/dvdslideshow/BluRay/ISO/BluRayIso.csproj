@@ -1,0 +1,125 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<Project ToolsVersion="14.0" DefaultTargets="Build" xmlns="http://schemas.microsoft.com/developer/msbuild/2003">
+  <PropertyGroup>
+    <Configuration Condition=" '$(Configuration)' == '' ">Debug</Configuration>
+    <Platform Condition=" '$(Platform)' == '' ">AnyCPU</Platform>
+    <ProductVersion>9.0.20706</ProductVersion>
+    <SchemaVersion>2.0</SchemaVersion>
+    <ProjectGuid>{530ACDF5-9CBE-462E-AB2E-7480B6D1D87F}</ProjectGuid>
+    <OutputType>Library</OutputType>
+    <AppDesignerFolder>Properties</AppDesignerFolder>
+    <RootNamespace>BluRayIso</RootNamespace>
+    <AssemblyName>BluRayIso</AssemblyName>
+    <TargetFrameworkVersion>v4.6.1</TargetFrameworkVersion>
+    <FileAlignment>512</FileAlignment>
+    <StartupObject>
+    </StartupObject>
+    <SignAssembly>true</SignAssembly>
+    <AssemblyOriginatorKeyFile>SquidgySoft.snk</AssemblyOriginatorKeyFile>
+    <FileUpgradeFlags>
+    </FileUpgradeFlags>
+    <UpgradeBackupLocation>
+    </UpgradeBackupLocation>
+    <OldToolsVersion>3.5</OldToolsVersion>
+    <TargetFrameworkProfile />
+    <PublishUrl>publish\</PublishUrl>
+    <Install>true</Install>
+    <InstallFrom>Disk</InstallFrom>
+    <UpdateEnabled>false</UpdateEnabled>
+    <UpdateMode>Foreground</UpdateMode>
+    <UpdateInterval>7</UpdateInterval>
+    <UpdateIntervalUnits>Days</UpdateIntervalUnits>
+    <UpdatePeriodically>false</UpdatePeriodically>
+    <UpdateRequired>false</UpdateRequired>
+    <MapFileExtensions>true</MapFileExtensions>
+    <ApplicationRevision>0</ApplicationRevision>
+    <ApplicationVersion>1.0.0.%2a</ApplicationVersion>
+    <IsWebBootstrapper>false</IsWebBootstrapper>
+    <UseApplicationTrust>false</UseApplicationTrust>
+    <BootstrapperEnabled>true</BootstrapperEnabled>
+  </PropertyGroup>
+  <PropertyGroup Condition=" '$(Configuration)|$(Platform)' == 'Debug|AnyCPU' ">
+    <DebugSymbols>true</DebugSymbols>
+    <DebugType>full</DebugType>
+    <Optimize>false</Optimize>
+    <OutputPath>bin\Debug\</OutputPath>
+    <DefineConstants>DEBUG;TRACE</DefineConstants>
+    <ErrorReport>prompt</ErrorReport>
+    <WarningLevel>4</WarningLevel>
+    <Prefer32Bit>false</Prefer32Bit>
+  </PropertyGroup>
+  <PropertyGroup Condition=" '$(Configuration)|$(Platform)' == 'Release|AnyCPU' ">
+    <DebugType>pdbonly</DebugType>
+    <Optimize>true</Optimize>
+    <OutputPath>bin\Release\</OutputPath>
+    <DefineConstants>TRACE</DefineConstants>
+    <ErrorReport>prompt</ErrorReport>
+    <WarningLevel>4</WarningLevel>
+    <Prefer32Bit>false</Prefer32Bit>
+  </PropertyGroup>
+  <ItemGroup>
+    <Reference Include="System" />
+    <Reference Include="System.Data" />
+    <Reference Include="System.Xml" />
+  </ItemGroup>
+  <ItemGroup>
+    <Compile Include="FileSystemEntry.cs" />
+    <Compile Include="IsoFile.cs" />
+    <Compile Include="Properties\AssemblyInfo.cs" />
+    <Compile Include="UDF\AllocationDescriptor.cs" />
+    <Compile Include="UDF\AnchorVolumeDescriptorPointer.cs" />
+    <Compile Include="UDF\Charspec.cs" />
+    <Compile Include="UDF\CRC.cs" />
+    <Compile Include="UDF\DString.cs" />
+    <Compile Include="UDF\EntityID.cs" />
+    <Compile Include="UDF\ExtendedFileEntry.cs" />
+    <Compile Include="UDF\ExtentAD.cs" />
+    <Compile Include="UDF\FileIdentifierDescriptor.cs" />
+    <Compile Include="UDF\FileIdentifierDescriptorSet.cs" />
+    <Compile Include="UDF\FileSetDescriptor.cs" />
+    <Compile Include="UDF\FileSystem.cs" />
+    <Compile Include="UDF\ICBTag.cs" />
+    <Compile Include="UDF\IDescriptor.cs" />
+    <Compile Include="UDF\ImplementationUseVolumeDescriptor.cs" />
+    <Compile Include="UDF\IsoUdfGenerator.cs" />
+    <Compile Include="UDF\LbAddr.cs" />
+    <Compile Include="UDF\LogicalVolumeDescriptor.cs" />
+    <Compile Include="UDF\LogicalVolumeInformation.cs" />
+    <Compile Include="UDF\LogicalVolumeIntegrityDescriptor.cs" />
+    <Compile Include="UDF\LogicalVolumeIntegrityDescriptorImplementationUse.cs" />
+    <Compile Include="UDF\LongAd.cs" />
+    <Compile Include="UDF\MetadataPartitionMap.cs" />
+    <Compile Include="UDF\NormalPartitionMap.cs" />
+    <Compile Include="UDF\PartitionDescritor.cs" />
+    <Compile Include="UDF\PartitionMap.cs" />
+    <Compile Include="UDF\PrimaryVolumeDescriptor.cs" />
+    <Compile Include="UDF\ShortAd.cs" />
+    <Compile Include="UDF\Tag.cs" />
+    <Compile Include="UDF\TerminatingDescriptor.cs" />
+    <Compile Include="UDF\TimeStamp.cs" />
+    <Compile Include="UDF\UDFLog.cs" />
+    <Compile Include="UDF\UnallocatedSpaceDescriptor.cs" />
+    <Compile Include="UDF\USDFileSystemEntry.cs" />
+    <Compile Include="UDF\USDLinkedEntry.cs" />
+    <Compile Include="UDF\VolumeDescriptorSequence.cs" />
+    <Compile Include="UDF\VolumeRegconitionSequence.cs" />
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="SquidgySoft.snk" />
+  </ItemGroup>
+  <ItemGroup>
+    <BootstrapperPackage Include="Microsoft.Net.Framework.3.5.SP1">
+      <Visible>False</Visible>
+      <ProductName>.NET Framework 3.5 SP1</ProductName>
+      <Install>true</Install>
+    </BootstrapperPackage>
+  </ItemGroup>
+  <Import Project="$(MSBuildBinPath)\Microsoft.CSharp.targets" />
+  <!-- To modify your build process, add your task inside one of the targets below and uncomment it. 
+       Other similar extension points exist, see Microsoft.Common.targets.
+  <Target Name="BeforeBuild">
+  </Target>
+  <Target Name="AfterBuild">
+  </Target>
+  -->
+</Project>

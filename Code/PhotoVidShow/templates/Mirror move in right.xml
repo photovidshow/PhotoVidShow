@@ -1,0 +1,44 @@
+<Template Version="1.0.0" Name="Mirror move right" Description="Moves an image right with a mirror effect">
+  <Slideshow>
+    <Slide Type="BlankStillPictureSlide" PanZoom="False" DisplayTimeLength="6" UsesDefaultTransitionEffect="True" ForceMBSubFrames="20" Color="Color [Black]">
+      <TransitionEffect Type="SimpleAlphaBlendTransitionEffect" Length="0.3" Index="1" />
+      <Decoration Type="ImageDecoration" Background="True">
+        <CoverageArea X="0" Y="-0.1666667" Width="1" Height="1.333333" />
+        <Image Filename="menutemplates\background14.pvsi" />
+      </Decoration>
+      <Decoration Type="ImageDecoration" Aspect="2" OriTemImageNum="1" InEffect="QuickSlowRight" OutEffect="MoveRightfast ">
+        <AlphaMap Filename="outlinemasks\smooth edge.jpg" />
+        <CoverageArea X="0.3" Y="0.05" Width="0.51287" Height="0.6816" />
+        <Image Filename="image1" />
+      </Decoration>
+      <Decoration Type="ImageDecoration" FlipX="True" DegreesRot="-180" Aspect="2" OriTemImageNum="1" EndOffsetTime="6" InEffect="QuickSlowRight" OutEffect="MoveRightfast " MoveAsSlidePanZoom="True" Alpha="0.14">
+        <AlphaMap Filename="outlinemasks\smooth edge vertical mirror.jpg" />
+        <CoverageArea X="0.3" Y="0.728" Width="0.5129" Height="0.6825486" />
+        <Image Filename="image1" />
+      </Decoration>
+      <PanZoom>
+        <StartArea X="0.18155" Y="0.18155" Width="0.6369" Height="0.6369" />
+        <EndArea X="0.125" Y="0.125" Width="0.75" Height="0.75" />
+        <Equation Type="Linear" />
+      </PanZoom>
+    </Slide>
+  </Slideshow>
+  <DecorationEffectsDatabase>
+    <DecorationEffect Name="QuickSlowRight" LengthSetToDecorationLength="True" MotionBlur="30">
+      <TransitionEffect Type="SimpleAlphaBlendTransitionEffect" Length="1.5" EndDelay="0.99" />
+      <Movement Type="StraightLineMovement" InitialDelay="0" EndDelay="0">
+        <Start X="-0.4" Y="0" Z="0" />
+        <End X="0" Y="0" Z="0" />
+        <Equation Type="QuickSlow" />
+      </Movement>
+    </DecorationEffect>
+    <DecorationEffect Name="MoveRightfast " Length="1" MotionBlur="15">
+      <TransitionEffect Type="SimpleAlphaBlendTransitionEffect" Length="1.5" InitialDelay="0.5" />
+      <Movement Type="StraightLineMovement" InitialDelay="0" EndDelay="0">
+        <Start X="0" Y="0" Z="0" />
+        <End X="2" Y="0" Z="0" />
+        <Equation Type="NonLinear" />
+      </Movement>
+    </DecorationEffect>
+  </DecorationEffectsDatabase>
+</Template>

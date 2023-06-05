@@ -1,0 +1,58 @@
+<Template Version="1.0.0" Name="Thumbnail move left with text" Description="Thumbnail effect with text on left&#xD;&#xA;">
+  <Slideshow>
+    <Slide Type="BlankStillPictureSlide" PanZoom="False" DisplayTimeLength="15" UsesDefaultTransitionEffect="True" ForceMBSubFrames="5" ThumbnailPreviewTime="14" Color="Color [Black]">
+      <TransitionEffect Type="SimpleAlphaBlendTransitionEffect" Length="1.5" Index="1" />
+      <Decoration Type="VideoDecoration" VideoName="menutemplates\abstract video1.pvsv" Volume="0" GlobalPlayer="True" FlipY="True" RenderMethod="7" Background="True">
+        <CoverageArea X="0" Y="-0.0007824898" Width="1" Height="1.001565" />
+      </Decoration>
+      <Decoration Type="BlurFilterDecoration">
+        <CoverageArea X="0" Y="0" Width="1" Height="1" />
+      </Decoration>
+      <Decoration Type="ColourTransformDecoration" br="1" bg="1" bb="1" cr="0.44" cg="0.44" cb="0.44" gamma="1">
+        <CoverageArea X="0" Y="0" Width="1" Height="1" />
+      </Decoration>
+      <Decoration Type="ImageDecoration" Aspect="2" OriTemImageNum="1" StartOffsetTime="2" InEffect="ThumbEffectMoveThumbImageLeftWhilstSlowlyZooming">
+        <AlphaMap Filename="outlinemasks\circle.jpg" />
+        <CoverageArea X="0.4197917" Y="0.15" Width="0.36875" Height="0.6703704" />
+        <Image Filename="image1" />
+      </Decoration>
+      <Decoration Type="ImageDecoration" TemplateFramework="True" StartOffsetTime="4" InEffect="ThumbEffectTextBackgroundFadeSlowlyIn">
+        <AlphaMap Filename="outlinemasks\smooth edge.jpg" />
+        <CoverageArea X="0.3725055" Y="0.06333334" Width="0.5466558" Height="0.8740741" />
+        <Image Filename="templates\media\black.jpg" />
+      </Decoration>
+      <Decoration Type="TextDecoration" StartOffsetTime="5" InEffect="ThumbEffectShowTextSlowlyDown" Text="&quot;The quick brown fox jumps &#xD;&#xA;over the lazy dog&quot; &quot;The quick&#xD;&#xA;brown fox jumps over the&#xD;&#xA;lazy dog&quot; &quot;The quick brown&#xD;&#xA;fox jumps over the lazy dog&quot;&#xD;&#xA;&quot;The quick brown fox jumps&#xD;&#xA;over the lazy dog&quot; &quot;The quick&#xD;&#xA;brown fox jumps over the&#xD;&#xA;lazy dog&quot; &quot;The quick&#xD;&#xA;brown fox jumps over" HintEditTime="14" TemplateEditable="2">
+        <CoverageArea X="0.4199848" Y="0.07735584" Width="0.4604255" Height="0.8287518" />
+        <TextStyle FontName="Segoe UI" FontSize="26.66667" OutLine="True" OutLineColour="Color [White]" Italic="True" Alignment="Center" OutlineLength="4" OutlineAlpha="87" />
+      </Decoration>
+      <Decoration Type="ImageDecoration" Border="True">
+        <CoverageArea X="0" Y="0" Width="1" Height="1" />
+        <Image Filename="borders\vignette2.pvsi" />
+      </Decoration>
+      <PanZoom>
+        <StartArea X="0" Y="0" Width="1" Height="1" />
+        <EndArea X="0" Y="0" Width="1" Height="1" />
+        <Equation Type="Linear" />
+      </PanZoom>
+    </Slide>
+  </Slideshow>
+  <DecorationEffectsDatabase>
+    <DecorationEffect Name="ThumbEffectShowTextSlowlyDown" Length="8" TemplateOnlyEffect="True">
+      <TransitionEffect Type="FadeDownTransitionEffect" Spread="32" Length="1.5" />
+    </DecorationEffect>
+    <DecorationEffect Name="ThumbEffectTextBackgroundFadeSlowlyIn" Length="60" TemplateOnlyEffect="True">
+      <TransitionEffect Type="SimpleAlphaBlendTransitionEffect" Length="1.5" EndDelay="0.53" />
+    </DecorationEffect>
+    <DecorationEffect Name="ThumbEffectMoveThumbImageLeftWhilstSlowlyZooming" Length="15" TemplateOnlyEffect="True">
+      <TransitionEffect Type="SimpleAlphaBlendTransitionEffect" Length="1.5" EndDelay="0.87" />
+      <Movement Type="StraightLineMovement" InitialDelay="0.13" EndDelay="0.69">
+        <Start X="0" Y="0" Z="0" />
+        <End X="-0.4" Y="0" Z="0" />
+        <Equation Type="NonLinear" />
+      </Movement>
+      <Zoom InitialDelay="0" EndDelay="0" StartZoom="1" EndZoom="1.2">
+        <Equation Type="NonLinear" />
+      </Zoom>
+    </DecorationEffect>
+  </DecorationEffectsDatabase>
+</Template>

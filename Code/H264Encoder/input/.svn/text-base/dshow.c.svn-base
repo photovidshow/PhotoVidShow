@@ -1,0 +1,599 @@
+/*****************************************************************************
+ * dshow.c: x264 DirectShow input module
+ *****************************************************************************
+ * Copyright (C) 2008-2009 Zhou Zongyi <zhouzy@os.pku.edu.cn>
+ *
+ * This program is free software; you can redistribute it and/or modify
+ * it under the terms of the GNU General Public License as published by
+ * the Free Software Foundation; either version 2 of the License, or
+ * (at your option) any later version.
+ *
+ * This program is distributed in the hope that it will be useful,
+ * but WITHOUT ANY WARRANTY; without even the implied warranty of
+ * MERCHANTABILITY or FITNESS FOR A PARTICULAR PURPOSE.  See the
+ * GNU General Public License for more details.
+ *
+ * You should have received a copy of the GNU General Public License
+ * along with this program; if not, write to the Free Software
+ * Foundation, Inc., 51 Franklin Street, Fifth Floor, Boston, MA  02111, USA.
+ *****************************************************************************/
+
+#include "muxers.h"
+#include "common/cpu.h"
+
+typedef struct
+{
+	uint32_t width : 12;
+	uint32_t height : 12;
+	uint32_t aspectX : 8;
+	uint32_t aspectY : 8;
+	uint32_t avgtimeperframe : 20;
+	uint32_t reserved : 4;
+} dshow_video_info_t;
+
+typedef int (__stdcall *GrabSampleCallbackRoutine)
+(PBYTE pData, int32_t iLen, int64_t i64TimeStamp);
+
+typedef void* (__stdcall *TInitDShowGraphFromFile)
+(const char *szFileName,
+ GUID MediaType,
+ uint32_t dwVideoID,
+ uint32_t dwAudioID,
+ GrabSampleCallbackRoutine pVideoCallback,
+ GrabSampleCallbackRoutine pAudioCallback,
+ dshow_video_info_t *pVideoInfo,
+ uint32_t *pdwAudioInfo);
+
+typedef int (__stdcall *TGraphOperate)(void *pdgi);
+typedef int (__stdcall *TSeekGraph)(void *pdgi, int64_t timestamp);
+
+#define CSRI_F_YV12 0x2111
+
+typedef struct {
+	unsigned pixfmt;
+	unsigned width;
+	unsigned height;
+} csri_fmt;
+
+typedef struct {
+	unsigned pixfmt;
+	unsigned char *planes[4];
+	ptrdiff_t strides[4];
+} csri_frame;
+
+typedef struct {
+	const char *name;
+	const char *specific;
+	const char *longname;
+	const char *author;
+	const char *copyright;
+} csri_info;
+
+typedef union {
+	int32_t lval;
+	double dval;
+	const char *utf8val;
+	void *otherval;
+} csri_vardata;
+
+typedef struct {
+	const char *name;
+	csri_vardata data;
+	struct csri_openflag *next;
+} csri_openflag;
+
+typedef void* (*csri_open_file_t)(void *renderer,const char *filename, csri_openflag *flags);
+typedef void (*csri_close_t)(void *inst);
+typedef int (*csri_request_fmt_t)(void *inst, const csri_fmt *fmt);
+typedef void (*csri_render_t)(void *inst, csri_frame *frame,double time);
+
+const GUID MEDIASUBTYPE_YV12 =
+{0x32315659, 0x0000, 0x0010, 0x80, 0x00, 0x00, 0xaa, 0x00, 0x38, 0x9b, 0x71};
+
+const GUID MEDIASUBTYPE_I420 =
+{0x56555949, 0x0000, 0x0010, 0x80, 0x00, 0x00, 0xaa, 0x00, 0x38, 0x9b, 0x71};
+
+const GUID MEDIASUBTYPE_YUY2 =
+{0x32595559, 0x0000, 0x0010, 0x80, 0x00, 0x00, 0xaa, 0x00, 0x38, 0x9b, 0x71};
+
+TGraphOperate StartGraph, StopGraph, DestroyGraph, GetGraphDuration;
+TSeekGraph SeekGraph;
+csri_open_file_t csri_open_file;
+csri_request_fmt_t csri_request_fmt;
+csri_render_t csri_render;
+csri_close_t csri_close;
+
+HANDLE hWaitEnc = 0, hWaitGraph = 0;
+int b_stopped = 0, dshow_buf_mode = 1;
+x264_picture_t *g_ppic;
+int g_width, g_height;
+int lthresh, cthresh, maxinterval, ivtc;
+int64_t startdelay = 0;
+extern int b_swapuv;
+extern int deldup, mbthresh, smoothpts, mbmax;
+extern double lth;
+extern double cth;
+extern double minfps;
+extern int64_t starttime,endtime;
+extern void x264_memcpy_aligned_mmx( void * dst, const void * src, size_t n ); // require mod32
+extern void x264_plane_copy_mmxext( uint8_t *dst, int i_dst, uint8_t *src, int i_src, int w, int h); // require mod4
+//csri_openflag flags={};
+void* subrenderinst[16];
+char* subfilename[16];
+int subtotal = 0;
+void *g_pdgi = 0;
+#define IMGTYPE_YUV420P 0 // YV12/I420
+void * ( __stdcall *open_phase_filter)(DWORD w, DWORD h, DWORD stride, int type, int mode, int skip);
+int (__stdcall *close_phase_filter)(void *ppfi);
+int (__stdcall *get_image)(void *ppfi, char *pimg, LONGLONG pts);
+int (__stdcall *get_dscaler_retval_addr)();
+int *dscaler_indicies;
+int curr_ds_index;
+void *g_ppfi = 0;
+x264_picture_t g_picbuf, g_threadpicbuf;
+
+extern x264_param_t * g_pparam;
+double ts_scalefactor;
+int min_internal;
+
+int add_sub(char *filename)
+{
+	if (subtotal<16)
+	{
+		subfilename[subtotal++] = filename;
+		return 1;
+	}
+	return 0;
+}
+
+static int __stdcall CallBackProc(PBYTE pData, int32_t iLen, int64_t i64TimeStamp)
+{
+	static int64_t i64LastPTS = -1;
+	static int64_t i64LastUnmodPTS = -1;
+	static int b_firstframe = 1;
+	static int drops = 0;
+	static int ivtc_adjust = 0;
+	static int lastinterval = 0;
+	static int ended = 0;
+	static int phaseret = 0;
+	int threshboost = 0;
+	int pret = 0;
+	uint32_t offset = g_width * g_height / 4;
+	int tmpinterval;
+	csri_frame frame;
+
+	if (ivtc < 0)
+	{
+		if (!get_dscaler_retval_addr)
+		{
+			HANDLE hPhase = GetModuleHandleA("FLT_Phase.dll");
+			if (NULL == hPhase)
+			{
+				fprintf(stderr,"dshow [warning]: FLT_Phase.dll is not loaded, IVTC disabled\n");
+				ivtc = 0;
+			}
+			else
+			{
+				get_dscaler_retval_addr = GetProcAddress(hPhase,"get_dscaler_retval_addr");
+				if (0 == (dscaler_indicies = get_dscaler_retval_addr()))
+				{
+					fprintf(stderr,"dshow [warning]: Phase is not loaded by DScaler IVTC disabled\n");
+					ivtc = 0;
+				}
+			}
+			curr_ds_index = -1;
+		}
+		curr_ds_index = (curr_ds_index+1)&15;
+	}
+
+	if (endtime > 0 && i64TimeStamp > endtime)
+	{
+		if (ended) return 0;
+		pData = NULL;
+		ended = 1;
+	}
+	else
+	{
+		if (ivtc > 0)
+		{
+			pret = get_image(g_ppfi,pData,i64TimeStamp+starttime);
+		}
+		else if (ivtc < 0)
+		{
+			pret = dscaler_indicies[curr_ds_index];
+		}
+
+		if (subtotal)
+		{
+			int i;
+			frame.pixfmt = CSRI_F_YV12;
+			frame.planes[0] = pData;
+			frame.planes[1] = pData + offset *4;
+			frame.planes[2] = pData + offset *5;
+			frame.planes[3] = NULL;
+			frame.strides[0] = g_width;
+			frame.strides[1] = frame.strides[2] = (g_width >> 1);
+			for(i = 0;i < subtotal;i++)
+				csri_render(subrenderinst[i],&frame,((double)(i64TimeStamp+starttime))/10000000.0);
+		}
+	}
+
+	i64TimeStamp -= startdelay;
+	
+	if (b_firstframe)
+	{
+		if (starttime > 0)
+		{
+			int64_t t = i64TimeStamp + starttime;
+			fprintf(stderr,"dshow [info]: start encoding from %u.%05u sec\n",(int)(t/10000000),(int)(t%10000000)/100);
+		}
+		startdelay = i64TimeStamp;
+		i64TimeStamp = 0;
+		if (dshow_buf_mode)
+		{
+			x264_picture_alloc(&g_threadpicbuf, X264_CSP_YV12, g_width, g_height);
+			g_ppic = &g_threadpicbuf;
+		}
+		else
+			WaitForSingleObject(hWaitEnc,INFINITE);
+		if (pData)
+		{
+			i64LastUnmodPTS = i64LastPTS = i64TimeStamp;
+			g_ppic->i_pts = llrint(i64TimeStamp * ts_scalefactor);
+			b_firstframe = 0;
+			if (!dshow_buf_mode)
+			{
+				g_ppic->img.plane[0] = pData;
+				g_ppic->img.plane[1] = pData + offset * 4;
+				g_ppic->img.plane[2] = pData + offset * 5;
+				SetEvent(hWaitGraph);
+				WaitForSingleObject(hWaitEnc,INFINITE);
+			}
+			else if (1 == dshow_buf_mode)
+			{
+				x264_memcpy_aligned_mmx(g_ppic->img.plane[0],pData,(offset * 6 + 31) & ~31);
+				x264_emms();
+			}
+			else
+				XCHG( x264_image_t, g_ppic->img, g_picbuf.img );
+			phaseret = pret;
+		}
+		else
+		{
+			g_ppic = NULL;
+			SetEvent(hWaitGraph);
+		}
+		return 1;
+	}
+	else
+	{
+		if (pData)
+		{
+			if (smoothpts)
+			{
+				if (lastinterval && lastinterval <= maxinterval)
+				{
+					tmpinterval = (int)(i64TimeStamp - i64LastUnmodPTS);
+					i64LastUnmodPTS = i64TimeStamp;
+					i64TimeStamp = i64LastPTS + (lastinterval + tmpinterval) / 2;
+					lastinterval = tmpinterval;
+				}
+				else
+				{
+					lastinterval = (int)(i64TimeStamp - i64LastUnmodPTS);
+					i64LastUnmodPTS = i64TimeStamp;
+				}
+			}
+			if (b_stopped)
+			{
+				SetEvent(hWaitGraph);
+				return 0;
+			}
+			if (ivtc > 1 || ivtc < 0)
+			{
+				threshboost = pret > phaseret? 4:0;
+			}
+			if (!(dshow_buf_mode&2))
+			{
+				g_picbuf.img.plane[0] = pData;
+				g_picbuf.img.plane[1] = pData + offset * 4;
+				g_picbuf.img.plane[2] = pData + offset * 5;
+			}
+			if ( !deldup || (int)(i64TimeStamp - i64LastPTS) > maxinterval
+			  || (lthresh >= 0 &&  0 == comp_luma(g_ppic->img.plane[0],g_picbuf.img.plane[0],g_width,g_height,lthresh<<threshboost,mbthresh,mbmax<<threshboost))
+			  || (cthresh >= 0 && (0 == comp_chroma(g_ppic->img.plane[1],g_picbuf.img.plane[1],offset,cthresh<<threshboost)
+							   ||  0 == comp_chroma(g_ppic->img.plane[2],g_picbuf.img.plane[2],offset,cthresh<<threshboost))))
+			{
+				// no drop
+				if ((ivtc > 1 || ivtc < 0) && (int)(i64TimeStamp - i64LastPTS) < maxinterval*2)
+				{
+					if (1 == drops)
+					{
+						ivtc_adjust = 1;
+						i64TimeStamp -= (i64TimeStamp - i64LastPTS) * 3 / 8;
+					}
+					else if(1 == ivtc_adjust)
+					{
+						ivtc_adjust++;
+						i64TimeStamp -= (i64TimeStamp - i64LastPTS) * 2 / 7;
+					}
+					else if (2 == ivtc_adjust)
+					{
+						ivtc_adjust = 0;
+						i64TimeStamp -= (i64TimeStamp - i64LastPTS) / 6;
+					}
+				}
+				drops = 0;
+				if (dshow_buf_mode)
+				{
+					SetEvent(hWaitGraph);
+					WaitForSingleObject(hWaitEnc,INFINITE);
+					if (b_stopped)
+					{
+						g_ppic = NULL;
+						return 0;
+					}
+					phaseret = pret;
+					if (dshow_buf_mode&2)
+						XCHG( x264_image_t, g_ppic->img, g_picbuf.img );
+					else
+					{
+						x264_memcpy_aligned_mmx(g_ppic->img.plane[0],pData,(offset * 6 + 31) & ~31);
+						x264_emms();
+					}
+					if (i64TimeStamp < i64LastPTS)
+						i64TimeStamp = i64LastPTS + min_internal;
+					g_ppic->i_pts = llrint(i64TimeStamp * ts_scalefactor);
+				}
+				else
+				{
+					g_ppic->img.plane[0] = pData;
+					g_ppic->img.plane[1] = pData + offset * 4;
+					g_ppic->img.plane[2] = pData + offset * 5;
+					x264_emms();
+					if (i64TimeStamp < i64LastPTS)
+						i64TimeStamp = i64LastPTS + min_internal;
+					g_ppic->i_pts = llrint(i64TimeStamp * ts_scalefactor);
+					SetEvent(hWaitGraph);
+					WaitForSingleObject(hWaitEnc,INFINITE);
+				}
+				i64LastPTS = i64TimeStamp;
+			}
+			else
+			{
+				drops++;
+				ivtc_adjust = 0;
+				lastinterval = 0;
+			}
+		}
+		else // end null frame
+		{
+			if (dshow_buf_mode)
+			{
+				SetEvent(hWaitGraph);
+				WaitForSingleObject(hWaitEnc,INFINITE);
+			}
+			g_ppic = NULL;
+			SetEvent(hWaitGraph);
+		}
+		return 1;
+	}
+}
+
+static int open_file( char *psz_filename, hnd_t *p_handle, video_info_t *info, cli_input_opt_t *opt )
+{
+	uint32_t dwAudioInfo;
+	dshow_video_info_t VideoInfo;
+	TInitDShowGraphFromFile InitDShowGraphFromFile=NULL;
+	HMODULE hDump = 0, hVSFilter = 0, hPhase = 0;
+	csri_fmt fmt;csri_openflag flag;
+	int32_t duration;
+	int timescale;
+
+	if (NULL == (hDump = LoadLibraryA("dump.ax")))
+	{
+		fprintf(stderr,"dshow [error]: failed to load dump.ax\n");
+		return -1;
+	}
+	InitDShowGraphFromFile = (TInitDShowGraphFromFile)GetProcAddress(hDump,"InitDShowGraphFromFile");
+	StartGraph = (TGraphOperate)GetProcAddress(hDump,"StartGraph");
+	StopGraph = (TGraphOperate)GetProcAddress(hDump,"StopGraph");
+	DestroyGraph = (TGraphOperate)GetProcAddress(hDump,"DestroyGraph");
+	SeekGraph = (TSeekGraph)GetProcAddress(hDump,"SeekGraph");
+	GetGraphDuration = (TGraphOperate)GetProcAddress(hDump,"GetGraphDuration");
+
+	if (!(g_pdgi = InitDShowGraphFromFile(psz_filename,MEDIASUBTYPE_YV12,0,-1,CallBackProc,NULL,&VideoInfo,&dwAudioInfo)))
+	{
+		fprintf(stderr,"dshow [error]: failed to render %s\nerror code = %u\n",psz_filename,VideoInfo.reserved);
+		return -1;
+	}
+
+	g_width = info->width = VideoInfo.width;
+	g_height = info->height = VideoInfo.height;
+
+	if (VideoInfo.avgtimeperframe < 10000)
+		VideoInfo.avgtimeperframe = 400000;
+
+	switch (10000000 /  VideoInfo.avgtimeperframe)
+	{
+	case 11:case 23:case 47:
+		timescale = 48000;
+		break;
+	case 12:case 24:case 48:case 15:case 30:case 60:case 120:
+		timescale = 12000;
+		break;
+	case 14:case 29:case 59:case 119:
+		timescale = ivtc>1? 48000 : 60000; // PSP requires timescale <= 60000
+		break;
+	default:
+		timescale = 60000;
+	}
+
+	if (1 == info->fps_den && 25 == info->fps_num)
+	{
+		info->fps_num = timescale;
+		info->fps_den = ((int64_t)timescale * VideoInfo.avgtimeperframe + 5000000) / 10000000;
+	}
+	info->timebase_den = timescale;
+	info->timebase_num = 1;
+	info->vfr = 1;
+	ts_scalefactor = timescale * 1E-7;
+	min_internal = lrint(1. / ts_scalefactor);
+
+	if (0 == info->sar_width && 0 == info->sar_height
+		&& (VideoInfo.aspectX > 1 || VideoInfo.aspectY > 1 ))
+	{
+		info->sar_width = VideoInfo.aspectX;
+		info->sar_height = VideoInfo.aspectY;
+	}
+	
+	if (subtotal)
+	{
+		int i = 0;
+		if (NULL == (hVSFilter = LoadLibraryA("vsfilter.dll")))
+		{
+			fprintf(stderr,"dshow [error]: failed to load vsfilter.dll\n");
+			return -1;
+		}
+		csri_open_file = (csri_open_file_t)GetProcAddress(hVSFilter,"csri_open_file");
+		csri_close = (csri_close_t)GetProcAddress(hVSFilter,"csri_close");
+		csri_request_fmt = (csri_request_fmt_t)GetProcAddress(hVSFilter,"csri_request_fmt");
+		csri_render = (csri_render_t)GetProcAddress(hVSFilter,"csri_render");
+		if (info->sar_width != info->sar_height) // non-square par
+		{
+			flag.name = "PAR";
+			flag.data.dval = (double)info->sar_height / info->sar_width;
+			flag.next = NULL;
+		}
+		else
+			flag.name = NULL;
+		fmt.pixfmt = CSRI_F_YV12;
+		fmt.width = g_width;
+		fmt.height = g_height;
+		do {
+			if (NULL == (subrenderinst[i] = csri_open_file((void*)"vsfilter",subfilename[i],flag.name?&flag:NULL)))
+			{
+				fprintf(stderr,"dshow [error]: error creating subtitle renderer for %d: \"%s\"\n", i, subfilename[i]);
+				return -1;
+			}
+			if (csri_request_fmt(subrenderinst[i],&fmt))
+			{
+				fprintf(stderr,"dshow [error]: csri does not support yv12 input\n");
+				return -1;
+			}
+			fprintf(stderr,"dshow [info]: loaded subtitle \"%s\"\n", subfilename[i]);
+		} while( ++i < subtotal);
+	}
+
+	dshow_buf_mode = 0;
+	x264_emms();
+	if ((ivtc>1 || ivtc<0) && !deldup)
+	{
+		deldup = 1;
+		minfps = 24;
+		lth = 1.2;
+		cth = 2.4;
+	}
+
+	if (deldup)
+	{
+		if (lth < 0.0)
+			lthresh = -1;
+		else
+			lthresh = (int)(g_width * g_height * lth);
+		if (cth < 0.0)
+			cthresh = -1;
+		else
+			cthresh = (int)(g_width * g_height * cth);
+		if (mbmax < 0)
+			mbmax = g_width / 10;
+		dshow_buf_mode = 1;
+	}
+	// always set maxinterval
+	maxinterval = lrint(10000000.0 / minfps);
+
+	if (ivtc > 0)
+	{
+		if (NULL == (hPhase = LoadLibraryA("FLT_Phase.dll")))
+		{
+			fprintf(stderr,"dshow [error]: failed to load FLT_Phase.dll\n");
+			return -1;
+		}
+		open_phase_filter = GetProcAddress(hPhase,"open_phase_filter");
+		get_image = GetProcAddress(hPhase,"get_image");
+		close_phase_filter = GetProcAddress(hPhase,"close_phase_filter");
+
+		g_ppfi = open_phase_filter(g_width,g_height,g_width,IMGTYPE_YUV420P,ivtc-1,ivtc>1?maxinterval:0x7FFFFFFF);
+	}
+
+	info->csp = X264_CSP_YV12;
+
+	if(-1 != (duration = GetGraphDuration(g_pdgi)))
+		fprintf(stderr,"dshow [info]: duration %02u:%02u:%02u\n",duration / 3600, duration / 60 % 60, duration % 60);
+
+	*p_handle = g_pdgi;
+
+	return 0;
+}
+
+static int get_frame_total( hnd_t handle )
+{
+	hWaitEnc = CreateEventA(NULL, FALSE, FALSE, NULL);
+	hWaitGraph = CreateEventA(NULL, FALSE, FALSE, NULL);
+	if (0 != starttime)
+	{
+		SeekGraph(g_pdgi,starttime);
+		endtime -= starttime;
+	}
+	StartGraph(g_pdgi);
+	return 0;
+}
+
+static int read_frame( x264_picture_t *p_pic, hnd_t handle, int i_frame )
+{
+	if (dshow_buf_mode)
+	{
+		WaitForSingleObject(hWaitGraph,INFINITE);
+		if (g_ppic)
+		{
+			XCHG( x264_image_t, p_pic->img, g_ppic->img );
+			p_pic->i_pts = g_ppic->i_pts;
+			SetEvent(hWaitEnc);
+			return 0;
+		}
+	}
+	else
+	{
+		g_ppic = p_pic;
+		SetEvent(hWaitEnc);
+		WaitForSingleObject(hWaitGraph,INFINITE);
+		if (g_ppic)
+			return 0;
+	}
+	return -1;
+}
+
+static int close_file( hnd_t handle )
+{
+	b_stopped = 1;
+	SetEvent(hWaitEnc);
+	StopGraph(g_pdgi);
+	DestroyGraph(g_pdgi);
+	CoUninitialize();
+	SetEvent(hWaitGraph);
+	if (subtotal)
+	{
+		int i;
+		for (i=0;i<subtotal;i++)
+			csri_close(subrenderinst[i]);
+	}
+	if (ivtc > 0)
+		close_phase_filter(g_ppfi);
+	if (dshow_buf_mode)
+		x264_picture_clean(&g_threadpicbuf);
+	CloseHandle(hWaitEnc);
+	CloseHandle(hWaitGraph);
+	return 0;
+}
+
+const cli_input_t dshow_input = { open_file, get_frame_total, x264_picture_alloc, read_frame, NULL, x264_picture_clean, close_file };

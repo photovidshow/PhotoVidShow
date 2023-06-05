@@ -1,0 +1,95 @@
+<Template Version="1.0.0" Name="Sliding bars 5" Description="Show a slide and text wth colored sliding bars effect.&#xD;&#xA;&#xD;&#xA;">
+  <Slideshow>
+    <Slide Type="BlankStillPictureSlide" PanZoom="True" DisplayTimeLength="6" UsesDefaultTransitionEffect="True" ForceMBSubFrames="30" ThumbnailPreviewTime="3" Color="Color [Black]">
+      <TransitionEffect Type="SimpleAlphaBlendTransitionEffect" Length="0.5" Index="1" />
+      <Decoration Type="GroupedDecoration" MotionBlur="True" RenderMethod="7" MoveAsSlidePanZoom="True">
+        <CoverageArea X="0" Y="0" Width="1" Height="1" />
+        <Decoration Type="ImageDecoration" Aspect="2" OriTemImageNum="1">
+          <CoverageArea X="0" Y="0" Width="1" Height="1" />
+          <Image Filename="image1" />
+        </Decoration>
+        <Decoration Type="ImageDecoration" Aspect="2" InEffect="Present5BottomDown" Brightness="1.92,1.97,2" Contrast="1,1,0.99">
+          <CoverageArea X="0" Y="0" Width="1" Height="1.598948" />
+          <Image Filename="templates\media\black.jpg" />
+        </Decoration>
+        <Decoration Type="ImageDecoration" DegreesRot="101" InEffect="Present5Bottomleft" Brightness="1.91,1.97,2">
+          <AlphaMap Filename="outlinemasks\gradient edge.jpg" />
+          <CoverageArea X="0.4909091" Y="0.4627286" Width="1.039526" Height="0.7187061" />
+          <Image Filename="templates\media\black.jpg" />
+        </Decoration>
+        <Decoration Type="ImageDecoration" DegreesRot="101" InEffect="Present5TopRightBadge" Brightness="1.91,1.97,2">
+          <AlphaMap Filename="outlinemasks\gradient edge.jpg" />
+          <CoverageArea X="-0.3699605" Y="-0.002812939" Width="1.089328" Height="0.2053446" />
+          <Image Filename="templates\media\black.jpg" />
+        </Decoration>
+        <Decoration Type="ImageDecoration" DegreesRot="101" InEffect="Present5BackTopRight" Brightness="1.15,1.18,1.24">
+          <AlphaMap Filename="outlinemasks\gradient edge.jpg" />
+          <CoverageArea X="-0.3928854" Y="0.1575246" Width="1.07668" Height="0.2236287" />
+          <Image Filename="templates\media\black.jpg" />
+        </Decoration>
+        <Decoration Type="TextDecoration" DegreesRot="-79" StartOffsetTime="1.3" InEffect="Present5ScrollTextIn" Text="Text1 text1 text1 text1" TemplateEditable="1">
+          <CoverageArea X="-0.09249012" Y="0.4528833" Width="0.487747" Height="0.1209564" />
+          <TextStyle Name="Vanilla" FontName="Segoe UI" FontSize="51.00071" OutLine="True" OutLineColour="Color [White]" Alignment="Center" OutlineLength="4" OutlineAlpha="87" />
+        </Decoration>
+        <Decoration Type="ImageDecoration" DegreesRot="101" InEffect="Present5BlueTopRight" Brightness="1.04,1.28,1.49">
+          <AlphaMap Filename="outlinemasks\smooth edge.jpg" />
+          <CoverageArea X="-0.4695652" Y="0.1631505" Width="1.016601" Height="0.3305204" />
+          <Image Filename="templates\media\black.jpg" />
+        </Decoration>
+      </Decoration>
+      <Decoration Type="ImageDecoration" Border="True">
+        <CoverageArea X="0" Y="0" Width="1" Height="1" />
+        <Image Filename="borders\vignette1.pvsi" />
+      </Decoration>
+      <PanZoom StartRotation="-4" EndRotation="0.3426961" PanZoomOnAll="True">
+        <StartArea X="0.07826087" Y="0.06610408" Width="0.8695652" Height="0.8691983" />
+        <EndArea X="0.06324111" Y="0.0604782" Width="0.8798419" Height="0.8790436" />
+        <Equation Type="Linear" />
+      </PanZoom>
+    </Slide>
+  </Slideshow>
+  <DecorationEffectsDatabase>
+    <DecorationEffect Name="Present5Bottomleft" Length="1" TemplateOnlyEffect="True">
+      <Movement Type="StraightLineMovement" InitialDelay="0" EndDelay="0">
+        <Start X="-1.2" Y="0" Z="0" />
+        <End X="0.1" Y="0" Z="0" />
+        <Equation Type="NonLinear" />
+      </Movement>
+    </DecorationEffect>
+    <DecorationEffect Name="Present5TopRightBadge" Length="2" TemplateOnlyEffect="True">
+      <Movement Type="StraightLineMovement" InitialDelay="0" EndDelay="0">
+        <Start X="1" Y="0" Z="0" />
+        <End X="0" Y="0" Z="0" />
+        <Equation Type="NonLinear" />
+      </Movement>
+    </DecorationEffect>
+    <DecorationEffect Name="Present5BlueTopRight" Length="1" TemplateOnlyEffect="True">
+      <Movement Type="StraightLineMovement" InitialDelay="0" EndDelay="0">
+        <Start X="1" Y="0" Z="0" />
+        <End X="0" Y="0" Z="0" />
+        <Equation Type="NonLinear" />
+      </Movement>
+    </DecorationEffect>
+    <DecorationEffect Name="Present5BackTopRight" Length="2" TemplateOnlyEffect="True">
+      <Movement Type="StraightLineMovement" InitialDelay="0" EndDelay="0">
+        <Start X="-2.5" Y="0" Z="0" />
+        <End X="0" Y="0" Z="0" />
+        <Equation Type="NonLinear" />
+      </Movement>
+    </DecorationEffect>
+    <DecorationEffect Name="Present5BottomDown" Length="1" TemplateOnlyEffect="True">
+      <Movement Type="StraightLineMovement" InitialDelay="0" EndDelay="0">
+        <Start X="0" Y="0" Z="0" />
+        <End X="1.2" Y="0" Z="0" />
+        <Equation Type="NonLinear" />
+      </Movement>
+    </DecorationEffect>
+    <DecorationEffect Name="Present5ScrollTextIn" Length="1" TemplateOnlyEffect="True">
+      <Movement Type="StraightLineMovement" InitialDelay="0" EndDelay="0">
+        <Start X="0.2" Y="-2" Z="0" />
+        <End X="0" Y="0" Z="0" />
+        <Equation Type="NonLinear" />
+      </Movement>
+    </DecorationEffect>
+  </DecorationEffectsDatabase>
+</Template>

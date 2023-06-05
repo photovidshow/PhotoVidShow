@@ -1,0 +1,43 @@
+<Template Version="1.0.0" Name="Fade bottom black with caption" Description="Show an image with a faded black bottom part with caption text&#xD;&#xA;">
+  <Slideshow>
+    <Slide Type="BlankStillPictureSlide" PanZoom="True" DisplayTimeLength="8" UsesDefaultTransitionEffect="True" ThumbnailPreviewTime="4" Color="Color [Black]">
+      <TransitionEffect Type="SimpleAlphaBlendTransitionEffect" Length="1.5" Index="1" />
+      <Decoration Type="ImageDecoration" Aspect="3" OriTemImageNum="1" MoveAsSlidePanZoom="True">
+        <AlphaMap Filename="outlinemasks\smooth edge.jpg" />
+        <CoverageArea X="0" Y="0" Width="1" Height="1" />
+        <Image Filename="image1" />
+      </Decoration>
+      <Decoration Type="ImageDecoration" RenderMethod="4">
+        <CoverageArea X="0" Y="0" Width="1" Height="1" />
+        <Image Filename="filters\fade bottom black(mod1x).pvsi" />
+      </Decoration>
+      <Decoration Type="TextDecoration" StartOffsetTime="1" InEffect="QuickSlowLeft" OutEffect="MoveLeftFast " Text="Text1 text1 text1 text1" TemplateEditable="1">
+        <CoverageArea X="0.3478261" Y="0.8818566" Width="0.2896954" Height="0.0718557" />
+        <TextStyle Name="Vanilla" FontName="Segoe UI" FontSize="21.33333" OutLine="True" OutLineColour="Color [White]" OutlineLength="4" OutlineAlpha="87" />
+      </Decoration>
+      <PanZoom ReGenerateOnImageChange="True">
+        <StartArea X="0.125" Y="0.125" Width="0.75" Height="0.75" />
+        <EndArea X="0.21305" Y="0.21305" Width="0.5739" Height="0.5739" />
+        <Equation Type="Linear" />
+      </PanZoom>
+    </Slide>
+  </Slideshow>
+  <DecorationEffectsDatabase>
+    <DecorationEffect Name="QuickSlowLeft" LengthSetToDecorationLength="True" MotionBlur="30">
+      <TransitionEffect Type="SimpleAlphaBlendTransitionEffect" Length="1.5" EndDelay="0.99" />
+      <Movement Type="StraightLineMovement" InitialDelay="0" EndDelay="0">
+        <Start X="0.4" Y="0" Z="0" />
+        <End X="0" Y="0" Z="0" />
+        <Equation Type="QuickSlow" />
+      </Movement>
+    </DecorationEffect>
+    <DecorationEffect Name="MoveLeftFast " Length="1" MotionBlur="15">
+      <TransitionEffect Type="SimpleAlphaBlendTransitionEffect" Length="1.5" InitialDelay="0.5" />
+      <Movement Type="StraightLineMovement" InitialDelay="0" EndDelay="0">
+        <Start X="0" Y="0" Z="0" />
+        <End X="-2" Y="0" Z="0" />
+        <Equation Type="NonLinear" />
+      </Movement>
+    </DecorationEffect>
+  </DecorationEffectsDatabase>
+</Template>

@@ -1,0 +1,25 @@
+<Template Version="1.0.0" Name="Very old damaged film" Description="Shows a slide with two sepia filters and a damaged film effect&#xD;&#xA;">
+  <Slideshow>
+    <Slide Type="BlankStillPictureSlide" PanZoom="True" DisplayTimeLength="8" UsesDefaultTransitionEffect="True" ReCalcSlideLengthOnImage1Change="True" Color="Color [Black]">
+      <TransitionEffect Type="SimpleAlphaBlendTransitionEffect" Length="1.5" Index="1" />
+      <Decoration Type="ImageDecoration" Aspect="3" OriTemImageNum="1" MoveAsSlidePanZoom="True">
+        <CoverageArea X="0" Y="0" Width="1" Height="1" />
+        <Image Filename="image1" />
+      </Decoration>
+      <Decoration Type="VideoDecoration" VideoName="filters\damaged film(add).pvsv" GlobalPlayer="True" FlipY="True" RenderMethod="1">
+        <CoverageArea X="0" Y="0" Width="1" Height="1" />
+      </Decoration>
+      <Decoration Type="SepiaTransformDecoration">
+        <CoverageArea X="0" Y="0" Width="1" Height="1" />
+      </Decoration>
+      <Decoration Type="SepiaTransformDecoration">
+        <CoverageArea X="0" Y="0" Width="1" Height="1" />
+      </Decoration>
+      <PanZoom ReGenerateOnImageChange="True">
+        <StartArea X="0.125" Y="0" Width="0.75" Height="0.75" />
+        <EndArea X="0.125" Y="0.25" Width="0.75" Height="0.75" />
+      </PanZoom>
+    </Slide>
+  </Slideshow>
+  <DecorationEffectsDatabase />
+</Template>

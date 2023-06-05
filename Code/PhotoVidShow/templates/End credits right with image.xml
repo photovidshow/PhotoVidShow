@@ -1,0 +1,48 @@
+<Template Version="1.0.0" Name="Scroll end credits right" Description="Scrolls up end credits on the right with a backdrop image">
+  <Slideshow>
+    <Slide Type="BlankStillPictureSlide" PanZoom="False" DisplayTimeLength="16" UsesDefaultTransitionEffect="True" ForceMBSubFrames="10" ThumbnailPreviewTime="7" Color="Color [Black]">
+      <TransitionEffect Type="SimpleAlphaBlendTransitionEffect" Length="1.5" Index="1" />
+      <Decoration Type="ImageDecoration" Aspect="2" OriTemImageNum="1">
+        <CoverageArea X="0" Y="0" Width="1" Height="1" />
+        <Image Filename="image1" />
+      </Decoration>
+      <Decoration Type="ColourTransformDecoration" br="0.93" bg="0.77" bb="0.82" cr="1.04" cg="1.21" cb="1.26" gamma="1">
+        <CoverageArea X="0" Y="0" Width="1" Height="1" />
+      </Decoration>
+      <Decoration Type="TextDecoration" StartOffsetTime="1" InEffect="ScrollUp" Alpha="0.19" Text="enter credits text here.&#xD;&#xA;enter credits text here.&#xD;&#xA;enter credits text here.&#xD;&#xA;enter credits text here.&#xD;&#xA;enter credits text here.&#xD;&#xA;enter credits text here.&#xD;&#xA;enter credits text here.&#xD;&#xA;enter credits text here.&#xD;&#xA;enter credits text here.&#xD;&#xA;enter credits text here.&#xD;&#xA;&#xD;&#xA;&#xD;&#xA;&#xD;&#xA;&#xD;&#xA;&#xD;&#xA;&#xD;&#xA;" TemplateEditable="2">
+        <CoverageArea X="0.4777626" Y="0.0298103" Width="0.4408163" Height="1.372106" />
+        <TextStyle FontName="Arial" FontSize="32" FontColor="Color [A=255, R=255, G=255, B=187]" OutLine="True" OutLineColour="Color [A=255, R=170, G=170, B=0]" OutlineLength="3" OutlineAlpha="31" />
+      </Decoration>
+      <Decoration Type="TextDecoration" InEffect="QuickSlowInDownRight" Alpha="0.19" Text="the end" TemplateEditable="1">
+        <CoverageArea X="0.1189024" Y="0.08672087" Width="0.2911585" Height="0.1598916" />
+        <TextStyle FontName="Arial" FontSize="55.95937" FontColor="Color [A=255, R=255, G=255, B=187]" Bold="True" OutLine="True" OutLineColour="Color [A=255, R=170, G=170, B=0]" Alignment="Center" OutlineLength="3" OutlineAlpha="31" />
+      </Decoration>
+      <Decoration Type="ImageDecoration" RenderMethod="4" Border="True">
+        <CoverageArea X="0" Y="0" Width="1" Height="1" />
+        <Image Filename="borders\spotlight(mod1x).pvsi" />
+      </Decoration>
+      <PanZoom>
+        <StartArea X="0" Y="0" Width="1" Height="1" />
+        <EndArea X="0" Y="0" Width="1" Height="1" />
+        <Equation Type="Linear" />
+      </PanZoom>
+    </Slide>
+  </Slideshow>
+  <DecorationEffectsDatabase>
+    <DecorationEffect Name="QuickSlowInDownRight" LengthSetToDecorationLength="True" MotionBlur="30">
+      <TransitionEffect Type="SimpleAlphaBlendTransitionEffect" Length="1.5" EndDelay="0.99" />
+      <Movement Type="StraightLineMovement" InitialDelay="0" EndDelay="0">
+        <Start X="-0.4" Y="-0.4" Z="-1" />
+        <End X="0" Y="0" Z="1" />
+        <Equation Type="QuickSlow" />
+      </Movement>
+    </DecorationEffect>
+    <DecorationEffect Name="ScrollUp" LengthSetToDecorationLength="True" MotionBlur="10">
+      <Movement Type="StraightLineMovement" InitialDelay="0" EndDelay="0">
+        <Start X="0" Y="1" Z="0" />
+        <End X="0" Y="-1" Z="0" />
+        <Equation Type="Linear" />
+      </Movement>
+    </DecorationEffect>
+  </DecorationEffectsDatabase>
+</Template>

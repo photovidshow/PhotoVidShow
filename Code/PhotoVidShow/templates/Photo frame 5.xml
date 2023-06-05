@@ -1,0 +1,36 @@
+<Template Version="1.0.0" Name="Photo frame 5" Description="Shows an image in a photo frame">
+  <Slideshow>
+    <Slide Type="BlankStillPictureSlide" PanZoom="True" DisplayTimeLength="8" UsesDefaultTransitionEffect="True" MasterBackgroundAspect="1.777778" MastetAspectType="2" Color="Color [Black]">
+      <TransitionEffect Type="CameraSnapshotTransitionEffect" Length="0.3" Index="70" />
+      <Decoration Type="GroupedDecoration" MotionBlur="False" RenderMethod="7" MoveAsSlidePanZoom="True">
+        <CoverageArea X="0" Y="0" Width="1" Height="1" />
+        <Decoration Type="ImageDecoration" TemplateFramework="True" Aspect="2">
+          <CoverageArea X="0" Y="0" Width="1" Height="1" />
+          <Image Filename="templates\media\photo frame 9.jpg" />
+        </Decoration>
+        <Decoration Type="ImageDecoration" DegreesRot="1.537772" Aspect="2" OriTemImageNum="1">
+          <AlphaMap Filename="outlinemasks\smooth edge.jpg" />
+          <CoverageArea X="0.466763" Y="0.2236504" Width="0.2716763" Height="0.588689" />
+          <Image Filename="image1" />
+        </Decoration>
+        <Decoration Type="ImageDecoration" RenderMethod="4">
+          <CoverageArea X="0" Y="0" Width="1" Height="1" />
+          <Image Filename="filters\color mix 24(mod1x).pvsi" />
+        </Decoration>
+        <Decoration Type="BlurFilterDecoration" BlurFilterType="1">
+          <CoverageArea X="0" Y="0" Width="1" Height="1" />
+        </Decoration>
+      </Decoration>
+      <Decoration Type="ImageDecoration" Border="True">
+        <CoverageArea X="0" Y="0" Width="1" Height="1" />
+        <Image Filename="borders\vignette1.pvsi" />
+      </Decoration>
+      <PanZoom StartRotation="4.831299" PanZoomOnAll="True">
+        <StartArea X="0.3391053" Y="0.2512821" Width="0.5281385" Height="0.525641" />
+        <EndArea X="0.1457431" Y="0.07179487" Width="0.8542569" Height="0.8538461" />
+        <Equation Type="Linear" />
+      </PanZoom>
+    </Slide>
+  </Slideshow>
+  <DecorationEffectsDatabase />
+</Template>

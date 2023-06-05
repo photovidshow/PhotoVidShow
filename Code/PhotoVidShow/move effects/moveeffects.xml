@@ -1,0 +1,1469 @@
+<MoveEffects>
+  <DecorationEffectsDatabase>
+
+    <DecorationEffect Name="MoveInSlow" LengthSetToDecorationLength="True" >
+      <TransitionEffect Type="SimpleAlphaBlendTransitionEffect" Length="1.5" EndDelay="0.94" />
+      <Zoom InitialDelay="0" EndDelay="0" StartZoom="0.9" EndZoom="1">
+        <Equation Type="Linear" />
+      </Zoom>
+    </DecorationEffect>
+    <DecorationEffect Name="MoveOutSlow" LengthSetToDecorationLength="True" >
+      <TransitionEffect Type="SimpleAlphaBlendTransitionEffect" Length="1.5" EndDelay="0.94" />
+      <Zoom InitialDelay="0" EndDelay="0" StartZoom="1" EndZoom="0.9">
+        <Equation Type="Linear" />
+      </Zoom>
+    </DecorationEffect>
+    <DecorationEffect Name="MoveLeftSlow" LengthSetToDecorationLength="True" >
+      <TransitionEffect Type="SimpleAlphaBlendTransitionEffect" Length="1.5" EndDelay="0.94" />
+      <Movement Type="StraightLineMovement" InitialDelay="0" EndDelay="0">
+        <Start X="0" Y="0" Z="0" />
+        <End X="-0.02" Y="0" Z="0" />
+        <Equation Type="Linear" />
+      </Movement>
+    </DecorationEffect>
+    <DecorationEffect Name="MoveRightSlow" LengthSetToDecorationLength="True" >
+      <TransitionEffect Type="SimpleAlphaBlendTransitionEffect" Length="1.5" EndDelay="0.94" />
+      <Movement Type="StraightLineMovement" InitialDelay="0" EndDelay="0">
+        <Start X="0" Y="0" Z="0" />
+        <End X="0.02" Y="0" Z="0" />
+        <Equation Type="Linear" />
+      </Movement>
+    </DecorationEffect>
+    <DecorationEffect Name="MoveUpSlow" LengthSetToDecorationLength="True" >
+      <TransitionEffect Type="SimpleAlphaBlendTransitionEffect" Length="1.5" EndDelay="0.94" />
+      <Movement Type="StraightLineMovement" InitialDelay="0" EndDelay="0">
+        <Start X="0" Y="0" Z="0" />
+        <End X="0" Y="-0.03" Z="0" />
+        <Equation Type="Linear" />
+      </Movement>
+    </DecorationEffect>
+    <DecorationEffect Name="MoveDownSlow" LengthSetToDecorationLength="True" >
+      <TransitionEffect Type="SimpleAlphaBlendTransitionEffect" Length="1.5" EndDelay="0.94" />
+      <Movement Type="StraightLineMovement" InitialDelay="0" EndDelay="0">
+        <Start X="0" Y="0" Z="0" />
+        <End X="0" Y="0.03" Z="0" />
+        <Equation Type="Linear" />
+      </Movement>
+    </DecorationEffect>
+    <DecorationEffect Name="MoveUpLeftSlow" LengthSetToDecorationLength="True" >
+      <TransitionEffect Type="SimpleAlphaBlendTransitionEffect" Length="1.5" EndDelay="0.94" />
+      <Movement Type="StraightLineMovement" InitialDelay="0" EndDelay="0">
+        <Start X="0" Y="0" Z="0" />
+        <End X="-0.02" Y="-0.03" Z="0" />
+        <Equation Type="Linear" />
+      </Movement>
+    </DecorationEffect>
+    <DecorationEffect Name="MoveUpRightSlow" LengthSetToDecorationLength="True" >
+      <TransitionEffect Type="SimpleAlphaBlendTransitionEffect" Length="1.5" EndDelay="0.94" />
+      <Movement Type="StraightLineMovement" InitialDelay="0" EndDelay="0">
+        <Start X="0" Y="0" Z="0" />
+        <End X="0.02" Y="-0.03" Z="0" />
+        <Equation Type="Linear" />
+      </Movement>
+    </DecorationEffect>
+    <DecorationEffect Name="MoveDownRightSlow" LengthSetToDecorationLength="True" >
+      <TransitionEffect Type="SimpleAlphaBlendTransitionEffect" Length="1.5" EndDelay="0.94" />
+      <Movement Type="StraightLineMovement" InitialDelay="0" EndDelay="0">
+        <Start X="0" Y="0" Z="0" />
+        <End X="0.02" Y="0.03" Z="0" />
+        <Equation Type="Linear" />
+      </Movement>
+    </DecorationEffect>
+    <DecorationEffect Name="MoveDownLeftSlow" LengthSetToDecorationLength="True" >
+      <TransitionEffect Type="SimpleAlphaBlendTransitionEffect" Length="1.5" EndDelay="0.94" />
+      <Movement Type="StraightLineMovement" InitialDelay="0" EndDelay="0">
+        <Start X="0" Y="0" Z="0" />
+        <End X="-0.02" Y="0.03" Z="0" />
+        <Equation Type="Linear" />
+      </Movement>
+    </DecorationEffect>
+    
+    
+    <DecorationEffect Name="QuickSlowUp" LengthSetToDecorationLength="True" MotionBlur="30">
+      <TransitionEffect Type="SimpleAlphaBlendTransitionEffect" Length="1.5" EndDelay="0.99" />
+      <Movement Type="StraightLineMovement" InitialDelay="0" EndDelay="0">
+        <Start X="0" Y="0.4" Z="0" />
+        <End X="0" Y="0" Z="0" />
+        <Equation Type="QuickSlow" />
+      </Movement>
+    </DecorationEffect>
+    <DecorationEffect Name="QuickSlowDown" LengthSetToDecorationLength="True" MotionBlur="30">
+      <TransitionEffect Type="SimpleAlphaBlendTransitionEffect" Length="1.5" EndDelay="0.99" />
+      <Movement Type="StraightLineMovement" InitialDelay="0" EndDelay="0">
+        <Start X="0" Y="-0.4" Z="0" />
+        <End X="0" Y="0" Z="0" />
+        <Equation Type="QuickSlow" />
+      </Movement>
+    </DecorationEffect>
+    <DecorationEffect Name="QuickSlowLeft" LengthSetToDecorationLength="True" MotionBlur="30">
+      <TransitionEffect Type="SimpleAlphaBlendTransitionEffect" Length="1.5" EndDelay="0.99" />
+      <Movement Type="StraightLineMovement" InitialDelay="0" EndDelay="0">
+        <Start X="0.4" Y="0" Z="0" />
+        <End X="0" Y="0" Z="0" />
+        <Equation Type="QuickSlow" />
+      </Movement>
+    </DecorationEffect>
+    <DecorationEffect Name="QuickSlowRight" LengthSetToDecorationLength="True" MotionBlur="30">
+      <TransitionEffect Type="SimpleAlphaBlendTransitionEffect" Length="1.5" EndDelay="0.99" />
+      <Movement Type="StraightLineMovement" InitialDelay="0" EndDelay="0">
+        <Start X="-0.4" Y="0" Z="0" />
+        <End X="0" Y="0" Z="0" />
+        <Equation Type="QuickSlow" />
+      </Movement>
+    </DecorationEffect>
+    <DecorationEffect Name="QuickSlowUpRight" LengthSetToDecorationLength="True" MotionBlur="30">
+      <TransitionEffect Type="SimpleAlphaBlendTransitionEffect" Length="1.5" EndDelay="0.99" />
+      <Movement Type="StraightLineMovement" InitialDelay="0" EndDelay="0">
+        <Start X="-0.4" Y="0.4" Z="0" />
+        <End X="0" Y="0" Z="0" />
+        <Equation Type="QuickSlow" />
+      </Movement>
+    </DecorationEffect>
+    <DecorationEffect Name="QuickSlowUpLeft" LengthSetToDecorationLength="True" MotionBlur="30">
+      <TransitionEffect Type="SimpleAlphaBlendTransitionEffect" Length="1.5" EndDelay="0.99" />
+      <Movement Type="StraightLineMovement" InitialDelay="0" EndDelay="0">
+        <Start X="0.4" Y="0.4" Z="0" />
+        <End X="0" Y="0" Z="0" />
+        <Equation Type="QuickSlow" />
+      </Movement>
+    </DecorationEffect>
+    <DecorationEffect Name="QuickSlowDownRight" LengthSetToDecorationLength="True" MotionBlur="30">
+      <TransitionEffect Type="SimpleAlphaBlendTransitionEffect" Length="1.5" EndDelay="0.99" />
+      <Movement Type="StraightLineMovement" InitialDelay="0" EndDelay="0">
+        <Start X="-0.4" Y="-0.4" Z="0" />
+        <End X="0" Y="0" Z="0" />
+        <Equation Type="QuickSlow" />
+      </Movement>
+    </DecorationEffect>
+    <DecorationEffect Name="QuickSlowDownLeft" LengthSetToDecorationLength="True" MotionBlur="30">
+      <TransitionEffect Type="SimpleAlphaBlendTransitionEffect" Length="1.5" EndDelay="0.99" />
+      <Movement Type="StraightLineMovement" InitialDelay="0" EndDelay="0">
+        <Start X="0.4" Y="-0.4" Z="0" />
+        <End X="0" Y="0" Z="0" />
+        <Equation Type="QuickSlow" />
+      </Movement>
+    </DecorationEffect>
+
+
+    <DecorationEffect Name="QuickSlowIn" LengthSetToDecorationLength="True" MotionBlur="30">
+      <TransitionEffect Type="SimpleAlphaBlendTransitionEffect" Length="1.5" EndDelay="0.99" />
+      <Movement Type="StraightLineMovement" InitialDelay="0" EndDelay="0">
+        <Start X="0" Y="0" Z="-1" />
+        <End X="0" Y="0" Z="1" />
+        <Equation Type="QuickSlow" />
+      </Movement>
+    </DecorationEffect>
+    <DecorationEffect Name="QuickSlowInUp" LengthSetToDecorationLength="True" MotionBlur="30">
+      <TransitionEffect Type="SimpleAlphaBlendTransitionEffect" Length="1.5" EndDelay="0.99" />
+      <Movement Type="StraightLineMovement" InitialDelay="0" EndDelay="0">
+        <Start X="0" Y="0.4" Z="-1" />
+        <End X="0" Y="0" Z="1" />
+        <Equation Type="QuickSlow" />
+      </Movement>
+    </DecorationEffect>
+    <DecorationEffect Name="QuickSlowInDown" LengthSetToDecorationLength="True" MotionBlur="30">
+      <TransitionEffect Type="SimpleAlphaBlendTransitionEffect" Length="1.5" EndDelay="0.99" />
+      <Movement Type="StraightLineMovement" InitialDelay="0" EndDelay="0">
+        <Start X="0" Y="-0.4" Z="-1" />
+        <End X="0" Y="0" Z="1" />
+        <Equation Type="QuickSlow" />
+      </Movement>
+    </DecorationEffect>
+    <DecorationEffect Name="QuickSlowInLeft" LengthSetToDecorationLength="True" MotionBlur="30">
+      <TransitionEffect Type="SimpleAlphaBlendTransitionEffect" Length="1.5" EndDelay="0.99" />
+      <Movement Type="StraightLineMovement" InitialDelay="0" EndDelay="0">
+        <Start X="0.4" Y="0" Z="-1" />
+        <End X="0" Y="0" Z="1" />
+        <Equation Type="QuickSlow" />
+      </Movement>
+    </DecorationEffect>
+    <DecorationEffect Name="QuickSlowInRight" LengthSetToDecorationLength="True" MotionBlur="30">
+      <TransitionEffect Type="SimpleAlphaBlendTransitionEffect" Length="1.5" EndDelay="0.99" />
+      <Movement Type="StraightLineMovement" InitialDelay="0" EndDelay="0">
+        <Start X="-0.4" Y="0" Z="-1" />
+        <End X="0" Y="0" Z="1" />
+        <Equation Type="QuickSlow" />
+      </Movement>
+    </DecorationEffect>
+    <DecorationEffect Name="QuickSlowInUpRight" LengthSetToDecorationLength="True" MotionBlur="30">
+      <TransitionEffect Type="SimpleAlphaBlendTransitionEffect" Length="1.5" EndDelay="0.99" />
+      <Movement Type="StraightLineMovement" InitialDelay="0" EndDelay="0">
+        <Start X="-0.4" Y="0.4" Z="-1" />
+        <End X="0" Y="0" Z="1" />
+        <Equation Type="QuickSlow" />
+      </Movement>
+    </DecorationEffect>
+    <DecorationEffect Name="QuickSlowInUpLeft" LengthSetToDecorationLength="True" MotionBlur="30">
+      <TransitionEffect Type="SimpleAlphaBlendTransitionEffect" Length="1.5" EndDelay="0.99" />
+      <Movement Type="StraightLineMovement" InitialDelay="0" EndDelay="0">
+        <Start X="0.4" Y="0.4" Z="-1" />
+        <End X="0" Y="0" Z="1" />
+        <Equation Type="QuickSlow" />
+      </Movement>
+    </DecorationEffect>
+    <DecorationEffect Name="QuickSlowInDownRight" LengthSetToDecorationLength="True" MotionBlur="30">
+      <TransitionEffect Type="SimpleAlphaBlendTransitionEffect" Length="1.5" EndDelay="0.99" />
+      <Movement Type="StraightLineMovement" InitialDelay="0" EndDelay="0">
+        <Start X="-0.4" Y="-0.4" Z="-1" />
+        <End X="0" Y="0" Z="1" />
+        <Equation Type="QuickSlow" />
+      </Movement>
+    </DecorationEffect>
+    <DecorationEffect Name="QuickSlowInDownLeft" LengthSetToDecorationLength="True" MotionBlur="30">
+      <TransitionEffect Type="SimpleAlphaBlendTransitionEffect" Length="1.5" EndDelay="0.99" />
+      <Movement Type="StraightLineMovement" InitialDelay="0" EndDelay="0">
+        <Start X="0.4" Y="-0.4" Z="-1" />
+        <End X="0" Y="0" Z="1" />
+        <Equation Type="QuickSlow" />
+      </Movement>
+    </DecorationEffect>
+
+
+    <DecorationEffect Name="QuickSlowOut" LengthSetToDecorationLength="True" MotionBlur="30">
+      <TransitionEffect Type="SimpleAlphaBlendTransitionEffect" Length="1.5" EndDelay="0.99" />
+      <Movement Type="StraightLineMovement" InitialDelay="0" EndDelay="0">
+        <Start X="0" Y="0" Z="3" />
+        <End X="0" Y="0" Z="1" />
+        <Equation Type="QuickSlow" />
+      </Movement>
+    </DecorationEffect>
+    <DecorationEffect Name="QuickSlowOutUp" LengthSetToDecorationLength="True" MotionBlur="30">
+      <TransitionEffect Type="SimpleAlphaBlendTransitionEffect" Length="1.5" EndDelay="0.99" />
+      <Movement Type="StraightLineMovement" InitialDelay="0" EndDelay="0">
+        <Start X="0" Y="0.4" Z="3" />
+        <End X="0" Y="0" Z="1" />
+        <Equation Type="QuickSlow" />
+      </Movement>
+    </DecorationEffect>
+    <DecorationEffect Name="QuickSlowOutDown" LengthSetToDecorationLength="True" MotionBlur="30">
+      <TransitionEffect Type="SimpleAlphaBlendTransitionEffect" Length="1.5" EndDelay="0.99" />
+      <Movement Type="StraightLineMovement" InitialDelay="0" EndDelay="0">
+        <Start X="0" Y="-0.4" Z="3" />
+        <End X="0" Y="0" Z="1" />
+        <Equation Type="QuickSlow" />
+      </Movement>
+    </DecorationEffect>
+    <DecorationEffect Name="QuickSlowOutLeft" LengthSetToDecorationLength="True" MotionBlur="30">
+      <TransitionEffect Type="SimpleAlphaBlendTransitionEffect" Length="1.5" EndDelay="0.99" />
+      <Movement Type="StraightLineMovement" InitialDelay="0" EndDelay="0">
+        <Start X="0.4" Y="0" Z="3" />
+        <End X="0" Y="0" Z="1" />
+        <Equation Type="QuickSlow" />
+      </Movement>
+    </DecorationEffect>
+    <DecorationEffect Name="QuickSlowOutRight" LengthSetToDecorationLength="True" MotionBlur="30">
+      <TransitionEffect Type="SimpleAlphaBlendTransitionEffect" Length="1.5" EndDelay="0.99" />
+      <Movement Type="StraightLineMovement" InitialDelay="0" EndDelay="0">
+        <Start X="-0.4" Y="0" Z="3" />
+        <End X="0" Y="0" Z="1" />
+        <Equation Type="QuickSlow" />
+      </Movement>
+    </DecorationEffect>
+    <DecorationEffect Name="QuickSlowOutUpRight" LengthSetToDecorationLength="True" MotionBlur="30">
+      <TransitionEffect Type="SimpleAlphaBlendTransitionEffect" Length="1.5" EndDelay="0.99" />
+      <Movement Type="StraightLineMovement" InitialDelay="0" EndDelay="0">
+        <Start X="-0.4" Y="0.4" Z="3" />
+        <End X="0" Y="0" Z="1" />
+        <Equation Type="QuickSlow" />
+      </Movement>
+    </DecorationEffect>
+    <DecorationEffect Name="QuickSlowOutUpLeft" LengthSetToDecorationLength="True" MotionBlur="30">
+      <TransitionEffect Type="SimpleAlphaBlendTransitionEffect" Length="1.5" EndDelay="0.99" />
+      <Movement Type="StraightLineMovement" InitialDelay="0" EndDelay="0">
+        <Start X="0.4" Y="0.4" Z="3" />
+        <End X="0" Y="0" Z="1" />
+        <Equation Type="QuickSlow" />
+      </Movement>
+    </DecorationEffect>
+    <DecorationEffect Name="QuickSlowOutDownRight" LengthSetToDecorationLength="True" MotionBlur="30">
+      <TransitionEffect Type="SimpleAlphaBlendTransitionEffect" Length="1.5" EndDelay="0.99" />
+      <Movement Type="StraightLineMovement" InitialDelay="0" EndDelay="0">
+        <Start X="-0.4" Y="-0.4" Z="3" />
+        <End X="0" Y="0" Z="1" />
+        <Equation Type="QuickSlow" />
+      </Movement>
+    </DecorationEffect>
+    <DecorationEffect Name="QuickSlowOutDownLeft" LengthSetToDecorationLength="True" MotionBlur="30">
+      <TransitionEffect Type="SimpleAlphaBlendTransitionEffect" Length="1.5" EndDelay="0.99" />
+      <Movement Type="StraightLineMovement" InitialDelay="0" EndDelay="0">
+        <Start X="0.4" Y="-0.4" Z="3" />
+        <End X="0" Y="0" Z="1" />
+        <Equation Type="QuickSlow" />
+      </Movement>
+    </DecorationEffect>
+
+
+    <DecorationEffect Name="MoveUp" Length="1" MotionBlur="15">
+      <TransitionEffect Type="SimpleAlphaBlendTransitionEffect" Length="1.5" EndDelay="0.5" />
+      <Movement Type="StraightLineMovement" InitialDelay="0" EndDelay="0">
+        <Start X="0" Y="0.4" Z="0" />
+        <End X="0" Y="0" Z="0" />
+        <Equation Type="NonLinear" />
+      </Movement>
+    </DecorationEffect>
+    <DecorationEffect Name="MoveDown" Length="1" MotionBlur="15">
+      <TransitionEffect Type="SimpleAlphaBlendTransitionEffect" Length="1.5" EndDelay="0.5" />
+      <Movement Type="StraightLineMovement" InitialDelay="0" EndDelay="0">
+        <Start X="0" Y="-0.4" Z="0" />
+        <End X="0" Y="0" Z="0" />
+        <Equation Type="NonLinear" />
+      </Movement>
+    </DecorationEffect>
+    <DecorationEffect Name="MoveLeft" Length="1" MotionBlur="15">
+      <TransitionEffect Type="SimpleAlphaBlendTransitionEffect" Length="1.5" EndDelay="0.5" />
+      <Movement Type="StraightLineMovement" InitialDelay="0" EndDelay="0">
+        <Start X="0.4" Y="0" Z="0" />
+        <End X="0" Y="0" Z="0" />
+        <Equation Type="NonLinear" />
+      </Movement>
+    </DecorationEffect>
+    <DecorationEffect Name="MoveRight" Length="1" MotionBlur="15">
+      <TransitionEffect Type="SimpleAlphaBlendTransitionEffect" Length="1.5" EndDelay="0.5" />
+      <Movement Type="StraightLineMovement" InitialDelay="0" EndDelay="0">
+        <Start X="-0.4" Y="0" Z="0" />
+        <End X="0" Y="0" Z="0" />
+        <Equation Type="NonLinear" />
+      </Movement>
+    </DecorationEffect>
+    <DecorationEffect Name="MoveUpRight" Length="1" MotionBlur="15">
+      <TransitionEffect Type="SimpleAlphaBlendTransitionEffect" Length="1.5" EndDelay="0.5" />
+      <Movement Type="StraightLineMovement" InitialDelay="0" EndDelay="0">
+        <Start X="-0.4" Y="0.4" Z="0" />
+        <End X="0" Y="0" Z="0" />
+        <Equation Type="NonLinear" />
+      </Movement>
+    </DecorationEffect>
+    <DecorationEffect Name="MoveUpLeft" Length="1" MotionBlur="15">
+      <TransitionEffect Type="SimpleAlphaBlendTransitionEffect" Length="1.5" EndDelay="0.5" />
+      <Movement Type="StraightLineMovement" InitialDelay="0" EndDelay="0">
+        <Start X="0.4" Y="0.4" Z="0" />
+        <End X="0" Y="0" Z="0" />
+        <Equation Type="NonLinear" />
+      </Movement>
+    </DecorationEffect>
+    <DecorationEffect Name="MoveDownRight" Length="1" MotionBlur="15">
+      <TransitionEffect Type="SimpleAlphaBlendTransitionEffect" Length="1.5" EndDelay="0.5" />
+      <Movement Type="StraightLineMovement" InitialDelay="0" EndDelay="0">
+        <Start X="-0.4" Y="-0.4" Z="0" />
+        <End X="0" Y="0" Z="0" />
+        <Equation Type="NonLinear" />
+      </Movement>
+    </DecorationEffect>
+    <DecorationEffect Name="MoveDownLeft" Length="1" MotionBlur="15">
+      <TransitionEffect Type="SimpleAlphaBlendTransitionEffect" Length="1.5" EndDelay="0.5" />
+      <Movement Type="StraightLineMovement" InitialDelay="0" EndDelay="0">
+        <Start X="0.4" Y="-0.4" Z="0" />
+        <End X="0" Y="0" Z="0" />
+        <Equation Type="NonLinear" />
+      </Movement>
+    </DecorationEffect>
+
+
+
+    <DecorationEffect Name="MoveUpMore" Length="1" MotionBlur="15">
+      <TransitionEffect Type="SimpleAlphaBlendTransitionEffect" Length="1.5" EndDelay="0.5" />
+      <Movement Type="StraightLineMovement" InitialDelay="0" EndDelay="0">
+        <Start X="0" Y="1" Z="0" />
+        <End X="0" Y="0" Z="0" />
+        <Equation Type="NonLinear" />
+      </Movement>
+    </DecorationEffect>
+    <DecorationEffect Name="MoveDownMore" Length="1" MotionBlur="15">
+      <TransitionEffect Type="SimpleAlphaBlendTransitionEffect" Length="1.5" EndDelay="0.5" />
+      <Movement Type="StraightLineMovement" InitialDelay="0" EndDelay="0">
+        <Start X="0" Y="-1" Z="0" />
+        <End X="0" Y="0" Z="0" />
+        <Equation Type="NonLinear" />
+      </Movement>
+    </DecorationEffect>
+    <DecorationEffect Name="MoveLeftMore" Length="1" MotionBlur="15">
+      <TransitionEffect Type="SimpleAlphaBlendTransitionEffect" Length="1.5" EndDelay="0.5" />
+      <Movement Type="StraightLineMovement" InitialDelay="0" EndDelay="0">
+        <Start X="1" Y="0" Z="0" />
+        <End X="0" Y="0" Z="0" />
+        <Equation Type="NonLinear" />
+      </Movement>
+    </DecorationEffect>
+    <DecorationEffect Name="MoveRightMore" Length="1" MotionBlur="15">
+      <TransitionEffect Type="SimpleAlphaBlendTransitionEffect" Length="1.5" EndDelay="0.5" />
+      <Movement Type="StraightLineMovement" InitialDelay="0" EndDelay="0">
+        <Start X="-1" Y="0" Z="0" />
+        <End X="0" Y="0" Z="0" />
+        <Equation Type="NonLinear" />
+      </Movement>
+    </DecorationEffect>
+    <DecorationEffect Name="MoveUpRightMore" Length="1" MotionBlur="15">
+      <TransitionEffect Type="SimpleAlphaBlendTransitionEffect" Length="1.5" EndDelay="0.5" />
+      <Movement Type="StraightLineMovement" InitialDelay="0" EndDelay="0">
+        <Start X="-1" Y="1" Z="0" />
+        <End X="0" Y="0" Z="0" />
+        <Equation Type="NonLinear" />
+      </Movement>
+    </DecorationEffect>
+    <DecorationEffect Name="MoveUpLeftMore" Length="1" MotionBlur="15">
+      <TransitionEffect Type="SimpleAlphaBlendTransitionEffect" Length="1.5" EndDelay="0.5" />
+      <Movement Type="StraightLineMovement" InitialDelay="0" EndDelay="0">
+        <Start X="1" Y="1" Z="0" />
+        <End X="0" Y="0" Z="0" />
+        <Equation Type="NonLinear" />
+      </Movement>
+    </DecorationEffect>
+    <DecorationEffect Name="MoveDownRightMore" Length="1" MotionBlur="15">
+      <TransitionEffect Type="SimpleAlphaBlendTransitionEffect" Length="1.5" EndDelay="0.5" />
+      <Movement Type="StraightLineMovement" InitialDelay="0" EndDelay="0">
+        <Start X="-1" Y="-1" Z="0" />
+        <End X="0" Y="0" Z="0" />
+        <Equation Type="NonLinear" />
+      </Movement>
+    </DecorationEffect>
+    <DecorationEffect Name="MoveDownLeftMore" Length="1" MotionBlur="15">
+      <TransitionEffect Type="SimpleAlphaBlendTransitionEffect" Length="1.5" EndDelay="0.5" />
+      <Movement Type="StraightLineMovement" InitialDelay="0" EndDelay="0">
+        <Start X="1" Y="-1" Z="0" />
+        <End X="0" Y="0" Z="0" />
+        <Equation Type="NonLinear" />
+      </Movement>
+    </DecorationEffect>
+
+    <DecorationEffect Name="MoveUpFast" Length="1" MotionBlur="15">
+      <TransitionEffect Type="SimpleAlphaBlendTransitionEffect" Length="1.5" EndDelay="0.5" />
+      <Movement Type="StraightLineMovement" InitialDelay="0" EndDelay="0">
+        <Start X="0" Y="2" Z="0" />
+        <End X="0" Y="0" Z="0" />
+        <Equation Type="NonLinear" />
+      </Movement>
+    </DecorationEffect>
+    <DecorationEffect Name="MoveDownFast" Length="1" MotionBlur="15">
+      <TransitionEffect Type="SimpleAlphaBlendTransitionEffect" Length="1.5" EndDelay="0.5" />
+      <Movement Type="StraightLineMovement" InitialDelay="0" EndDelay="0">
+        <Start X="0" Y="-2" Z="0" />
+        <End X="0" Y="0" Z="0" />
+        <Equation Type="NonLinear" />
+      </Movement>
+    </DecorationEffect>
+    <DecorationEffect Name="MoveLeftfast" Length="1" MotionBlur="15">
+      <TransitionEffect Type="SimpleAlphaBlendTransitionEffect" Length="1.5" EndDelay="0.5" />
+      <Movement Type="StraightLineMovement" InitialDelay="0" EndDelay="0">
+        <Start X="2" Y="0" Z="0" />
+        <End X="0" Y="0" Z="0" />
+        <Equation Type="NonLinear" />
+      </Movement>
+    </DecorationEffect>
+    <DecorationEffect Name="MoveRightFast" Length="1" MotionBlur="15">
+      <TransitionEffect Type="SimpleAlphaBlendTransitionEffect" Length="1.5" EndDelay="0.5" />
+      <Movement Type="StraightLineMovement" InitialDelay="0" EndDelay="0">
+        <Start X="-2" Y="0" Z="0" />
+        <End X="0" Y="0" Z="0" />
+        <Equation Type="NonLinear" />
+      </Movement>
+    </DecorationEffect>
+    <DecorationEffect Name="MoveUpRightFast" Length="1" MotionBlur="15">
+      <TransitionEffect Type="SimpleAlphaBlendTransitionEffect" Length="1.5" EndDelay="0.5" />
+      <Movement Type="StraightLineMovement" InitialDelay="0" EndDelay="0">
+        <Start X="-2" Y="2" Z="0" />
+        <End X="0" Y="0" Z="0" />
+        <Equation Type="NonLinear" />
+      </Movement>
+    </DecorationEffect>
+    <DecorationEffect Name="MoveUpLeftFast" Length="1" MotionBlur="15">
+      <TransitionEffect Type="SimpleAlphaBlendTransitionEffect" Length="1.5" EndDelay="0.5" />
+      <Movement Type="StraightLineMovement" InitialDelay="0" EndDelay="0">
+        <Start X="2" Y="2" Z="0" />
+        <End X="0" Y="0" Z="0" />
+        <Equation Type="NonLinear" />
+      </Movement>
+    </DecorationEffect>
+    <DecorationEffect Name="MoveDownRightFast" Length="1" MotionBlur="15">
+      <TransitionEffect Type="SimpleAlphaBlendTransitionEffect" Length="1.5" EndDelay="0.5" />
+      <Movement Type="StraightLineMovement" InitialDelay="0" EndDelay="0">
+        <Start X="-2" Y="-2" Z="0" />
+        <End X="0" Y="0" Z="0" />
+        <Equation Type="NonLinear" />
+      </Movement>
+    </DecorationEffect>
+    <DecorationEffect Name="MoveDownLeftFast" Length="1" MotionBlur="15">
+      <TransitionEffect Type="SimpleAlphaBlendTransitionEffect" Length="1.5" EndDelay="0.5" />
+      <Movement Type="StraightLineMovement" InitialDelay="0" EndDelay="0">
+        <Start X="2" Y="-2" Z="0" />
+        <End X="0" Y="0" Z="0" />
+        <Equation Type="NonLinear" />
+      </Movement>
+    </DecorationEffect>
+
+
+    <DecorationEffect Name="MoveIn" Length="1" MotionBlur="30">
+      <TransitionEffect Type="SimpleAlphaBlendTransitionEffect" Length="1.5" EndDelay="0.5" />
+      <Movement Type="StraightLineMovement" InitialDelay="0" EndDelay="0">
+        <Start X="0" Y="0" Z="-1" />
+        <End X="0" Y="0" Z="1" />
+        <Equation Type="NonLinear" />
+      </Movement>
+    </DecorationEffect>
+    <DecorationEffect Name="MoveInUp" Length="1" MotionBlur="30">
+      <TransitionEffect Type="SimpleAlphaBlendTransitionEffect" Length="1.5" EndDelay="0.5" />
+      <Movement Type="StraightLineMovement" InitialDelay="0" EndDelay="0">
+        <Start X="0" Y="0.4" Z="-1" />
+        <End X="0" Y="0" Z="1" />
+        <Equation Type="NonLinear" />
+      </Movement>
+    </DecorationEffect>
+    <DecorationEffect Name="MoveInDown" Length="1" MotionBlur="30">
+      <TransitionEffect Type="SimpleAlphaBlendTransitionEffect" Length="1.5" EndDelay="0.5" />
+      <Movement Type="StraightLineMovement" InitialDelay="0" EndDelay="0">
+        <Start X="0" Y="-0.4" Z="-1" />
+        <End X="0" Y="0" Z="1" />
+        <Equation Type="NonLinear" />
+      </Movement>
+    </DecorationEffect>
+    <DecorationEffect Name="MoveInLeft" Length="1" MotionBlur="30">
+      <TransitionEffect Type="SimpleAlphaBlendTransitionEffect" Length="1.5" EndDelay="0.5" />
+      <Movement Type="StraightLineMovement" InitialDelay="0" EndDelay="0">
+        <Start X="0.4" Y="0" Z="-1" />
+        <End X="0" Y="0" Z="1" />
+        <Equation Type="NonLinear" />
+      </Movement>
+    </DecorationEffect>
+    <DecorationEffect Name="MoveInRight" Length="1" MotionBlur="30">
+      <TransitionEffect Type="SimpleAlphaBlendTransitionEffect" Length="1.5" EndDelay="0.5" />
+      <Movement Type="StraightLineMovement" InitialDelay="0" EndDelay="0">
+        <Start X="-0.4" Y="0" Z="-1" />
+        <End X="0" Y="0" Z="1" />
+        <Equation Type="NonLinear" />
+      </Movement>
+    </DecorationEffect>
+    <DecorationEffect Name="MoveInUpRight" Length="1" MotionBlur="30">
+      <TransitionEffect Type="SimpleAlphaBlendTransitionEffect" Length="1.5" EndDelay="0.5" />
+      <Movement Type="StraightLineMovement" InitialDelay="0" EndDelay="0">
+        <Start X="-0.4" Y="0.4" Z="-1" />
+        <End X="0" Y="0" Z="1" />
+        <Equation Type="NonLinear" />
+      </Movement>
+    </DecorationEffect>
+    <DecorationEffect Name="MoveInUpLeft" Length="1" MotionBlur="30">
+      <TransitionEffect Type="SimpleAlphaBlendTransitionEffect" Length="1.5" EndDelay="0.5" />
+      <Movement Type="StraightLineMovement" InitialDelay="0" EndDelay="0">
+        <Start X="0.4" Y="0.4" Z="-1" />
+        <End X="0" Y="0" Z="1" />
+        <Equation Type="NonLinear" />
+      </Movement>
+    </DecorationEffect>
+    <DecorationEffect Name="MoveInDownRight" Length="1" MotionBlur="30">
+      <TransitionEffect Type="SimpleAlphaBlendTransitionEffect" Length="1.5" EndDelay="0.5" />
+      <Movement Type="StraightLineMovement" InitialDelay="0" EndDelay="0">
+        <Start X="-0.4" Y="-0.4" Z="-1" />
+        <End X="0" Y="0" Z="1" />
+        <Equation Type="NonLinear" />
+      </Movement>
+    </DecorationEffect>
+    <DecorationEffect Name="MoveInDownLeft" Length="1" MotionBlur="30">
+      <TransitionEffect Type="SimpleAlphaBlendTransitionEffect" Length="1.5" EndDelay="0.5" />
+      <Movement Type="StraightLineMovement" InitialDelay="0" EndDelay="0">
+        <Start X="0.4" Y="-0.4" Z="-1" />
+        <End X="0" Y="0" Z="1" />
+        <Equation Type="NonLinear" />
+      </Movement>
+    </DecorationEffect>
+
+
+    <DecorationEffect Name="MoveOut" Length="1" MotionBlur="15">
+      <TransitionEffect Type="SimpleAlphaBlendTransitionEffect" Length="1.5" EndDelay="0.5" />
+      <Movement Type="StraightLineMovement" InitialDelay="0" EndDelay="0">
+        <Start X="0" Y="0" Z="3" />
+        <End X="0" Y="0" Z="1" />
+        <Equation Type="NonLinear" />
+      </Movement>
+    </DecorationEffect>
+    <DecorationEffect Name="MoveOutUp" Length="1" MotionBlur="15">
+      <TransitionEffect Type="SimpleAlphaBlendTransitionEffect" Length="1.5" EndDelay="0.5" />
+      <Movement Type="StraightLineMovement" InitialDelay="0" EndDelay="0">
+        <Start X="0" Y="0.4" Z="3" />
+        <End X="0" Y="0" Z="1" />
+        <Equation Type="NonLinear" />
+      </Movement>
+    </DecorationEffect>
+    <DecorationEffect Name="MoveOutDown" Length="1" MotionBlur="15">
+      <TransitionEffect Type="SimpleAlphaBlendTransitionEffect" Length="1.5" EndDelay="0.5" />
+      <Movement Type="StraightLineMovement" InitialDelay="0" EndDelay="0">
+        <Start X="0" Y="-0.4" Z="3" />
+        <End X="0" Y="0" Z="1" />
+        <Equation Type="NonLinear" />
+      </Movement>
+    </DecorationEffect>
+    <DecorationEffect Name="MoveOutLeft" Length="1" MotionBlur="15">
+      <TransitionEffect Type="SimpleAlphaBlendTransitionEffect" Length="1.5" EndDelay="0.5" />
+      <Movement Type="StraightLineMovement" InitialDelay="0" EndDelay="0">
+        <Start X="0.4" Y="0" Z="3" />
+        <End X="0" Y="0" Z="1" />
+        <Equation Type="NonLinear" />
+      </Movement>
+    </DecorationEffect>
+    <DecorationEffect Name="MoveOutRight" Length="1" MotionBlur="15">
+      <TransitionEffect Type="SimpleAlphaBlendTransitionEffect" Length="1.5" EndDelay="0.5" />
+      <Movement Type="StraightLineMovement" InitialDelay="0" EndDelay="0">
+        <Start X="-0.4" Y="0" Z="3" />
+        <End X="0" Y="0" Z="1" />
+        <Equation Type="NonLinear" />
+      </Movement>
+    </DecorationEffect>
+    <DecorationEffect Name="MoveOutUpRight" Length="1" MotionBlur="15">
+      <TransitionEffect Type="SimpleAlphaBlendTransitionEffect" Length="1.5" EndDelay="0.5" />
+      <Movement Type="StraightLineMovement" InitialDelay="0" EndDelay="0">
+        <Start X="-0.4" Y="0.4" Z="3" />
+        <End X="0" Y="0" Z="1" />
+        <Equation Type="NonLinear" />
+      </Movement>
+    </DecorationEffect>
+    <DecorationEffect Name="MoveOutUpLeft" Length="1" MotionBlur="15">
+      <TransitionEffect Type="SimpleAlphaBlendTransitionEffect" Length="1.5" EndDelay="0.5" />
+      <Movement Type="StraightLineMovement" InitialDelay="0" EndDelay="0">
+        <Start X="0.4" Y="0.4" Z="3" />
+        <End X="0" Y="0" Z="1" />
+        <Equation Type="NonLinear" />
+      </Movement>
+    </DecorationEffect>
+    <DecorationEffect Name="MoveOutDownRight" Length="1" MotionBlur="15">
+      <TransitionEffect Type="SimpleAlphaBlendTransitionEffect" Length="1.5" EndDelay="0.5" />
+      <Movement Type="StraightLineMovement" InitialDelay="0" EndDelay="0">
+        <Start X="-0.4" Y="-0.4" Z="3" />
+        <End X="0" Y="0" Z="1" />
+        <Equation Type="NonLinear" />
+      </Movement>
+    </DecorationEffect>
+    <DecorationEffect Name="MoveOutDownLeft" Length="1" MotionBlur="15">
+      <TransitionEffect Type="SimpleAlphaBlendTransitionEffect" Length="1.5" EndDelay="0.5" />
+      <Movement Type="StraightLineMovement" InitialDelay="0" EndDelay="0">
+        <Start X="0.4" Y="-0.4" Z="3" />
+        <End X="0" Y="0" Z="1" />
+        <Equation Type="NonLinear" />
+      </Movement>
+    </DecorationEffect>
+
+
+
+
+    <DecorationEffect Name="SpringUp" Length="1" MotionBlur="15">
+      <TransitionEffect Type="SimpleAlphaBlendTransitionEffect" Length="1.5" EndDelay="0.5" />
+      <Movement Type="StraightLineMovement" InitialDelay="0" EndDelay="0">
+        <Start X="0" Y="0.4" Z="0" />
+        <End X="0" Y="0" Z="0" />
+        <Equation Type="Spring" />
+      </Movement>
+    </DecorationEffect>
+    <DecorationEffect Name="SpringDown" Length="1" MotionBlur="15">
+      <TransitionEffect Type="SimpleAlphaBlendTransitionEffect" Length="1.5" EndDelay="0.5" />
+      <Movement Type="StraightLineMovement" InitialDelay="0" EndDelay="0">
+        <Start X="0" Y="-0.4" Z="0" />
+        <End X="0" Y="0" Z="0" />
+        <Equation Type="Spring" />
+      </Movement>
+    </DecorationEffect>
+    <DecorationEffect Name="SpringLeft" Length="1" MotionBlur="15">
+      <TransitionEffect Type="SimpleAlphaBlendTransitionEffect" Length="1.5" EndDelay="0.5" />
+      <Movement Type="StraightLineMovement" InitialDelay="0" EndDelay="0">
+        <Start X="0.4" Y="0" Z="0" />
+        <End X="0" Y="0" Z="0" />
+        <Equation Type="Spring" />
+      </Movement>
+    </DecorationEffect>
+    <DecorationEffect Name="SpringRight" Length="1" MotionBlur="15">
+      <TransitionEffect Type="SimpleAlphaBlendTransitionEffect" Length="1.5" EndDelay="0.5" />
+      <Movement Type="StraightLineMovement" InitialDelay="0" EndDelay="0">
+        <Start X="-0.4" Y="0" Z="0" />
+        <End X="0" Y="0" Z="0" />
+        <Equation Type="Spring" />
+      </Movement>
+    </DecorationEffect>
+    <DecorationEffect Name="SpringUpRight" Length="1" MotionBlur="15">
+      <TransitionEffect Type="SimpleAlphaBlendTransitionEffect" Length="1.5" EndDelay="0.5" />
+      <Movement Type="StraightLineMovement" InitialDelay="0" EndDelay="0">
+        <Start X="-0.4" Y="0.4" Z="0" />
+        <End X="0" Y="0" Z="0" />
+        <Equation Type="Spring" />
+      </Movement>
+    </DecorationEffect>
+    <DecorationEffect Name="SpringUpLeft" Length="1" MotionBlur="15">
+      <TransitionEffect Type="SimpleAlphaBlendTransitionEffect" Length="1.5" EndDelay="0.5" />
+      <Movement Type="StraightLineMovement" InitialDelay="0" EndDelay="0">
+        <Start X="0.4" Y="0.4" Z="0" />
+        <End X="0" Y="0" Z="0" />
+        <Equation Type="Spring" />
+      </Movement>
+    </DecorationEffect>
+    <DecorationEffect Name="SpringDownRight" Length="1" MotionBlur="15">
+      <TransitionEffect Type="SimpleAlphaBlendTransitionEffect" Length="1.5" EndDelay="0.5" />
+      <Movement Type="StraightLineMovement" InitialDelay="0" EndDelay="0">
+        <Start X="-0.4" Y="-0.4" Z="0" />
+        <End X="0" Y="0" Z="0" />
+        <Equation Type="Spring" />
+      </Movement>
+    </DecorationEffect>
+    <DecorationEffect Name="SpringDownLeft" Length="1" MotionBlur="15">
+      <TransitionEffect Type="SimpleAlphaBlendTransitionEffect" Length="1.5" EndDelay="0.5" />
+      <Movement Type="StraightLineMovement" InitialDelay="0" EndDelay="0">
+        <Start X="0.4" Y="-0.4" Z="0" />
+        <End X="0" Y="0" Z="0" />
+        <Equation Type="Spring" />
+      </Movement>
+    </DecorationEffect>
+
+
+    <DecorationEffect Name="SpringIn" Length="1" MotionBlur="30">
+      <TransitionEffect Type="SimpleAlphaBlendTransitionEffect" Length="1.5" EndDelay="0.5" />
+      <Movement Type="StraightLineMovement" InitialDelay="0" EndDelay="0">
+        <Start X="0" Y="0" Z="-1" />
+        <End X="0" Y="0" Z="1" />
+        <Equation Type="Spring" />
+      </Movement>
+    </DecorationEffect>
+    <DecorationEffect Name="SpringInUp" Length="1" MotionBlur="30">
+      <TransitionEffect Type="SimpleAlphaBlendTransitionEffect" Length="1.5" EndDelay="0.5" />
+      <Movement Type="StraightLineMovement" InitialDelay="0" EndDelay="0">
+        <Start X="0" Y="0.4" Z="-1" />
+        <End X="0" Y="0" Z="1" />
+        <Equation Type="Spring" />
+      </Movement>
+    </DecorationEffect>
+    <DecorationEffect Name="SpringInDown" Length="1" MotionBlur="30">
+      <TransitionEffect Type="SimpleAlphaBlendTransitionEffect" Length="1.5" EndDelay="0.5" />
+      <Movement Type="StraightLineMovement" InitialDelay="0" EndDelay="0">
+        <Start X="0" Y="-0.4" Z="-1" />
+        <End X="0" Y="0" Z="1" />
+        <Equation Type="Spring" />
+      </Movement>
+    </DecorationEffect>
+    <DecorationEffect Name="SpringInLeft" Length="1" MotionBlur="30">
+      <TransitionEffect Type="SimpleAlphaBlendTransitionEffect" Length="1.5" EndDelay="0.5" />
+      <Movement Type="StraightLineMovement" InitialDelay="0" EndDelay="0">
+        <Start X="0.4" Y="0" Z="-1" />
+        <End X="0" Y="0" Z="1" />
+        <Equation Type="Spring" />
+      </Movement>
+    </DecorationEffect>
+    <DecorationEffect Name="SpringInRight" Length="1" MotionBlur="30">
+      <TransitionEffect Type="SimpleAlphaBlendTransitionEffect" Length="1.5" EndDelay="0.5" />
+      <Movement Type="StraightLineMovement" InitialDelay="0" EndDelay="0">
+        <Start X="-0.4" Y="0" Z="-1" />
+        <End X="0" Y="0" Z="1" />
+        <Equation Type="Spring" />
+      </Movement>
+    </DecorationEffect>
+    <DecorationEffect Name="SpringInUpRight" Length="1" MotionBlur="30">
+      <TransitionEffect Type="SimpleAlphaBlendTransitionEffect" Length="1.5" EndDelay="0.5" />
+      <Movement Type="StraightLineMovement" InitialDelay="0" EndDelay="0">
+        <Start X="-0.4" Y="0.4" Z="-1" />
+        <End X="0" Y="0" Z="1" />
+        <Equation Type="Spring" />
+      </Movement>
+    </DecorationEffect>
+    <DecorationEffect Name="SpringInUpLeft" Length="1" MotionBlur="30">
+      <TransitionEffect Type="SimpleAlphaBlendTransitionEffect" Length="1.5" EndDelay="0.5" />
+      <Movement Type="StraightLineMovement" InitialDelay="0" EndDelay="0">
+        <Start X="0.4" Y="0.4" Z="-1" />
+        <End X="0" Y="0" Z="1" />
+        <Equation Type="Spring" />
+      </Movement>
+    </DecorationEffect>
+    <DecorationEffect Name="SpringInDownRight" Length="1" MotionBlur="30">
+      <TransitionEffect Type="SimpleAlphaBlendTransitionEffect" Length="1.5" EndDelay="0.5" />
+      <Movement Type="StraightLineMovement" InitialDelay="0" EndDelay="0">
+        <Start X="-0.4" Y="-0.4" Z="-1" />
+        <End X="0" Y="0" Z="1" />
+        <Equation Type="Spring" />
+      </Movement>
+    </DecorationEffect>
+    <DecorationEffect Name="SpringInDownLeft" Length="1" MotionBlur="30">
+      <TransitionEffect Type="SimpleAlphaBlendTransitionEffect" Length="1.5" EndDelay="0.5" />
+      <Movement Type="StraightLineMovement" InitialDelay="0" EndDelay="0">
+        <Start X="0.4" Y="-0.4" Z="-1" />
+        <End X="0" Y="0" Z="1" />
+        <Equation Type="Spring" />
+      </Movement>
+    </DecorationEffect>
+
+    <DecorationEffect Name="SpringOut" Length="1" MotionBlur="15">
+      <TransitionEffect Type="SimpleAlphaBlendTransitionEffect" Length="1.5" EndDelay="0.5" />
+      <Movement Type="StraightLineMovement" InitialDelay="0" EndDelay="0">
+        <Start X="0" Y="0" Z="3" />
+        <End X="0" Y="0" Z="1" />
+        <Equation Type="Spring" />
+      </Movement>
+    </DecorationEffect>
+    <DecorationEffect Name="SpringOutUp" Length="1" MotionBlur="15">
+      <TransitionEffect Type="SimpleAlphaBlendTransitionEffect" Length="1.5" EndDelay="0.5" />
+      <Movement Type="StraightLineMovement" InitialDelay="0" EndDelay="0">
+        <Start X="0" Y="0.4" Z="3" />
+        <End X="0" Y="0" Z="1" />
+        <Equation Type="Spring" />
+      </Movement>
+    </DecorationEffect>
+    <DecorationEffect Name="SpringOutDown" Length="1" MotionBlur="15">
+      <TransitionEffect Type="SimpleAlphaBlendTransitionEffect" Length="1.5" EndDelay="0.5" />
+      <Movement Type="StraightLineMovement" InitialDelay="0" EndDelay="0">
+        <Start X="0" Y="-0.4" Z="3" />
+        <End X="0" Y="0" Z="1" />
+        <Equation Type="Spring" />
+      </Movement>
+    </DecorationEffect>
+    <DecorationEffect Name="SpringOutLeft" Length="1" MotionBlur="15">
+      <TransitionEffect Type="SimpleAlphaBlendTransitionEffect" Length="1.5" EndDelay="0.5" />
+      <Movement Type="StraightLineMovement" InitialDelay="0" EndDelay="0">
+        <Start X="0.4" Y="0" Z="3" />
+        <End X="0" Y="0" Z="1" />
+        <Equation Type="Spring" />
+      </Movement>
+    </DecorationEffect>
+    <DecorationEffect Name="SpringOutRight" Length="1" MotionBlur="15">
+      <TransitionEffect Type="SimpleAlphaBlendTransitionEffect" Length="1.5" EndDelay="0.5" />
+      <Movement Type="StraightLineMovement" InitialDelay="0" EndDelay="0">
+        <Start X="-0.4" Y="0" Z="3" />
+        <End X="0" Y="0" Z="1" />
+        <Equation Type="Spring" />
+      </Movement>
+    </DecorationEffect>
+    <DecorationEffect Name="SpringOutUpRight" Length="1" MotionBlur="15">
+      <TransitionEffect Type="SimpleAlphaBlendTransitionEffect" Length="1.5" EndDelay="0.5" />
+      <Movement Type="StraightLineMovement" InitialDelay="0" EndDelay="0">
+        <Start X="-0.4" Y="0.4" Z="3" />
+        <End X="0" Y="0" Z="1" />
+        <Equation Type="Spring" />
+      </Movement>
+    </DecorationEffect>
+    <DecorationEffect Name="SpringOutUpLeft" Length="1" MotionBlur="15">
+      <TransitionEffect Type="SimpleAlphaBlendTransitionEffect" Length="1.5" EndDelay="0.5" />
+      <Movement Type="StraightLineMovement" InitialDelay="0" EndDelay="0">
+        <Start X="0.4" Y="0.4" Z="3" />
+        <End X="0" Y="0" Z="1" />
+        <Equation Type="Spring" />
+      </Movement>
+    </DecorationEffect>
+    <DecorationEffect Name="SpringOutDownRight" Length="1" MotionBlur="15">
+      <TransitionEffect Type="SimpleAlphaBlendTransitionEffect" Length="1.5" EndDelay="0.5" />
+      <Movement Type="StraightLineMovement" InitialDelay="0" EndDelay="0">
+        <Start X="-0.4" Y="-0.4" Z="3" />
+        <End X="0" Y="0" Z="1" />
+        <Equation Type="Spring" />
+      </Movement>
+    </DecorationEffect>
+    <DecorationEffect Name="SpringOutDownLeft" Length="1" MotionBlur="15">
+      <TransitionEffect Type="SimpleAlphaBlendTransitionEffect" Length="1.5" EndDelay="0.5" />
+      <Movement Type="StraightLineMovement" InitialDelay="0" EndDelay="0">
+        <Start X="0.4" Y="-0.4" Z="3" />
+        <End X="0" Y="0" Z="1" />
+        <Equation Type="Spring" />
+      </Movement>
+    </DecorationEffect>
+
+
+    <DecorationEffect Name="Delay" Length="1" HasCharDelay="True" CharTimeOffset="0.075" CharOrder="0">
+      <TransitionEffect Type="SimpleAlphaBlendTransitionEffect" Length="1.5" EndDelay="0.5" />
+      <Movement Type="StraightLineMovement" InitialDelay="0" EndDelay="0">
+        <Start X="0" Y="0" Z="0" />
+        <End X="0" Y="0" Z="0" />
+        <Equation Type="NonLinear" />
+      </Movement>
+    </DecorationEffect>
+    <DecorationEffect Name="DelayQuick" Length="1" HasCharDelay="True" CharTimeOffset="0.025" CharOrder="0">
+      <TransitionEffect Type="SimpleAlphaBlendTransitionEffect" Length="1.5" EndDelay="0.5" />
+      <Movement Type="StraightLineMovement" InitialDelay="0" EndDelay="0">
+        <Start X="0" Y="0" Z="0" />
+        <End X="0" Y="0" Z="0" />
+        <Equation Type="NonLinear" />
+      </Movement>
+    </DecorationEffect>
+    <DecorationEffect Name="DelayMoveUp" Length="1" MotionBlur="15" HasCharDelay="True" CharTimeOffset="0.075" CharOrder="0">
+      <TransitionEffect Type="SimpleAlphaBlendTransitionEffect" Length="1.5" EndDelay="0.5" />
+      <Movement Type="StraightLineMovement" InitialDelay="0" EndDelay="0">
+        <Start X="0" Y="0.4" Z="0" />
+        <End X="0" Y="0" Z="0" />
+        <Equation Type="NonLinear" />
+      </Movement>
+    </DecorationEffect>
+    <DecorationEffect Name="DelayMoveDown" Length="1" MotionBlur="15" HasCharDelay="True" CharTimeOffset="0.075" CharOrder="0">
+      <TransitionEffect Type="SimpleAlphaBlendTransitionEffect" Length="1.5" EndDelay="0.5" />
+      <Movement Type="StraightLineMovement" InitialDelay="0" EndDelay="0">
+        <Start X="0" Y="-0.4" Z="0" />
+        <End X="0" Y="0" Z="0" />
+        <Equation Type="NonLinear" />
+      </Movement>
+    </DecorationEffect>
+    <DecorationEffect Name="DelayMoveLeft" Length="1" MotionBlur="15" HasCharDelay="True" CharTimeOffset="0.075" CharOrder="0">
+      <TransitionEffect Type="SimpleAlphaBlendTransitionEffect" Length="1.5" EndDelay="0.5" />
+      <Movement Type="StraightLineMovement" InitialDelay="0" EndDelay="0">
+        <Start X="0.4" Y="0" Z="0" />
+        <End X="0" Y="0" Z="0" />
+        <Equation Type="NonLinear" />
+      </Movement>
+    </DecorationEffect>
+    <DecorationEffect Name="DelayMoveRight" Length="1" MotionBlur="15" HasCharDelay="True" CharTimeOffset="0.075" CharOrder="0">
+      <TransitionEffect Type="SimpleAlphaBlendTransitionEffect" Length="1.5" EndDelay="0.5" />
+      <Movement Type="StraightLineMovement" InitialDelay="0" EndDelay="0">
+        <Start X="-0.4" Y="0" Z="0" />
+        <End X="0" Y="0" Z="0" />
+        <Equation Type="NonLinear" />
+      </Movement>
+    </DecorationEffect>
+    <DecorationEffect Name="DelayMoveUpRight" Length="1" MotionBlur="15" HasCharDelay="True" CharTimeOffset="0.075" CharOrder="0">
+      <TransitionEffect Type="SimpleAlphaBlendTransitionEffect" Length="1.5" EndDelay="0.5" />
+      <Movement Type="StraightLineMovement" InitialDelay="0" EndDelay="0">
+        <Start X="-0.4" Y="0.4" Z="0" />
+        <End X="0" Y="0" Z="0" />
+        <Equation Type="NonLinear" />
+      </Movement>
+    </DecorationEffect>
+    <DecorationEffect Name="DelayMoveUpLeft" Length="1" MotionBlur="15" HasCharDelay="True" CharTimeOffset="0.075" CharOrder="0">
+      <TransitionEffect Type="SimpleAlphaBlendTransitionEffect" Length="1.5" EndDelay="0.5" />
+      <Movement Type="StraightLineMovement" InitialDelay="0" EndDelay="0">
+        <Start X="0.4" Y="0.4" Z="0" />
+        <End X="0" Y="0" Z="0" />
+        <Equation Type="NonLinear" />
+      </Movement>
+    </DecorationEffect>
+    <DecorationEffect Name="DelayMoveDownRight" Length="1" MotionBlur="15" HasCharDelay="True" CharTimeOffset="0.075" CharOrder="0">
+      <TransitionEffect Type="SimpleAlphaBlendTransitionEffect" Length="1.5" EndDelay="0.5" />
+      <Movement Type="StraightLineMovement" InitialDelay="0" EndDelay="0">
+        <Start X="-0.4" Y="-0.4" Z="0" />
+        <End X="0" Y="0" Z="0" />
+        <Equation Type="NonLinear" />
+      </Movement>
+    </DecorationEffect>
+    <DecorationEffect Name="DelayMoveDownLeft" Length="1" MotionBlur="15" HasCharDelay="True" CharTimeOffset="0.075" CharOrder="0">
+      <TransitionEffect Type="SimpleAlphaBlendTransitionEffect" Length="1.5" EndDelay="0.5" />
+      <Movement Type="StraightLineMovement" InitialDelay="0" EndDelay="0">
+        <Start X="0.4" Y="-0.4" Z="0" />
+        <End X="0" Y="0" Z="0" />
+        <Equation Type="NonLinear" />
+      </Movement>
+    </DecorationEffect>
+
+  
+    <DecorationEffect Name="DelayMoveIn" Length="1" MotionBlur="30" HasCharDelay="True" CharTimeOffset="0.075" CharOrder="0">
+      <TransitionEffect Type="SimpleAlphaBlendTransitionEffect" Length="1.5" EndDelay="0.5" />
+      <Movement Type="StraightLineMovement" InitialDelay="0" EndDelay="0">
+        <Start X="0" Y="0" Z="-1" />
+        <End X="0" Y="0" Z="1" />
+        <Equation Type="NonLinear" />
+      </Movement>
+    </DecorationEffect>
+    <DecorationEffect Name="DelayMoveInUp" Length="1" MotionBlur="30" HasCharDelay="True" CharTimeOffset="0.075" CharOrder="0">
+      <TransitionEffect Type="SimpleAlphaBlendTransitionEffect" Length="1.5" EndDelay="0.5" />
+      <Movement Type="StraightLineMovement" InitialDelay="0" EndDelay="0">
+        <Start X="0" Y="0.4" Z="-1" />
+        <End X="0" Y="0" Z="1" />
+        <Equation Type="NonLinear" />
+      </Movement>
+    </DecorationEffect>
+    <DecorationEffect Name="DelayMoveInDown" Length="1" MotionBlur="30" HasCharDelay="True" CharTimeOffset="0.075" CharOrder="0">
+      <TransitionEffect Type="SimpleAlphaBlendTransitionEffect" Length="1.5" EndDelay="0.5" />
+      <Movement Type="StraightLineMovement" InitialDelay="0" EndDelay="0">
+        <Start X="0" Y="-0.4" Z="-1" />
+        <End X="0" Y="0" Z="1" />
+        <Equation Type="NonLinear" />
+      </Movement>
+    </DecorationEffect>
+    <DecorationEffect Name="DelayMoveInLeft" Length="1" MotionBlur="30" HasCharDelay="True" CharTimeOffset="0.075" CharOrder="0">
+      <TransitionEffect Type="SimpleAlphaBlendTransitionEffect" Length="1.5" EndDelay="0.5" />
+      <Movement Type="StraightLineMovement" InitialDelay="0" EndDelay="0">
+        <Start X="0.4" Y="0" Z="-1" />
+        <End X="0" Y="0" Z="1" />
+        <Equation Type="NonLinear" />
+      </Movement>
+    </DecorationEffect>
+    <DecorationEffect Name="DelayMoveInRight" Length="1" MotionBlur="30" HasCharDelay="True" CharTimeOffset="0.075" CharOrder="0">
+      <TransitionEffect Type="SimpleAlphaBlendTransitionEffect" Length="1.5" EndDelay="0.5" />
+      <Movement Type="StraightLineMovement" InitialDelay="0" EndDelay="0">
+        <Start X="-0.4" Y="0" Z="-1" />
+        <End X="0" Y="0" Z="1" />
+        <Equation Type="NonLinear" />
+      </Movement>
+    </DecorationEffect>
+    <DecorationEffect Name="DelayMoveInUpRight" Length="1" MotionBlur="30" HasCharDelay="True" CharTimeOffset="0.075" CharOrder="0">
+      <TransitionEffect Type="SimpleAlphaBlendTransitionEffect" Length="1.5" EndDelay="0.5" />
+      <Movement Type="StraightLineMovement" InitialDelay="0" EndDelay="0">
+        <Start X="-0.4" Y="0.4" Z="-1" />
+        <End X="0" Y="0" Z="1" />
+        <Equation Type="NonLinear" />
+      </Movement>
+    </DecorationEffect>
+    <DecorationEffect Name="DelayMoveInUpLeft" Length="1" MotionBlur="30" HasCharDelay="True" CharTimeOffset="0.075" CharOrder="0">
+      <TransitionEffect Type="SimpleAlphaBlendTransitionEffect" Length="1.5" EndDelay="0.5" />
+      <Movement Type="StraightLineMovement" InitialDelay="0" EndDelay="0">
+        <Start X="0.4" Y="0.4" Z="-1" />
+        <End X="0" Y="0" Z="1" />
+        <Equation Type="NonLinear" />
+      </Movement>
+    </DecorationEffect>
+    <DecorationEffect Name="DelayMoveInDownRight" Length="1" MotionBlur="30" HasCharDelay="True" CharTimeOffset="0.075" CharOrder="0">
+      <TransitionEffect Type="SimpleAlphaBlendTransitionEffect" Length="1.5" EndDelay="0.5" />
+      <Movement Type="StraightLineMovement" InitialDelay="0" EndDelay="0">
+        <Start X="-0.4" Y="-0.4" Z="-1" />
+        <End X="0" Y="0" Z="1" />
+        <Equation Type="NonLinear" />
+      </Movement>
+    </DecorationEffect>
+    <DecorationEffect Name="DelayMoveInDownLeft" Length="1" MotionBlur="30" HasCharDelay="True" CharTimeOffset="0.075" CharOrder="0">
+      <TransitionEffect Type="SimpleAlphaBlendTransitionEffect" Length="1.5" EndDelay="0.5" />
+      <Movement Type="StraightLineMovement" InitialDelay="0" EndDelay="0">
+        <Start X="0.4" Y="-0.4" Z="-1" />
+        <End X="0" Y="0" Z="1" />
+        <Equation Type="NonLinear" />
+      </Movement>
+    </DecorationEffect>
+
+    <DecorationEffect Name="DelayMoveOut" Length="1" MotionBlur="15" HasCharDelay="True" CharTimeOffset="0.075" CharOrder="0">
+      <TransitionEffect Type="SimpleAlphaBlendTransitionEffect" Length="1.5" EndDelay="0.5" />
+      <Movement Type="StraightLineMovement" InitialDelay="0" EndDelay="0">
+        <Start X="0" Y="0" Z="3" />
+        <End X="0" Y="0" Z="1" />
+        <Equation Type="NonLinear" />
+      </Movement>
+    </DecorationEffect>
+    <DecorationEffect Name="DelayMoveOutUp" Length="1" MotionBlur="15" HasCharDelay="True" CharTimeOffset="0.075" CharOrder="0">
+      <TransitionEffect Type="SimpleAlphaBlendTransitionEffect" Length="1.5" EndDelay="0.5" />
+      <Movement Type="StraightLineMovement" InitialDelay="0" EndDelay="0">
+        <Start X="0" Y="0.4" Z="3" />
+        <End X="0" Y="0" Z="1" />
+        <Equation Type="NonLinear" />
+      </Movement>
+    </DecorationEffect>
+    <DecorationEffect Name="DelayMoveOutDown" Length="1" MotionBlur="15" HasCharDelay="True" CharTimeOffset="0.075" CharOrder="0">
+      <TransitionEffect Type="SimpleAlphaBlendTransitionEffect" Length="1.5" EndDelay="0.5" />
+      <Movement Type="StraightLineMovement" InitialDelay="0" EndDelay="0">
+        <Start X="0" Y="-0.4" Z="3" />
+        <End X="0" Y="0" Z="1" />
+        <Equation Type="NonLinear" />
+      </Movement>
+    </DecorationEffect>
+    <DecorationEffect Name="DelayMoveOutLeft" Length="1" MotionBlur="15" HasCharDelay="True" CharTimeOffset="0.075" CharOrder="0">
+      <TransitionEffect Type="SimpleAlphaBlendTransitionEffect" Length="1.5" EndDelay="0.5" />
+      <Movement Type="StraightLineMovement" InitialDelay="0" EndDelay="0">
+        <Start X="0.4" Y="0" Z="3" />
+        <End X="0" Y="0" Z="1" />
+        <Equation Type="NonLinear" />
+      </Movement>
+    </DecorationEffect>
+    <DecorationEffect Name="DelayMoveOutRight" Length="1" MotionBlur="15" HasCharDelay="True" CharTimeOffset="0.075" CharOrder="0">
+      <TransitionEffect Type="SimpleAlphaBlendTransitionEffect" Length="1.5" EndDelay="0.5" />
+      <Movement Type="StraightLineMovement" InitialDelay="0" EndDelay="0">
+        <Start X="-0.4" Y="0" Z="3" />
+        <End X="0" Y="0" Z="1" />
+        <Equation Type="NonLinear" />
+      </Movement>
+    </DecorationEffect>
+    <DecorationEffect Name="DelayMoveOutUpRight" Length="1" MotionBlur="15" HasCharDelay="True" CharTimeOffset="0.075" CharOrder="0">
+      <TransitionEffect Type="SimpleAlphaBlendTransitionEffect" Length="1.5" EndDelay="0.5" />
+      <Movement Type="StraightLineMovement" InitialDelay="0" EndDelay="0">
+        <Start X="-0.4" Y="0.4" Z="3" />
+        <End X="0" Y="0" Z="1" />
+        <Equation Type="NonLinear" />
+      </Movement>
+    </DecorationEffect>
+    <DecorationEffect Name="DelayMoveOutUpLeft" Length="1" MotionBlur="15" HasCharDelay="True" CharTimeOffset="0.075" CharOrder="0">
+      <TransitionEffect Type="SimpleAlphaBlendTransitionEffect" Length="1.5" EndDelay="0.5" />
+      <Movement Type="StraightLineMovement" InitialDelay="0" EndDelay="0">
+        <Start X="0.4" Y="0.4" Z="3" />
+        <End X="0" Y="0" Z="1" />
+        <Equation Type="NonLinear" />
+      </Movement>
+    </DecorationEffect>
+    <DecorationEffect Name="DelayMoveOutDownRight" Length="1" MotionBlur="15" HasCharDelay="True" CharTimeOffset="0.075" CharOrder="0">
+      <TransitionEffect Type="SimpleAlphaBlendTransitionEffect" Length="1.5" EndDelay="0.5" />
+      <Movement Type="StraightLineMovement" InitialDelay="0" EndDelay="0">
+        <Start X="-0.4" Y="-0.4" Z="3" />
+        <End X="0" Y="0" Z="1" />
+        <Equation Type="NonLinear" />
+      </Movement>
+    </DecorationEffect>
+    <DecorationEffect Name="DelayMoveOutDownLeft" Length="1" MotionBlur="15" HasCharDelay="True" CharTimeOffset="0.075" CharOrder="0">
+      <TransitionEffect Type="SimpleAlphaBlendTransitionEffect" Length="1.5" EndDelay="0.5" />
+      <Movement Type="StraightLineMovement" InitialDelay="0" EndDelay="0">
+        <Start X="0.4" Y="-0.4" Z="3" />
+        <End X="0" Y="0" Z="1" />
+        <Equation Type="NonLinear" />
+      </Movement>
+    </DecorationEffect>
+
+
+    <DecorationEffect Name="ScrollUp" LengthSetToDecorationLength="True" MotionBlur="10">
+      <Movement Type="StraightLineMovement" InitialDelay="0" EndDelay="0">
+        <Start X="0" Y="1" Z="0" />
+        <End X="0" Y="-1" Z="0" />
+        <Equation Type="Linear" />
+      </Movement>
+    </DecorationEffect>
+    <DecorationEffect Name="ScrollDown" LengthSetToDecorationLength="True" MotionBlur="10">
+      <Movement Type="StraightLineMovement" InitialDelay="0" EndDelay="0">
+        <Start X="0" Y="-1" Z="0" />
+        <End X="0" Y="1" Z="0" />
+        <Equation Type="Linear" />
+      </Movement>
+    </DecorationEffect>
+    <DecorationEffect Name="ScrollLeft" LengthSetToDecorationLength="True" MotionBlur="10">
+      <Movement Type="StraightLineMovement" InitialDelay="0" EndDelay="0">
+        <Start X="1" Y="0" Z="0" />
+        <End X="-1" Y="0" Z="0" />
+        <Equation Type="Linear" />
+      </Movement>
+    </DecorationEffect>
+    <DecorationEffect Name="ScrollRight" LengthSetToDecorationLength="True" MotionBlur="10">
+      <Movement Type="StraightLineMovement" InitialDelay="0" EndDelay="0">
+        <Start X="-1" Y="0" Z="0" />
+        <End X="1" Y="0" Z="0" />
+        <Equation Type="Linear" />
+      </Movement>
+    </DecorationEffect>
+    <DecorationEffect Name="ScrollUpRight" LengthSetToDecorationLength="True" MotionBlur="10">
+      <Movement Type="StraightLineMovement" InitialDelay="0" EndDelay="0">
+        <Start X="-1" Y="1" Z="0" />
+        <End X="1" Y="-1" Z="0" />
+        <Equation Type="Linear" />
+      </Movement>
+    </DecorationEffect>
+    <DecorationEffect Name="ScrollUpLeft" LengthSetToDecorationLength="True" MotionBlur="10">
+      <Movement Type="StraightLineMovement" InitialDelay="0" EndDelay="0">
+        <Start X="1" Y="1" Z="0" />
+        <End X="-1" Y="-1" Z="0" />
+        <Equation Type="Linear" />
+      </Movement>
+    </DecorationEffect>
+    <DecorationEffect Name="ScrollDownRight" LengthSetToDecorationLength="True" MotionBlur="10">
+      <Movement Type="StraightLineMovement" InitialDelay="0" EndDelay="0">
+        <Start X="-1" Y="-1" Z="0" />
+        <End X="1" Y="1" Z="0" />
+        <Equation Type="Linear" />
+      </Movement>
+    </DecorationEffect>
+    <DecorationEffect Name="ScrollDownLeft" LengthSetToDecorationLength="True" MotionBlur="10">
+      <Movement Type="StraightLineMovement" InitialDelay="0" EndDelay="0">
+        <Start X="1" Y="-1" Z="0" />
+        <End X="-1" Y="1" Z="0" />
+        <Equation Type="Linear" />
+      </Movement>
+    </DecorationEffect>
+    <DecorationEffect Name="Vertical Stretch" Length="1" MotionBlur="10">
+      <TransitionEffect Type="SimpleAlphaBlendTransitionEffect" Length="1.5" EndDelay="0.5" />
+      <Stretch Type="VerticalStretch" StartMultiplier="10" EndMultiplier="1" InitialDelay="0" EndDelay="0">
+        <Equation Type="NonLinear" />
+      </Stretch>
+    </DecorationEffect>
+    <DecorationEffect Name="Horizontal Stretch" Length="1" MotionBlur="10">
+      <TransitionEffect Type="SimpleAlphaBlendTransitionEffect" Length="1.5" EndDelay="0.5" />
+      <Stretch Type="HorizontalStretch" StartMultiplier="10" EndMultiplier="1" InitialDelay="0" EndDelay="0">
+        <Equation Type="NonLinear" />
+      </Stretch>
+    </DecorationEffect>
+    <DecorationEffect Name="Fade" Length="1">
+      <TransitionEffect Type="SimpleAlphaBlendTransitionEffect" Length="1.5" />
+    </DecorationEffect>
+    <DecorationEffect Name="FadeSlow" Length="3">
+      <TransitionEffect Type="SimpleAlphaBlendTransitionEffect" Length="1.5" />
+    </DecorationEffect>
+    <DecorationEffect Name="FadeDown" Length="1">
+      <TransitionEffect Type="FadeDownTransitionEffect" Spread="32" Length="1.5" />
+    </DecorationEffect>
+    <DecorationEffect Name="FadeDownSlow" Length="3">
+      <TransitionEffect Type="FadeDownTransitionEffect" Spread="32" Length="1.5" />
+    </DecorationEffect>
+    <DecorationEffect Name="FadeUp" Length="1">
+      <TransitionEffect Type="FadeUpTransitionEffect" Spread="32" Length="1.5" />
+    </DecorationEffect>
+    <DecorationEffect Name="FadeUpSlow" Length="3">
+      <TransitionEffect Type="FadeUpTransitionEffect" Spread="32" Length="1.5" />
+    </DecorationEffect>
+    <DecorationEffect Name="FadeRight" Length="1">
+      <TransitionEffect Type="AlphaSwipeTransitionEffect" Direction="1" Spread="32" Length="1.5" />
+    </DecorationEffect>
+    <DecorationEffect Name="FadeRightSlow" Length="3">
+      <TransitionEffect Type="AlphaSwipeTransitionEffect" Direction="1" Spread="32" Length="1.5" />
+    </DecorationEffect>
+    <DecorationEffect Name="FadeLeft" Length="1">
+      <TransitionEffect Type="AlphaSwipeTransitionEffect" Direction="0" Spread="32" Length="1.5" />
+    </DecorationEffect>
+    <DecorationEffect Name="FadeLeftSlow" Length="3">
+      <TransitionEffect Type="AlphaSwipeTransitionEffect" Direction="0" Spread="32" Length="1.5" />
+    </DecorationEffect>
+    <DecorationEffect Name="FadeDiagonalSplit" Length="1">
+      <TransitionEffect Type="MiddleSplitDiagonalTransitionEffect" MiddleOut="False" Tlbr="True" Spread="10" Length="1.5" />
+    </DecorationEffect>
+    <DecorationEffect Name="FadeDiagonalSplitSlow" Length="3">
+      <TransitionEffect Type="MiddleSplitDiagonalTransitionEffect" MiddleOut="False" Tlbr="True" Spread="10" Length="1.5" />
+    </DecorationEffect>
+    <DecorationEffect Name="FadeMultiHorizontalLine" Length="1">
+      <TransitionEffect Type="MultipleLinesUpDownTransitionEffect" Lines="10" Down="False" Spread="10" Length="1.5" />
+    </DecorationEffect>
+    <DecorationEffect Name="FadeMultiHorizontalLineSlow" Length="3">
+      <TransitionEffect Type="MultipleLinesUpDownTransitionEffect" Lines="10" Down="False" Spread="10" Length="1.5" />
+    </DecorationEffect>
+    <DecorationEffect Name="FadeMultiVerticalLine" Length="1">
+      <TransitionEffect Type="MultipleLinesLeftRightTransitionEffect" Lines="10" Down="False" Spread="10" Length="1.5" />
+    </DecorationEffect>
+    <DecorationEffect Name="FadeMultiVerticalLineSlow" Length="3">
+      <TransitionEffect Type="MultipleLinesLeftRightTransitionEffect" Lines="10" Down="False" Spread="10" Length="1.5" />
+    </DecorationEffect>
+    <DecorationEffect Name="FadeCirclesIn" Length="1">
+      <TransitionEffect Type="MultiCirclesInOutTransitionEffect" Out="False" Hrat="1" Wrat="1" CirclesW="5" Spread="10" Length="1.5" />
+    </DecorationEffect>
+    <DecorationEffect Name="FadeCirclesInSlow" Length="3">
+      <TransitionEffect Type="MultiCirclesInOutTransitionEffect" Out="False" Hrat="1" Wrat="1" CirclesW="5" Spread="10" Length="1.5" />
+    </DecorationEffect>
+    <DecorationEffect Name="FadeCirclesOut" Length="1">
+      <TransitionEffect Type="MultiCirclesInOutTransitionEffect" Out="True" Hrat="1" Wrat="1" CirclesW="5" Spread="10" Length="1.5" />
+    </DecorationEffect>
+    <DecorationEffect Name="FadeCirclesOutSlow" Length="3">
+      <TransitionEffect Type="MultiCirclesInOutTransitionEffect" Out="True" Hrat="1" Wrat="1" CirclesW="5" Spread="10" Length="1.5" />
+    </DecorationEffect>
+    <DecorationEffect Name="RevealSplitHorizontal" Length="1">
+      <TransitionEffect Type="MiddleSplitUpDownTransition" MiddleOut="False" Spread="10" Length="1.5" />
+    </DecorationEffect>
+    <DecorationEffect Name="RevealSplitHorizontalSlow" Length="3">
+      <TransitionEffect Type="MiddleSplitUpDownTransition" MiddleOut="False" Spread="10" Length="1.5" />
+    </DecorationEffect>
+    <DecorationEffect Name="RevealSplitVertical" Length="1">
+      <TransitionEffect Type="MiddleSplitLeftRightTransition" MiddleOut="False" Spread="10" Length="1.5" />
+    </DecorationEffect>
+    <DecorationEffect Name="RevealSplitVerticalSlow" Length="3">
+      <TransitionEffect Type="MiddleSplitLeftRightTransition" MiddleOut="False" Spread="10" Length="1.5" />
+    </DecorationEffect>
+    
+    <DecorationEffect Name="Spin" Length="2" MotionBlur="30">
+      <TransitionEffect Type="SimpleAlphaBlendTransitionEffect" Length="1.5" EndDelay="0.5" />
+      <Rotation InitialDelay="0" EndDelay="0" StartRotation="720" EndRotation="0" XOffset="0" YOffset="0">
+        <Equation Type="Linear" />
+      </Rotation>
+    </DecorationEffect>  
+    <DecorationEffect Name="SpinSpring" Length="2" MotionBlur="30">
+      <TransitionEffect Type="SimpleAlphaBlendTransitionEffect" Length="1.5" EndDelay="0.5" />
+      <Rotation InitialDelay="0" EndDelay="0" StartRotation="360" EndRotation="0" XOffset="0" YOffset="0">
+        <Equation Type="Spring" />
+      </Rotation>
+    </DecorationEffect>  
+    <DecorationEffect Name="MoveSpinSpringDownRight" Length="2" MotionBlur="30">
+      <TransitionEffect Type="SimpleAlphaBlendTransitionEffect" Length="1.5" EndDelay="0.52" />
+      <Movement Type="StraightLineMovement" InitialDelay="0" EndDelay="0">
+        <Start X="-0.4" Y="-0.4" Z="0" />
+        <End X="0" Y="0" Z="0" />
+        <Equation Type="Spring" />
+      </Movement>
+      <Rotation InitialDelay="0" EndDelay="0" StartRotation="220" EndRotation="0" XOffset="0" YOffset="0">
+        <Equation Type="Spring" />
+      </Rotation>
+    </DecorationEffect>
+    <DecorationEffect Name="MoveSpinSpringDown" Length="2" MotionBlur="30">
+      <TransitionEffect Type="SimpleAlphaBlendTransitionEffect" Length="1.5" EndDelay="0.52" />
+      <Movement Type="StraightLineMovement" InitialDelay="0" EndDelay="0">
+        <Start X="0" Y="-0.4" Z="0" />
+        <End X="0" Y="0" Z="0" />
+        <Equation Type="Spring" />
+      </Movement>
+      <Rotation InitialDelay="0" EndDelay="0" StartRotation="-180" EndRotation="0" XOffset="0" YOffset="0">
+        <Equation Type="Spring" />
+      </Rotation>
+    </DecorationEffect>
+    <DecorationEffect Name="MoveSpinSpringDownLeft" Length="2" MotionBlur="30">
+      <TransitionEffect Type="SimpleAlphaBlendTransitionEffect" Length="1.5" EndDelay="0.52" />
+      <Movement Type="StraightLineMovement" InitialDelay="0" EndDelay="0">
+        <Start X="0.4" Y="-0.4" Z="0" />
+        <End X="0" Y="0" Z="0" />
+        <Equation Type="Spring" />
+      </Movement>
+      <Rotation InitialDelay="0" EndDelay="0" StartRotation="240" EndRotation="0" XOffset="0" YOffset="0">
+        <Equation Type="Spring" />
+      </Rotation>
+    </DecorationEffect>
+    <DecorationEffect Name="MoveSpinSpringLeft" Length="2" MotionBlur="30">
+      <TransitionEffect Type="SimpleAlphaBlendTransitionEffect" Length="1.5" EndDelay="0.52" />
+      <Movement Type="StraightLineMovement" InitialDelay="0" EndDelay="0">
+        <Start X="0.4" Y="0" Z="0" />
+        <End X="0" Y="0" Z="0" />
+        <Equation Type="Spring" />
+      </Movement>
+      <Rotation InitialDelay="0" EndDelay="0" StartRotation="156" EndRotation="0" XOffset="0" YOffset="0">
+        <Equation Type="Spring" />
+      </Rotation>
+    </DecorationEffect>
+    <DecorationEffect Name="MoveSpinSpringUpLeft" Length="2" MotionBlur="30">
+      <TransitionEffect Type="SimpleAlphaBlendTransitionEffect" Length="1.5" EndDelay="0.52" />
+      <Movement Type="StraightLineMovement" InitialDelay="0" EndDelay="0">
+        <Start X="0.4" Y="0.4" Z="0" />
+        <End X="0" Y="0" Z="0" />
+        <Equation Type="Spring" />
+      </Movement>
+      <Rotation InitialDelay="0" EndDelay="0" StartRotation="-156" EndRotation="0" XOffset="0" YOffset="0">
+        <Equation Type="Spring" />
+      </Rotation>
+    </DecorationEffect>
+    <DecorationEffect Name="MoveSpinSpringUp" Length="2" MotionBlur="30">
+      <TransitionEffect Type="SimpleAlphaBlendTransitionEffect" Length="1.5" EndDelay="0.52" />
+      <Movement Type="StraightLineMovement" InitialDelay="0" EndDelay="0">
+        <Start X="0" Y="0.4" Z="0" />
+        <End X="0" Y="0" Z="0" />
+        <Equation Type="Spring" />
+      </Movement>
+      <Rotation InitialDelay="0" EndDelay="0" StartRotation="-345" EndRotation="0" XOffset="0" YOffset="0">
+        <Equation Type="Spring" />
+      </Rotation>
+    </DecorationEffect>
+    <DecorationEffect Name="MoveSpinSpringUpRight" Length="2" MotionBlur="30">
+      <TransitionEffect Type="SimpleAlphaBlendTransitionEffect" Length="1.5" EndDelay="0.52" />
+      <Movement Type="StraightLineMovement" InitialDelay="0" EndDelay="0">
+        <Start X="-0.4" Y="0.4" Z="0" />
+        <End X="0" Y="0" Z="0" />
+        <Equation Type="Spring" />
+      </Movement>
+      <Rotation InitialDelay="0" EndDelay="0" StartRotation="-134" EndRotation="0" XOffset="0" YOffset="0">
+        <Equation Type="Spring" />
+      </Rotation>
+    </DecorationEffect>
+    <DecorationEffect Name="MoveSpinSpringRight" Length="2" MotionBlur="30">
+      <TransitionEffect Type="SimpleAlphaBlendTransitionEffect" Length="1.5" EndDelay="0.52" />
+      <Movement Type="StraightLineMovement" InitialDelay="0" EndDelay="0">
+        <Start X="-0.4" Y="0" Z="0" />
+        <End X="0" Y="0" Z="0" />
+        <Equation Type="Spring" />
+      </Movement>
+      <Rotation InitialDelay="0" EndDelay="0" StartRotation="-145" EndRotation="0" XOffset="0" YOffset="0">
+        <Equation Type="Spring" />
+      </Rotation>
+    </DecorationEffect>
+    <DecorationEffect Name="ZoomOutFixedJustification" Length="1" HasCharDelay="True" CharTimeOffset="0" CharOrder="0">
+      <TransitionEffect Type="SimpleAlphaBlendTransitionEffect" Length="1.5" EndDelay="0.84" />
+      <Zoom InitialDelay="0" EndDelay="0" StartZoom="0.4" EndZoom="1">
+        <Equation Type="NonLinear" />
+      </Zoom>
+    </DecorationEffect>
+    <DecorationEffect Name="ZoomInFixedJustification" Length="1" HasCharDelay="True" CharTimeOffset="0" CharOrder="0">
+      <TransitionEffect Type="SimpleAlphaBlendTransitionEffect" Length="1.5" EndDelay="0.84" />
+      <Zoom InitialDelay="0" EndDelay="0" StartZoom="1.6" EndZoom="1">
+        <Equation Type="NonLinear" />
+      </Zoom>
+    </DecorationEffect>
+    <DecorationEffect Name="ZoomContinuousOut" LengthSetToDecorationLength="True">
+      <Zoom InitialDelay="0" EndDelay="0" StartZoom="0.7" EndZoom="1">
+        <Equation Type="Linear" />
+      </Zoom>
+    </DecorationEffect>
+    <DecorationEffect Name="ZoomContinuousOutRevealRight" LengthSetToDecorationLength="True">
+      <TransitionEffect Type="AlphaSwipeTransitionEffect" Direction="1" Spread="2" Length="1.5" EndDelay="0.59" />
+      <Zoom InitialDelay="0" EndDelay="0" StartZoom="0.7" EndZoom="1">
+        <Equation Type="Linear" />
+      </Zoom>
+    </DecorationEffect>
+    <DecorationEffect Name="ZoomContinuousOutRevealLeft" LengthSetToDecorationLength="True">
+      <TransitionEffect Type="AlphaSwipeTransitionEffect" Direction="0" Spread="2" Length="1.5" EndDelay="0.59" />
+      <Zoom InitialDelay="0" EndDelay="0" StartZoom="0.7" EndZoom="1">
+        <Equation Type="Linear" />
+      </Zoom>
+    </DecorationEffect>
+    <DecorationEffect Name="ZoomContinuousOutRevealUp" LengthSetToDecorationLength="True">
+      <TransitionEffect Type="FadeUpTransitionEffect" Spread="32" Length="1.5" EndDelay="0.59" />
+      <Zoom InitialDelay="0" EndDelay="0" StartZoom="0.7" EndZoom="1">
+        <Equation Type="Linear" />
+      </Zoom>
+    </DecorationEffect>
+    <DecorationEffect Name="ZoomContinuousOutRevealDown" LengthSetToDecorationLength="True">
+      <TransitionEffect Type="FadeDownTransitionEffect" Spread="32" Length="1.5" EndDelay="0.59" />
+      <Zoom InitialDelay="0" EndDelay="0" StartZoom="0.7" EndZoom="1">
+        <Equation Type="Linear" />
+      </Zoom>
+    </DecorationEffect>
+    <DecorationEffect Name="ZoomContinuousIn" LengthSetToDecorationLength="True">
+      <Zoom InitialDelay="0" EndDelay="0" StartZoom="1" EndZoom="0.7">
+        <Equation Type="Linear" />
+      </Zoom>
+    </DecorationEffect>
+    <DecorationEffect Name="ZoomContinuousInRevealRight" LengthSetToDecorationLength="True">
+      <TransitionEffect Type="AlphaSwipeTransitionEffect" Direction="1" Spread="2" Length="1.5" EndDelay="0.59" />
+      <Zoom InitialDelay="0" EndDelay="0" StartZoom="1" EndZoom="0.7">
+        <Equation Type="Linear" />
+      </Zoom>
+    </DecorationEffect>
+    <DecorationEffect Name="ZoomContinuousInRevealLeft" LengthSetToDecorationLength="True">
+      <TransitionEffect Type="AlphaSwipeTransitionEffect" Direction="0" Spread="2" Length="1.5" EndDelay="0.59" />
+      <Zoom InitialDelay="0" EndDelay="0" StartZoom="1" EndZoom="0.7">
+        <Equation Type="Linear" />
+      </Zoom>
+    </DecorationEffect>
+    <DecorationEffect Name="ZoomContinuousInRevealUp" LengthSetToDecorationLength="True">
+      <TransitionEffect Type="FadeUpTransitionEffect" Spread="32" Length="1.5" EndDelay="0.59" />
+      <Zoom InitialDelay="0" EndDelay="0" StartZoom="1" EndZoom="0.7">
+        <Equation Type="Linear" />
+      </Zoom>
+    </DecorationEffect>
+    <DecorationEffect Name="ZoomContinuousInRevealDown" LengthSetToDecorationLength="True">
+      <TransitionEffect Type="FadeDownTransitionEffect" Spread="32" Length="1.5" EndDelay="0.59" />
+      <Zoom InitialDelay="0" EndDelay="0" StartZoom="1" EndZoom="0.7">
+        <Equation Type="Linear" />
+      </Zoom>
+    </DecorationEffect>
+
+    <DecorationEffect Name="MoveContinuousUp" LengthSetToDecorationLength="True" >
+      <Movement Type="StraightLineMovement" InitialDelay="0" EndDelay="0">
+        <Start X="0" Y="0.2" Z="0" />
+        <End X="0" Y="0" Z="0" />
+        <Equation Type="Linear" />
+      </Movement>
+    </DecorationEffect>
+    <DecorationEffect Name="MoveContinuousDown" LengthSetToDecorationLength="True" >
+      <Movement Type="StraightLineMovement" InitialDelay="0" EndDelay="0">
+        <Start X="0" Y="-0.2" Z="0" />
+        <End X="0" Y="0" Z="0" />
+        <Equation Type="Linear" />
+      </Movement>
+    </DecorationEffect>
+    <DecorationEffect Name="MoveContinuousLeft" LengthSetToDecorationLength="True" >
+      <Movement Type="StraightLineMovement" InitialDelay="0" EndDelay="0">
+        <Start X="0.2" Y="0" Z="0" />
+        <End X="0" Y="0" Z="0" />
+        <Equation Type="Linear" />
+      </Movement>
+    </DecorationEffect>
+    <DecorationEffect Name="MoveContinuousRight" LengthSetToDecorationLength="True" >
+      <Movement Type="StraightLineMovement" InitialDelay="0" EndDelay="0">
+        <Start X="-0.2" Y="0" Z="0" />
+        <End X="0" Y="0" Z="0" />
+        <Equation Type="Linear" />
+      </Movement>
+    </DecorationEffect>
+    <DecorationEffect Name="MoveContinuousUpRight" LengthSetToDecorationLength="True" >
+      <Movement Type="StraightLineMovement" InitialDelay="0" EndDelay="0">
+        <Start X="-0.2" Y="0.2" Z="0" />
+        <End X="0" Y="0" Z="0" />
+        <Equation Type="Linear" />
+      </Movement>
+    </DecorationEffect>
+    <DecorationEffect Name="MoveContinuousUpLeft" LengthSetToDecorationLength="True" >
+      <Movement Type="StraightLineMovement" InitialDelay="0" EndDelay="0">
+        <Start X="0.2" Y="0.2" Z="0" />
+        <End X="0" Y="0" Z="0" />
+        <Equation Type="Linear" />
+      </Movement>
+    </DecorationEffect>
+    <DecorationEffect Name="MoveContinuousDownRight" LengthSetToDecorationLength="True" >
+      <Movement Type="StraightLineMovement" InitialDelay="0" EndDelay="0">
+        <Start X="-0.2" Y="-0.2" Z="0" />
+        <End X="0" Y="0" Z="0" />
+        <Equation Type="Linear" />
+      </Movement>
+    </DecorationEffect>
+    <DecorationEffect Name="MoveContinuousDownLeft" LengthSetToDecorationLength="True" >
+      <Movement Type="StraightLineMovement" InitialDelay="0" EndDelay="0">
+        <Start X="0.2" Y="-0.2" Z="0" />
+        <End X="0" Y="0" Z="0" />
+        <Equation Type="Linear" />
+      </Movement>
+    </DecorationEffect>
+
+    <DecorationEffect Name="TextGrowIndividualLetters" Length="8" HasCharDelay="True" CharTimeOffset="0" CharOrder="0">
+      <Zoom InitialDelay="0" EndDelay="0" StartZoom="0.001" EndZoom="1" OneOverZ="False">
+        <Equation Type="NonLinear" />
+      </Zoom>
+    </DecorationEffect>
+
+    <DecorationEffect Name="TextShrinkIndividualLetters" Length="8" HasCharDelay="True" CharTimeOffset="0" CharOrder="0">
+      <Zoom InitialDelay="0" EndDelay="0" StartZoom="1" EndZoom="0.001" OneOverZ="False">
+        <Equation Type="NonLinear" />
+      </Zoom>
+    </DecorationEffect>
+
+
+  </DecorationEffectsDatabase>
+</MoveEffects>

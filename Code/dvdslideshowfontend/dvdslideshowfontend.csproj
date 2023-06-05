@@ -1,0 +1,529 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<Project DefaultTargets="Build" xmlns="http://schemas.microsoft.com/developer/msbuild/2003" ToolsVersion="14.0">
+  <PropertyGroup>
+    <ProjectType>Local</ProjectType>
+    <ProductVersion>9.0.20706</ProductVersion>
+    <SchemaVersion>2.0</SchemaVersion>
+    <ProjectGuid>{77235368-16B2-4093-A660-EA9CA4666027}</ProjectGuid>
+    <SccProjectName>
+    </SccProjectName>
+    <SccLocalPath>
+    </SccLocalPath>
+    <SccAuxPath>
+    </SccAuxPath>
+    <SccProvider>
+    </SccProvider>
+    <Configuration Condition=" '$(Configuration)' == '' ">Debug</Configuration>
+    <Platform Condition=" '$(Platform)' == '' ">AnyCPU</Platform>
+    <ApplicationIcon>
+    </ApplicationIcon>
+    <AssemblyKeyContainerName>
+    </AssemblyKeyContainerName>
+    <AssemblyName>ssgl</AssemblyName>
+    <AssemblyOriginatorKeyFile>SquidgySoft.snk</AssemblyOriginatorKeyFile>
+    <DefaultClientScript>JScript</DefaultClientScript>
+    <DefaultHTMLPageLayout>Grid</DefaultHTMLPageLayout>
+    <DefaultTargetSchema>IE50</DefaultTargetSchema>
+    <DelaySign>false</DelaySign>
+    <OutputType>Library</OutputType>
+    <RootNamespace>dvdslideshowfontend</RootNamespace>
+    <RunPostBuildEvent>OnBuildSuccess</RunPostBuildEvent>
+    <StartupObject>
+    </StartupObject>
+    <FileUpgradeFlags>
+    </FileUpgradeFlags>
+    <UpgradeBackupLocation>
+    </UpgradeBackupLocation>
+    <OldToolsVersion>3.5</OldToolsVersion>
+    <TargetFrameworkVersion>v4.8</TargetFrameworkVersion>
+    <TargetFrameworkProfile />
+  </PropertyGroup>
+  <PropertyGroup Condition=" '$(Configuration)|$(Platform)' == 'Debug|AnyCPU' ">
+    <OutputPath>bin\x86\Debug\</OutputPath>
+    <AllowUnsafeBlocks>true</AllowUnsafeBlocks>
+    <BaseAddress>285212672</BaseAddress>
+    <CheckForOverflowUnderflow>false</CheckForOverflowUnderflow>
+    <ConfigurationOverrideFile>
+    </ConfigurationOverrideFile>
+    <DefineConstants>TRACE;DEBUG</DefineConstants>
+    <DocumentationFile>
+    </DocumentationFile>
+    <DebugSymbols>true</DebugSymbols>
+    <FileAlignment>4096</FileAlignment>
+    <NoStdLib>false</NoStdLib>
+    <NoWarn>
+    </NoWarn>
+    <Optimize>false</Optimize>
+    <RegisterForComInterop>false</RegisterForComInterop>
+    <RemoveIntegerChecks>false</RemoveIntegerChecks>
+    <TreatWarningsAsErrors>false</TreatWarningsAsErrors>
+    <WarningLevel>4</WarningLevel>
+    <DebugType>full</DebugType>
+    <ErrorReport>prompt</ErrorReport>
+    <UseVSHostingProcess>false</UseVSHostingProcess>
+    <Prefer32Bit>false</Prefer32Bit>
+  </PropertyGroup>
+  <PropertyGroup Condition=" '$(Configuration)|$(Platform)' == 'Release|AnyCPU' ">
+    <OutputPath>..\dvdslideshowBeta\</OutputPath>
+    <AllowUnsafeBlocks>true</AllowUnsafeBlocks>
+    <BaseAddress>285212672</BaseAddress>
+    <CheckForOverflowUnderflow>false</CheckForOverflowUnderflow>
+    <ConfigurationOverrideFile>
+    </ConfigurationOverrideFile>
+    <DefineConstants>TRACE</DefineConstants>
+    <DocumentationFile>
+    </DocumentationFile>
+    <DebugSymbols>false</DebugSymbols>
+    <FileAlignment>4096</FileAlignment>
+    <NoStdLib>false</NoStdLib>
+    <NoWarn>
+    </NoWarn>
+    <Optimize>true</Optimize>
+    <RegisterForComInterop>false</RegisterForComInterop>
+    <RemoveIntegerChecks>false</RemoveIntegerChecks>
+    <TreatWarningsAsErrors>false</TreatWarningsAsErrors>
+    <WarningLevel>4</WarningLevel>
+    <DebugType>none</DebugType>
+    <ErrorReport>prompt</ErrorReport>
+    <UseVSHostingProcess>false</UseVSHostingProcess>
+    <Prefer32Bit>false</Prefer32Bit>
+  </PropertyGroup>
+  <PropertyGroup Condition=" '$(Configuration)|$(Platform)' == 'Debug|x86' ">
+    <DebugSymbols>true</DebugSymbols>
+    <OutputPath>bin\x86\Debug\</OutputPath>
+    <DefineConstants>TRACE;DEBUG</DefineConstants>
+    <BaseAddress>285212672</BaseAddress>
+    <AllowUnsafeBlocks>true</AllowUnsafeBlocks>
+    <FileAlignment>4096</FileAlignment>
+    <DebugType>full</DebugType>
+    <PlatformTarget>x86</PlatformTarget>
+    <UseVSHostingProcess>false</UseVSHostingProcess>
+    <ErrorReport>prompt</ErrorReport>
+    <Prefer32Bit>false</Prefer32Bit>
+  </PropertyGroup>
+  <PropertyGroup Condition=" '$(Configuration)|$(Platform)' == 'Release|x86' ">
+    <OutputPath>bin\x86\Release\</OutputPath>
+    <DefineConstants>TRACE</DefineConstants>
+    <BaseAddress>285212672</BaseAddress>
+    <AllowUnsafeBlocks>true</AllowUnsafeBlocks>
+    <Optimize>true</Optimize>
+    <FileAlignment>4096</FileAlignment>
+    <PlatformTarget>x86</PlatformTarget>
+    <UseVSHostingProcess>false</UseVSHostingProcess>
+    <ErrorReport>prompt</ErrorReport>
+    <Prefer32Bit>false</Prefer32Bit>
+  </PropertyGroup>
+  <PropertyGroup>
+    <SignAssembly>false</SignAssembly>
+  </PropertyGroup>
+  <ItemGroup>
+    <Reference Include="stdole">
+      <Name>stdole</Name>
+      <HintPath>..\..\Program Files\Microsoft.NET\Primary Interop Assemblies\stdole.dll</HintPath>
+    </Reference>
+    <Reference Include="System">
+      <Name>System</Name>
+    </Reference>
+    <Reference Include="System.Data">
+      <Name>System.Data</Name>
+    </Reference>
+    <Reference Include="System.Design">
+      <Name>System.Design</Name>
+    </Reference>
+    <Reference Include="System.DirectoryServices">
+      <Name>system.directoryservices</Name>
+    </Reference>
+    <Reference Include="System.Drawing">
+      <Name>System.Drawing</Name>
+    </Reference>
+    <Reference Include="System.Management">
+      <Name>System.Management</Name>
+    </Reference>
+    <Reference Include="System.Runtime.WindowsRuntime, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b77a5c561934e089, processorArchitecture=MSIL">
+      <SpecificVersion>False</SpecificVersion>
+      <HintPath>..\..\..\..\Program Files (x86)\Reference Assemblies\Microsoft\Framework\.NETCore\v4.5\System.Runtime.WindowsRuntime.dll</HintPath>
+    </Reference>
+    <Reference Include="System.Windows.Forms">
+      <Name>System.Windows.Forms</Name>
+    </Reference>
+    <Reference Include="System.Xml">
+      <Name>System.XML</Name>
+    </Reference>
+    <ProjectReference Include="..\BalloonWindow\BalloonWindow.csproj">
+      <Name>BalloonWindow</Name>
+      <Project>{DC103479-7E41-4CC2-B6D6-EE6138DEFEE4}</Project>
+      <Package>{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}</Package>
+    </ProjectReference>
+    <ProjectReference Include="..\ColorComboTestApp\ColorCombo.csproj">
+      <Project>{288B1862-451F-461F-A0A8-91E74F36A751}</Project>
+      <Name>ColorCombo</Name>
+    </ProjectReference>
+    <ProjectReference Include="..\CustomButton\CustomButton.csproj">
+      <Name>CustomButton</Name>
+      <Project>{5420DE45-6417-4FA4-A10E-4518CD97D2F2}</Project>
+      <Package>{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}</Package>
+    </ProjectReference>
+    <ProjectReference Include="..\dvdslideshow\dvdslideshow.csproj">
+      <Project>{D5EFA5A4-D8CE-423A-BD6F-03A21DE44F73}</Project>
+      <Name>dvdslideshow</Name>
+    </ProjectReference>
+    <ProjectReference Include="..\fontcombo\FontCombo.csproj">
+      <Name>FontCombo</Name>
+      <Project>{E764A681-F213-4581-8492-9EE617B5E398}</Project>
+      <Package>{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}</Package>
+    </ProjectReference>
+    <ProjectReference Include="..\ManagedCore\ManagedCore.csproj">
+      <Project>{4B611A2F-D5A9-450B-89EA-C8AFC1A220A2}</Project>
+      <Name>ManagedCore</Name>
+    </ProjectReference>
+    <ProjectReference Include="..\MangedToUnManagedWrapper\MangedToUnManagedWrapper.vcxproj">
+      <Project>{cdc6f88e-689a-43f0-a33e-460120f2ca05}</Project>
+      <Name>MangedToUnManagedWrapper</Name>
+    </ProjectReference>
+    <ProjectReference Include="..\treeviewfolder22\Raccoom.TreeViewFolderBrowser\Raccoom.TreeViewFolderBrowser.DataProviders\Raccoom.TreeViewFolderBrowser.DataProviders.csproj">
+      <Name>Raccoom.TreeViewFolderBrowser.DataProviders</Name>
+      <Project>{E4EAA4DA-8DE8-41E3-BAFF-B516E9789D34}</Project>
+      <Package>{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}</Package>
+    </ProjectReference>
+    <ProjectReference Include="..\treeviewfolder22\Raccoom.TreeViewFolderBrowser\Raccoom.TreeViewFolderBrowser\Raccoom.TreeViewFolderBrowser.csproj">
+      <Name>Raccoom.TreeViewFolderBrowser</Name>
+      <Project>{98E88A55-DAAC-4A09-B39A-9C0167976AD5}</Project>
+      <Package>{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}</Package>
+    </ProjectReference>
+    <Reference Include="Windows">
+      <HintPath>..\..\..\..\Program Files (x86)\Windows Kits\10\UnionMetadata\10.0.16299.0\Windows.winmd</HintPath>
+    </Reference>
+  </ItemGroup>
+  <ItemGroup>
+    <Compile Include="AddSlidesToolTipBalloon.cs">
+      <SubType>Form</SubType>
+    </Compile>
+    <Compile Include="AlphaBlendTextBox.cs">
+      <SubType>Component</SubType>
+    </Compile>
+    <Compile Include="AssemblyInfo.cs">
+      <SubType>Code</SubType>
+    </Compile>
+    <Compile Include="AuthorDialog.cs">
+      <SubType>Form</SubType>
+    </Compile>
+    <Compile Include="BlankSlideColorPicker.cs">
+      <SubType>Form</SubType>
+    </Compile>
+    <Compile Include="BlankSlideColorPicker.Designer.cs">
+      <DependentUpon>BlankSlideColorPicker.cs</DependentUpon>
+    </Compile>
+    <Compile Include="CBurnPreviousEncodedProjectWindow.cs">
+      <SubType>Form</SubType>
+    </Compile>
+    <Compile Include="CBurnPreviousEncodedProjectWindow.Designer.cs">
+      <DependentUpon>CBurnPreviousEncodedProjectWindow.cs</DependentUpon>
+    </Compile>
+    <Compile Include="CDecorationManagerSettingEffects.cs" />
+    <Compile Include="CDecorationsManager.cs">
+      <SubType>Code</SubType>
+    </Compile>
+    <Compile Include="CDecorationsManagerPanZoom.cs" />
+    <Compile Include="CDiskEstimationManager.cs">
+      <SubType>Code</SubType>
+    </Compile>
+    <Compile Include="CDiskIntroSlideshowManager.cs" />
+    <Compile Include="CDiskMenuHighlightManager.cs" />
+    <Compile Include="CDiskMenuManager.cs">
+      <SubType>Code</SubType>
+    </Compile>
+    <Compile Include="CDiskMenuNavigationManager.cs" />
+    <Compile Include="CGuiMemento.cs">
+      <SubType>Code</SubType>
+    </Compile>
+    <Compile Include="CMaxVideoPlayersCountWindow.cs">
+      <SubType>Form</SubType>
+    </Compile>
+    <Compile Include="CMaxVideoPlayersCountWindow.Designer.cs">
+      <DependentUpon>CMaxVideoPlayersCountWindow.cs</DependentUpon>
+    </Compile>
+    <Compile Include="CSetDefaultFolderLocationsForm.cs">
+      <SubType>Form</SubType>
+    </Compile>
+    <Compile Include="CSetDefaultFolderLocationsForm.Designer.cs">
+      <DependentUpon>CSetDefaultFolderLocationsForm.cs</DependentUpon>
+    </Compile>
+    <Compile Include="CSlideShowAudioManager.cs" />
+    <Compile Include="CSlideShowManager.cs">
+      <SubType>Code</SubType>
+    </Compile>
+    <Compile Include="CSlideShowMusicManager.cs">
+      <SubType>Code</SubType>
+    </Compile>
+    <Compile Include="CSlideShowNarrationManager.cs" />
+    <Compile Include="CUpdateWindow.cs">
+      <SubType>Form</SubType>
+    </Compile>
+    <Compile Include="CVideoTrimManager.cs">
+      <SubType>Code</SubType>
+    </Compile>
+    <Compile Include="CWindowsStore.cs" />
+    <Compile Include="ErrorLog.cs">
+      <SubType>Form</SubType>
+    </Compile>
+    <Compile Include="FileDialogExtender.cs">
+      <SubType>Code</SubType>
+    </Compile>
+    <Compile Include="FolderBrowserExtenderProvider.cs">
+      <SubType>Component</SubType>
+    </Compile>
+    <Compile Include="Form1.cs">
+      <SubType>Form</SubType>
+    </Compile>
+    <Compile Include="ImageCacheViewer.cs">
+      <SubType>Form</SubType>
+    </Compile>
+    <Compile Include="ImportSlideshowsForm.cs">
+      <SubType>Form</SubType>
+    </Compile>
+    <Compile Include="ImportSlideshowsForm.Designer.cs">
+      <DependentUpon>ImportSlideshowsForm.cs</DependentUpon>
+    </Compile>
+    <Compile Include="MementoStackViewer.cs">
+      <SubType>Form</SubType>
+    </Compile>
+    <Compile Include="MenuSelectionThumbnail.cs">
+      <SubType>UserControl</SubType>
+    </Compile>
+    <Compile Include="MenuSelectionThumbnailDelegate.cs" />
+    <Compile Include="MenuStyleThumbnail.cs">
+      <SubType>UserControl</SubType>
+    </Compile>
+    <Compile Include="MenuTemplateThumbnail.cs">
+      <SubType>UserControl</SubType>
+    </Compile>
+    <Compile Include="MoveControlHelper.cs" />
+    <Compile Include="MusicThumbnail.cs">
+      <SubType>UserControl</SubType>
+    </Compile>
+    <Compile Include="OperationWindow.cs">
+      <SubType>Form</SubType>
+    </Compile>
+    <Compile Include="ProgressWindow.cs">
+      <SubType>Form</SubType>
+    </Compile>
+    <Compile Include="Properties\Resources.Designer.cs">
+      <AutoGen>True</AutoGen>
+      <DesignTime>True</DesignTime>
+      <DependentUpon>Resources.resx</DependentUpon>
+    </Compile>
+    <Compile Include="RegistrationWindow.cs">
+      <SubType>Form</SubType>
+    </Compile>
+    <Compile Include="ReLinkFilesDialog.cs">
+      <SubType>Form</SubType>
+    </Compile>
+    <Compile Include="SlideSeperator.cs">
+    </Compile>
+    <Compile Include="SlideSeperatorControl.cs">
+      <SubType>UserControl</SubType>
+    </Compile>
+    <Compile Include="SlideshowAdvanceOptions.cs">
+      <SubType>Form</SubType>
+    </Compile>
+    <Compile Include="SlideshowTimeLabelComponet.cs">
+    </Compile>
+    <Compile Include="SlideshowTimeLabelComponetControl.cs">
+      <SubType>UserControl</SubType>
+    </Compile>
+    <Compile Include="SpalshScreen.cs">
+      <SubType>Form</SubType>
+    </Compile>
+    <Compile Include="StoryboardComponent.cs">
+    </Compile>
+    <Compile Include="StoryboardComponentControlCache.cs" />
+    <Compile Include="Thumbnail.cs">
+    </Compile>
+    <Compile Include="ThumbnailControl.cs">
+      <SubType>UserControl</SubType>
+    </Compile>
+    <Compile Include="TransistionComponet.cs">
+    </Compile>
+    <Compile Include="TransistionComponetControl.cs">
+      <SubType>UserControl</SubType>
+    </Compile>
+    <Compile Include="TransitionSelectionMenu.cs">
+      <SubType>Form</SubType>
+    </Compile>
+    <Compile Include="TrimMusicWindow.cs">
+      <SubType>Form</SubType>
+    </Compile>
+    <Compile Include="VideoCacheViewer.cs">
+      <SubType>Form</SubType>
+    </Compile>
+    <Compile Include="VideoCacheViewer.Designer.cs">
+      <DependentUpon>VideoCacheViewer.cs</DependentUpon>
+    </Compile>
+    <Compile Include="VideoCreatedSuccessForm.cs">
+      <SubType>Form</SubType>
+    </Compile>
+    <Compile Include="VideoCreatedSuccessForm.Designer.cs">
+      <DependentUpon>VideoCreatedSuccessForm.cs</DependentUpon>
+    </Compile>
+    <Compile Include="win32.cs">
+      <SubType>Code</SubType>
+    </Compile>
+    <EmbeddedResource Include="AddSlidesToolTipBalloon.resx">
+      <DependentUpon>AddSlidesToolTipBalloon.cs</DependentUpon>
+      <SubType>Designer</SubType>
+    </EmbeddedResource>
+    <EmbeddedResource Include="AlphaBlendTextBox.resx">
+      <DependentUpon>AlphaBlendTextBox.cs</DependentUpon>
+      <SubType>Designer</SubType>
+    </EmbeddedResource>
+    <EmbeddedResource Include="AuthorDialog.resx">
+      <DependentUpon>AuthorDialog.cs</DependentUpon>
+      <SubType>Designer</SubType>
+    </EmbeddedResource>
+    <EmbeddedResource Include="BlankSlideColorPicker.resx">
+      <SubType>Designer</SubType>
+      <DependentUpon>BlankSlideColorPicker.cs</DependentUpon>
+    </EmbeddedResource>
+    <EmbeddedResource Include="CBurnPreviousEncodedProjectWindow.resx">
+      <DependentUpon>CBurnPreviousEncodedProjectWindow.cs</DependentUpon>
+    </EmbeddedResource>
+    <EmbeddedResource Include="CMaxVideoPlayersCountWindow.resx">
+      <SubType>Designer</SubType>
+      <DependentUpon>CMaxVideoPlayersCountWindow.cs</DependentUpon>
+    </EmbeddedResource>
+    <EmbeddedResource Include="CSetDefaultFolderLocationsForm.resx">
+      <DependentUpon>CSetDefaultFolderLocationsForm.cs</DependentUpon>
+    </EmbeddedResource>
+    <EmbeddedResource Include="CUpdateWindow.resx">
+      <DependentUpon>CUpdateWindow.cs</DependentUpon>
+      <SubType>Designer</SubType>
+    </EmbeddedResource>
+    <EmbeddedResource Include="ErrorLog.resx">
+      <DependentUpon>ErrorLog.cs</DependentUpon>
+      <SubType>Designer</SubType>
+    </EmbeddedResource>
+    <EmbeddedResource Include="FolderBrowserExtenderProvider.resx">
+      <DependentUpon>FolderBrowserExtenderProvider.cs</DependentUpon>
+      <SubType>Designer</SubType>
+    </EmbeddedResource>
+    <EmbeddedResource Include="Form1.resx">
+      <DependentUpon>Form1.cs</DependentUpon>
+      <SubType>Designer</SubType>
+    </EmbeddedResource>
+    <EmbeddedResource Include="ImageCacheViewer.resx">
+      <DependentUpon>ImageCacheViewer.cs</DependentUpon>
+      <SubType>Designer</SubType>
+    </EmbeddedResource>
+    <EmbeddedResource Include="ImportSlideshowsForm.resx">
+      <SubType>Designer</SubType>
+      <DependentUpon>ImportSlideshowsForm.cs</DependentUpon>
+    </EmbeddedResource>
+    <EmbeddedResource Include="MementoStackViewer.resx">
+      <DependentUpon>MementoStackViewer.cs</DependentUpon>
+      <SubType>Designer</SubType>
+    </EmbeddedResource>
+    <EmbeddedResource Include="MenuSelectionThumbnail.resx">
+      <DependentUpon>MenuSelectionThumbnail.cs</DependentUpon>
+      <SubType>Designer</SubType>
+    </EmbeddedResource>
+    <EmbeddedResource Include="MenuStyleThumbnail.resx">
+      <DependentUpon>MenuStyleThumbnail.cs</DependentUpon>
+      <SubType>Designer</SubType>
+    </EmbeddedResource>
+    <EmbeddedResource Include="MenuTemplateThumbnail.resx">
+      <DependentUpon>MenuTemplateThumbnail.cs</DependentUpon>
+      <SubType>Designer</SubType>
+    </EmbeddedResource>
+    <EmbeddedResource Include="MusicThumbnail.resx">
+      <DependentUpon>MusicThumbnail.cs</DependentUpon>
+      <SubType>Designer</SubType>
+    </EmbeddedResource>
+    <EmbeddedResource Include="OperationWindow.resx">
+      <DependentUpon>OperationWindow.cs</DependentUpon>
+      <SubType>Designer</SubType>
+    </EmbeddedResource>
+    <EmbeddedResource Include="ProgressWindow.resx">
+      <DependentUpon>ProgressWindow.cs</DependentUpon>
+      <SubType>Designer</SubType>
+    </EmbeddedResource>
+    <EmbeddedResource Include="Properties\Resources.resx">
+      <SubType>Designer</SubType>
+      <Generator>ResXFileCodeGenerator</Generator>
+      <LastGenOutput>Resources.Designer.cs</LastGenOutput>
+    </EmbeddedResource>
+    <EmbeddedResource Include="RegistrationWindow.resx">
+      <DependentUpon>RegistrationWindow.cs</DependentUpon>
+      <SubType>Designer</SubType>
+    </EmbeddedResource>
+    <EmbeddedResource Include="ReLinkFilesDialog.resx">
+      <DependentUpon>ReLinkFilesDialog.cs</DependentUpon>
+      <SubType>Designer</SubType>
+    </EmbeddedResource>
+    <EmbeddedResource Include="SlideSeperatorControl.resx">
+      <DependentUpon>SlideSeperatorControl.cs</DependentUpon>
+      <SubType>Designer</SubType>
+    </EmbeddedResource>
+    <EmbeddedResource Include="SlideshowAdvanceOptions.resx">
+      <DependentUpon>SlideshowAdvanceOptions.cs</DependentUpon>
+      <SubType>Designer</SubType>
+    </EmbeddedResource>
+    <EmbeddedResource Include="SlideshowTimeLabelComponetControl.resx">
+      <DependentUpon>SlideshowTimeLabelComponetControl.cs</DependentUpon>
+      <SubType>Designer</SubType>
+    </EmbeddedResource>
+    <EmbeddedResource Include="SpalshScreen.resx">
+      <DependentUpon>SpalshScreen.cs</DependentUpon>
+      <SubType>Designer</SubType>
+    </EmbeddedResource>
+    <EmbeddedResource Include="ThumbnailControl.resx">
+      <DependentUpon>ThumbnailControl.cs</DependentUpon>
+      <SubType>Designer</SubType>
+    </EmbeddedResource>
+    <EmbeddedResource Include="TransistionComponetControl.resx">
+      <DependentUpon>TransistionComponetControl.cs</DependentUpon>
+      <SubType>Designer</SubType>
+    </EmbeddedResource>
+    <EmbeddedResource Include="TransitionSelectionMenu.resx">
+      <DependentUpon>TransitionSelectionMenu.cs</DependentUpon>
+      <SubType>Designer</SubType>
+    </EmbeddedResource>
+    <EmbeddedResource Include="TrimMusicWindow.resx">
+      <DependentUpon>TrimMusicWindow.cs</DependentUpon>
+      <SubType>Designer</SubType>
+    </EmbeddedResource>
+    <EmbeddedResource Include="VideoCacheViewer.resx">
+      <SubType>Designer</SubType>
+      <DependentUpon>VideoCacheViewer.cs</DependentUpon>
+    </EmbeddedResource>
+    <EmbeddedResource Include="VideoCreatedSuccessForm.resx">
+      <SubType>Designer</SubType>
+      <DependentUpon>VideoCreatedSuccessForm.cs</DependentUpon>
+    </EmbeddedResource>
+    <Content Include="DrawBox.cur" />
+    <None Include="Resources\downsmall.png" />
+    <None Include="Resources\upsmall.png" />
+    <None Include="Resources\Actions-document-decrypt-icon-medium.png" />
+    <None Include="Resources\Actions-edit-redo-icon-blue-small.png" />
+    <None Include="Resources\Actions-help-about-icon2.png" />
+    <None Include="Resources\Actions-tools-wizard-icon.png" />
+    <None Include="Resources\standard1.png" />
+    <None Include="Resources\widescreen.png" />
+    <None Include="Resources\vcd2.png" />
+    <None Include="Resources\svcd2.png" />
+    <None Include="Resources\video2.png" />
+    <None Include="Resources\dvd video small2.png" />
+    <None Include="Resources\back24.bmp" />
+    <None Include="Resources\helpsmall.png" />
+    <None Include="SquidgySoft.snk" />
+  </ItemGroup>
+  <ItemGroup>
+    <WCFMetadata Include="Connected Services\" />
+  </ItemGroup>
+  <Import Project="$(MSBuildBinPath)\Microsoft.CSharp.targets" />
+  <PropertyGroup>
+    <PreBuildEvent>
+    </PreBuildEvent>
+    <PostBuildEvent>
+</PostBuildEvent>
+  </PropertyGroup>
+</Project>

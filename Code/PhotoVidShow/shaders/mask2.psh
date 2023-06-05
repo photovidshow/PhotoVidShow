@@ -1,0 +1,41 @@
+
+// Pixel shader input structure
+struct PS_INPUT
+{
+    float4 Position   : POSITION0;
+    float2 Texture0   : TEXCOORD0;
+    float2 Texture1   : TEXCOORD1;
+};
+
+
+// Pixel shader output structure
+struct PS_OUTPUT
+{
+    float4 Color   : COLOR0;
+};
+
+sampler2D Tex0 : register(s0);
+sampler2D Tex1 : register(s1);
+
+// Name: Alpha Map Pixel Shader
+// Type: Pixel shader
+// Desc: Draws a texture with a given alphamap
+//
+PS_OUTPUT ps_main( in PS_INPUT In )
+{
+    PS_OUTPUT Out;                             //create an output pixel
+
+    Out.Color = tex2D(Tex1, In.Texture1);       //lookup input texture pixel
+    float4 t1 = tex2D(Tex0, In.Texture0);       //lookup alpha from alpha map
+  
+    if (Out.Color.r == 0.0 && Out.Color.g ==1.0 && Out.Color.b ==0.0 )
+    {
+	Out.Color = t1;
+    }
+
+    return Out;                                //return output pixel
+}
+
+
+
+

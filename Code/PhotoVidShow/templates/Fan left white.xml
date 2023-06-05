@@ -1,0 +1,71 @@
+<Template Version="1.0.0" Name="Fan left white" Description="Fans left 3 copies of the same image with a white background and caption text&#xD;&#xA;">
+  <Slideshow>
+    <Slide Type="BlankStillPictureSlide" PanZoom="False" DisplayTimeLength="8" UsesDefaultTransitionEffect="True" Color="Color [White]">
+      <TransitionEffect Type="SimpleAlphaBlendTransitionEffect" Length="1.5" Index="1" />
+      <Decoration Type="ImageDecoration" Aspect="3" OriTemImageNum="1">
+        <AlphaMap Filename="outlinemasks\gradient edge.jpg" />
+        <CoverageArea X="0.4" Y="0.07" Width="0.53" Height="0.7068722" />
+        <Image Filename="image1" />
+      </Decoration>
+      <Decoration Type="ColourTransformDecoration" br="1.2" bg="1.2" bb="1.2" cr="1" cg="1" cb="1" gamma="1">
+        <CoverageArea X="0" Y="0" Width="1" Height="1" />
+      </Decoration>
+      <Decoration Type="BlurFilterDecoration">
+        <CoverageArea X="0" Y="0" Width="1" Height="1" />
+      </Decoration>
+      <Decoration Type="ImageDecoration" Aspect="3" OriTemImageNum="1" InEffect="Trail2RotateAndZoomSlow" MoveAsSlidePanZoom="True">
+        <AlphaMap Filename="outlinemasks\gradient edge.jpg" />
+        <CoverageArea X="0.4" Y="0.07" Width="0.53" Height="0.7048025" />
+        <Image Filename="image1" />
+      </Decoration>
+      <Decoration Type="ColourTransformDecoration" br="1.2" bg="1.2" bb="1.2" cr="1" cg="1" cb="1" gamma="1">
+        <CoverageArea X="0" Y="0" Width="1" Height="1" />
+      </Decoration>
+      <Decoration Type="BlurFilterDecoration">
+        <CoverageArea X="0" Y="0" Width="1" Height="1" />
+      </Decoration>
+      <Decoration Type="ImageDecoration" Aspect="3" OriTemImageNum="1" InEffect="Trail2RotateAndZoom">
+        <AlphaMap Filename="outlinemasks\gradient edge.jpg" />
+        <CoverageArea X="0.4" Y="0.07" Width="0.53" Height="0.7068722" />
+        <Image Filename="image1" />
+      </Decoration>
+      <Decoration Type="TextDecoration" StartOffsetTime="3" InEffect="MoveInSlow" Text="Text1 text1 text1 text1" TemplateEditable="1">
+        <CoverageArea X="0.6031621" Y="0.8565401" Width="0.3399209" Height="0.08431357" />
+        <TextStyle Name="Black pepper" FontName="Segoe UI" FontSize="30.92328" FontColor="Color [Black]" OutLine="True" OutLineColour="Color [Black]" OutlineLength="3" OutlineAlpha="41" />
+      </Decoration>
+      <PanZoom>
+        <StartArea X="0.125" Y="0.25" Width="0.75" Height="0.75" />
+        <EndArea X="0.125" Y="0" Width="0.75" Height="0.75" />
+        <Equation Type="Linear" />
+      </PanZoom>
+    </Slide>
+  </Slideshow>
+  <DecorationEffectsDatabase>
+    <DecorationEffect Name="MoveInSlow" LengthSetToDecorationLength="True">
+      <TransitionEffect Type="SimpleAlphaBlendTransitionEffect" Length="1.5" EndDelay="0.94" />
+      <Zoom InitialDelay="0" EndDelay="0" StartZoom="0.9" EndZoom="1">
+        <Equation Type="Linear" />
+      </Zoom>
+    </DecorationEffect>
+    <DecorationEffect Name="Trail2RotateAndZoom" Length="6" TemplateOnlyEffect="True">
+      <Movement Type="StraightLineMovement" TranslateXY="True" InitialDelay="0.31" EndDelay="0">
+        <Start X="0" Y="0" Z="1" />
+        <End X="-0.24" Y="0.06" Z="0.8" />
+        <Equation Type="NonLinear" />
+      </Movement>
+      <Rotation InitialDelay="0.33" EndDelay="0" StartRotation="0" EndRotation="-12" XOffset="0" YOffset="0.5">
+        <Equation Type="NonLinear" />
+      </Rotation>
+    </DecorationEffect>
+    <DecorationEffect Name="Trail2RotateAndZoomSlow" Length="6" TemplateOnlyEffect="True">
+      <Movement Type="StraightLineMovement" TranslateXY="True" InitialDelay="0.32" EndDelay="0">
+        <Start X="0" Y="0" Z="1" />
+        <End X="-0.12" Y="0.03" Z="0.9" />
+        <Equation Type="NonLinear" />
+      </Movement>
+      <Rotation InitialDelay="0.33" EndDelay="0" StartRotation="0" EndRotation="-6" XOffset="0" YOffset="0.5">
+        <Equation Type="NonLinear" />
+      </Rotation>
+    </DecorationEffect>
+  </DecorationEffectsDatabase>
+</Template>

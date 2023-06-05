@@ -1,0 +1,199 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<Project DefaultTargets="Build" ToolsVersion="15.0" xmlns="http://schemas.microsoft.com/developer/msbuild/2003">
+  <ItemGroup Label="ProjectConfigurations">
+    <ProjectConfiguration Include="Debug|Win32">
+      <Configuration>Debug</Configuration>
+      <Platform>Win32</Platform>
+    </ProjectConfiguration>
+    <ProjectConfiguration Include="Debug|x64">
+      <Configuration>Debug</Configuration>
+      <Platform>x64</Platform>
+    </ProjectConfiguration>
+    <ProjectConfiguration Include="Release|Win32">
+      <Configuration>Release</Configuration>
+      <Platform>Win32</Platform>
+    </ProjectConfiguration>
+    <ProjectConfiguration Include="Release|x64">
+      <Configuration>Release</Configuration>
+      <Platform>x64</Platform>
+    </ProjectConfiguration>
+  </ItemGroup>
+  <PropertyGroup Label="Globals">
+    <ProjectGuid>{33501F95-170E-4EF3-91D9-8BD5D02FF9B7}</ProjectGuid>
+    <RootNamespace>VideoTools</RootNamespace>
+    <SccProjectName>
+    </SccProjectName>
+    <SccAuxPath>
+    </SccAuxPath>
+    <SccLocalPath>
+    </SccLocalPath>
+    <SccProvider>
+    </SccProvider>
+    <Keyword>Win32Proj</Keyword>
+    <WindowsTargetPlatformVersion>10.0</WindowsTargetPlatformVersion>
+  </PropertyGroup>
+  <Import Project="$(VCTargetsPath)\Microsoft.Cpp.Default.props" />
+  <PropertyGroup Condition="'$(Configuration)|$(Platform)'=='Release|Win32'" Label="Configuration">
+    <ConfigurationType>StaticLibrary</ConfigurationType>
+    <PlatformToolset>v143</PlatformToolset>
+    <CharacterSet>MultiByte</CharacterSet>
+    <WholeProgramOptimization>true</WholeProgramOptimization>
+  </PropertyGroup>
+  <PropertyGroup Condition="'$(Configuration)|$(Platform)'=='Release|x64'" Label="Configuration">
+    <ConfigurationType>StaticLibrary</ConfigurationType>
+    <PlatformToolset>v143</PlatformToolset>
+    <CharacterSet>MultiByte</CharacterSet>
+    <WholeProgramOptimization>true</WholeProgramOptimization>
+  </PropertyGroup>
+  <PropertyGroup Condition="'$(Configuration)|$(Platform)'=='Debug|Win32'" Label="Configuration">
+    <ConfigurationType>StaticLibrary</ConfigurationType>
+    <PlatformToolset>v143</PlatformToolset>
+    <CharacterSet>MultiByte</CharacterSet>
+  </PropertyGroup>
+  <PropertyGroup Condition="'$(Configuration)|$(Platform)'=='Debug|x64'" Label="Configuration">
+    <ConfigurationType>StaticLibrary</ConfigurationType>
+    <PlatformToolset>v143</PlatformToolset>
+    <CharacterSet>MultiByte</CharacterSet>
+  </PropertyGroup>
+  <Import Project="$(VCTargetsPath)\Microsoft.Cpp.props" />
+  <ImportGroup Label="ExtensionSettings">
+  </ImportGroup>
+  <ImportGroup Condition="'$(Configuration)|$(Platform)'=='Release|Win32'" Label="PropertySheets">
+    <Import Project="$(UserRootDir)\Microsoft.Cpp.$(Platform).user.props" Condition="exists('$(UserRootDir)\Microsoft.Cpp.$(Platform).user.props')" Label="LocalAppDataPlatform" />
+  </ImportGroup>
+  <ImportGroup Condition="'$(Configuration)|$(Platform)'=='Release|x64'" Label="PropertySheets">
+    <Import Project="$(UserRootDir)\Microsoft.Cpp.$(Platform).user.props" Condition="exists('$(UserRootDir)\Microsoft.Cpp.$(Platform).user.props')" Label="LocalAppDataPlatform" />
+  </ImportGroup>
+  <ImportGroup Condition="'$(Configuration)|$(Platform)'=='Debug|Win32'" Label="PropertySheets">
+    <Import Project="$(UserRootDir)\Microsoft.Cpp.$(Platform).user.props" Condition="exists('$(UserRootDir)\Microsoft.Cpp.$(Platform).user.props')" Label="LocalAppDataPlatform" />
+  </ImportGroup>
+  <ImportGroup Condition="'$(Configuration)|$(Platform)'=='Debug|x64'" Label="PropertySheets">
+    <Import Project="$(UserRootDir)\Microsoft.Cpp.$(Platform).user.props" Condition="exists('$(UserRootDir)\Microsoft.Cpp.$(Platform).user.props')" Label="LocalAppDataPlatform" />
+  </ImportGroup>
+  <PropertyGroup Label="UserMacros" />
+  <PropertyGroup>
+    <_ProjectFileVersion>14.0.24720.0</_ProjectFileVersion>
+  </PropertyGroup>
+  <PropertyGroup Condition="'$(Configuration)|$(Platform)'=='Debug|Win32'">
+    <OutDir>Debug\</OutDir>
+    <IntDir>Debug\</IntDir>
+    <IncludePath>I:\Program Files %28x86%29\Microsoft DirectX 9.0 SDK %28Summer 2004%29\Include;$(IncludePath)</IncludePath>
+  </PropertyGroup>
+  <PropertyGroup Condition="'$(Configuration)|$(Platform)'=='Debug|x64'">
+    <IncludePath>I:\Program Files %28x86%29\Microsoft DirectX 9.0 SDK %28Summer 2004%29\Include;$(IncludePath)</IncludePath>
+  </PropertyGroup>
+  <PropertyGroup Condition="'$(Configuration)|$(Platform)'=='Release|Win32'">
+    <OutDir>Release\</OutDir>
+    <IntDir>Release\</IntDir>
+  </PropertyGroup>
+  <ItemDefinitionGroup Condition="'$(Configuration)|$(Platform)'=='Debug|Win32'">
+    <ClCompile>
+      <Optimization>Disabled</Optimization>
+      <AdditionalIncludeDirectories>%(AdditionalIncludeDirectories);../faac-1.28\frontend;../BaseClasses;qeditInclude</AdditionalIncludeDirectories>
+      <PreprocessorDefinitions>WIN32;_DEBUG;_LIB;%(PreprocessorDefinitions)</PreprocessorDefinitions>
+      <MinimalRebuild>true</MinimalRebuild>
+      <BasicRuntimeChecks>EnableFastChecks</BasicRuntimeChecks>
+      <RuntimeLibrary>MultiThreadedDebugDLL</RuntimeLibrary>
+      <PrecompiledHeader />
+      <WarningLevel>Level3</WarningLevel>
+      <DebugInformationFormat>EditAndContinue</DebugInformationFormat>
+    </ClCompile>
+  </ItemDefinitionGroup>
+  <ItemDefinitionGroup Condition="'$(Configuration)|$(Platform)'=='Debug|x64'">
+    <ClCompile>
+      <Optimization>Disabled</Optimization>
+      <AdditionalIncludeDirectories>C:\dev\PhotoVidShow\Code\faac-1.28\frontend;$(DXSDK_DIR)\Include;C:\dev\PhotoVidShow\Code\BaseClasses;../ffmpegSDK/include;%(AdditionalIncludeDirectories)</AdditionalIncludeDirectories>
+      <PreprocessorDefinitions>WIN32;_DEBUG;_LIB;%(PreprocessorDefinitions)</PreprocessorDefinitions>
+      <BasicRuntimeChecks>EnableFastChecks</BasicRuntimeChecks>
+      <RuntimeLibrary>MultiThreadedDebugDLL</RuntimeLibrary>
+      <PrecompiledHeader>
+      </PrecompiledHeader>
+      <WarningLevel>Level3</WarningLevel>
+      <DebugInformationFormat>ProgramDatabase</DebugInformationFormat>
+    </ClCompile>
+  </ItemDefinitionGroup>
+  <ItemDefinitionGroup Condition="'$(Configuration)|$(Platform)'=='Release|Win32'">
+    <ClCompile>
+      <Optimization>MaxSpeed</Optimization>
+      <FavorSizeOrSpeed>Speed</FavorSizeOrSpeed>
+      <AdditionalIncludeDirectories>%(AdditionalIncludeDirectories);../faac-1.28\frontend;../BaseClasses;qeditInclude</AdditionalIncludeDirectories>
+      <PreprocessorDefinitions>WIN32;NDEBUG;_LIB;%(PreprocessorDefinitions)</PreprocessorDefinitions>
+      <RuntimeLibrary>MultiThreadedDLL</RuntimeLibrary>
+      <PrecompiledHeader />
+      <WarningLevel>Level3</WarningLevel>
+      <DebugInformationFormat>ProgramDatabase</DebugInformationFormat>
+    </ClCompile>
+  </ItemDefinitionGroup>
+  <ItemDefinitionGroup Condition="'$(Configuration)|$(Platform)'=='Release|x64'">
+    <ClCompile>
+      <Optimization>MaxSpeed</Optimization>
+      <FavorSizeOrSpeed>Speed</FavorSizeOrSpeed>
+      <AdditionalIncludeDirectories>I:\Program Files %28x86%29\Microsoft DirectX 9.0 SDK %28Summer 2004%29\Include;C:\dev\PhotoVidShow\Code\faac-1.28\frontend;$(DXSDK_DIR)\Include;C:\dev\PhotoVidShow\Code\BaseClasses;%(AdditionalIncludeDirectories)</AdditionalIncludeDirectories>
+      <PreprocessorDefinitions>WIN32;NDEBUG;_LIB;%(PreprocessorDefinitions)</PreprocessorDefinitions>
+      <RuntimeLibrary>MultiThreadedDLL</RuntimeLibrary>
+      <PrecompiledHeader>
+      </PrecompiledHeader>
+      <WarningLevel>Level3</WarningLevel>
+      <DebugInformationFormat>ProgramDatabase</DebugInformationFormat>
+    </ClCompile>
+  </ItemDefinitionGroup>
+  <ItemGroup>
+    <ClInclude Include="AACEncoder.h" />
+    <ClInclude Include="AudioApplyDBLoss.h" />
+    <ClInclude Include="AudioFadeOutSection.h" />
+    <ClInclude Include="AudioFader.h" />
+    <ClInclude Include="AudioGraphRendererBase.h" />
+    <ClInclude Include="AudioMixer.h" />
+    <ClInclude Include="AudioNormaliser.h" />
+    <ClInclude Include="AudioPlayer.h" />
+    <ClInclude Include="AudioRecorder.h" />
+    <ClInclude Include="AudioResampler.h" />
+    <ClInclude Include="AudioRipper.h" />
+    <ClInclude Include="CustomFilters\asyncio.h" />
+    <ClInclude Include="CustomFilters\asyncrdr.h" />
+    <ClInclude Include="CustomFilters\ColorSpaceConverter.h" />
+    <ClInclude Include="CustomFilters\grabber.h" />
+    <ClInclude Include="CustomFilters\memstream.h" />
+    <ClInclude Include="CustomFilters\Mp3TagStripperSourceFilter.h" />
+    <ClInclude Include="CustomFilters\WavDest.h" />
+    <ClInclude Include="DSCodec.h" />
+    <ClInclude Include="DSCodecFormat.h" />
+    <ClInclude Include="FileBufferCache.h" />
+    <ClInclude Include="LAVFilterHelper.h" />
+    <ClInclude Include="ThirdPartyDirectShowSourceFilterHelper.h" />
+    <ClInclude Include="UnmanagedErrors.h" />
+    <ClInclude Include="VideoEncoder.h" />
+    <ClInclude Include="VideoPlayer.h" />
+  </ItemGroup>
+  <ItemGroup>
+    <ClCompile Include="AACEncoder.cpp" />
+    <ClCompile Include="AudioApplyDBLoss.cpp" />
+    <ClCompile Include="AudioFadeOutSection.cpp" />
+    <ClCompile Include="AudioFader.cpp" />
+    <ClCompile Include="AudioGraphRendererBase.cpp" />
+    <ClCompile Include="AudioMixer.cpp" />
+    <ClCompile Include="AudioNormaliser.cpp" />
+    <ClCompile Include="AudioPlayer.cpp" />
+    <ClCompile Include="AudioRecorder.cpp" />
+    <ClCompile Include="AudioResampler.cpp" />
+    <ClCompile Include="AudioRipper.cpp" />
+    <ClCompile Include="CustomFilters\asyncio.cpp" />
+    <ClCompile Include="CustomFilters\asyncrdr.cpp" />
+    <ClCompile Include="CustomFilters\ColorSpaceConverter.cpp" />
+    <ClCompile Include="CustomFilters\grabber.cpp" />
+    <ClCompile Include="CustomFilters\memstream.cpp" />
+    <ClCompile Include="CustomFilters\MP3TagStripperSourceFilter.cpp" />
+    <ClCompile Include="CustomFilters\WavDest.cpp" />
+    <ClCompile Include="DSCodec.cpp" />
+    <ClCompile Include="DSCodecFormat.cpp" />
+    <ClCompile Include="FileBufferCache.cpp" />
+    <ClCompile Include="LAVFilterHelper.cpp" />
+    <ClCompile Include="ThirdPartyDirectShowSourceFilterHelper.cpp" />
+    <ClCompile Include="UnmanagedErrors.cpp" />
+    <ClCompile Include="VideoEncoder.cpp" />
+    <ClCompile Include="VideoPlayer.cpp" />
+  </ItemGroup>
+  <Import Project="$(VCTargetsPath)\Microsoft.Cpp.targets" />
+  <ImportGroup Label="ExtensionTargets">
+  </ImportGroup>
+</Project>

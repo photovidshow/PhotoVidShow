@@ -1,0 +1,63 @@
+<Template Version="1.0.0" Name="Move up" Description="Moves up an image with caption text.  Also moves a black and white copy of itself in the background.&#xD;&#xA;">
+  <Slideshow>
+    <Slide Type="BlankStillPictureSlide" PanZoom="False" DisplayTimeLength="8" UsesDefaultTransitionEffect="True" ThumbnailPreviewTime="4" Color="Color [Black]">
+      <TransitionEffect Type="SimpleAlphaBlendTransitionEffect" Length="0.5" Index="1" />
+      <Decoration Type="ImageDecoration" Aspect="2" OriTemImageNum="1" InEffect="MoveContinuousDown" MoveAsSlidePanZoom="True">
+        <CoverageArea X="-0.14" Y="-0.35" Width="1.28" Height="1.704266" />
+        <Image Filename="image1" />
+      </Decoration>
+      <Decoration Type="ColourTransformDecoration" br="0.92" bg="0.92" bb="0.92" cr="0.9" cg="0.9" cb="0.9" gamma="1">
+        <CoverageArea X="0" Y="0" Width="1" Height="1" />
+      </Decoration>
+      <Decoration Type="MonotoneTransformDecoration">
+        <CoverageArea X="0" Y="0" Width="1" Height="1" />
+      </Decoration>
+      <Decoration Type="BlurFilterDecoration">
+        <CoverageArea X="0" Y="0" Width="1" Height="1" />
+      </Decoration>
+      <Decoration Type="ImageDecoration" TemplateFramework="True" Aspect="2" InEffect="MoveContinuousUp" Alpha="0.75">
+        <AlphaMap Filename="outlinemasks\gradient edge.jpg" />
+        <CoverageArea X="0.0741107" Y="0.05344585" Width="0.7786561" Height="0.7819972" />
+        <Image Filename="templates\media\black.jpg" />
+      </Decoration>
+      <Decoration Type="ImageDecoration" Aspect="2" OriTemImageNum="1" InEffect="MoveContinuousUp">
+        <AlphaMap Filename="outlinemasks\gradient edge.jpg" />
+        <CoverageArea X="0.065" Y="0.04" Width="0.780462" Height="0.78" />
+        <Image Filename="image1" />
+      </Decoration>
+      <Decoration Type="TextDecoration" DegreesRot="90" StartOffsetTime="1.5" InEffect="MoveUpSlow" Alpha="0.15" Text="Text1 text1 text1 text1" TemplateEditable="1">
+        <CoverageArea X="0.6774703" Y="0.4585091" Width="0.4964427" Height="0.1111111" />
+        <TextStyle Name="Turmeric" FontName="Comic Sans MS" FontSize="32.04266" FontColor="Color [A=255, R=244, G=244, B=0]" OutLine="True" OutLineColour="Color [A=255, R=173, G=148, B=5]" Alignment="Center" OutlineLength="6" OutlineAlpha="69" />
+      </Decoration>
+      <PanZoom EndRotation="-3">
+        <StartArea X="0.125" Y="0.125" Width="0.75" Height="0.75" />
+        <EndArea X="0.19445" Y="0.19445" Width="0.6111" Height="0.6111" />
+        <Equation Type="Linear" />
+      </PanZoom>
+    </Slide>
+  </Slideshow>
+  <DecorationEffectsDatabase>
+    <DecorationEffect Name="MoveUpSlow" LengthSetToDecorationLength="True">
+      <TransitionEffect Type="SimpleAlphaBlendTransitionEffect" Length="1.5" EndDelay="0.94" />
+      <Movement Type="StraightLineMovement" InitialDelay="0" EndDelay="0">
+        <Start X="0" Y="0" Z="0" />
+        <End X="0" Y="-0.03" Z="0" />
+        <Equation Type="Linear" />
+      </Movement>
+    </DecorationEffect>
+    <DecorationEffect Name="MoveContinuousUp" LengthSetToDecorationLength="True">
+      <Movement Type="StraightLineMovement" InitialDelay="0" EndDelay="0">
+        <Start X="0" Y="0.2" Z="0" />
+        <End X="0" Y="0" Z="0" />
+        <Equation Type="Linear" />
+      </Movement>
+    </DecorationEffect>
+    <DecorationEffect Name="MoveContinuousDown" LengthSetToDecorationLength="True">
+      <Movement Type="StraightLineMovement" InitialDelay="0" EndDelay="0">
+        <Start X="0" Y="-0.2" Z="0" />
+        <End X="0" Y="0" Z="0" />
+        <Equation Type="Linear" />
+      </Movement>
+    </DecorationEffect>
+  </DecorationEffectsDatabase>
+</Template>

@@ -1,0 +1,44 @@
+float4 params0: register(C0);
+
+// params0[0] = delta	
+// params0[1] = 1-delta
+// params0[2] = additional contrast
+
+struct PS_INPUT
+{
+    float4 Position   : POSITION;
+    float2 Texture0   : TEXCOORD0;
+    float2 Texture1   : TEXCOORD1;
+};
+
+struct PS_OUTPUT
+{
+    float4 Color   : COLOR0;
+};
+
+
+sampler2D Texture1Sampler : register(S0);
+
+PS_OUTPUT ps_main( in PS_INPUT In )
+{
+    PS_OUTPUT pixelColor;
+    pixelColor.Color = tex2D(Texture1Sampler, In.Texture0);
+
+	float4 sepia = pixelColor.Color;
+
+    sepia.r = (sepia.r * 0.393) + (sepia.g * 0.769) + (sepia.b * 0.189);
+    sepia.g = (sepia.r * 0.349) + (sepia.g * 0.686) + (sepia.b * 0.168);    
+    sepia.b = (sepia.r * 0.272) + (sepia.g * 0.534) + (sepia.b * 0.131);
+
+    // apply contrast to give more redish brown tinge
+    sepia.r *=params0[2];
+    sepia.g *=0.8*params0[2];
+    sepia.b *=0.6*params0[2];
+	
+    // mix original color with sepia based on delta (because used on some transition effects)
+    pixelColor.Color.r = (pixelColor.Color.r*params0[1]) + (sepia.r*params0[0]);
+    pixelColor.Color.g = (pixelColor.Color.g*params0[1]) + (sepia.g*params0[0]);
+    pixelColor.Color.b = (pixelColor.Color.b*params0[1]) + (sepia.b*params0[0]);
+
+	return pixelColor;
+}

@@ -1,0 +1,17 @@
+float4 params: register(C0);
+
+sampler2D Tex1 : register(S0);
+sampler2D Texture2Sampler : register(S1);
+
+float4 ps_main(float2 uv : TEXCOORD) : COLOR
+{
+
+  float4 frameColor= tex2D(Tex1, uv);
+  float4 AccumColor = tex2D(Texture2Sampler, uv);
+
+  AccumColor[0] += (frameColor[0] / params[0]);
+  AccumColor[1] += (frameColor[1] / params[0]);
+  AccumColor[2] += (frameColor[2] / params[0]);
+
+  return AccumColor;
+}

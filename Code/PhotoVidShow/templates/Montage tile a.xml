@@ -1,0 +1,49 @@
+<Template Version="1.0.0" Name="Montage tile 1a" Description="Zoom an image with the montage effect.&#xD;&#xA;&#xD;&#xA;">
+  <Slideshow>
+    <Slide Type="BlankStillPictureSlide" PanZoom="True" DisplayTimeLength="6" UsesDefaultTransitionEffect="True" Color="Color [Black]">
+      <TransitionEffect Type="SimpleAlphaBlendTransitionEffect" Length="0.4" Index="1" />
+      <Decoration Type="GroupedDecoration" MotionBlur="False" RenderMethod="7" MoveAsSlidePanZoom="True">
+        <CoverageArea X="0" Y="0" Width="1" Height="1" />
+        <Decoration Type="ImageDecoration" Aspect="2" OriTemImageNum="1" InEffect="MoveLeftfast">
+          <CoverageArea X="0" Y="0" Width="1" Height="1" />
+          <Image Filename="image1" />
+        </Decoration>
+        <Decoration Type="ImageDecoration" TemplateFramework="True" Aspect="2" EndOffsetTime="6" InEffect="MoveLeftfast" Alpha="0.75">
+          <CoverageArea X="0.8" Y="0" Width="0.2" Height="1" />
+          <Image Filename="templates\media\black.jpg" />
+        </Decoration>
+        <Decoration Type="ImageDecoration" TemplateFramework="True" Aspect="2" InEffect="MoveLeftfast">
+          <CoverageArea X="0.7875" Y="0" Width="0.0125" Height="1" />
+          <Image Filename="templates\media\black.jpg" />
+        </Decoration>
+        <Decoration Type="ImageDecoration" TemplateFramework="True" Aspect="2" EndOffsetTime="6" InEffect="MoveLeftfast">
+          <CoverageArea X="0" Y="0.78" Width="0.8" Height="0.02" />
+          <Image Filename="templates\media\black.jpg" />
+        </Decoration>
+        <Decoration Type="ImageDecoration" TemplateFramework="True" Aspect="2" EndOffsetTime="6" InEffect="MoveLeftfast" Alpha="0.75">
+          <CoverageArea X="0" Y="0.8" Width="0.8" Height="0.2" />
+          <Image Filename="templates\media\black.jpg" />
+        </Decoration>
+      </Decoration>
+      <Decoration Type="ImageDecoration" RenderMethod="5" Border="True">
+        <CoverageArea X="0" Y="0" Width="1" Height="1" />
+        <Image Filename="borders\dirty bright(mod2x).pvsi" />
+      </Decoration>
+      <PanZoom PanZoomOnAll="True">
+        <StartArea X="0" Y="0" Width="1" Height="1" />
+        <EndArea X="0.03794466" Y="0.03094233" Width="0.9193676" Height="0.9198312" />
+        <Equation Type="Linear" />
+      </PanZoom>
+    </Slide>
+  </Slideshow>
+  <DecorationEffectsDatabase>
+    <DecorationEffect Name="MoveLeftfast" Length="1" MotionBlur="15">
+      <TransitionEffect Type="SimpleAlphaBlendTransitionEffect" Length="1.5" EndDelay="0.5" />
+      <Movement Type="StraightLineMovement" InitialDelay="0" EndDelay="0">
+        <Start X="2" Y="0" Z="0" />
+        <End X="0" Y="0" Z="0" />
+        <Equation Type="NonLinear" />
+      </Movement>
+    </DecorationEffect>
+  </DecorationEffectsDatabase>
+</Template>

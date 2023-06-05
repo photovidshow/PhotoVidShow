@@ -1,0 +1,44 @@
+<Template Version="1.0.0" Name="Xmas end" Description="The end to the pan around xmas design&#xD;&#xA;">
+  <Slideshow>
+    <Slide Type="BlankStillPictureSlide" PanZoom="True" DisplayTimeLength="5" UsesDefaultTransitionEffect="True" Color="Color [Black]">
+      <TransitionEffect Type="HBlurWhiteout" Length="0.7" Index="3" />
+      <Decoration Type="GroupedDecoration" MotionBlur="False" RenderMethod="7" MoveAsSlidePanZoom="True">
+        <CoverageArea X="0" Y="0" Width="1" Height="1" />
+        <Decoration Type="ImageDecoration" Aspect="3" OriTemImageNum="4">
+          <CoverageArea X="0" Y="0" Width="1" Height="1" />
+          <Image Filename="templates\media\Christmas1.pvsi" />
+        </Decoration>
+        <Decoration Type="ColourTransformDecoration" br="0.9" bg="0.86" bb="0.85" cr="1.15" cg="1.15" cb="1.15" gamma="1">
+          <CoverageArea X="0" Y="0" Width="1" Height="1" />
+        </Decoration>
+        <Decoration Type="VideoDecoration" VideoName="filters\particles(add).pvsv" Volume="0" GlobalPlayer="True" FlipY="True" RenderMethod="1">
+          <CoverageArea X="0" Y="0" Width="1" Height="1" />
+        </Decoration>
+        <Decoration Type="TextDecoration" InEffect="ZoomContinuousOut" Alpha="0.19" Text="The" TemplateEditable="1">
+          <CoverageArea X="0.2860392" Y="0.3300699" Width="0.05763865" Height="0.05954016" />
+          <TextStyle FontName="Lucida Calligraphy" FontSize="36.71354" Bold="True" Alignment="Center" OutlineLength="9" OutlineAlpha="33" />
+        </Decoration>
+        <Decoration Type="TextDecoration" InEffect="ZoomContinuousOut" Alpha="0.19" Text="End" TemplateEditable="1">
+          <CoverageArea X="0.2832191" Y="0.3762238" Width="0.06249264" Height="0.05954016" />
+          <TextStyle FontName="Lucida Calligraphy" FontSize="36.71354" Bold="True" Alignment="Center" OutlineLength="9" OutlineAlpha="33" />
+        </Decoration>
+      </Decoration>
+      <Decoration Type="ImageDecoration" PostTrans="True" Border="True">
+        <CoverageArea X="0" Y="0" Width="1" Height="1" />
+        <Image Filename="borders\vignette1.pvsi" />
+      </Decoration>
+      <PanZoom EndDelay="0.5" StartRotation="-2.196976" PanZoomOnAll="True">
+        <StartArea X="0.3058176" Y="0.4111888" Width="0.4426101" Height="0.4405594" />
+        <EndArea X="0.1564465" Y="0.2013986" Width="0.3435535" Height="0.3426574" />
+        <Equation Type="NonLinear" />
+      </PanZoom>
+    </Slide>
+  </Slideshow>
+  <DecorationEffectsDatabase>
+    <DecorationEffect Name="ZoomContinuousOut" LengthSetToDecorationLength="True">
+      <Zoom InitialDelay="0" EndDelay="0" StartZoom="0.7" EndZoom="1">
+        <Equation Type="Linear" />
+      </Zoom>
+    </DecorationEffect>
+  </DecorationEffectsDatabase>
+</Template>

@@ -1,0 +1,65 @@
+K 25
+svn:wc:ra_dav:version-url
+V 42
+/svnroot/direct264/!svn/ver/313/x264/input
+END
+yuv.c
+K 25
+svn:wc:ra_dav:version-url
+V 48
+/svnroot/direct264/!svn/ver/287/x264/input/yuv.c
+END
+dshow.c
+K 25
+svn:wc:ra_dav:version-url
+V 50
+/svnroot/direct264/!svn/ver/287/x264/input/dshow.c
+END
+input.h
+K 25
+svn:wc:ra_dav:version-url
+V 50
+/svnroot/direct264/!svn/ver/309/x264/input/input.h
+END
+thread.c
+K 25
+svn:wc:ra_dav:version-url
+V 51
+/svnroot/direct264/!svn/ver/312/x264/input/thread.c
+END
+lavf.c
+K 25
+svn:wc:ra_dav:version-url
+V 49
+/svnroot/direct264/!svn/ver/289/x264/input/lavf.c
+END
+avs.c
+K 25
+svn:wc:ra_dav:version-url
+V 48
+/svnroot/direct264/!svn/ver/309/x264/input/avs.c
+END
+timecode.c
+K 25
+svn:wc:ra_dav:version-url
+V 53
+/svnroot/direct264/!svn/ver/295/x264/input/timecode.c
+END
+y4m.c
+K 25
+svn:wc:ra_dav:version-url
+V 48
+/svnroot/direct264/!svn/ver/300/x264/input/y4m.c
+END
+ffms.c
+K 25
+svn:wc:ra_dav:version-url
+V 49
+/svnroot/direct264/!svn/ver/309/x264/input/ffms.c
+END
+deldup.c
+K 25
+svn:wc:ra_dav:version-url
+V 51
+/svnroot/direct264/!svn/ver/309/x264/input/deldup.c
+END

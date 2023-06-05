@@ -1,0 +1,23 @@
+K 10
+svn:ignore
+V 109
+*.ncb
+*.sdf
+*.opensdf
+*.suo
+*.user
+*.gcda
+*.dcu
+*.local
+*.o
+*.d
+*.obj
+*.dll
+*.exe
+obj
+Release
+Debug
+bin
+ipch
+
+END

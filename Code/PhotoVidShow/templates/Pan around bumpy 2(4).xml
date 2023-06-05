@@ -1,0 +1,104 @@
+<Template Version="1.0.0" Name="Pan around bumpy 2" Description="Pans around 4 images with a bumpy filter">
+  <Slideshow>
+    <Slide Type="MultiSlideSlide" PanZoom="False" DisplayTimeLength="13.88333" UsesDefaultTransitionEffect="True" ForceMBSubFrames="30">
+      <TransitionEffect Type="ShaderPlusAlphaBlendTransitionEffect" Length="0.5" Index="32" Shader="zoom" />
+      <Slide Type="BlankStillPictureSlide" PanZoom="True" DisplayTimeLength="4" UsesDefaultTransitionEffect="True" ForceMBSubFrames="30" Color="Color [Black]">
+        <TransitionEffect Type="MoveToNextSlideTransitionEffect" Direction="3" BorderFrac="0" Length="0.7" Index="23" />
+        <Decoration Type="GroupedDecoration" MotionBlur="False" RenderMethod="7" MoveAsSlidePanZoom="True">
+          <CoverageArea X="0" Y="0" Width="1" Height="1" />
+          <Decoration Type="ImageDecoration" Aspect="2" OriTemImageNum="5">
+            <CoverageArea X="0" Y="0" Width="1" Height="1" />
+            <Image Filename="menutemplates\background1.pvsi" />
+          </Decoration>
+          <Decoration Type="ImageDecoration" DegreesRot="-0.4824794" Aspect="2" OriTemImageNum="1" Alpha="0.25">
+            <AlphaMap Filename="outlinemasks\circle.jpg" />
+            <CoverageArea X="0.3676681" Y="0.1272265" Width="0.6323319" Height="0.8447837" />
+            <Image Filename="image1" />
+          </Decoration>
+          <Decoration Type="ImageDecoration" RenderMethod="5">
+            <CoverageArea X="0" Y="0" Width="1" Height="1" />
+            <Image Filename="filters\bumpy(mod2x).pvsi" />
+          </Decoration>
+        </Decoration>
+        <PanZoom EndDelay="0.93" StartRotation="-2.407089" PanZoomOnAll="True">
+          <StartArea X="0.2774704" Y="0.257384" Width="0.712253" Height="0.7116737" />
+          <EndArea X="0.312253" Y="0.07120292" Width="0.6671937" Height="0.6671937" />
+          <Equation Type="NonLinear" />
+        </PanZoom>
+      </Slide>
+      <Slide Type="BlankStillPictureSlide" PanZoom="True" DisplayTimeLength="4" UsesDefaultTransitionEffect="True" Color="Color [Black]">
+        <TransitionEffect Type="MoveToNextSlideTransitionEffect" Direction="1" BorderFrac="0" Length="0.7" Index="25" />
+        <Decoration Type="GroupedDecoration" MotionBlur="False" RenderMethod="7" MoveAsSlidePanZoom="True">
+          <CoverageArea X="0" Y="0" Width="1" Height="1" />
+          <Decoration Type="ImageDecoration" Aspect="2" OriTemImageNum="5">
+            <CoverageArea X="0" Y="0" Width="1" Height="1" />
+            <Image Filename="menutemplates\background1.pvsi" />
+          </Decoration>
+          <Decoration Type="ImageDecoration" DegreesRot="180" Aspect="2" OriTemImageNum="2" Alpha="0.25">
+            <AlphaMap Filename="outlinemasks\circle.jpg" />
+            <CoverageArea X="0.001430615" Y="0.0610687" Width="0.6337625" Height="0.8447837" />
+            <Image Filename="image2" />
+          </Decoration>
+          <Decoration Type="ImageDecoration" FlipX="True" DegreesRot="180" RenderMethod="5">
+            <CoverageArea X="0" Y="0" Width="1" Height="1" />
+            <Image Filename="filters\bumpy(mod2x).pvsi" />
+          </Decoration>
+        </Decoration>
+        <PanZoom InitialDelay="0.07" EndDelay="0.92" PanZoomOnAll="True">
+          <StartArea X="0.3525692" Y="0.3600563" Width="0.6403162" Height="0.6399437" />
+          <EndArea X="0.3525692" Y="0.0140647" Width="0.6403162" Height="0.6399437" />
+          <Equation Type="NonLinear" />
+        </PanZoom>
+      </Slide>
+      <Slide Type="BlankStillPictureSlide" PanZoom="True" DisplayTimeLength="4" UsesDefaultTransitionEffect="True" Color="Color [Black]">
+        <TransitionEffect Type="MoveToNextSlideTransitionEffect" Direction="1" BorderFrac="0" Length="0.7" Index="25" />
+        <Decoration Type="GroupedDecoration" MotionBlur="False" RenderMethod="7" MoveAsSlidePanZoom="True">
+          <CoverageArea X="0" Y="0" Width="1" Height="1" />
+          <Decoration Type="ImageDecoration" FlipX="True" Aspect="2" OriTemImageNum="5">
+            <CoverageArea X="0" Y="0" Width="1" Height="1" />
+            <Image Filename="menutemplates\background1.pvsi" />
+          </Decoration>
+          <Decoration Type="ImageDecoration" DegreesRot="180" Aspect="2" OriTemImageNum="3" Alpha="0.25">
+            <AlphaMap Filename="outlinemasks\circle.jpg" />
+            <CoverageArea X="0.2822327" Y="0.06153846" Width="0.634434" Height="0.8461539" />
+            <Image Filename="image3" />
+          </Decoration>
+          <Decoration Type="ImageDecoration" DegreesRot="180" RenderMethod="5">
+            <CoverageArea X="0" Y="0" Width="1" Height="1" />
+            <Image Filename="filters\bumpy(mod2x).pvsi" />
+          </Decoration>
+        </Decoration>
+        <PanZoom InitialDelay="0.07" EndDelay="0.93" PanZoomOnAll="True">
+          <StartArea X="0" Y="0" Width="0.6379446" Height="0.6357243" />
+          <EndArea X="0.1315029" Y="0.3341902" Width="0.6401734" Height="0.6349614" />
+          <Equation Type="NonLinear" />
+        </PanZoom>
+      </Slide>
+      <Slide Type="BlankStillPictureSlide" PanZoom="True" DisplayTimeLength="4" Color="Color [Black]">
+        <TransitionEffect Type="ShaderPlusAlphaBlendTransitionEffect" Length="0.5" Index="32" Shader="zoom" />
+        <Decoration Type="GroupedDecoration" MotionBlur="False" RenderMethod="7" MoveAsSlidePanZoom="True">
+          <CoverageArea X="0" Y="0" Width="1" Height="1" />
+          <Decoration Type="ImageDecoration" Aspect="2" OriTemImageNum="5">
+            <CoverageArea X="0" Y="0" Width="1" Height="1" />
+            <Image Filename="menutemplates\background1.pvsi" />
+          </Decoration>
+          <Decoration Type="ImageDecoration" DegreesRot="180" Aspect="2" OriTemImageNum="4" Alpha="0.25">
+            <AlphaMap Filename="outlinemasks\circle.jpg" />
+            <CoverageArea X="0.001430615" Y="0.0610687" Width="0.6337625" Height="0.8447837" />
+            <Image Filename="image4" />
+          </Decoration>
+          <Decoration Type="ImageDecoration" FlipX="True" DegreesRot="180" RenderMethod="5">
+            <CoverageArea X="0" Y="0" Width="1" Height="1" />
+            <Image Filename="filters\bumpy(mod2x).pvsi" />
+          </Decoration>
+        </Decoration>
+        <PanZoom InitialDelay="0.07" EndDelay="0.89" EndRotation="-8.779492" PanZoomOnAll="True">
+          <StartArea X="0.2442196" Y="0.3367609" Width="0.6401734" Height="0.6375321" />
+          <EndArea X="0.3049133" Y="0.09511568" Width="0.6575145" Height="0.655527" />
+          <Equation Type="NonLinear" />
+        </PanZoom>
+      </Slide>
+    </Slide>
+  </Slideshow>
+  <DecorationEffectsDatabase />
+</Template>

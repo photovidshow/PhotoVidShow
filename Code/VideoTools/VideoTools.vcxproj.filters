@@ -1,0 +1,180 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<Project ToolsVersion="4.0" xmlns="http://schemas.microsoft.com/developer/msbuild/2003">
+  <ItemGroup>
+    <Filter Include="Header Files">
+      <UniqueIdentifier>{93995380-89BD-4b04-88EB-625FBE52EBFB}</UniqueIdentifier>
+      <Extensions>h;hpp;hxx;hm;inl;inc;xsd</Extensions>
+    </Filter>
+    <Filter Include="Source Files">
+      <UniqueIdentifier>{4FC737F1-C7A5-4376-A066-2A32D752A2FF}</UniqueIdentifier>
+      <Extensions>cpp;c;cc;cxx;def;odl;idl;hpj;bat;asm;asmx</Extensions>
+    </Filter>
+    <Filter Include="Source Files\Resource Files">
+      <UniqueIdentifier>{67DA6AB6-F800-4c08-8B7A-83BB121AAD01}</UniqueIdentifier>
+      <Extensions>rc;ico;cur;bmp;dlg;rc2;rct;bin;rgs;gif;jpg;jpeg;jpe;resx;tiff;tif;png;wav</Extensions>
+    </Filter>
+    <Filter Include="CustomFilters">
+      <UniqueIdentifier>{6bc6b9c3-c0ed-4fd3-9e95-e59cf513aad8}</UniqueIdentifier>
+    </Filter>
+  </ItemGroup>
+  <ItemGroup>
+    <ClInclude Include="AACEncoder.h">
+      <Filter>Header Files</Filter>
+    </ClInclude>
+    <ClInclude Include="AudioApplyDBLoss.h">
+      <Filter>Header Files</Filter>
+    </ClInclude>
+    <ClInclude Include="AudioFadeOutSection.h">
+      <Filter>Header Files</Filter>
+    </ClInclude>
+    <ClInclude Include="AudioFader.h">
+      <Filter>Header Files</Filter>
+    </ClInclude>
+    <ClInclude Include="AudioMixer.h">
+      <Filter>Header Files</Filter>
+    </ClInclude>
+    <ClInclude Include="AudioNormaliser.h">
+      <Filter>Header Files</Filter>
+    </ClInclude>
+    <ClInclude Include="AudioPlayer.h">
+      <Filter>Header Files</Filter>
+    </ClInclude>
+    <ClInclude Include="AudioRecorder.h">
+      <Filter>Header Files</Filter>
+    </ClInclude>
+    <ClInclude Include="AudioResampler.h">
+      <Filter>Header Files</Filter>
+    </ClInclude>
+    <ClInclude Include="AudioRipper.h">
+      <Filter>Header Files</Filter>
+    </ClInclude>
+    <ClInclude Include="DSCodec.h">
+      <Filter>Header Files</Filter>
+    </ClInclude>
+    <ClInclude Include="DSCodecFormat.h">
+      <Filter>Header Files</Filter>
+    </ClInclude>
+    <ClInclude Include="FileBufferCache.h">
+      <Filter>Header Files</Filter>
+    </ClInclude>
+    <ClInclude Include="UnmanagedErrors.h">
+      <Filter>Header Files</Filter>
+    </ClInclude>
+    <ClInclude Include="VideoEncoder.h">
+      <Filter>Header Files</Filter>
+    </ClInclude>
+    <ClInclude Include="VideoPlayer.h">
+      <Filter>Header Files</Filter>
+    </ClInclude>
+    <ClInclude Include="CustomFilters\ColorSpaceConverter.h">
+      <Filter>CustomFilters</Filter>
+    </ClInclude>
+    <ClInclude Include="CustomFilters\grabber.h">
+      <Filter>CustomFilters</Filter>
+    </ClInclude>
+    <ClInclude Include="CustomFilters\asyncio.h">
+      <Filter>CustomFilters</Filter>
+    </ClInclude>
+    <ClInclude Include="CustomFilters\asyncrdr.h">
+      <Filter>CustomFilters</Filter>
+    </ClInclude>
+    <ClInclude Include="CustomFilters\memstream.h">
+      <Filter>CustomFilters</Filter>
+    </ClInclude>
+    <ClInclude Include="CustomFilters\Mp3TagStripperSourceFilter.h">
+      <Filter>CustomFilters</Filter>
+    </ClInclude>
+    <ClInclude Include="AudioGraphRendererBase.h">
+      <Filter>Header Files</Filter>
+    </ClInclude>
+    <ClInclude Include="ThirdPartyDirectShowSourceFilterHelper.h">
+      <Filter>Header Files</Filter>
+    </ClInclude>
+    <ClInclude Include="LAVFilterHelper.h">
+      <Filter>Header Files</Filter>
+    </ClInclude>
+    <ClInclude Include="CustomFilters\WavDest.h">
+      <Filter>CustomFilters</Filter>
+    </ClInclude>
+  </ItemGroup>
+  <ItemGroup>
+    <ClCompile Include="AACEncoder.cpp">
+      <Filter>Source Files</Filter>
+    </ClCompile>
+    <ClCompile Include="AudioApplyDBLoss.cpp">
+      <Filter>Source Files</Filter>
+    </ClCompile>
+    <ClCompile Include="AudioFadeOutSection.cpp">
+      <Filter>Source Files</Filter>
+    </ClCompile>
+    <ClCompile Include="AudioFader.cpp">
+      <Filter>Source Files</Filter>
+    </ClCompile>
+    <ClCompile Include="AudioMixer.cpp">
+      <Filter>Source Files</Filter>
+    </ClCompile>
+    <ClCompile Include="AudioNormaliser.cpp">
+      <Filter>Source Files</Filter>
+    </ClCompile>
+    <ClCompile Include="AudioPlayer.cpp">
+      <Filter>Source Files</Filter>
+    </ClCompile>
+    <ClCompile Include="AudioRecorder.cpp">
+      <Filter>Source Files</Filter>
+    </ClCompile>
+    <ClCompile Include="AudioResampler.cpp">
+      <Filter>Source Files</Filter>
+    </ClCompile>
+    <ClCompile Include="AudioRipper.cpp">
+      <Filter>Source Files</Filter>
+    </ClCompile>
+    <ClCompile Include="DSCodec.cpp">
+      <Filter>Source Files</Filter>
+    </ClCompile>
+    <ClCompile Include="DSCodecFormat.cpp">
+      <Filter>Source Files</Filter>
+    </ClCompile>
+    <ClCompile Include="FileBufferCache.cpp">
+      <Filter>Source Files</Filter>
+    </ClCompile>
+    <ClCompile Include="UnmanagedErrors.cpp">
+      <Filter>Source Files</Filter>
+    </ClCompile>
+    <ClCompile Include="VideoEncoder.cpp">
+      <Filter>Source Files</Filter>
+    </ClCompile>
+    <ClCompile Include="VideoPlayer.cpp">
+      <Filter>Source Files</Filter>
+    </ClCompile>
+    <ClCompile Include="CustomFilters\ColorSpaceConverter.cpp">
+      <Filter>CustomFilters</Filter>
+    </ClCompile>
+    <ClCompile Include="CustomFilters\grabber.cpp">
+      <Filter>CustomFilters</Filter>
+    </ClCompile>
+    <ClCompile Include="CustomFilters\asyncio.cpp">
+      <Filter>CustomFilters</Filter>
+    </ClCompile>
+    <ClCompile Include="CustomFilters\asyncrdr.cpp">
+      <Filter>CustomFilters</Filter>
+    </ClCompile>
+    <ClCompile Include="CustomFilters\memstream.cpp">
+      <Filter>CustomFilters</Filter>
+    </ClCompile>
+    <ClCompile Include="CustomFilters\MP3TagStripperSourceFilter.cpp">
+      <Filter>CustomFilters</Filter>
+    </ClCompile>
+    <ClCompile Include="AudioGraphRendererBase.cpp">
+      <Filter>Source Files</Filter>
+    </ClCompile>
+    <ClCompile Include="ThirdPartyDirectShowSourceFilterHelper.cpp">
+      <Filter>Source Files</Filter>
+    </ClCompile>
+    <ClCompile Include="LAVFilterHelper.cpp">
+      <Filter>Source Files</Filter>
+    </ClCompile>
+    <ClCompile Include="CustomFilters\WavDest.cpp">
+      <Filter>CustomFilters</Filter>
+    </ClCompile>
+  </ItemGroup>
+</Project>

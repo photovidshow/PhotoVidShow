@@ -1,0 +1,60 @@
+<Template Version="1.0.0" Name="Vintage intro" Description="Vintage intro effect">
+  <Slideshow>
+    <Slide Type="BlankStillPictureSlide" PanZoom="False" DisplayTimeLength="14" UsesDefaultTransitionEffect="True" Color="Color [White]">
+      <TransitionEffect Type="SimpleAlphaBlendTransitionEffect" Length="1.5" Index="1" />
+      <Decoration Type="ImageDecoration">
+        <CoverageArea X="0.1314496" Y="0" Width="0.7371007" Height="1" />
+        <Image Filename="clipart\vintage frame1.png" />
+      </Decoration>
+      <Decoration Type="ImageDecoration">
+        <CoverageArea X="0.38" Y="0.07" Width="0.24" Height="0.06842001" />
+        <Image Filename="clipart\vintage9.png" />
+      </Decoration>
+      <Decoration Type="ImageDecoration" DegreesRot="180">
+        <CoverageArea X="0.38" Y="0.86" Width="0.2395257" Height="0.07032349" />
+        <Image Filename="clipart\vintage9.png" />
+      </Decoration>
+      <Decoration Type="TextDecoration" StartOffsetTime="1" InEffect="MoveInSlow" Text="Text1 text1 text1 text1 " TemplateEditable="1">
+        <CoverageArea X="0.2919865" Y="0.1659634" Width="0.4278846" Height="0.08505737" />
+        <TextStyle FontName="Lucida Calligraphy" FontSize="32.94271" FontColor="Color [Black]" OutLine="True" OutLineColour="Color [Black]" Alignment="Center" OutlineLength="3" OutlineAlpha="17" />
+      </Decoration>
+      <Decoration Type="TextDecoration" StartOffsetTime="2" InEffect="MoveInSlow" Text="Text2 text2 text2 text2 text2" TemplateEditable="1">
+        <CoverageArea X="0.3519499" Y="0.3" Width="0.304796" Height="0.04680265" />
+        <TextStyle FontName="Lucida Bright" FontSize="19.76563" FontColor="Color [Black]" OutLine="True" OutLineColour="Color [Black]" Alignment="Center" OutlineLength="3" OutlineAlpha="17" />
+      </Decoration>
+      <Decoration Type="TextDecoration" StartOffsetTime="3" InEffect="MoveInSlow" Text="Text3 text3 text3 text3 text3" TemplateEditable="1">
+        <CoverageArea X="0.3519499" Y="0.37" Width="0.304796" Height="0.04680265" />
+        <TextStyle FontName="Lucida Bright" FontSize="19.76563" FontColor="Color [Black]" OutLine="True" OutLineColour="Color [Black]" Alignment="Center" OutlineLength="3" OutlineAlpha="17" />
+      </Decoration>
+      <Decoration Type="TextDecoration" StartOffsetTime="4" InEffect="MoveInSlow" Text="Text4 text4 text4 text4 text4" TemplateEditable="1">
+        <CoverageArea X="0.3519499" Y="0.44" Width="0.304796" Height="0.04680265" />
+        <TextStyle FontName="Lucida Bright" FontSize="19.76563" FontColor="Color [Black]" OutLine="True" OutLineColour="Color [Black]" Alignment="Center" OutlineLength="3" OutlineAlpha="17" />
+      </Decoration>
+      <Decoration Type="TextDecoration" StartOffsetTime="5" InEffect="MoveInSlow" Text="Text5 text5 text5 text5" TemplateEditable="1">
+        <CoverageArea X="0.3117605" Y="0.52" Width="0.3954512" Height="0.07800442" />
+        <TextStyle FontName="Lucida Blackletter" FontSize="32.94271" FontColor="Color [Black]" Bold="True" OutLine="True" OutLineColour="Color [Black]" Italic="True" Alignment="Center" OutlineLength="3" OutlineAlpha="17" />
+      </Decoration>
+      <Decoration Type="TextDecoration" StartOffsetTime="6" InEffect="MoveInSlow" Text="Text6 text6 text6 text6 text6" TemplateEditable="1">
+        <CoverageArea X="0.3519499" Y="0.65" Width="0.304796" Height="0.04680265" />
+        <TextStyle FontName="Lucida Bright" FontSize="19.76563" FontColor="Color [Black]" OutLine="True" OutLineColour="Color [Black]" Alignment="Center" OutlineLength="3" OutlineAlpha="17" />
+      </Decoration>
+      <Decoration Type="TextDecoration" StartOffsetTime="7" InEffect="MoveInSlow" Text="Text7 text7 text7 text7" TemplateEditable="1">
+        <CoverageArea X="0.283306" Y="0.74" Width="0.4452457" Height="0.08505737" />
+        <TextStyle FontName="Lucida Calligraphy" FontSize="32.94271" FontColor="Color [Black]" OutLine="True" OutLineColour="Color [Black]" Alignment="Center" OutlineLength="3" OutlineAlpha="17" />
+      </Decoration>
+      <PanZoom>
+        <StartArea X="0" Y="0" Width="1" Height="1" />
+        <EndArea X="0" Y="0" Width="1" Height="1" />
+        <Equation Type="Linear" />
+      </PanZoom>
+    </Slide>
+  </Slideshow>
+  <DecorationEffectsDatabase>
+    <DecorationEffect Name="MoveInSlow" LengthSetToDecorationLength="True">
+      <TransitionEffect Type="SimpleAlphaBlendTransitionEffect" Length="1.5" EndDelay="0.94" />
+      <Zoom InitialDelay="0" EndDelay="0" StartZoom="0.9" EndZoom="1">
+        <Equation Type="Linear" />
+      </Zoom>
+    </DecorationEffect>
+  </DecorationEffectsDatabase>
+</Template>

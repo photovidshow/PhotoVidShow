@@ -1,0 +1,34 @@
+<Template Version="1.0.0" Name="Very old video with bright old film effect" Description="Applies two sepia filters, a bright fillter and an old film effect&#xD;&#xA;&#xD;&#xA;">
+  <Slideshow>
+    <Slide Type="BlankStillPictureSlide" PanZoom="True" DisplayTimeLength="8" UsesDefaultTransitionEffect="True" ReCalcSlideLengthOnImage1Change="True" Color="Color [Black]">
+      <TransitionEffect Type="SimpleAlphaBlendTransitionEffect" Length="1.5" Index="1" />
+      <Decoration Type="GroupedDecoration" MotionBlur="False" RenderMethod="7" MoveAsSlidePanZoom="True">
+        <CoverageArea X="0" Y="0" Width="1" Height="1" />
+        <Decoration Type="ImageDecoration" Aspect="3" OriTemImageNum="1">
+          <CoverageArea X="0" Y="0" Width="1" Height="1" />
+          <Image Filename="image1" />
+        </Decoration>
+        <Decoration Type="VideoDecoration" VideoName="filters\old film(mod1x).pvsv" Volume="0" GlobalPlayer="True" FlipY="True" RenderMethod="4">
+          <CoverageArea X="0" Y="0" Width="1" Height="1" />
+        </Decoration>
+        <Decoration Type="SepiaTransformDecoration">
+          <CoverageArea X="0" Y="0" Width="1" Height="1" />
+        </Decoration>
+        <Decoration Type="SepiaTransformDecoration">
+          <CoverageArea X="0" Y="0" Width="1" Height="1" />
+        </Decoration>
+        <Decoration Type="ColourTransformDecoration" br="1" bg="1" bb="1" cr="2.5" cg="2.5" cb="2.5" gamma="1">
+          <CoverageArea X="0" Y="0" Width="1" Height="1" />
+        </Decoration>
+        <Decoration Type="BlurFilterDecoration" BlurFilterType="1">
+          <CoverageArea X="0" Y="0" Width="1" Height="1" />
+        </Decoration>
+      </Decoration>
+      <PanZoom PanZoomOnAll="True" ReGenerateOnImageChange="True">
+        <StartArea X="0" Y="0" Width="1" Height="1" />
+        <EndArea X="0.1812" Y="0.1812" Width="0.6375999" Height="0.6375999" />
+      </PanZoom>
+    </Slide>
+  </Slideshow>
+  <DecorationEffectsDatabase />
+</Template>

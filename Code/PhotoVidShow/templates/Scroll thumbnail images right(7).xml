@@ -1,0 +1,314 @@
+<Template Version="1.0.0" Name="Scroll thumbnails right" Description="Scrolls 7 thumbnail images right">
+  <Slideshow>
+    <Slide Type="MultiSlideSlide" PanZoom="False" DisplayTimeLength="19.91667" UsesDefaultTransitionEffect="True">
+      <TransitionEffect Type="SimpleAlphaBlendTransitionEffect" Length="0.5" Index="1" />
+      <Slide Type="BlankStillPictureSlide" PanZoom="True" DisplayTimeLength="4" UsesDefaultTransitionEffect="True" Color="Color [Black]">
+        <TransitionEffect Type="SimpleAlphaBlendTransitionEffect" Length="0" Index="1" />
+        <Decoration Type="GroupedDecoration" MotionBlur="False" RenderMethod="7" MoveAsSlidePanZoom="True">
+          <CoverageArea X="0" Y="0" Width="1" Height="1" />
+          <Decoration Type="ImageDecoration" Aspect="2" OriTemImageNum="1">
+            <CoverageArea X="0" Y="-0.1350322" Width="1" Height="1.270064" />
+            <Image Filename="menutemplates\background104.pvsi" />
+          </Decoration>
+          <Decoration Type="ImageDecoration" Aspect="2" TemplateFramework="True" Alpha="0.52">
+            <AlphaMap Filename="outlinemasks\smooth edge.jpg" />
+            <CoverageArea X="0.355" Y="0.427" Width="0.2593" Height="0.3441" />
+            <Image Filename="templates\media\black.jpg" />
+          </Decoration>
+          <Decoration Type="ImageDecoration" Aspect="2" OriTemImageNum="2">
+            <AlphaMap Filename="outlinemasks\smooth edge.jpg" />
+            <CoverageArea X="0.35" Y="0.42" Width="0.2593412" Height="0.344056" />
+            <Image Filename="image2" />
+          </Decoration>
+          <Decoration Type="ImageDecoration" Aspect="2" TemplateFramework="True" Alpha="0.52">
+            <AlphaMap Filename="outlinemasks\smooth edge.jpg" />
+            <CoverageArea X="0.625" Y="0.177" Width="0.2593" Height="0.3441" />
+            <Image Filename="templates\media\black.jpg" />
+          </Decoration>
+          <Decoration Type="ImageDecoration" Aspect="2" OriTemImageNum="3">
+            <AlphaMap Filename="outlinemasks\smooth edge.jpg" />
+            <CoverageArea X="0.62" Y="0.17" Width="0.2586478" Height="0.3454545" />
+            <Image Filename="image3" />
+          </Decoration>
+          <Decoration Type="ImageDecoration" Aspect="2" TemplateFramework="True" Alpha="0.52">
+            <AlphaMap Filename="outlinemasks\smooth edge.jpg" />
+            <CoverageArea X="0.895" Y="0.427" Width="0.2593" Height="0.3441" />
+            <Image Filename="templates\media\black.jpg" />
+          </Decoration>
+          <Decoration Type="ImageDecoration" Aspect="2" OriTemImageNum="4">
+            <AlphaMap Filename="outlinemasks\smooth edge.jpg" />
+            <CoverageArea X="0.89" Y="0.42" Width="0.2593" Height="0.3441" />
+            <Image Filename="image4" />
+          </Decoration>
+        </Decoration>
+        <Decoration Type="ImageDecoration" Border="True">
+          <CoverageArea X="0" Y="0" Width="1" Height="1" />
+          <Image Filename="borders\vignette1.pvsi" />
+        </Decoration>
+        <PanZoom PanZoomOnAll="True">
+          <StartArea X="0" Y="0.1424936" Width="0.6452075" Height="0.6463104" />
+          <EndArea X="0.35" Y="0.1424936" Width="0.6452075" Height="0.6463104" />
+        </PanZoom>
+      </Slide>
+      <Slide Type="BlankStillPictureSlide" PanZoom="True" DisplayTimeLength="4" UsesDefaultTransitionEffect="True" Color="Color [Black]">
+        <TransitionEffect Type="SimpleAlphaBlendTransitionEffect" Length="0" Index="1" />
+        <Decoration Type="GroupedDecoration" MotionBlur="False" RenderMethod="7" MoveAsSlidePanZoom="True">
+          <CoverageArea X="0" Y="0" Width="1" Height="1" />
+          <Decoration Type="ImageDecoration" Aspect="2" OriTemImageNum="1">
+            <CoverageArea X="-0.35" Y="-0.1350322" Width="1" Height="1.270064" />
+            <Image Filename="menutemplates\background104.pvsi" />
+          </Decoration>
+          <Decoration Type="ImageDecoration" FlipX="True" Aspect="2" OriTemImageNum="1">
+            <CoverageArea X="0.65" Y="-0.135" Width="1.000134" Height="1.2701" />
+            <Image Filename="menutemplates\background104.pvsi" />
+          </Decoration>
+          <Decoration Type="ImageDecoration" Aspect="2" TemplateFramework="True" Alpha="0.52">
+            <AlphaMap Filename="outlinemasks\smooth edge.jpg" />
+            <CoverageArea X="0.005" Y="0.427" Width="0.2593" Height="0.3441" />
+            <Image Filename="templates\media\black.jpg" />
+          </Decoration>
+          <Decoration Type="ImageDecoration" Aspect="2" OriTemImageNum="2">
+            <AlphaMap Filename="outlinemasks\smooth edge.jpg" />
+            <CoverageArea X="0" Y="0.42" Width="0.2593412" Height="0.344056" />
+            <Image Filename="image2" />
+          </Decoration>
+          <Decoration Type="ImageDecoration" Aspect="2" TemplateFramework="True" Alpha="0.52">
+            <AlphaMap Filename="outlinemasks\smooth edge.jpg" />
+            <CoverageArea X="0.275" Y="0.177" Width="0.2593" Height="0.3441" />
+            <Image Filename="templates\media\black.jpg" />
+          </Decoration>
+          <Decoration Type="ImageDecoration" Aspect="2" OriTemImageNum="3">
+            <AlphaMap Filename="outlinemasks\smooth edge.jpg" />
+            <CoverageArea X="0.27" Y="0.17" Width="0.2586478" Height="0.3454545" />
+            <Image Filename="image3" />
+          </Decoration>
+          <Decoration Type="ImageDecoration" Aspect="2" TemplateFramework="True" Alpha="0.52">
+            <AlphaMap Filename="outlinemasks\smooth edge.jpg" />
+            <CoverageArea X="0.545" Y="0.427" Width="0.2593" Height="0.3441" />
+            <Image Filename="templates\media\black.jpg" />
+          </Decoration>
+          <Decoration Type="ImageDecoration" Aspect="2" OriTemImageNum="4">
+            <AlphaMap Filename="outlinemasks\smooth edge.jpg" />
+            <CoverageArea X="0.54" Y="0.42" Width="0.2593" Height="0.3441" />
+            <Image Filename="image4" />
+          </Decoration>
+          <Decoration Type="ImageDecoration" Aspect="2" TemplateFramework="True" Alpha="0.52">
+            <AlphaMap Filename="outlinemasks\smooth edge.jpg" />
+            <CoverageArea X="0.815" Y="0.177" Width="0.2593" Height="0.3441" />
+            <Image Filename="templates\media\black.jpg" />
+          </Decoration>
+          <Decoration Type="ImageDecoration" Aspect="2" OriTemImageNum="5">
+            <AlphaMap Filename="outlinemasks\smooth edge.jpg" />
+            <CoverageArea X="0.81" Y="0.17" Width="0.2593" Height="0.3441" />
+            <Image Filename="image5" />
+          </Decoration>
+        </Decoration>
+        <Decoration Type="ImageDecoration" Border="True">
+          <CoverageArea X="0" Y="0" Width="1" Height="1" />
+          <Image Filename="borders\vignette1.pvsi" />
+        </Decoration>
+        <PanZoom PanZoomOnAll="True">
+          <StartArea X="0" Y="0.1424936" Width="0.6452075" Height="0.6463104" />
+          <EndArea X="0.35" Y="0.1424936" Width="0.6452075" Height="0.6463104" />
+        </PanZoom>
+      </Slide>
+      <Slide Type="BlankStillPictureSlide" PanZoom="True" DisplayTimeLength="4" UsesDefaultTransitionEffect="True" Color="Color [Black]">
+        <TransitionEffect Type="SimpleAlphaBlendTransitionEffect" Length="0" Index="1" />
+        <Decoration Type="GroupedDecoration" MotionBlur="False" RenderMethod="7" MoveAsSlidePanZoom="True">
+          <CoverageArea X="0" Y="0" Width="1" Height="1" />
+          <Decoration Type="ImageDecoration" Aspect="2" OriTemImageNum="1">
+            <CoverageArea X="-0.7" Y="-0.1350322" Width="1" Height="1.270064" />
+            <Image Filename="menutemplates\background104.pvsi" />
+          </Decoration>
+          <Decoration Type="ImageDecoration" FlipX="True" Aspect="2" OriTemImageNum="1">
+            <CoverageArea X="0.3" Y="-0.135" Width="1" Height="1.26993" />
+            <Image Filename="menutemplates\background104.pvsi" />
+          </Decoration>
+          <Decoration Type="ImageDecoration" Aspect="2" TemplateFramework="True" Alpha="0.52">
+            <AlphaMap Filename="outlinemasks\smooth edge.jpg" />
+            <CoverageArea X="-0.075" Y="0.177" Width="0.2593" Height="0.3441" />
+            <Image Filename="templates\media\black.jpg" />
+          </Decoration>
+          <Decoration Type="ImageDecoration" Aspect="2" OriTemImageNum="3">
+            <AlphaMap Filename="outlinemasks\smooth edge.jpg" />
+            <CoverageArea X="-0.08" Y="0.17" Width="0.2586478" Height="0.3454545" />
+            <Image Filename="image3" />
+          </Decoration>
+          <Decoration Type="ImageDecoration" Aspect="2" TemplateFramework="True" Alpha="0.52">
+            <AlphaMap Filename="outlinemasks\smooth edge.jpg" />
+            <CoverageArea X="0.195" Y="0.427" Width="0.2593" Height="0.3441" />
+            <Image Filename="templates\media\black.jpg" />
+          </Decoration>
+          <Decoration Type="ImageDecoration" Aspect="2" OriTemImageNum="4">
+            <AlphaMap Filename="outlinemasks\smooth edge.jpg" />
+            <CoverageArea X="0.19" Y="0.42" Width="0.2593" Height="0.3441" />
+            <Image Filename="image4" />
+          </Decoration>
+          <Decoration Type="ImageDecoration" Aspect="2" TemplateFramework="True" Alpha="0.52">
+            <AlphaMap Filename="outlinemasks\smooth edge.jpg" />
+            <CoverageArea X="0.465" Y="0.177" Width="0.2593" Height="0.3441" />
+            <Image Filename="templates\media\black.jpg" />
+          </Decoration>
+          <Decoration Type="ImageDecoration" Aspect="2" OriTemImageNum="5">
+            <AlphaMap Filename="outlinemasks\smooth edge.jpg" />
+            <CoverageArea X="0.46" Y="0.17" Width="0.2593" Height="0.3441" />
+            <Image Filename="image5" />
+          </Decoration>
+          <Decoration Type="ImageDecoration" Aspect="2" TemplateFramework="True" Alpha="0.52">
+            <AlphaMap Filename="outlinemasks\smooth edge.jpg" />
+            <CoverageArea X="0.735" Y="0.427" Width="0.2593" Height="0.3441" />
+            <Image Filename="templates\media\black.jpg" />
+          </Decoration>
+          <Decoration Type="ImageDecoration" Aspect="2" OriTemImageNum="6">
+            <AlphaMap Filename="outlinemasks\smooth edge.jpg" />
+            <CoverageArea X="0.73" Y="0.42" Width="0.2593412" Height="0.344056" />
+            <Image Filename="image6" />
+          </Decoration>
+        </Decoration>
+        <Decoration Type="ImageDecoration" Border="True">
+          <CoverageArea X="0" Y="0" Width="1" Height="1" />
+          <Image Filename="borders\vignette1.pvsi" />
+        </Decoration>
+        <PanZoom PanZoomOnAll="True">
+          <StartArea X="0" Y="0.1424936" Width="0.6452075" Height="0.6463104" />
+          <EndArea X="0.35" Y="0.1424936" Width="0.6452075" Height="0.6463104" />
+        </PanZoom>
+      </Slide>
+      <Slide Type="BlankStillPictureSlide" PanZoom="True" DisplayTimeLength="4" UsesDefaultTransitionEffect="True" Color="Color [Black]">
+        <TransitionEffect Type="SimpleAlphaBlendTransitionEffect" Length="0" Index="1" />
+        <Decoration Type="GroupedDecoration" MotionBlur="False" RenderMethod="7" MoveAsSlidePanZoom="True">
+          <CoverageArea X="0" Y="0" Width="1" Height="1" />
+          <Decoration Type="ImageDecoration" Aspect="2" OriTemImageNum="1">
+            <CoverageArea X="0.95" Y="-0.1350322" Width="1" Height="1.270064" />
+            <Image Filename="menutemplates\background104.pvsi" />
+          </Decoration>
+          <Decoration Type="ImageDecoration" FlipX="True" Aspect="2" OriTemImageNum="1">
+            <CoverageArea X="-0.05" Y="-0.135" Width="1" Height="1.26993" />
+            <Image Filename="menutemplates\background104.pvsi" />
+          </Decoration>
+          <Decoration Type="ImageDecoration" Aspect="2" TemplateFramework="True" Alpha="0.52">
+            <AlphaMap Filename="outlinemasks\smooth edge.jpg" />
+            <CoverageArea X="-0.155" Y="0.427" Width="0.2593" Height="0.3441" />
+            <Image Filename="templates\media\black.jpg" />
+          </Decoration>
+          <Decoration Type="ImageDecoration" Aspect="2" OriTemImageNum="4">
+            <AlphaMap Filename="outlinemasks\smooth edge.jpg" />
+            <CoverageArea X="-0.16" Y="0.42" Width="0.2593" Height="0.3441" />
+            <Image Filename="image4" />
+          </Decoration>
+          <Decoration Type="ImageDecoration" Aspect="2" TemplateFramework="True" Alpha="0.52">
+            <AlphaMap Filename="outlinemasks\smooth edge.jpg" />
+            <CoverageArea X="0.115" Y="0.177" Width="0.2593" Height="0.3441" />
+            <Image Filename="templates\media\black.jpg" />
+          </Decoration>
+          <Decoration Type="ImageDecoration" Aspect="2" OriTemImageNum="5">
+            <AlphaMap Filename="outlinemasks\smooth edge.jpg" />
+            <CoverageArea X="0.11" Y="0.17" Width="0.2593" Height="0.3441" />
+            <Image Filename="image5" />
+          </Decoration>
+          <Decoration Type="ImageDecoration" Aspect="2" TemplateFramework="True" Alpha="0.52">
+            <AlphaMap Filename="outlinemasks\smooth edge.jpg" />
+            <CoverageArea X="0.385" Y="0.427" Width="0.2593" Height="0.3441" />
+            <Image Filename="templates\media\black.jpg" />
+          </Decoration>
+          <Decoration Type="ImageDecoration" Aspect="2" OriTemImageNum="6">
+            <AlphaMap Filename="outlinemasks\smooth edge.jpg" />
+            <CoverageArea X="0.38" Y="0.42" Width="0.2593412" Height="0.344056" />
+            <Image Filename="image6" />
+          </Decoration>
+          <Decoration Type="ImageDecoration" Aspect="2" TemplateFramework="True" Alpha="0.52">
+            <AlphaMap Filename="outlinemasks\smooth edge.jpg" />
+            <CoverageArea X="0.655" Y="0.177" Width="0.2593" Height="0.3441" />
+            <Image Filename="templates\media\black.jpg" />
+          </Decoration>
+          <Decoration Type="ImageDecoration" Aspect="2" OriTemImageNum="7">
+            <AlphaMap Filename="outlinemasks\smooth edge.jpg" />
+            <CoverageArea X="0.65" Y="0.17" Width="0.2586478" Height="0.3454545" />
+            <Image Filename="image7" />
+          </Decoration>
+          <Decoration Type="ImageDecoration" Aspect="2" TemplateFramework="True" Alpha="0.52">
+            <AlphaMap Filename="outlinemasks\smooth edge.jpg" />
+            <CoverageArea X="0.925" Y="0.427" Width="0.2593" Height="0.3441" />
+            <Image Filename="templates\media\black.jpg" />
+          </Decoration>
+          <Decoration Type="ImageDecoration" Aspect="2" OriTemImageNum="8">
+            <AlphaMap Filename="outlinemasks\smooth edge.jpg" />
+            <CoverageArea X="0.92" Y="0.42" Width="0.2593" Height="0.3441" />
+            <Image Filename="image8" />
+          </Decoration>
+        </Decoration>
+        <Decoration Type="ImageDecoration" Border="True">
+          <CoverageArea X="0" Y="0" Width="1" Height="1" />
+          <Image Filename="borders\vignette1.pvsi" />
+        </Decoration>
+        <PanZoom PanZoomOnAll="True">
+          <StartArea X="0" Y="0.1424936" Width="0.6452075" Height="0.6463104" />
+          <EndArea X="0.35" Y="0.1424936" Width="0.6452075" Height="0.6463104" />
+        </PanZoom>
+      </Slide>
+      <Slide Type="BlankStillPictureSlide" PanZoom="True" DisplayTimeLength="4" UsesDefaultTransitionEffect="True" Color="Color [Black]">
+        <TransitionEffect Type="SimpleAlphaBlendTransitionEffect" Length="0.5" Index="1" />
+        <Decoration Type="GroupedDecoration" MotionBlur="False" RenderMethod="7" MoveAsSlidePanZoom="True">
+          <CoverageArea X="0" Y="0" Width="1" Height="1" />
+          <Decoration Type="ImageDecoration" Aspect="2" OriTemImageNum="1">
+            <CoverageArea X="0.6" Y="-0.1350322" Width="1" Height="1.270064" />
+            <Image Filename="menutemplates\background104.pvsi" />
+          </Decoration>
+          <Decoration Type="ImageDecoration" FlipX="True" Aspect="2" OriTemImageNum="1">
+            <CoverageArea X="-0.4" Y="-0.135" Width="1" Height="1.26993" />
+            <Image Filename="menutemplates\background104.pvsi" />
+          </Decoration>
+          <Decoration Type="ImageDecoration" Aspect="2" TemplateFramework="True" Alpha="0.52">
+            <AlphaMap Filename="outlinemasks\smooth edge.jpg" />
+            <CoverageArea X="-0.235" Y="0.177" Width="0.2593" Height="0.3441" />
+            <Image Filename="templates\media\black.jpg" />
+          </Decoration>
+          <Decoration Type="ImageDecoration" Aspect="2" OriTemImageNum="5">
+            <AlphaMap Filename="outlinemasks\smooth edge.jpg" />
+            <CoverageArea X="-0.24" Y="0.17" Width="0.2593" Height="0.3441" />
+            <Image Filename="image5" />
+          </Decoration>
+          <Decoration Type="ImageDecoration" Aspect="2" TemplateFramework="True" Alpha="0.52">
+            <AlphaMap Filename="outlinemasks\smooth edge.jpg" />
+            <CoverageArea X="0.035" Y="0.427" Width="0.2593" Height="0.3441" />
+            <Image Filename="templates\media\black.jpg" />
+          </Decoration>
+          <Decoration Type="ImageDecoration" Aspect="2" OriTemImageNum="6">
+            <AlphaMap Filename="outlinemasks\smooth edge.jpg" />
+            <CoverageArea X="0.03" Y="0.42" Width="0.2593412" Height="0.344056" />
+            <Image Filename="image6" />
+          </Decoration>
+          <Decoration Type="ImageDecoration" Aspect="2" TemplateFramework="True" Alpha="0.52">
+            <AlphaMap Filename="outlinemasks\smooth edge.jpg" />
+            <CoverageArea X="0.305" Y="0.177" Width="0.2593" Height="0.3441" />
+            <Image Filename="templates\media\black.jpg" />
+          </Decoration>
+          <Decoration Type="ImageDecoration" Aspect="2" OriTemImageNum="7">
+            <AlphaMap Filename="outlinemasks\smooth edge.jpg" />
+            <CoverageArea X="0.3" Y="0.17" Width="0.2586478" Height="0.3454545" />
+            <Image Filename="image7" />
+          </Decoration>
+          <Decoration Type="ImageDecoration" Aspect="2" TemplateFramework="True" Alpha="0.52">
+            <AlphaMap Filename="outlinemasks\smooth edge.jpg" />
+            <CoverageArea X="0.575" Y="0.427" Width="0.2593" Height="0.3441" />
+            <Image Filename="templates\media\black.jpg" />
+          </Decoration>
+          <Decoration Type="ImageDecoration" Aspect="2" OriTemImageNum="8">
+            <AlphaMap Filename="outlinemasks\smooth edge.jpg" />
+            <CoverageArea X="0.57" Y="0.42" Width="0.2593" Height="0.3441" />
+            <Image Filename="image8" />
+          </Decoration>
+        </Decoration>
+        <Decoration Type="ImageDecoration" Border="True">
+          <CoverageArea X="0" Y="0" Width="1" Height="1" />
+          <Image Filename="borders\vignette1.pvsi" />
+        </Decoration>
+        <PanZoom PanZoomOnAll="True">
+          <StartArea X="0" Y="0.1424936" Width="0.6452075" Height="0.6463104" />
+          <EndArea X="0.35" Y="0.1424936" Width="0.6452075" Height="0.6463104" />
+        </PanZoom>
+      </Slide>
+    </Slide>
+  </Slideshow>
+  <DecorationEffectsDatabase />
+</Template>

@@ -1,0 +1,638 @@
+<Template Version="1.0.0" Name="Pop in" Description="Scrolls and pops in 8 slides&#xD;&#xA;">
+  <Slideshow>
+    <Slide Type="MultiSlideSlide" PanZoom="False" DisplayTimeLength="20.48333" UsesDefaultTransitionEffect="True" ForceMBSubFrames="15" ThumbnailPreviewTime="2">
+      <TransitionEffect Type="MiddleSaturateToColorTransitionEffect" Color="Color [Black]" Length="0.5" Index="10" />
+      <Slide Type="BlankStillPictureSlide" PanZoom="False" DisplayTimeLength="3" UsesDefaultTransitionEffect="True" ForceMBSubFrames="15" ThumbnailPreviewTime="2" Color="Color [Black]">
+        <TransitionEffect Type="SimpleAlphaBlendTransitionEffect" Length="0.5" Index="1" />
+        <Decoration Type="ImageDecoration" Aspect="2" OriTemImageNum="1">
+          <CoverageArea X="-1" Y="-1" Width="0.1" Height="0.1" />
+          <Image Filename="image1" />
+        </Decoration>
+        <Decoration Type="TextDecoration" OriTemImageNum="11" Text="Text 1 text 1 text 1" TemplateEditable="1">
+          <CoverageArea X="-1" Y="-1" Width="0.1433365" Height="0.04490981" />
+          <TextStyle Name="Vanilla" FontName="Segoe UI" FontSize="31.52837" OutLine="True" OutLineColour="Color [White]" Alignment="Center" OutlineLength="4" OutlineAlpha="87" />
+        </Decoration>
+        <Decoration Type="ImageDecoration" Aspect="2" OriTemImageNum="2">
+          <CoverageArea X="-1" Y="-1" Width="0.1" Height="0.1" />
+          <Image Filename="image2" />
+        </Decoration>
+        <Decoration Type="TextDecoration" OriTemImageNum="12" Text="Text 2 text 2 text 2" TemplateEditable="1">
+          <CoverageArea X="-1" Y="-1" Width="0.1433365" Height="0.04490981" />
+          <TextStyle Name="Vanilla" FontName="Segoe UI" FontSize="31.52837" OutLine="True" OutLineColour="Color [White]" Alignment="Center" OutlineLength="4" OutlineAlpha="87" />
+        </Decoration>
+        <Decoration Type="ImageDecoration" Aspect="2" OriTemImageNum="3">
+          <CoverageArea X="-1" Y="-1" Width="0.1" Height="0.1" />
+          <Image Filename="image3" />
+        </Decoration>
+        <Decoration Type="TextDecoration" OriTemImageNum="13" Text="Text 3 text 3 text 3" TemplateEditable="1">
+          <CoverageArea X="-1" Y="-1" Width="0.1433365" Height="0.04490981" />
+          <TextStyle Name="Vanilla" FontName="Segoe UI" FontSize="31.52837" OutLine="True" OutLineColour="Color [White]" Alignment="Center" OutlineLength="4" OutlineAlpha="87" />
+        </Decoration>
+        <Decoration Type="ImageDecoration" Aspect="2" OriTemImageNum="4">
+          <CoverageArea X="-1" Y="-1" Width="0.1" Height="0.1" />
+          <Image Filename="image4" />
+        </Decoration>
+        <Decoration Type="TextDecoration" OriTemImageNum="14" Text="Text 4 text 4 text 4" TemplateEditable="1">
+          <CoverageArea X="-1" Y="-1" Width="0.1433365" Height="0.04490981" />
+          <TextStyle Name="Vanilla" FontName="Segoe UI" FontSize="31.52837" OutLine="True" OutLineColour="Color [White]" Alignment="Center" OutlineLength="4" OutlineAlpha="87" />
+        </Decoration>
+        <Decoration Type="ImageDecoration" Aspect="2" OriTemImageNum="5">
+          <CoverageArea X="-1" Y="-1" Width="0.1" Height="0.1" />
+          <Image Filename="image5" />
+        </Decoration>
+        <Decoration Type="TextDecoration" OriTemImageNum="15" Text="Text 5 text 5 text 5" TemplateEditable="1">
+          <CoverageArea X="-1" Y="-1" Width="0.1433365" Height="0.04490981" />
+          <TextStyle Name="Vanilla" FontName="Segoe UI" FontSize="31.52837" OutLine="True" OutLineColour="Color [White]" Alignment="Center" OutlineLength="4" OutlineAlpha="87" />
+        </Decoration>
+        <Decoration Type="ImageDecoration" Aspect="2" OriTemImageNum="6">
+          <CoverageArea X="-1" Y="-1" Width="0.1" Height="0.1" />
+          <Image Filename="image6" />
+        </Decoration>
+        <Decoration Type="TextDecoration" OriTemImageNum="16" Text="Text 6 text 6 text 6" TemplateEditable="1">
+          <CoverageArea X="-1" Y="-1" Width="0.1433365" Height="0.04490981" />
+          <TextStyle Name="Vanilla" FontName="Segoe UI" FontSize="31.52837" OutLine="True" OutLineColour="Color [White]" Alignment="Center" OutlineLength="4" OutlineAlpha="87" />
+        </Decoration>
+        <Decoration Type="ImageDecoration" Aspect="2" OriTemImageNum="7">
+          <CoverageArea X="-1" Y="-1" Width="0.1" Height="0.1" />
+          <Image Filename="image7" />
+        </Decoration>
+        <Decoration Type="TextDecoration" OriTemImageNum="17" Text="Text 7 text 7 text 7" TemplateEditable="1">
+          <CoverageArea X="-1" Y="-1" Width="0.1433365" Height="0.04490981" />
+          <TextStyle Name="Vanilla" FontName="Segoe UI" FontSize="31.52837" OutLine="True" OutLineColour="Color [White]" Alignment="Center" OutlineLength="4" OutlineAlpha="87" />
+        </Decoration>
+        <Decoration Type="ImageDecoration" Aspect="2" OriTemImageNum="8">
+          <CoverageArea X="-1" Y="-1" Width="0.1" Height="0.1" />
+          <Image Filename="image8" />
+        </Decoration>
+        <Decoration Type="TextDecoration" OriTemImageNum="18" Text="Text 8 text 8 text 8" TemplateEditable="1">
+          <CoverageArea X="-1" Y="-1" Width="0.1433365" Height="0.04490981" />
+          <TextStyle Name="Vanilla" FontName="Segoe UI" FontSize="31.52837" OutLine="True" OutLineColour="Color [White]" Alignment="Center" OutlineLength="4" OutlineAlpha="87" />
+        </Decoration>
+        <Decoration Type="ImageDecoration" Aspect="2" OriTemImageNum="8" OutEffect="MiddleZoomMoveLeft" Alpha="0.49">
+          <AlphaMap Filename="outlinemasks\gradient edge.jpg" />
+          <CoverageArea X="0.0166666" Y="0.27" Width="0.3" Height="0.4016842" />
+          <Image Filename="image8" />
+        </Decoration>
+        <Decoration Type="TextDecoration" OriTemImageNum="18" OutEffect="MiddleZoomMoveLeft" Alpha="0.9" Text="Text 8 text 8 text 8" TemplateEditable="1">
+          <CoverageArea X="0.09499836" Y="0.665" Width="0.1433365" Height="0.04490981" />
+          <TextStyle Name="Vanilla" FontName="Segoe UI" FontSize="31.52837" OutLine="True" OutLineColour="Color [White]" Alignment="Center" OutlineLength="4" OutlineAlpha="87" />
+        </Decoration>
+        <Decoration Type="ImageDecoration" Aspect="2" OriTemImageNum="2" OutEffect="MiddleZoomMoveLeftAndZoomIn" Alpha="0.49">
+          <AlphaMap Filename="outlinemasks\gradient edge.jpg" />
+          <CoverageArea X="0.6833333" Y="0.27" Width="0.3" Height="0.4020307" />
+          <Image Filename="image2" />
+        </Decoration>
+        <Decoration Type="TextDecoration" OriTemImageNum="12" OutEffect="MiddleZoomMoveLeftAndZoomIn" Alpha="0.9" Text="Text 2 text 2 text 2" TemplateEditable="1">
+          <CoverageArea X="0.761665" Y="0.665" Width="0.1433365" Height="0.04490981" />
+          <TextStyle Name="Vanilla" FontName="Segoe UI" FontSize="31.52837" OutLine="True" OutLineColour="Color [White]" Alignment="Center" OutlineLength="4" OutlineAlpha="87" />
+        </Decoration>
+        <Decoration Type="ImageDecoration" Aspect="2" OriTemImageNum="3" OutEffect="MiddleZoomMoveLeft" Alpha="0.49">
+          <AlphaMap Filename="outlinemasks\smooth edge.jpg" />
+          <CoverageArea X="1.016666" Y="0.27" Width="0.3" Height="0.4016842" />
+          <Image Filename="image3" />
+        </Decoration>
+        <Decoration Type="TextDecoration" OriTemImageNum="13" OutEffect="MiddleZoomMoveLeft" Alpha="0.9" Text="Text 3 text 3 text 3" TemplateEditable="1">
+          <CoverageArea X="1.094998" Y="0.665" Width="0.1433365" Height="0.04490981" />
+          <TextStyle Name="Vanilla" FontName="Segoe UI" FontSize="31.52837" OutLine="True" OutLineColour="Color [White]" Alignment="Center" OutlineLength="4" OutlineAlpha="87" />
+        </Decoration>
+        <Decoration Type="ImageDecoration" Aspect="2" TemplateFramework="True" InEffect="MiddleZoom" OutEffect="MiddleZoomOut" Alpha="0.51">
+          <AlphaMap Filename="outlinemasks\gradient edge.jpg" />
+          <CoverageArea X="0.34" Y="0.26" Width="0.32" Height="0.4217" />
+          <Image Filename="templates\media\black.jpg" />
+        </Decoration>
+        <Decoration Type="ImageDecoration" Aspect="2" OriTemImageNum="1" InEffect="MiddleZoom" OutEffect="MiddleZoomOut">
+          <AlphaMap Filename="outlinemasks\gradient edge.jpg" />
+          <CoverageArea X="0.35" Y="0.27" Width="0.3" Height="0.4016842" />
+          <Image Filename="image1" />
+        </Decoration>
+        <Decoration Type="TextDecoration" OriTemImageNum="11" InEffect="MiddleZoom" OutEffect="MiddleZoomOut" Text="Text 1 text 1 text 1" TemplateEditable="1" SetText="True">
+          <CoverageArea X="0.4283317" Y="0.665" Width="0.1433365" Height="0.04490981" />
+          <TextStyle Name="Vanilla" FontName="Segoe UI" FontSize="31.52837" OutLine="True" OutLineColour="Color [White]" Alignment="Center" OutlineLength="4" OutlineAlpha="87" />
+        </Decoration>
+        <PanZoom>
+          <StartArea X="0" Y="0" Width="1" Height="1" />
+          <EndArea X="0" Y="0" Width="1" Height="1" />
+          <Equation Type="Linear" />
+        </PanZoom>
+      </Slide>
+      <Slide Type="BlankStillPictureSlide" PanZoom="False" DisplayTimeLength="3" UsesDefaultTransitionEffect="True" ForceMBSubFrames="15" ThumbnailPreviewTime="2" Color="Color [Black]">
+        <TransitionEffect Type="SimpleAlphaBlendTransitionEffect" Length="0.5" Index="1" />
+        <Decoration Type="ImageDecoration" Aspect="2" OriTemImageNum="8" InEffect="MiddleZoomMoveLeft" Alpha="0.49">
+          <AlphaMap Filename="outlinemasks\gradient edge.jpg" />
+          <CoverageArea X="0.01666666" Y="0.27" Width="0.3" Height="0.4016842" />
+          <Image Filename="image8" />
+        </Decoration>
+        <Decoration Type="TextDecoration" OriTemImageNum="18" InEffect="MiddleZoomMoveLeft" Alpha="0.9" Text="Text 8 text 8 text 8" TemplateEditable="1">
+          <CoverageArea X="0.09499837" Y="0.665" Width="0.1433365" Height="0.04490981" />
+          <TextStyle Name="Vanilla" FontName="Segoe UI" FontSize="31.52837" OutLine="True" OutLineColour="Color [White]" Alignment="Center" OutlineLength="4" OutlineAlpha="87" />
+        </Decoration>
+        <Decoration Type="ImageDecoration" Aspect="2" TemplateFramework="True" InEffect="MiddleZoomOut" OutEffect="MiddleZoomMoveLeft2" Alpha="0.51">
+          <AlphaMap Filename="outlinemasks\gradient edge.jpg" />
+          <CoverageArea X="0.34" Y="0.26" Width="0.32" Height="0.4217" />
+          <Image Filename="templates\media\black.jpg" />
+        </Decoration>
+        <Decoration Type="ImageDecoration" Aspect="2" OriTemImageNum="1" InEffect="MiddleZoomOut" OutEffect="MiddleZoomMoveLeft2" Alpha="0.49">
+          <AlphaMap Filename="outlinemasks\gradient edge.jpg" />
+          <CoverageArea X="0.35" Y="0.27" Width="0.3" Height="0.4016842" />
+          <Image Filename="image1" />
+        </Decoration>
+        <Decoration Type="TextDecoration" OriTemImageNum="11" InEffect="MiddleZoomOut" OutEffect="MiddleZoomMoveLeft2" Alpha="0.9" Text="Text 1 text 1 text 1" TemplateEditable="1">
+          <CoverageArea X="0.4283317" Y="0.665" Width="0.1433365" Height="0.04490981" />
+          <TextStyle Name="Vanilla" FontName="Segoe UI" FontSize="31.52837" OutLine="True" OutLineColour="Color [White]" Alignment="Center" OutlineLength="4" OutlineAlpha="87" />
+        </Decoration>
+        <Decoration Type="ImageDecoration" Aspect="2" TemplateFramework="True" InEffect="MiddleZoomMoveLeft" OutEffect="MiddleZoomMoveLeftAndZoomIn2" Alpha="0.51">
+          <AlphaMap Filename="outlinemasks\smooth edge.jpg" />
+          <CoverageArea X="1.006666" Y="0.26" Width="0.32" Height="0.4217" />
+          <Image Filename="templates\media\black.jpg" />
+        </Decoration>
+        <Decoration Type="TextDecoration" OriTemImageNum="13" InEffect="MiddleZoomMoveLeft" OutEffect="MiddleZoomMoveLeftAndZoomIn2" Alpha="0.9" Text="Text 3 text 3 text 3" TemplateEditable="1">
+          <CoverageArea X="1.094998" Y="0.665" Width="0.1433365" Height="0.04490981" />
+          <TextStyle Name="Vanilla" FontName="Segoe UI" FontSize="31.52837" OutLine="True" OutLineColour="Color [White]" Alignment="Center" OutlineLength="4" OutlineAlpha="87" />
+        </Decoration>
+        <Decoration Type="ImageDecoration" Aspect="2" OriTemImageNum="3" InEffect="MiddleZoomMoveLeft" OutEffect="MiddleZoomMoveLeftAndZoomIn2" Alpha="0.49">
+          <AlphaMap Filename="outlinemasks\smooth edge.jpg" />
+          <CoverageArea X="1.016666" Y="0.27" Width="0.3" Height="0.4017" />
+          <Image Filename="image3" />
+        </Decoration>
+        <Decoration Type="ImageDecoration" Aspect="2" TemplateFramework="True" InEffect="MiddleZoomMoveLeftAndZoomIn" OutEffect="MiddleZoomOut2" Alpha="0.51">
+          <AlphaMap Filename="outlinemasks\gradient edge.jpg" />
+          <CoverageArea X="0.673333" Y="0.26" Width="0.32" Height="0.422" />
+          <Image Filename="templates\media\black.jpg" />
+        </Decoration>
+        <Decoration Type="ImageDecoration" Aspect="2" OriTemImageNum="2" InEffect="MiddleZoomMoveLeftAndZoomIn" OutEffect="MiddleZoomOut2">
+          <AlphaMap Filename="outlinemasks\gradient edge.jpg" />
+          <CoverageArea X="0.6833333" Y="0.27" Width="0.3" Height="0.4020307" />
+          <Image Filename="image2" />
+        </Decoration>
+        <Decoration Type="TextDecoration" OriTemImageNum="12" InEffect="MiddleZoomMoveLeftAndZoomIn" OutEffect="MiddleZoomOut2" Text="Text 2 text 2 text 2" TemplateEditable="1" SetText="True">
+          <CoverageArea X="0.761665" Y="0.665" Width="0.1433365" Height="0.04490981" />
+          <TextStyle Name="Vanilla" FontName="Segoe UI" FontSize="31.52837" OutLine="True" OutLineColour="Color [White]" Alignment="Center" OutlineLength="4" OutlineAlpha="87" />
+        </Decoration>
+        <Decoration Type="ImageDecoration" Aspect="2" OriTemImageNum="4" OutEffect="MiddleZoomMoveLeft" Alpha="0.49">
+          <AlphaMap Filename="outlinemasks\smooth edge.jpg" />
+          <CoverageArea X="1.016666" Y="0.27" Width="0.3" Height="0.4001908" />
+          <Image Filename="image4" />
+        </Decoration>
+        <Decoration Type="TextDecoration" OriTemImageNum="14" OutEffect="MiddleZoomMoveLeft" Alpha="0.9" Text="Text 4 text 4 text 4" TemplateEditable="1">
+          <CoverageArea X="1.094998" Y="0.665" Width="0.1433365" Height="0.04490981" />
+          <TextStyle Name="Vanilla" FontName="Segoe UI" FontSize="31.52837" OutLine="True" OutLineColour="Color [White]" Alignment="Center" OutlineLength="4" OutlineAlpha="87" />
+        </Decoration>
+        <PanZoom>
+          <StartArea X="0" Y="0" Width="1" Height="1" />
+          <EndArea X="0" Y="0" Width="1" Height="1" />
+          <Equation Type="Linear" />
+        </PanZoom>
+      </Slide>
+      <Slide Type="BlankStillPictureSlide" PanZoom="False" DisplayTimeLength="3" UsesDefaultTransitionEffect="True" ForceMBSubFrames="15" ThumbnailPreviewTime="2" Color="Color [Black]">
+        <TransitionEffect Type="SimpleAlphaBlendTransitionEffect" Length="0.5" Index="1" />
+        <Decoration Type="ImageDecoration" Aspect="2" OriTemImageNum="1" InEffect="MiddleZoomMoveLeft" Alpha="0.49">
+          <AlphaMap Filename="outlinemasks\gradient edge.jpg" />
+          <CoverageArea X="0.0166666" Y="0.27" Width="0.3" Height="0.4016842" />
+          <Image Filename="image1" />
+        </Decoration>
+        <Decoration Type="TextDecoration" OriTemImageNum="11" InEffect="MiddleZoomMoveLeft" Alpha="0.9" Text="Text 1 text 1 text 1" TemplateEditable="1">
+          <CoverageArea X="0.09499837" Y="0.665" Width="0.1433365" Height="0.04490981" />
+          <TextStyle Name="Vanilla" FontName="Segoe UI" FontSize="31.52837" OutLine="True" OutLineColour="Color [White]" Alignment="Center" OutlineLength="4" OutlineAlpha="87" />
+        </Decoration>
+        <Decoration Type="ImageDecoration" Aspect="2" TemplateFramework="True" InEffect="MiddleZoomOut" OutEffect="MiddleZoomMoveLeft2" Alpha="0.51">
+          <AlphaMap Filename="outlinemasks\gradient edge.jpg" />
+          <CoverageArea X="0.34" Y="0.26" Width="0.32" Height="0.4217" />
+          <Image Filename="templates\media\black.jpg" />
+        </Decoration>
+        <Decoration Type="ImageDecoration" Aspect="2" OriTemImageNum="2" InEffect="MiddleZoomOut" OutEffect="MiddleZoomMoveLeft2" Alpha="0.49">
+          <AlphaMap Filename="outlinemasks\gradient edge.jpg" />
+          <CoverageArea X="0.35" Y="0.27" Width="0.3" Height="0.4016842" />
+          <Image Filename="image2" />
+        </Decoration>
+        <Decoration Type="TextDecoration" OriTemImageNum="12" InEffect="MiddleZoomOut" OutEffect="MiddleZoomMoveLeft2" Alpha="0.9" Text="Text 2 text 2 text 2" TemplateEditable="1">
+          <CoverageArea X="0.4283317" Y="0.665" Width="0.1433365" Height="0.04490981" />
+          <TextStyle Name="Vanilla" FontName="Segoe UI" FontSize="31.52837" OutLine="True" OutLineColour="Color [White]" Alignment="Center" OutlineLength="4" OutlineAlpha="87" />
+        </Decoration>
+        <Decoration Type="ImageDecoration" Aspect="2" TemplateFramework="True" InEffect="MiddleZoomMoveLeft" OutEffect="MiddleZoomMoveLeftAndZoomIn2" Alpha="0.51">
+          <AlphaMap Filename="outlinemasks\smooth edge.jpg" />
+          <CoverageArea X="1.006666" Y="0.26" Width="0.32" Height="0.4217" />
+          <Image Filename="templates\media\black.jpg" />
+        </Decoration>
+        <Decoration Type="ImageDecoration" Aspect="2" OriTemImageNum="4" InEffect="MiddleZoomMoveLeft" OutEffect="MiddleZoomMoveLeftAndZoomIn2" Alpha="0.49">
+          <AlphaMap Filename="outlinemasks\smooth edge.jpg" />
+          <CoverageArea X="1.016667" Y="0.27" Width="0.3" Height="0.4017" />
+          <Image Filename="image4" />
+        </Decoration>
+        <Decoration Type="TextDecoration" OriTemImageNum="14" InEffect="MiddleZoomMoveLeft" OutEffect="MiddleZoomMoveLeftAndZoomIn2" Alpha="0.9" Text="Text 4 text 4 text 4" TemplateEditable="1">
+          <CoverageArea X="1.094998" Y="0.665" Width="0.1433365" Height="0.04490981" />
+          <TextStyle Name="Vanilla" FontName="Segoe UI" FontSize="31.52837" OutLine="True" OutLineColour="Color [White]" Alignment="Center" OutlineLength="4" OutlineAlpha="87" />
+        </Decoration>
+        <Decoration Type="ImageDecoration" Aspect="2" TemplateFramework="True" InEffect="MiddleZoomMoveLeftAndZoomIn" OutEffect="MiddleZoomOut2" Alpha="0.51">
+          <AlphaMap Filename="outlinemasks\gradient edge.jpg" />
+          <CoverageArea X="0.673333" Y="0.26" Width="0.32" Height="0.422" />
+          <Image Filename="templates\media\black.jpg" />
+        </Decoration>
+        <Decoration Type="ImageDecoration" Aspect="2" OriTemImageNum="3" InEffect="MiddleZoomMoveLeftAndZoomIn" OutEffect="MiddleZoomOut2">
+          <AlphaMap Filename="outlinemasks\gradient edge.jpg" />
+          <CoverageArea X="0.6833333" Y="0.27" Width="0.3" Height="0.4020307" />
+          <Image Filename="image3" />
+        </Decoration>
+        <Decoration Type="TextDecoration" OriTemImageNum="13" InEffect="MiddleZoomMoveLeftAndZoomIn" OutEffect="MiddleZoomOut2" Text="Text 3 text 3 text 3" TemplateEditable="1" SetText="True">
+          <CoverageArea X="0.761665" Y="0.665" Width="0.1433365" Height="0.04490981" />
+          <TextStyle Name="Vanilla" FontName="Segoe UI" FontSize="31.52837" OutLine="True" OutLineColour="Color [White]" Alignment="Center" OutlineLength="4" OutlineAlpha="87" />
+        </Decoration>
+        <Decoration Type="ImageDecoration" Aspect="2" OriTemImageNum="5" OutEffect="MiddleZoomMoveLeft" Alpha="0.49">
+          <AlphaMap Filename="outlinemasks\smooth edge.jpg" />
+          <CoverageArea X="1.016595" Y="0.27" Width="0.3001431" Height="0.4001908" />
+          <Image Filename="image5" />
+        </Decoration>
+        <Decoration Type="TextDecoration" OriTemImageNum="15" OutEffect="MiddleZoomMoveLeft" Alpha="0.9" Text="Text 5 text 5 text 5" TemplateEditable="1">
+          <CoverageArea X="1.094998" Y="0.665" Width="0.1433365" Height="0.04490981" />
+          <TextStyle Name="Vanilla" FontName="Segoe UI" FontSize="31.52837" OutLine="True" OutLineColour="Color [White]" Alignment="Center" OutlineLength="4" OutlineAlpha="87" />
+        </Decoration>
+        <PanZoom>
+          <StartArea X="0" Y="0" Width="1" Height="1" />
+          <EndArea X="0" Y="0" Width="1" Height="1" />
+          <Equation Type="Linear" />
+        </PanZoom>
+      </Slide>
+      <Slide Type="BlankStillPictureSlide" PanZoom="False" DisplayTimeLength="3" UsesDefaultTransitionEffect="True" ForceMBSubFrames="15" ThumbnailPreviewTime="2" Color="Color [Black]">
+        <TransitionEffect Type="SimpleAlphaBlendTransitionEffect" Length="0.5" Index="1" />
+        <Decoration Type="ImageDecoration" Aspect="2" OriTemImageNum="2" InEffect="MiddleZoomMoveLeft" Alpha="0.49">
+          <AlphaMap Filename="outlinemasks\gradient edge.jpg" />
+          <CoverageArea X="0.0166666" Y="0.27" Width="0.3" Height="0.4016842" />
+          <Image Filename="image2" />
+        </Decoration>
+        <Decoration Type="TextDecoration" OriTemImageNum="12" InEffect="MiddleZoomMoveLeft" Alpha="0.9" Text="Text 2 text 2 text 2" TemplateEditable="1">
+          <CoverageArea X="0.09499837" Y="0.665" Width="0.1433365" Height="0.04490981" />
+          <TextStyle Name="Vanilla" FontName="Segoe UI" FontSize="31.52837" OutLine="True" OutLineColour="Color [White]" Alignment="Center" OutlineLength="4" OutlineAlpha="87" />
+        </Decoration>
+        <Decoration Type="ImageDecoration" Aspect="2" TemplateFramework="True" InEffect="MiddleZoomOut" OutEffect="MiddleZoomMoveLeft2" Alpha="0.51">
+          <AlphaMap Filename="outlinemasks\gradient edge.jpg" />
+          <CoverageArea X="0.34" Y="0.26" Width="0.32" Height="0.4217" />
+          <Image Filename="templates\media\black.jpg" />
+        </Decoration>
+        <Decoration Type="ImageDecoration" Aspect="2" OriTemImageNum="3" InEffect="MiddleZoomOut" OutEffect="MiddleZoomMoveLeft2" Alpha="0.49">
+          <AlphaMap Filename="outlinemasks\gradient edge.jpg" />
+          <CoverageArea X="0.35" Y="0.27" Width="0.3" Height="0.4016842" />
+          <Image Filename="image3" />
+        </Decoration>
+        <Decoration Type="TextDecoration" OriTemImageNum="13" InEffect="MiddleZoomOut" OutEffect="MiddleZoomMoveLeft2" Alpha="0.9" Text="Text 3 text 3 text 3" TemplateEditable="1">
+          <CoverageArea X="0.4283317" Y="0.665" Width="0.1433365" Height="0.04490981" />
+          <TextStyle Name="Vanilla" FontName="Segoe UI" FontSize="31.52837" OutLine="True" OutLineColour="Color [White]" Alignment="Center" OutlineLength="4" OutlineAlpha="87" />
+        </Decoration>
+        <Decoration Type="ImageDecoration" Aspect="2" TemplateFramework="True" InEffect="MiddleZoomMoveLeft" OutEffect="MiddleZoomMoveLeftAndZoomIn2" Alpha="0.51">
+          <AlphaMap Filename="outlinemasks\smooth edge.jpg" />
+          <CoverageArea X="1.006666" Y="0.26" Width="0.32" Height="0.4217" />
+          <Image Filename="templates\media\black.jpg" />
+        </Decoration>
+        <Decoration Type="ImageDecoration" Aspect="2" OriTemImageNum="5" InEffect="MiddleZoomMoveLeft" OutEffect="MiddleZoomMoveLeftAndZoomIn2" Alpha="0.49">
+          <AlphaMap Filename="outlinemasks\smooth edge.jpg" />
+          <CoverageArea X="1.016667" Y="0.27" Width="0.3" Height="0.4017" />
+          <Image Filename="image5" />
+        </Decoration>
+        <Decoration Type="TextDecoration" OriTemImageNum="15" InEffect="MiddleZoomMoveLeft" OutEffect="MiddleZoomMoveLeftAndZoomIn2" Alpha="0.9" Text="Text 5 text 5 text 5" TemplateEditable="1">
+          <CoverageArea X="1.094998" Y="0.665" Width="0.1433365" Height="0.04490981" />
+          <TextStyle Name="Vanilla" FontName="Segoe UI" FontSize="31.52837" OutLine="True" OutLineColour="Color [White]" Alignment="Center" OutlineLength="4" OutlineAlpha="87" />
+        </Decoration>
+        <Decoration Type="ImageDecoration" Aspect="2" TemplateFramework="True" InEffect="MiddleZoomMoveLeftAndZoomIn" OutEffect="MiddleZoomOut2" Alpha="0.51">
+          <AlphaMap Filename="outlinemasks\gradient edge.jpg" />
+          <CoverageArea X="0.673333" Y="0.26" Width="0.32" Height="0.422" />
+          <Image Filename="templates\media\black.jpg" />
+        </Decoration>
+        <Decoration Type="ImageDecoration" Aspect="2" OriTemImageNum="4" InEffect="MiddleZoomMoveLeftAndZoomIn" OutEffect="MiddleZoomOut2">
+          <AlphaMap Filename="outlinemasks\gradient edge.jpg" />
+          <CoverageArea X="0.6833333" Y="0.27" Width="0.3" Height="0.4020307" />
+          <Image Filename="image4" />
+        </Decoration>
+        <Decoration Type="TextDecoration" OriTemImageNum="14" InEffect="MiddleZoomMoveLeftAndZoomIn" OutEffect="MiddleZoomOut2" Text="Text 4 text 4 text 4" TemplateEditable="1" SetText="True">
+          <CoverageArea X="0.761665" Y="0.665" Width="0.1433365" Height="0.04490981" />
+          <TextStyle Name="Vanilla" FontName="Segoe UI" FontSize="31.52837" OutLine="True" OutLineColour="Color [White]" Alignment="Center" OutlineLength="4" OutlineAlpha="87" />
+        </Decoration>
+        <Decoration Type="ImageDecoration" Aspect="2" OriTemImageNum="6" OutEffect="MiddleZoomMoveLeft" Alpha="0.49">
+          <AlphaMap Filename="outlinemasks\smooth edge.jpg" />
+          <CoverageArea X="1.016595" Y="0.27" Width="0.3001431" Height="0.4001908" />
+          <Image Filename="image6" />
+        </Decoration>
+        <Decoration Type="TextDecoration" OriTemImageNum="16" OutEffect="MiddleZoomMoveLeft" Alpha="0.9" Text="Text 6 text 6 text 6" TemplateEditable="1">
+          <CoverageArea X="1.094998" Y="0.665" Width="0.1433365" Height="0.04490981" />
+          <TextStyle Name="Vanilla" FontName="Segoe UI" FontSize="31.52837" OutLine="True" OutLineColour="Color [White]" Alignment="Center" OutlineLength="4" OutlineAlpha="87" />
+        </Decoration>
+        <PanZoom>
+          <StartArea X="0" Y="0" Width="1" Height="1" />
+          <EndArea X="0" Y="0" Width="1" Height="1" />
+          <Equation Type="Linear" />
+        </PanZoom>
+      </Slide>
+      <Slide Type="BlankStillPictureSlide" PanZoom="False" DisplayTimeLength="3" UsesDefaultTransitionEffect="True" ForceMBSubFrames="15" ThumbnailPreviewTime="2" Color="Color [Black]">
+        <TransitionEffect Type="SimpleAlphaBlendTransitionEffect" Length="0.5" Index="1" />
+        <Decoration Type="ImageDecoration" Aspect="2" OriTemImageNum="3" InEffect="MiddleZoomMoveLeft" Alpha="0.49">
+          <AlphaMap Filename="outlinemasks\gradient edge.jpg" />
+          <CoverageArea X="0.0166666" Y="0.27" Width="0.3" Height="0.4016842" />
+          <Image Filename="image3" />
+        </Decoration>
+        <Decoration Type="TextDecoration" OriTemImageNum="13" InEffect="MiddleZoomMoveLeft" Alpha="0.9" Text="Text 3 text 3 text 3" TemplateEditable="1">
+          <CoverageArea X="0.09499837" Y="0.665" Width="0.1433365" Height="0.04490981" />
+          <TextStyle Name="Vanilla" FontName="Segoe UI" FontSize="31.52837" OutLine="True" OutLineColour="Color [White]" Alignment="Center" OutlineLength="4" OutlineAlpha="87" />
+        </Decoration>
+        <Decoration Type="ImageDecoration" Aspect="2" TemplateFramework="True" InEffect="MiddleZoomOut" OutEffect="MiddleZoomMoveLeft2" Alpha="0.51">
+          <AlphaMap Filename="outlinemasks\gradient edge.jpg" />
+          <CoverageArea X="0.34" Y="0.26" Width="0.32" Height="0.4217" />
+          <Image Filename="templates\media\black.jpg" />
+        </Decoration>
+        <Decoration Type="ImageDecoration" Aspect="2" OriTemImageNum="4" InEffect="MiddleZoomOut" OutEffect="MiddleZoomMoveLeft2" Alpha="0.49">
+          <AlphaMap Filename="outlinemasks\gradient edge.jpg" />
+          <CoverageArea X="0.35" Y="0.27" Width="0.3" Height="0.4016842" />
+          <Image Filename="image4" />
+        </Decoration>
+        <Decoration Type="TextDecoration" OriTemImageNum="14" InEffect="MiddleZoomOut" OutEffect="MiddleZoomMoveLeft2" Alpha="0.9" Text="Text 4 text 4 text 4" TemplateEditable="1">
+          <CoverageArea X="0.4283317" Y="0.665" Width="0.1433365" Height="0.04490981" />
+          <TextStyle Name="Vanilla" FontName="Segoe UI" FontSize="31.52837" OutLine="True" OutLineColour="Color [White]" Alignment="Center" OutlineLength="4" OutlineAlpha="87" />
+        </Decoration>
+        <Decoration Type="ImageDecoration" Aspect="2" TemplateFramework="True" InEffect="MiddleZoomMoveLeft" OutEffect="MiddleZoomMoveLeftAndZoomIn2" Alpha="0.51">
+          <AlphaMap Filename="outlinemasks\smooth edge.jpg" />
+          <CoverageArea X="1.006666" Y="0.26" Width="0.32" Height="0.4217" />
+          <Image Filename="templates\media\black.jpg" />
+        </Decoration>
+        <Decoration Type="ImageDecoration" Aspect="2" OriTemImageNum="6" InEffect="MiddleZoomMoveLeft" OutEffect="MiddleZoomMoveLeftAndZoomIn2" Alpha="0.49">
+          <AlphaMap Filename="outlinemasks\smooth edge.jpg" />
+          <CoverageArea X="1.016667" Y="0.27" Width="0.3" Height="0.4017" />
+          <Image Filename="image6" />
+        </Decoration>
+        <Decoration Type="TextDecoration" OriTemImageNum="16" InEffect="MiddleZoomMoveLeft" OutEffect="MiddleZoomMoveLeftAndZoomIn2" Alpha="0.9" Text="Text 6 text 6 text 6" TemplateEditable="1">
+          <CoverageArea X="1.094998" Y="0.665" Width="0.1433365" Height="0.04490981" />
+          <TextStyle Name="Vanilla" FontName="Segoe UI" FontSize="31.52837" OutLine="True" OutLineColour="Color [White]" Alignment="Center" OutlineLength="4" OutlineAlpha="87" />
+        </Decoration>
+        <Decoration Type="ImageDecoration" Aspect="2" TemplateFramework="True" InEffect="MiddleZoomMoveLeftAndZoomIn" OutEffect="MiddleZoomOut2" Alpha="0.51">
+          <AlphaMap Filename="outlinemasks\gradient edge.jpg" />
+          <CoverageArea X="0.673333" Y="0.26" Width="0.32" Height="0.422" />
+          <Image Filename="templates\media\black.jpg" />
+        </Decoration>
+        <Decoration Type="ImageDecoration" Aspect="2" OriTemImageNum="5" InEffect="MiddleZoomMoveLeftAndZoomIn" OutEffect="MiddleZoomOut2">
+          <AlphaMap Filename="outlinemasks\gradient edge.jpg" />
+          <CoverageArea X="0.6833333" Y="0.27" Width="0.3" Height="0.4020307" />
+          <Image Filename="image5" />
+        </Decoration>
+        <Decoration Type="TextDecoration" OriTemImageNum="15" InEffect="MiddleZoomMoveLeftAndZoomIn" OutEffect="MiddleZoomOut2" Text="Text 5 text 5 text 5" TemplateEditable="1" SetText="True">
+          <CoverageArea X="0.761665" Y="0.665" Width="0.1433365" Height="0.04490981" />
+          <TextStyle Name="Vanilla" FontName="Segoe UI" FontSize="31.52837" OutLine="True" OutLineColour="Color [White]" Alignment="Center" OutlineLength="4" OutlineAlpha="87" />
+        </Decoration>
+        <Decoration Type="ImageDecoration" Aspect="2" OriTemImageNum="7" OutEffect="MiddleZoomMoveLeft" Alpha="0.49">
+          <AlphaMap Filename="outlinemasks\smooth edge.jpg" />
+          <CoverageArea X="1.016595" Y="0.27" Width="0.3001431" Height="0.4001908" />
+          <Image Filename="image7" />
+        </Decoration>
+        <Decoration Type="TextDecoration" OriTemImageNum="17" OutEffect="MiddleZoomMoveLeft" Alpha="0.9" Text="Text 7 text 7 text 7" TemplateEditable="1">
+          <CoverageArea X="1.094998" Y="0.665" Width="0.1433365" Height="0.04490981" />
+          <TextStyle Name="Vanilla" FontName="Segoe UI" FontSize="31.52837" OutLine="True" OutLineColour="Color [White]" Alignment="Center" OutlineLength="4" OutlineAlpha="87" />
+        </Decoration>
+        <PanZoom>
+          <StartArea X="0" Y="0" Width="1" Height="1" />
+          <EndArea X="0" Y="0" Width="1" Height="1" />
+          <Equation Type="Linear" />
+        </PanZoom>
+      </Slide>
+      <Slide Type="BlankStillPictureSlide" PanZoom="False" DisplayTimeLength="3" UsesDefaultTransitionEffect="True" ForceMBSubFrames="15" ThumbnailPreviewTime="2" Color="Color [Black]">
+        <TransitionEffect Type="SimpleAlphaBlendTransitionEffect" Length="0.5" Index="1" />
+        <Decoration Type="ImageDecoration" Aspect="2" OriTemImageNum="4" InEffect="MiddleZoomMoveLeft" Alpha="0.49">
+          <AlphaMap Filename="outlinemasks\gradient edge.jpg" />
+          <CoverageArea X="0.0166666" Y="0.27" Width="0.3" Height="0.4016842" />
+          <Image Filename="image4" />
+        </Decoration>
+        <Decoration Type="TextDecoration" OriTemImageNum="14" InEffect="MiddleZoomMoveLeft" Alpha="0.9" Text="Text 4 text 4 text 4" TemplateEditable="1">
+          <CoverageArea X="0.09499837" Y="0.665" Width="0.1433365" Height="0.04490981" />
+          <TextStyle Name="Vanilla" FontName="Segoe UI" FontSize="31.52837" OutLine="True" OutLineColour="Color [White]" Alignment="Center" OutlineLength="4" OutlineAlpha="87" />
+        </Decoration>
+        <Decoration Type="ImageDecoration" Aspect="2" TemplateFramework="True" InEffect="MiddleZoomOut" OutEffect="MiddleZoomMoveLeft2" Alpha="0.51">
+          <AlphaMap Filename="outlinemasks\gradient edge.jpg" />
+          <CoverageArea X="0.34" Y="0.26" Width="0.32" Height="0.4217" />
+          <Image Filename="templates\media\black.jpg" />
+        </Decoration>
+        <Decoration Type="ImageDecoration" Aspect="2" OriTemImageNum="5" InEffect="MiddleZoomOut" OutEffect="MiddleZoomMoveLeft2" Alpha="0.49">
+          <AlphaMap Filename="outlinemasks\gradient edge.jpg" />
+          <CoverageArea X="0.35" Y="0.27" Width="0.3" Height="0.4016842" />
+          <Image Filename="image5" />
+        </Decoration>
+        <Decoration Type="TextDecoration" OriTemImageNum="15" InEffect="MiddleZoomOut" OutEffect="MiddleZoomMoveLeft2" Alpha="0.9" Text="Text 5 text 5 text 5" TemplateEditable="1">
+          <CoverageArea X="0.4283317" Y="0.665" Width="0.1433365" Height="0.04490981" />
+          <TextStyle Name="Vanilla" FontName="Segoe UI" FontSize="31.52837" OutLine="True" OutLineColour="Color [White]" Alignment="Center" OutlineLength="4" OutlineAlpha="87" />
+        </Decoration>
+        <Decoration Type="ImageDecoration" Aspect="2" TemplateFramework="True" InEffect="MiddleZoomMoveLeft" OutEffect="MiddleZoomMoveLeftAndZoomIn2" Alpha="0.51">
+          <AlphaMap Filename="outlinemasks\smooth edge.jpg" />
+          <CoverageArea X="1.006666" Y="0.26" Width="0.32" Height="0.4217" />
+          <Image Filename="templates\media\black.jpg" />
+        </Decoration>
+        <Decoration Type="ImageDecoration" Aspect="2" OriTemImageNum="7" InEffect="MiddleZoomMoveLeft" OutEffect="MiddleZoomMoveLeftAndZoomIn2" Alpha="0.49">
+          <AlphaMap Filename="outlinemasks\smooth edge.jpg" />
+          <CoverageArea X="1.016029" Y="0.27" Width="0.301275" Height="0.4017" />
+          <Image Filename="image7" />
+        </Decoration>
+        <Decoration Type="TextDecoration" OriTemImageNum="17" InEffect="MiddleZoomMoveLeft" OutEffect="MiddleZoomMoveLeftAndZoomIn2" Alpha="0.9" Text="Text 7 text 7 text 7" TemplateEditable="1">
+          <CoverageArea X="1.094998" Y="0.665" Width="0.1433365" Height="0.04490981" />
+          <TextStyle Name="Vanilla" FontName="Segoe UI" FontSize="31.52837" OutLine="True" OutLineColour="Color [White]" Alignment="Center" OutlineLength="4" OutlineAlpha="87" />
+        </Decoration>
+        <Decoration Type="ImageDecoration" Aspect="2" TemplateFramework="True" InEffect="MiddleZoomMoveLeftAndZoomIn" OutEffect="MiddleZoomOut2" Alpha="0.51">
+          <AlphaMap Filename="outlinemasks\gradient edge.jpg" />
+          <CoverageArea X="0.673333" Y="0.26" Width="0.32" Height="0.422" />
+          <Image Filename="templates\media\black.jpg" />
+        </Decoration>
+        <Decoration Type="ImageDecoration" Aspect="2" OriTemImageNum="6" InEffect="MiddleZoomMoveLeftAndZoomIn" OutEffect="MiddleZoomOut2">
+          <AlphaMap Filename="outlinemasks\gradient edge.jpg" />
+          <CoverageArea X="0.6833333" Y="0.27" Width="0.3" Height="0.4020307" />
+          <Image Filename="image6" />
+        </Decoration>
+        <Decoration Type="TextDecoration" OriTemImageNum="16" InEffect="MiddleZoomMoveLeftAndZoomIn" OutEffect="MiddleZoomOut2" Text="Text 6 text 6 text 6" TemplateEditable="1" SetText="True">
+          <CoverageArea X="0.761665" Y="0.665" Width="0.1433365" Height="0.04490981" />
+          <TextStyle Name="Vanilla" FontName="Segoe UI" FontSize="31.52837" OutLine="True" OutLineColour="Color [White]" Alignment="Center" OutlineLength="4" OutlineAlpha="87" />
+        </Decoration>
+        <Decoration Type="ImageDecoration" Aspect="2" OriTemImageNum="8" OutEffect="MiddleZoomMoveLeft" Alpha="0.49">
+          <AlphaMap Filename="outlinemasks\smooth edge.jpg" />
+          <CoverageArea X="1.016595" Y="0.27" Width="0.3001431" Height="0.4001908" />
+          <Image Filename="image8" />
+        </Decoration>
+        <Decoration Type="TextDecoration" OriTemImageNum="18" OutEffect="MiddleZoomMoveLeft" Alpha="0.9" Text="Text 8 text 8 text 8" TemplateEditable="1">
+          <CoverageArea X="1.094998" Y="0.665" Width="0.1433365" Height="0.04490981" />
+          <TextStyle Name="Vanilla" FontName="Segoe UI" FontSize="31.52837" OutLine="True" OutLineColour="Color [White]" Alignment="Center" OutlineLength="4" OutlineAlpha="87" />
+        </Decoration>
+        <PanZoom>
+          <StartArea X="0" Y="0" Width="1" Height="1" />
+          <EndArea X="0" Y="0" Width="1" Height="1" />
+          <Equation Type="Linear" />
+        </PanZoom>
+      </Slide>
+      <Slide Type="BlankStillPictureSlide" PanZoom="False" DisplayTimeLength="3" UsesDefaultTransitionEffect="True" ForceMBSubFrames="15" ThumbnailPreviewTime="2" Color="Color [Black]">
+        <TransitionEffect Type="SimpleAlphaBlendTransitionEffect" Length="0.5" Index="1" />
+        <Decoration Type="ImageDecoration" Aspect="2" OriTemImageNum="5" InEffect="MiddleZoomMoveLeft" Alpha="0.49">
+          <AlphaMap Filename="outlinemasks\gradient edge.jpg" />
+          <CoverageArea X="0.0166666" Y="0.27" Width="0.3" Height="0.4016842" />
+          <Image Filename="image5" />
+        </Decoration>
+        <Decoration Type="TextDecoration" OriTemImageNum="15" InEffect="MiddleZoomMoveLeft" Alpha="0.9" Text="Text 5 text 5 text 5" TemplateEditable="1">
+          <CoverageArea X="0.09499837" Y="0.665" Width="0.1433365" Height="0.04490981" />
+          <TextStyle Name="Vanilla" FontName="Segoe UI" FontSize="31.52837" OutLine="True" OutLineColour="Color [White]" Alignment="Center" OutlineLength="4" OutlineAlpha="87" />
+        </Decoration>
+        <Decoration Type="ImageDecoration" Aspect="2" TemplateFramework="True" InEffect="MiddleZoomOut" OutEffect="MiddleZoomMoveLeft2" Alpha="0.51">
+          <AlphaMap Filename="outlinemasks\gradient edge.jpg" />
+          <CoverageArea X="0.34" Y="0.26" Width="0.32" Height="0.4217" />
+          <Image Filename="templates\media\black.jpg" />
+        </Decoration>
+        <Decoration Type="ImageDecoration" Aspect="2" OriTemImageNum="6" InEffect="MiddleZoomOut" OutEffect="MiddleZoomMoveLeft2" Alpha="0.49">
+          <AlphaMap Filename="outlinemasks\gradient edge.jpg" />
+          <CoverageArea X="0.35" Y="0.27" Width="0.3" Height="0.4016842" />
+          <Image Filename="image6" />
+        </Decoration>
+        <Decoration Type="TextDecoration" OriTemImageNum="16" InEffect="MiddleZoomOut" OutEffect="MiddleZoomMoveLeft2" Alpha="0.9" Text="Text 6 text 6 text 6" TemplateEditable="1">
+          <CoverageArea X="0.4283317" Y="0.665" Width="0.1433365" Height="0.04490981" />
+          <TextStyle Name="Vanilla" FontName="Segoe UI" FontSize="31.52837" OutLine="True" OutLineColour="Color [White]" Alignment="Center" OutlineLength="4" OutlineAlpha="87" />
+        </Decoration>
+        <Decoration Type="ImageDecoration" Aspect="2" TemplateFramework="True" InEffect="MiddleZoomMoveLeft" OutEffect="MiddleZoomMoveLeftAndZoomIn2" Alpha="0.51">
+          <AlphaMap Filename="outlinemasks\smooth edge.jpg" />
+          <CoverageArea X="1.006666" Y="0.26" Width="0.32" Height="0.4217" />
+          <Image Filename="templates\media\black.jpg" />
+        </Decoration>
+        <Decoration Type="ImageDecoration" Aspect="2" OriTemImageNum="8" InEffect="MiddleZoomMoveLeft" OutEffect="MiddleZoomMoveLeftAndZoomIn2" Alpha="0.49">
+          <AlphaMap Filename="outlinemasks\smooth edge.jpg" />
+          <CoverageArea X="1.016029" Y="0.27" Width="0.301275" Height="0.4017" />
+          <Image Filename="image8" />
+        </Decoration>
+        <Decoration Type="TextDecoration" OriTemImageNum="18" InEffect="MiddleZoomMoveLeft" OutEffect="MiddleZoomMoveLeftAndZoomIn2" Alpha="0.9" Text="Text 8 text 8 text 8" TemplateEditable="1">
+          <CoverageArea X="1.094998" Y="0.665" Width="0.1433365" Height="0.04490981" />
+          <TextStyle Name="Vanilla" FontName="Segoe UI" FontSize="31.52837" OutLine="True" OutLineColour="Color [White]" Alignment="Center" OutlineLength="4" OutlineAlpha="87" />
+        </Decoration>
+        <Decoration Type="ImageDecoration" Aspect="2" TemplateFramework="True" InEffect="MiddleZoomMoveLeftAndZoomIn" OutEffect="MiddleZoomOut2" Alpha="0.51">
+          <AlphaMap Filename="outlinemasks\gradient edge.jpg" />
+          <CoverageArea X="0.673333" Y="0.26" Width="0.32" Height="0.422" />
+          <Image Filename="templates\media\black.jpg" />
+        </Decoration>
+        <Decoration Type="ImageDecoration" Aspect="2" OriTemImageNum="7" InEffect="MiddleZoomMoveLeftAndZoomIn" OutEffect="MiddleZoomOut2">
+          <AlphaMap Filename="outlinemasks\gradient edge.jpg" />
+          <CoverageArea X="0.6833333" Y="0.27" Width="0.3" Height="0.4020307" />
+          <Image Filename="image7" />
+        </Decoration>
+        <Decoration Type="TextDecoration" OriTemImageNum="17" InEffect="MiddleZoomMoveLeftAndZoomIn" OutEffect="MiddleZoomOut2" Text="Text 7 text 7 text 7" TemplateEditable="1" SetText="True">
+          <CoverageArea X="0.761665" Y="0.665" Width="0.1433365" Height="0.04490981" />
+          <TextStyle Name="Vanilla" FontName="Segoe UI" FontSize="31.52837" OutLine="True" OutLineColour="Color [White]" Alignment="Center" OutlineLength="4" OutlineAlpha="87" />
+        </Decoration>
+        <Decoration Type="ImageDecoration" Aspect="2" OriTemImageNum="1" OutEffect="MiddleZoomMoveLeft" Alpha="0.49">
+          <AlphaMap Filename="outlinemasks\smooth edge.jpg" />
+          <CoverageArea X="1.016595" Y="0.27" Width="0.3001431" Height="0.4001908" />
+          <Image Filename="image1" />
+        </Decoration>
+        <Decoration Type="TextDecoration" OriTemImageNum="11" OutEffect="MiddleZoomMoveLeft" Alpha="0.9" Text="Text 1 text 1 text 1" TemplateEditable="1">
+          <CoverageArea X="1.094998" Y="0.665" Width="0.1433365" Height="0.04490981" />
+          <TextStyle Name="Vanilla" FontName="Segoe UI" FontSize="31.52837" OutLine="True" OutLineColour="Color [White]" Alignment="Center" OutlineLength="4" OutlineAlpha="87" />
+        </Decoration>
+        <PanZoom>
+          <StartArea X="0" Y="0" Width="1" Height="1" />
+          <EndArea X="0" Y="0" Width="1" Height="1" />
+          <Equation Type="Linear" />
+        </PanZoom>
+      </Slide>
+      <Slide Type="BlankStillPictureSlide" PanZoom="False" DisplayTimeLength="3" UsesDefaultTransitionEffect="True" ForceMBSubFrames="15" ThumbnailPreviewTime="2" Color="Color [Black]">
+        <TransitionEffect Type="MiddleSaturateToColorTransitionEffect" Color="Color [Black]" Length="0.5" Index="10" />
+        <Decoration Type="ImageDecoration" Aspect="2" OriTemImageNum="6" InEffect="MiddleZoomMoveLeft" Alpha="0.49">
+          <AlphaMap Filename="outlinemasks\gradient edge.jpg" />
+          <CoverageArea X="0.0166666" Y="0.27" Width="0.3" Height="0.4016842" />
+          <Image Filename="image6" />
+        </Decoration>
+        <Decoration Type="TextDecoration" OriTemImageNum="16" InEffect="MiddleZoomMoveLeft" Alpha="0.9" Text="Text 6 text 6 text 6" TemplateEditable="1">
+          <CoverageArea X="0.09499837" Y="0.665" Width="0.1433365" Height="0.04490981" />
+          <TextStyle Name="Vanilla" FontName="Segoe UI" FontSize="31.52837" OutLine="True" OutLineColour="Color [White]" Alignment="Center" OutlineLength="4" OutlineAlpha="87" />
+        </Decoration>
+        <Decoration Type="ImageDecoration" Aspect="2" TemplateFramework="True" InEffect="MiddleZoomOut" Alpha="0.51">
+          <AlphaMap Filename="outlinemasks\gradient edge.jpg" />
+          <CoverageArea X="0.34" Y="0.26" Width="0.32" Height="0.4217" />
+          <Image Filename="templates\media\black.jpg" />
+        </Decoration>
+        <Decoration Type="ImageDecoration" Aspect="2" OriTemImageNum="7" InEffect="MiddleZoomOut" Alpha="0.49">
+          <AlphaMap Filename="outlinemasks\gradient edge.jpg" />
+          <CoverageArea X="0.35" Y="0.27" Width="0.3" Height="0.4016842" />
+          <Image Filename="image7" />
+        </Decoration>
+        <Decoration Type="TextDecoration" OriTemImageNum="17" InEffect="MiddleZoomOut" Alpha="0.9" Text="Text 7 text 7 text 7" TemplateEditable="1">
+          <CoverageArea X="0.4283317" Y="0.665" Width="0.1433365" Height="0.04490981" />
+          <TextStyle Name="Vanilla" FontName="Segoe UI" FontSize="31.52837" OutLine="True" OutLineColour="Color [White]" Alignment="Center" OutlineLength="4" OutlineAlpha="87" />
+        </Decoration>
+        <Decoration Type="ImageDecoration" Aspect="2" TemplateFramework="True" InEffect="MiddleZoomMoveLeft" Alpha="0.51">
+          <AlphaMap Filename="outlinemasks\smooth edge.jpg" />
+          <CoverageArea X="1.006666" Y="0.26" Width="0.32" Height="0.4217" />
+          <Image Filename="templates\media\black.jpg" />
+        </Decoration>
+        <Decoration Type="ImageDecoration" Aspect="2" OriTemImageNum="1" InEffect="MiddleZoomMoveLeft" Alpha="0.49">
+          <AlphaMap Filename="outlinemasks\smooth edge.jpg" />
+          <CoverageArea X="1.015954" Y="0.27" Width="0.3014256" Height="0.4017" />
+          <Image Filename="image1" />
+        </Decoration>
+        <Decoration Type="TextDecoration" OriTemImageNum="11" InEffect="MiddleZoomMoveLeft" Alpha="0.9" Text="Text 1 text 1 text 1" TemplateEditable="1">
+          <CoverageArea X="1.094998" Y="0.665" Width="0.1433365" Height="0.04490981" />
+          <TextStyle Name="Vanilla" FontName="Segoe UI" FontSize="31.52837" OutLine="True" OutLineColour="Color [White]" Alignment="Center" OutlineLength="4" OutlineAlpha="87" />
+        </Decoration>
+        <Decoration Type="ImageDecoration" Aspect="2" TemplateFramework="True" InEffect="MiddleZoomMoveLeftAndZoomIn" Alpha="0.51">
+          <AlphaMap Filename="outlinemasks\gradient edge.jpg" />
+          <CoverageArea X="0.673333" Y="0.26" Width="0.32" Height="0.422" />
+          <Image Filename="templates\media\black.jpg" />
+        </Decoration>
+        <Decoration Type="ImageDecoration" Aspect="2" OriTemImageNum="8" InEffect="MiddleZoomMoveLeftAndZoomIn">
+          <AlphaMap Filename="outlinemasks\gradient edge.jpg" />
+          <CoverageArea X="0.6833333" Y="0.27" Width="0.3" Height="0.4020307" />
+          <Image Filename="image8" />
+        </Decoration>
+        <Decoration Type="TextDecoration" OriTemImageNum="18" InEffect="MiddleZoomMoveLeftAndZoomIn" Text="Text 8 text 8 text 8" TemplateEditable="1" SetText="True">
+          <CoverageArea X="0.761665" Y="0.665" Width="0.1433365" Height="0.04490981" />
+          <TextStyle Name="Vanilla" FontName="Segoe UI" FontSize="31.52837" OutLine="True" OutLineColour="Color [White]" Alignment="Center" OutlineLength="4" OutlineAlpha="87" />
+        </Decoration>
+        <PanZoom>
+          <StartArea X="0" Y="0" Width="1" Height="1" />
+          <EndArea X="0" Y="0" Width="1" Height="1" />
+          <Equation Type="Linear" />
+        </PanZoom>
+      </Slide>
+    </Slide>
+  </Slideshow>
+  <DecorationEffectsDatabase>
+    <DecorationEffect Name="MiddleZoom" LengthSetToDecorationLength="True" TemplateOnlyEffect="True">
+      <Movement Type="StraightLineMovement" TranslateXY="True" InitialDelay="0" EndDelay="0">
+        <Start X="0" Y="0" Z="0.5" />
+        <End X="0" Y="0" Z="0.5" />
+        <Equation Type="Linear" />
+      </Movement>
+    </DecorationEffect>
+    <DecorationEffect Name="MiddleZoomOut" Length="0.5" TemplateOnlyEffect="True">
+      <Movement Type="StraightLineMovement" TranslateXY="True" InitialDelay="0" EndDelay="0">
+        <Start X="0" Y="0" Z="0.5" />
+        <End X="-0.3333" Y="0" Z="1" />
+        <Equation Type="NonLinear" />
+      </Movement>
+    </DecorationEffect>
+    <DecorationEffect Name="MiddleZoomMoveLeft" Length="0.5" TemplateOnlyEffect="True">
+      <Movement Type="StraightLineMovement" InitialDelay="0" EndDelay="0">
+        <Start X="0" Y="0" Z="0" />
+        <End X="-0.33333" Y="0" Z="0" />
+        <Equation Type="NonLinear" />
+      </Movement>
+    </DecorationEffect>
+    <DecorationEffect Name="MiddleZoomMoveLeftAndZoomIn" Length="0.5" TemplateOnlyEffect="True">
+      <Movement Type="StraightLineMovement" TranslateXY="True" InitialDelay="0" EndDelay="0">
+        <Start X="0" Y="0" Z="1" />
+        <End X="-0.33333" Y="0" Z="0.5" />
+        <Equation Type="NonLinear" />
+      </Movement>
+    </DecorationEffect>
+    <DecorationEffect Name="MiddleZoomMoveLeft2" Length="0.5" TemplateOnlyEffect="True">
+      <Movement Type="StraightLineMovement" InitialDelay="0" EndDelay="0">
+        <Start X="-0.33333" Y="0" Z="0" />
+        <End X="-0.66666" Y="0" Z="0" />
+        <Equation Type="NonLinear" />
+      </Movement>
+    </DecorationEffect>
+    <DecorationEffect Name="MiddleZoomOut2" Length="0.5" TemplateOnlyEffect="True">
+      <Movement Type="StraightLineMovement" TranslateXY="True" InitialDelay="0" EndDelay="0">
+        <Start X="-0.33333" Y="0" Z="0.5" />
+        <End X="-0.66666" Y="0" Z="1" />
+        <Equation Type="NonLinear" />
+      </Movement>
+    </DecorationEffect>
+    <DecorationEffect Name="MiddleZoomMoveLeftAndZoomIn2" Length="0.5" TemplateOnlyEffect="True">
+      <Movement Type="StraightLineMovement" TranslateXY="True" InitialDelay="0" EndDelay="0">
+        <Start X="-0.33333" Y="0" Z="1" />
+        <End X="-0.666666" Y="0" Z="0.5" />
+        <Equation Type="NonLinear" />
+      </Movement>
+    </DecorationEffect>
+  </DecorationEffectsDatabase>
+</Template>

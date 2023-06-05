@@ -1,0 +1,185 @@
+<Template Version="1.0.0" Name="Groups of one zoom in" Description="Shows 9 images slowly zooming in&#xD;&#xA;">
+  <Slideshow>
+    <Slide Type="BlankStillPictureSlide" PanZoom="False" DisplayTimeLength="22" ThumbnailPreviewTime="1.5" UsesDefaultTransitionEffect="True" ForceMBSubFrames="1" Color="Color [Black]">
+      <TransitionEffect Type="SimpleAlphaBlendTransitionEffect" Length="0.5" Index="1" />
+      <Decoration Type="ImageDecoration" Aspect="2" InEffect="GroupsOf1ZoomInBackground">
+        <CoverageArea X="8.940697E-08" Y="-0.1666667" Width="0.9999998" Height="1.333333" />
+        <Image Filename="templates\media\forest.jpg" />
+      </Decoration>
+      <Decoration Type="ImageDecoration" Aspect="2" TemplateFramework="True" InEffect="GroupsOf1ZoomInImage1">
+        <AlphaMap Filename="outlinemasks\gradient edge.jpg" />
+        <CoverageArea X="0.06866953" Y="0.0041" Width="0.8097282" Height="0.9457" />
+        <Image Filename="templates\media\white.jpg" />
+      </Decoration>
+      <Decoration Type="ImageDecoration" Aspect="2" OriTemImageNum="1" InEffect="GroupsOf1ZoomInImage1">
+        <AlphaMap Filename="outlinemasks\gradient edge.jpg" />
+        <CoverageArea X="0.08695652" Y="0.031" Width="0.7754941" Height="0.8862" />
+        <Image Filename="image1" />
+      </Decoration>
+      <Decoration Type="ImageDecoration" Aspect="2" TemplateFramework="True" InEffect="GroupsOf1ZoomInImage2">
+        <AlphaMap Filename="outlinemasks\gradient edge.jpg" />
+        <CoverageArea X="0.06866953" Y="0.0041" Width="0.8097282" Height="0.9457" />
+        <Image Filename="templates\media\white.jpg" />
+      </Decoration>
+      <Decoration Type="ImageDecoration" Aspect="2" OriTemImageNum="2" InEffect="GroupsOf1ZoomInImage2">
+        <AlphaMap Filename="outlinemasks\gradient edge.jpg" />
+        <CoverageArea X="0.08695652" Y="0.031" Width="0.7754941" Height="0.8862" />
+        <Image Filename="image2" />
+      </Decoration>
+      <Decoration Type="ImageDecoration" Aspect="2" TemplateFramework="True" InEffect="GroupsOf1ZoomInImage3">
+        <AlphaMap Filename="outlinemasks\gradient edge.jpg" />
+        <CoverageArea X="0.06866953" Y="0.0041" Width="0.8097282" Height="0.9457" />
+        <Image Filename="templates\media\white.jpg" />
+      </Decoration>
+      <Decoration Type="ImageDecoration" Aspect="2" OriTemImageNum="3" InEffect="GroupsOf1ZoomInImage3">
+        <AlphaMap Filename="outlinemasks\gradient edge.jpg" />
+        <CoverageArea X="0.08695652" Y="0.031" Width="0.7754941" Height="0.8862" />
+        <Image Filename="image3" />
+      </Decoration>
+      <Decoration Type="ImageDecoration" Aspect="2" TemplateFramework="True" InEffect="GroupsOf1ZoomInImage4">
+        <AlphaMap Filename="outlinemasks\gradient edge.jpg" />
+        <CoverageArea X="0.06866953" Y="0.0041" Width="0.8097282" Height="0.9457" />
+        <Image Filename="templates\media\white.jpg" />
+      </Decoration>
+      <Decoration Type="ImageDecoration" Aspect="2" OriTemImageNum="4" InEffect="GroupsOf1ZoomInImage4">
+        <AlphaMap Filename="outlinemasks\gradient edge.jpg" />
+        <CoverageArea X="0.08695652" Y="0.031" Width="0.7754941" Height="0.8862" />
+        <Image Filename="image4" />
+      </Decoration>
+      <Decoration Type="ImageDecoration" Aspect="2" TemplateFramework="True" InEffect="GroupsOf1ZoomInImage5">
+        <AlphaMap Filename="outlinemasks\gradient edge.jpg" />
+        <CoverageArea X="0.06866953" Y="0.0041" Width="0.8097282" Height="0.9457" />
+        <Image Filename="templates\media\white.jpg" />
+      </Decoration>
+      <Decoration Type="ImageDecoration" Aspect="2" OriTemImageNum="5" InEffect="GroupsOf1ZoomInImage5">
+        <AlphaMap Filename="outlinemasks\gradient edge.jpg" />
+        <CoverageArea X="0.08695652" Y="0.031" Width="0.7754941" Height="0.8862" />
+        <Image Filename="image5" />
+      </Decoration>
+      <Decoration Type="ImageDecoration" Aspect="2" TemplateFramework="True" InEffect="GroupsOf1ZoomInImage6">
+        <AlphaMap Filename="outlinemasks\gradient edge.jpg" />
+        <CoverageArea X="0.06866953" Y="0.0041" Width="0.8097282" Height="0.9457" />
+        <Image Filename="templates\media\white.jpg" />
+      </Decoration>
+      <Decoration Type="ImageDecoration" Aspect="2" OriTemImageNum="6" InEffect="GroupsOf1ZoomInImage6">
+        <AlphaMap Filename="outlinemasks\gradient edge.jpg" />
+        <CoverageArea X="0.08695652" Y="0.031" Width="0.7754941" Height="0.8862" />
+        <Image Filename="image6" />
+      </Decoration>
+      <Decoration Type="ImageDecoration" Aspect="2" TemplateFramework="True" InEffect="GroupsOf1ZoomInImage7">
+        <AlphaMap Filename="outlinemasks\gradient edge.jpg" />
+        <CoverageArea X="0.06866953" Y="0.0041" Width="0.8097282" Height="0.9457" />
+        <Image Filename="templates\media\white.jpg" />
+      </Decoration>
+      <Decoration Type="ImageDecoration" Aspect="2" OriTemImageNum="7" InEffect="GroupsOf1ZoomInImage7">
+        <AlphaMap Filename="outlinemasks\gradient edge.jpg" />
+        <CoverageArea X="0.08695652" Y="0.031" Width="0.7754941" Height="0.8862" />
+        <Image Filename="image7" />
+      </Decoration>
+      <Decoration Type="ImageDecoration" Aspect="2" TemplateFramework="True" InEffect="GroupsOf1ZoomInImage8">
+        <AlphaMap Filename="outlinemasks\gradient edge.jpg" />
+        <CoverageArea X="0.06866953" Y="0.0041" Width="0.8097282" Height="0.9457" />
+        <Image Filename="templates\media\white.jpg" />
+      </Decoration>
+      <Decoration Type="ImageDecoration" Aspect="2" OriTemImageNum="8" InEffect="GroupsOf1ZoomInImage8">
+        <AlphaMap Filename="outlinemasks\gradient edge.jpg" />
+        <CoverageArea X="0.08695652" Y="0.031" Width="0.7754941" Height="0.8862" />
+        <Image Filename="image8" />
+      </Decoration>
+      <Decoration Type="ImageDecoration" Aspect="2" TemplateFramework="True" InEffect="GroupsOf1ZoomInImage9">
+        <AlphaMap Filename="outlinemasks\gradient edge.jpg" />
+        <CoverageArea X="0.06866953" Y="0.0041" Width="0.8097282" Height="0.9457" />
+        <Image Filename="templates\media\white.jpg" />
+      </Decoration>
+      <Decoration Type="ImageDecoration" Aspect="2" OriTemImageNum="9" InEffect="GroupsOf1ZoomInImage9">
+        <AlphaMap Filename="outlinemasks\gradient edge.jpg" />
+        <CoverageArea X="0.08695652" Y="0.031" Width="0.7754941" Height="0.8862" />
+        <Image Filename="image9" />
+      </Decoration>
+      <Decoration Type="ColourTransformDecoration" br="0.93" bg="0.86" bb="0.84" cr="1.06" cg="1.06" cb="1.06" gamma="1">
+        <CoverageArea X="0" Y="0" Width="1" Height="1" />
+      </Decoration>
+      <Decoration Type="ImageDecoration" RenderMethod="4" Border="True">
+        <CoverageArea X="0" Y="0" Width="1" Height="1" />
+        <Image Filename="borders\spotlight(mod1x).pvsi" />
+      </Decoration>
+      <PanZoom>
+        <StartArea X="0.125" Y="0.125" Width="0.75" Height="0.75" />
+        <EndArea X="0.18515" Y="0.18515" Width="0.6296999" Height="0.6296999" />
+        <Equation Type="Linear" />
+      </PanZoom>
+    </Slide>
+  </Slideshow>
+  <DecorationEffectsDatabase>
+    <DecorationEffect Name="GroupsOf1ZoomInImage9" LengthSetToDecorationLength="True" TemplateOnlyEffect="True">
+      <Movement Type="StraightLineMovement" TranslateXY="True" InitialDelay="0" EndDelay="0">
+        <Start X="-0.5" Y="0.1" Z="3.4" />
+        <End X="-0.5" Y="0.1" Z="-9.3" />
+        <Equation Type="Linear" />
+      </Movement>
+    </DecorationEffect>
+    <DecorationEffect Name="GroupsOf1ZoomInImage8" LengthSetToDecorationLength="True" TemplateOnlyEffect="True">
+      <Movement Type="StraightLineMovement" TranslateXY="True" InitialDelay="0" EndDelay="0">
+        <Start X="0.5" Y="0.1" Z="4.9" />
+        <End X="0.5" Y="0.1" Z="-8" />
+        <Equation Type="Linear" />
+      </Movement>
+    </DecorationEffect>
+    <DecorationEffect Name="GroupsOf1ZoomInImage7" LengthSetToDecorationLength="True" TemplateOnlyEffect="True">
+      <Movement Type="StraightLineMovement" TranslateXY="True" InitialDelay="0" EndDelay="0">
+        <Start X="-0.5" Y="0.1" Z="6.4" />
+        <End X="-0.5" Y="0.1" Z="-6.7" />
+        <Equation Type="Linear" />
+      </Movement>
+    </DecorationEffect>
+    <DecorationEffect Name="GroupsOf1ZoomInImage6" LengthSetToDecorationLength="True" TemplateOnlyEffect="True">
+      <Movement Type="StraightLineMovement" TranslateXY="True" InitialDelay="0" EndDelay="0">
+        <Start X="0.5" Y="0.1" Z="7.9" />
+        <End X="0.5" Y="0.1" Z="-5.4" />
+        <Equation Type="Linear" />
+      </Movement>
+    </DecorationEffect>
+    <DecorationEffect Name="GroupsOf1ZoomInImage5" LengthSetToDecorationLength="True" TemplateOnlyEffect="True">
+      <Movement Type="StraightLineMovement" TranslateXY="True" InitialDelay="0" EndDelay="0">
+        <Start X="-0.5" Y="0.1" Z="9.4" />
+        <End X="-0.5" Y="0.1" Z="-4.8" />
+        <Equation Type="Linear" />
+      </Movement>
+    </DecorationEffect>
+    <DecorationEffect Name="GroupsOf1ZoomInImage4" LengthSetToDecorationLength="True" TemplateOnlyEffect="True">
+      <Movement Type="StraightLineMovement" TranslateXY="True" InitialDelay="0" EndDelay="0">
+        <Start X="0.5" Y="0.1" Z="10.9" />
+        <End X="0.5" Y="0.1" Z="-3.5" />
+        <Equation Type="Linear" />
+      </Movement>
+    </DecorationEffect>
+    <DecorationEffect Name="GroupsOf1ZoomInImage3" LengthSetToDecorationLength="True" TemplateOnlyEffect="True">
+      <Movement Type="StraightLineMovement" TranslateXY="True" InitialDelay="0" EndDelay="0">
+        <Start X="-0.5" Y="0.1" Z="12.4" />
+        <End X="-0.5" Y="0.1" Z="-2.2" />
+        <Equation Type="Linear" />
+      </Movement>
+    </DecorationEffect>
+    <DecorationEffect Name="GroupsOf1ZoomInImage2" LengthSetToDecorationLength="True" TemplateOnlyEffect="True">
+      <Movement Type="StraightLineMovement" TranslateXY="True" InitialDelay="0" EndDelay="0">
+        <Start X="0.5" Y="0.1" Z="13.9" />
+        <End X="0.5" Y="0.1" Z="-0.9" />
+        <Equation Type="Linear" />
+      </Movement>
+    </DecorationEffect>
+    <DecorationEffect Name="GroupsOf1ZoomInImage1" LengthSetToDecorationLength="True" TemplateOnlyEffect="True">
+      <Movement Type="StraightLineMovement" TranslateXY="True" InitialDelay="0" EndDelay="0">
+        <Start X="0" Y="0.1" Z="16.2" />
+        <End X="0" Y="0.1" Z="1.4" />
+        <Equation Type="Linear" />
+      </Movement>
+    </DecorationEffect>
+    <DecorationEffect Name="GroupsOf1ZoomInBackground" LengthSetToDecorationLength="True" TemplateOnlyEffect="True">
+      <Movement Type="StraightLineMovement" InitialDelay="0" EndDelay="0">
+        <Start X="0" Y="0" Z="1" />
+        <End X="0" Y="0" Z="0.5" />
+        <Equation Type="Linear" />
+      </Movement>
+    </DecorationEffect>
+  </DecorationEffectsDatabase>
+</Template>

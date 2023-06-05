@@ -1,0 +1,59 @@
+<Template Version="1.0.0" Name="Flying Forest caption text 2" Description="Shows a text caption with a forest theme&#xD;&#xA;">
+  <Slideshow>
+    <Slide Type="BlankStillPictureSlide" PanZoom="False" DisplayTimeLength="4" UsesDefaultTransitionEffect="True" ForceMBSubFrames="5" Color="Color [Black]">
+      <TransitionEffect Type="MiddleSaturateToColorTransitionEffect" Color="Color [White]" Length="0.5" Index="9" />
+      <Decoration Type="ImageDecoration" Aspect="2" OriTemImageNum="1" InEffect="FlyingForestCaptionText2Background" Brightness="0.9,0.9,0.9">
+        <CoverageArea X="0.001581028" Y="0" Width="1" Height="1" />
+        <Image Filename="templates\media\forest2.jpg" />
+      </Decoration>
+      <Decoration Type="TextDecoration" InEffect="FlyingForestTextMovement2" Text="&quot;The quick brown fox&#xD;&#xA;Jumped over the&#xD;&#xA;lazy dog&quot;&#xD;&#xA;&#xD;&#xA;" TemplateEditable="2">
+        <CoverageArea X="0.31" Y="0.2236287" Width="0.5715414" Height="0.5196391" />
+        <TextStyle Name="MenuHeader" FontName="Segoe UI" FontSize="50.92764" Bold="True" OutLine="True" OutLineColour="Color [Black]" Italic="True" Alignment="Far" OutlineLength="5" OutlineAlpha="64" />
+      </Decoration>
+      <Decoration Type="VideoDecoration" VideoName="filters\particles light(add).pvsv" Volume="0" GlobalPlayer="True" FlipY="True" RenderMethod="1">
+        <CoverageArea X="0" Y="0" Width="1" Height="1" />
+      </Decoration>
+      <Decoration Type="BlurFilterDecoration">
+        <CoverageArea X="0" Y="0" Width="1" Height="1" />
+      </Decoration>
+      <Decoration Type="ImageDecoration" FlipX="True" Aspect="2" OriTemImageNum="2" InEffect="FlyingForestCaptionText2Forground">
+        <CoverageArea X="0" Y="0" Width="1" Height="1" />
+        <Image Filename="borders\grass insects.pvsi" />
+      </Decoration>
+      <Decoration Type="BlurFilterDecoration" BlurFilterType="1">
+        <CoverageArea X="0" Y="0" Width="1" Height="1" />
+      </Decoration>
+      <Decoration Type="ColourTransformDecoration" br="1.02" bg="1.05" bb="0.95" cr="1.3" cg="1.2" cb="1.2" gamma="1">
+        <CoverageArea X="0" Y="0" Width="1" Height="1" />
+      </Decoration>
+      <Decoration Type="ImageDecoration" Border="True">
+        <CoverageArea X="0" Y="0" Width="1" Height="1" />
+        <Image Filename="borders\vignette1.pvsi" />
+      </Decoration>
+      <PanZoom>
+        <StartArea X="0" Y="0" Width="1" Height="1" />
+        <EndArea X="0" Y="0" Width="1" Height="1" />
+        <Equation Type="Linear" />
+      </PanZoom>
+    </Slide>
+  </Slideshow>
+  <DecorationEffectsDatabase>
+    <DecorationEffect Name="FlyingForestCaptionText2Background" Length="4" TemplateOnlyEffect="True">
+      <Zoom InitialDelay="0" EndDelay="0" StartZoom="1.1" EndZoom="1">
+        <Equation Type="Linear" />
+      </Zoom>
+    </DecorationEffect>
+    <DecorationEffect Name="FlyingForestTextMovement2" Length="4" TemplateOnlyEffect="True">
+      <Movement Type="StraightLineMovement" TranslateXY="True" InitialDelay="0" EndDelay="0">
+        <Start X="0" Y="0" Z="0.87" />
+        <End X="0" Y="0" Z="1" />
+        <Equation Type="Linear" />
+      </Movement>
+    </DecorationEffect>
+    <DecorationEffect Name="FlyingForestCaptionText2Forground" Length="4" TemplateOnlyEffect="True">
+      <Zoom InitialDelay="0" EndDelay="0" StartZoom="1.4" EndZoom="1">
+        <Equation Type="Linear" />
+      </Zoom>
+    </DecorationEffect>
+  </DecorationEffectsDatabase>
+</Template>

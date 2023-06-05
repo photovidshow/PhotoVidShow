@@ -1,0 +1,130 @@
+<Template Version="1.0.0" Name="Montage tile 9" Description="Slides in 9 images as a montage effect.&#xD;&#xA;&#xD;&#xA;">
+  <Slideshow>
+    <Slide Type="BlankStillPictureSlide" PanZoom="True" DisplayTimeLength="8" UsesDefaultTransitionEffect="True" ForceMBSubFrames="20" ThumbnailPreviewTime="5" Color="Color [Black]">
+      <TransitionEffect Type="SimpleAlphaBlendTransitionEffect" Length="0.5" Index="1" />
+      <Decoration Type="GroupedDecoration" MotionBlur="True" RenderMethod="7" MoveAsSlidePanZoom="True">
+        <CoverageArea X="0" Y="0" Width="1" Height="1" />
+        <Decoration Type="ImageDecoration" Aspect="2" OriTemImageNum="1" StartOffsetTime="1.1" InEffect="MoveUpLeft">
+          <AlphaMap Filename="outlinemasks\smooth edge.jpg" />
+          <CoverageArea X="0" Y="0" Width="0.32583" Height="0.32" />
+          <Image Filename="image1" />
+        </Decoration>
+        <Decoration Type="ImageDecoration" Aspect="2" OriTemImageNum="2" StartOffsetTime="0.4" InEffect="MoveUpRight">
+          <AlphaMap Filename="outlinemasks\smooth edge.jpg" />
+          <CoverageArea X="0.33708" Y="0" Width="0.32583" Height="0.32" />
+          <Image Filename="image2" />
+        </Decoration>
+        <Decoration Type="ImageDecoration" Aspect="2" OriTemImageNum="3" StartOffsetTime="0.1" InEffect="MoveUpMore">
+          <AlphaMap Filename="outlinemasks\smooth edge.jpg" />
+          <CoverageArea X="0.67417" Y="0" Width="0.32583" Height="0.32" />
+          <Image Filename="image3" />
+        </Decoration>
+        <Decoration Type="ImageDecoration" Aspect="2" OriTemImageNum="4" StartOffsetTime="0.5" InEffect="MoveLeftMore">
+          <AlphaMap Filename="outlinemasks\smooth edge.jpg" />
+          <CoverageArea X="0" Y="0.34" Width="0.32583" Height="0.32" />
+          <Image Filename="image4" />
+        </Decoration>
+        <Decoration Type="ImageDecoration" Aspect="2" OriTemImageNum="5" StartOffsetTime="1.4" InEffect="MoveUpMore">
+          <AlphaMap Filename="outlinemasks\smooth edge.jpg" />
+          <CoverageArea X="0.3371" Y="0.34" Width="0.32583" Height="0.32" />
+          <Image Filename="image5" />
+        </Decoration>
+        <Decoration Type="ImageDecoration" Aspect="2" OriTemImageNum="6" StartOffsetTime="2.5" InEffect="MoveUp">
+          <AlphaMap Filename="outlinemasks\smooth edge.jpg" />
+          <CoverageArea X="0.6742" Y="0.34" Width="0.32583" Height="0.32" />
+          <Image Filename="image6" />
+        </Decoration>
+        <Decoration Type="ImageDecoration" Aspect="2" OriTemImageNum="7" StartOffsetTime="2.1" InEffect="MoveDownLeftMore">
+          <AlphaMap Filename="outlinemasks\smooth edge.jpg" />
+          <CoverageArea X="0" Y="0.68" Width="0.32583" Height="0.32" />
+          <Image Filename="image7" />
+        </Decoration>
+        <Decoration Type="ImageDecoration" Aspect="2" OriTemImageNum="8" StartOffsetTime="1.8" InEffect="MoveDown">
+          <AlphaMap Filename="outlinemasks\smooth edge.jpg" />
+          <CoverageArea X="0.3371" Y="0.68" Width="0.32583" Height="0.32" />
+          <Image Filename="image8" />
+        </Decoration>
+        <Decoration Type="ImageDecoration" Aspect="2" OriTemImageNum="9" StartOffsetTime="1.3" InEffect="MoveDownRightMore">
+          <AlphaMap Filename="outlinemasks\smooth edge.jpg" />
+          <CoverageArea X="0.6742" Y="0.68" Width="0.32583" Height="0.32" />
+          <Image Filename="image9" />
+        </Decoration>
+      </Decoration>
+      <Decoration Type="ImageDecoration" RenderMethod="5" Border="True">
+        <CoverageArea X="0" Y="0" Width="1" Height="1" />
+        <Image Filename="borders\Dirty bright(mod2x).pvsi" />
+      </Decoration>
+      <PanZoom InitialDelay="0.12" PanZoomOnAll="True">
+        <StartArea X="0" Y="0" Width="1" Height="1" />
+        <EndArea X="0.01818182" Y="0.01969058" Width="0.9596838" Height="0.9592124" />
+        <Equation Type="Linear" />
+      </PanZoom>
+    </Slide>
+  </Slideshow>
+  <DecorationEffectsDatabase>
+    <DecorationEffect Name="MoveUp" Length="1" MotionBlur="15">
+      <TransitionEffect Type="SimpleAlphaBlendTransitionEffect" Length="1.5" EndDelay="0.5" />
+      <Movement Type="StraightLineMovement" InitialDelay="0" EndDelay="0">
+        <Start X="0" Y="0.4" Z="0" />
+        <End X="0" Y="0" Z="0" />
+        <Equation Type="NonLinear" />
+      </Movement>
+    </DecorationEffect>
+    <DecorationEffect Name="MoveDown" Length="1" MotionBlur="15">
+      <TransitionEffect Type="SimpleAlphaBlendTransitionEffect" Length="1.5" EndDelay="0.5" />
+      <Movement Type="StraightLineMovement" InitialDelay="0" EndDelay="0">
+        <Start X="0" Y="-0.4" Z="0" />
+        <End X="0" Y="0" Z="0" />
+        <Equation Type="NonLinear" />
+      </Movement>
+    </DecorationEffect>
+    <DecorationEffect Name="MoveUpRight" Length="1" MotionBlur="15">
+      <TransitionEffect Type="SimpleAlphaBlendTransitionEffect" Length="1.5" EndDelay="0.5" />
+      <Movement Type="StraightLineMovement" InitialDelay="0" EndDelay="0">
+        <Start X="-0.4" Y="0.4" Z="0" />
+        <End X="0" Y="0" Z="0" />
+        <Equation Type="NonLinear" />
+      </Movement>
+    </DecorationEffect>
+    <DecorationEffect Name="MoveUpLeft" Length="1" MotionBlur="15">
+      <TransitionEffect Type="SimpleAlphaBlendTransitionEffect" Length="1.5" EndDelay="0.5" />
+      <Movement Type="StraightLineMovement" InitialDelay="0" EndDelay="0">
+        <Start X="0.4" Y="0.4" Z="0" />
+        <End X="0" Y="0" Z="0" />
+        <Equation Type="NonLinear" />
+      </Movement>
+    </DecorationEffect>
+    <DecorationEffect Name="MoveUpMore" Length="1" MotionBlur="15">
+      <TransitionEffect Type="SimpleAlphaBlendTransitionEffect" Length="1.5" EndDelay="0.5" />
+      <Movement Type="StraightLineMovement" InitialDelay="0" EndDelay="0">
+        <Start X="0" Y="1" Z="0" />
+        <End X="0" Y="0" Z="0" />
+        <Equation Type="NonLinear" />
+      </Movement>
+    </DecorationEffect>
+    <DecorationEffect Name="MoveLeftMore" Length="1" MotionBlur="15">
+      <TransitionEffect Type="SimpleAlphaBlendTransitionEffect" Length="1.5" EndDelay="0.5" />
+      <Movement Type="StraightLineMovement" InitialDelay="0" EndDelay="0">
+        <Start X="1" Y="0" Z="0" />
+        <End X="0" Y="0" Z="0" />
+        <Equation Type="NonLinear" />
+      </Movement>
+    </DecorationEffect>
+    <DecorationEffect Name="MoveDownRightMore" Length="1" MotionBlur="15">
+      <TransitionEffect Type="SimpleAlphaBlendTransitionEffect" Length="1.5" EndDelay="0.5" />
+      <Movement Type="StraightLineMovement" InitialDelay="0" EndDelay="0">
+        <Start X="-1" Y="-1" Z="0" />
+        <End X="0" Y="0" Z="0" />
+        <Equation Type="NonLinear" />
+      </Movement>
+    </DecorationEffect>
+    <DecorationEffect Name="MoveDownLeftMore" Length="1" MotionBlur="15">
+      <TransitionEffect Type="SimpleAlphaBlendTransitionEffect" Length="1.5" EndDelay="0.5" />
+      <Movement Type="StraightLineMovement" InitialDelay="0" EndDelay="0">
+        <Start X="1" Y="-1" Z="0" />
+        <End X="0" Y="0" Z="0" />
+        <Equation Type="NonLinear" />
+      </Movement>
+    </DecorationEffect>
+  </DecorationEffectsDatabase>
+</Template>

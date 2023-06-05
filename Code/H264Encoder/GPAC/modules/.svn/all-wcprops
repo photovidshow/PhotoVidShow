@@ -1,0 +1,59 @@
+K 25
+svn:wc:ra_dav:version-url
+V 49
+/svnroot/direct264/!svn/ver/313/x264/GPAC/modules
+END
+codec.h
+K 25
+svn:wc:ra_dav:version-url
+V 57
+/svnroot/direct264/!svn/ver/287/x264/GPAC/modules/codec.h
+END
+video_out.h
+K 25
+svn:wc:ra_dav:version-url
+V 61
+/svnroot/direct264/!svn/ver/287/x264/GPAC/modules/video_out.h
+END
+service.h
+K 25
+svn:wc:ra_dav:version-url
+V 59
+/svnroot/direct264/!svn/ver/287/x264/GPAC/modules/service.h
+END
+ipmp.h
+K 25
+svn:wc:ra_dav:version-url
+V 56
+/svnroot/direct264/!svn/ver/287/x264/GPAC/modules/ipmp.h
+END
+js_usr.h
+K 25
+svn:wc:ra_dav:version-url
+V 58
+/svnroot/direct264/!svn/ver/287/x264/GPAC/modules/js_usr.h
+END
+font.h
+K 25
+svn:wc:ra_dav:version-url
+V 56
+/svnroot/direct264/!svn/ver/287/x264/GPAC/modules/font.h
+END
+raster2d.h
+K 25
+svn:wc:ra_dav:version-url
+V 60
+/svnroot/direct264/!svn/ver/287/x264/GPAC/modules/raster2d.h
+END
+term_ext.h
+K 25
+svn:wc:ra_dav:version-url
+V 60
+/svnroot/direct264/!svn/ver/287/x264/GPAC/modules/term_ext.h
+END
+audio_out.h
+K 25
+svn:wc:ra_dav:version-url
+V 61
+/svnroot/direct264/!svn/ver/287/x264/GPAC/modules/audio_out.h
+END

@@ -1,0 +1,60 @@
+<Template Version="1.0.0" Name="Intro text blur3" Description="Fades two lines of text in from a blur effect&#xD;&#xA;">
+  <Slideshow>
+    <Slide Type="MultiSlideSlide" PanZoom="False" DisplayTimeLength="6" UsesDefaultTransitionEffect="True" ThumbnailPreviewTime="1" PreviewPlayWhenEditMedia="False">
+      <TransitionEffect Type="SimpleAlphaBlendTransitionEffect" Length="1.5" Index="1" />
+      <Slide Type="BlankStillPictureSlide" PanZoom="True" DisplayTimeLength="6" UsesDefaultTransitionEffect="True" ThumbnailPreviewTime="1" PreviewPlayWhenEditMedia="False" Color="Color [Black]">
+        <TransitionEffect Type="AlphaBlendSlideMixer" Length="6" Index="1" />
+        <Decoration Type="TextDecoration" OriTemImageNum="11" InEffect="MoveRightSlow" Text="My slideshow presentation" TemplateEditable="1" BlurAmount="2">
+          <CoverageArea X="0.3052608" Y="0.4092827" Width="0.3902688" Height="0.08083764" />
+          <TextStyle Name="Vanilla" FontName="Segoe UI" FontSize="60" OutLine="True" OutLineColour="Color [White]" Alignment="Center" OutlineLength="4" OutlineAlpha="14" />
+        </Decoration>
+        <Decoration Type="TextDecoration" OriTemImageNum="12" InEffect="MoveLeftSlow" Text="Text2 text2" TemplateEditable="1" BlurAmount="2">
+          <CoverageArea X="0.3719039" Y="0.4528833" Width="0.2593542" Height="0.1257475" />
+          <TextStyle Name="Vanilla" FontName="Segoe UI" FontSize="93.33335" OutLine="True" OutLineColour="Color [White]" Alignment="Center" OutlineLength="4" OutlineAlpha="14" />
+        </Decoration>
+        <Decoration Type="ColourTransformDecoration" br="1" bg="1" bb="1" cr="0.71" cg="0.71" cb="0.71" gamma="1">
+          <CoverageArea X="0" Y="0" Width="1" Height="1" />
+        </Decoration>
+        <PanZoom>
+          <StartArea X="0.125" Y="0.125" Width="0.75" Height="0.75" />
+          <EndArea X="0.1748555" Y="0.1670951" Width="0.6575145" Height="0.6580977" />
+          <Equation Type="Linear" />
+        </PanZoom>
+      </Slide>
+      <Slide Type="BlankStillPictureSlide" PanZoom="True" DisplayTimeLength="6" UsesDefaultTransitionEffect="True" ThumbnailPreviewTime="1" Color="Color [Black]">
+        <TransitionEffect Type="SimpleAlphaBlendTransitionEffect" Length="1.5" Index="1" />    
+        <Decoration Type="TextDecoration" OriTemImageNum="11" InEffect="MoveRightSlow" Text="My slideshow presentation" TemplateEditable="1" HintEditTime="4.4">
+          <CoverageArea X="0.3052608" Y="0.4092827" Width="0.3902688" Height="0.08083764" />
+          <TextStyle Name="Vanilla" FontName="Segoe UI" FontSize="60" OutLine="True" OutLineColour="Color [White]" Alignment="Center" OutlineLength="4" OutlineAlpha="14" />
+        </Decoration>
+        <Decoration Type="TextDecoration" OriTemImageNum="12" InEffect="MoveLeftSlow" Text="Text2 text2" TemplateEditable="1" HintEditTime="4.4">
+          <CoverageArea X="0.3719039" Y="0.4528833" Width="0.2593542" Height="0.1257475" />
+          <TextStyle Name="Vanilla" FontName="Segoe UI" FontSize="93.33335" OutLine="True" OutLineColour="Color [White]" Alignment="Center" OutlineLength="4" OutlineAlpha="14" />
+        </Decoration>
+        <PanZoom>
+          <StartArea X="0.125" Y="0.125" Width="0.75" Height="0.75" />
+          <EndArea X="0.1748555" Y="0.1670951" Width="0.6575145" Height="0.6580977" />
+          <Equation Type="Linear" />
+        </PanZoom>
+      </Slide>
+    </Slide>
+  </Slideshow>
+  <DecorationEffectsDatabase>
+    <DecorationEffect Name="MoveLeftSlow" LengthSetToDecorationLength="True">
+      <TransitionEffect Type="SimpleAlphaBlendTransitionEffect" Length="1.5" EndDelay="0.94" />
+      <Movement Type="StraightLineMovement" InitialDelay="0" EndDelay="0">
+        <Start X="0" Y="0" Z="0" />
+        <End X="-0.02" Y="0" Z="0" />
+        <Equation Type="Linear" />
+      </Movement>
+    </DecorationEffect>
+    <DecorationEffect Name="MoveRightSlow" LengthSetToDecorationLength="True">
+      <TransitionEffect Type="SimpleAlphaBlendTransitionEffect" Length="1.5" EndDelay="0.94" />
+      <Movement Type="StraightLineMovement" InitialDelay="0" EndDelay="0">
+        <Start X="0" Y="0" Z="0" />
+        <End X="0.02" Y="0" Z="0" />
+        <Equation Type="Linear" />
+      </Movement>
+    </DecorationEffect>
+  </DecorationEffectsDatabase>
+</Template>

@@ -1,0 +1,102 @@
+<Template Version="1.0.0" Name="Circle image zoom rotate spring" Description="Zooms in 6 images with a circle outline mask and with rotation&#xD;&#xA;&#xD;&#xA;">
+  <Slideshow>
+    <Slide Type="BlankStillPictureSlide" PanZoom="False" DisplayTimeLength="8" UsesDefaultTransitionEffect="True" ForceMBSubFrames="30" ThumbnailPreviewTime="5" Color="Color [Black]">
+      <TransitionEffect Type="SimpleAlphaBlendTransitionEffect" Length="1.5" Index="1" />
+      <Decoration Type="ImageDecoration" Background="True">
+        <CoverageArea X="0" Y="0" Width="1" Height="1" />
+        <Image Filename="menutemplates\background39.pvsi" />
+      </Decoration>
+      <Decoration Type="ImageDecoration" Aspect="3" OriTemImageNum="1" StartOffsetTime="1.5" InEffect="CirclesZoomRoateInSpringZoom1">
+        <AlphaMap Filename="outlinemasks\circle.jpg" />
+        <CoverageArea X="0.03" Y="0.08" Width="0.3" Height="0.3999644" />
+        <Image Filename="image1" />
+      </Decoration>
+      <Decoration Type="ImageDecoration" Aspect="3" OriTemImageNum="2" StartOffsetTime="2" InEffect="CirclesZoomRoateInSpringZoom2">
+        <AlphaMap Filename="outlinemasks\circle.jpg" />
+        <CoverageArea X="0.35" Y="0.08" Width="0.3" Height="0.4010225" />
+        <Image Filename="image2" />
+      </Decoration>
+      <Decoration Type="ImageDecoration" Aspect="3" OriTemImageNum="3" StartOffsetTime="2.5" InEffect="CirclesZoomRoateInSpringZoom3">
+        <AlphaMap Filename="outlinemasks\circle.jpg" />
+        <CoverageArea X="0.67" Y="0.08" Width="0.3" Height="0.4010225" />
+        <Image Filename="image3" />
+      </Decoration>
+      <Decoration Type="ImageDecoration" Aspect="3" OriTemImageNum="4" StartOffsetTime="3" InEffect="CirclesZoomRoateInSpringZoom4">
+        <AlphaMap Filename="outlinemasks\circle.jpg" />
+        <CoverageArea X="0.03" Y="0.52" Width="0.3" Height="0.4010225" />
+        <Image Filename="image4" />
+      </Decoration>
+      <Decoration Type="ImageDecoration" Aspect="3" OriTemImageNum="5" StartOffsetTime="3.5" InEffect="CirclesZoomRoateInSpringZoom5">
+        <AlphaMap Filename="outlinemasks\circle.jpg" />
+        <CoverageArea X="0.35" Y="0.52" Width="0.3" Height="0.4010225" />
+        <Image Filename="image5" />
+      </Decoration>
+      <Decoration Type="ImageDecoration" Aspect="3" OriTemImageNum="6" StartOffsetTime="4" InEffect="CirclesZoomRoateInSpringZoom6">
+        <AlphaMap Filename="outlinemasks\circle.jpg" />
+        <CoverageArea X="0.67" Y="0.52" Width="0.3" Height="0.4010225" />
+        <Image Filename="image6" />
+      </Decoration>
+      <PanZoom>
+        <StartArea X="0" Y="0" Width="1" Height="1" />
+        <EndArea X="0" Y="0" Width="1" Height="1" />
+        <Equation Type="Linear" />
+      </PanZoom>
+    </Slide>
+  </Slideshow>
+  <DecorationEffectsDatabase>
+    <DecorationEffect Name="CirclesZoomRoateInSpringZoom1" Length="1" TemplateOnlyEffect="True">
+      <TransitionEffect Type="SimpleAlphaBlendTransitionEffect" Length="1.5" EndDelay="0.75" />
+      <Rotation InitialDelay="0" EndDelay="0" StartRotation="-86" EndRotation="4" XOffset="0" YOffset="0">
+        <Equation Type="Spring" />
+      </Rotation>
+      <Zoom InitialDelay="0" EndDelay="0" StartZoom="5" EndZoom="1">
+        <Equation Type="Spring" />
+      </Zoom>
+    </DecorationEffect>
+    <DecorationEffect Name="CirclesZoomRoateInSpringZoom2" Length="1" TemplateOnlyEffect="True">
+      <TransitionEffect Type="SimpleAlphaBlendTransitionEffect" Length="1.5" EndDelay="0.75" />
+      <Rotation InitialDelay="0" EndDelay="0" StartRotation="146" EndRotation="-7" XOffset="0" YOffset="0">
+        <Equation Type="Spring" />
+      </Rotation>
+      <Zoom InitialDelay="0" EndDelay="0" StartZoom="5" EndZoom="1">
+        <Equation Type="Spring" />
+      </Zoom>
+    </DecorationEffect>
+    <DecorationEffect Name="CirclesZoomRoateInSpringZoom3" Length="1" TemplateOnlyEffect="True">
+      <TransitionEffect Type="SimpleAlphaBlendTransitionEffect" Length="1.5" EndDelay="0.75" />
+      <Rotation InitialDelay="0" EndDelay="0" StartRotation="56" EndRotation="4" XOffset="0" YOffset="0">
+        <Equation Type="Spring" />
+      </Rotation>
+      <Zoom InitialDelay="0" EndDelay="0" StartZoom="5" EndZoom="1">
+        <Equation Type="Spring" />
+      </Zoom>
+    </DecorationEffect>
+    <DecorationEffect Name="CirclesZoomRoateInSpringZoom4" Length="1" TemplateOnlyEffect="True">
+      <TransitionEffect Type="SimpleAlphaBlendTransitionEffect" Length="1.5" EndDelay="0.75" />
+      <Rotation InitialDelay="0" EndDelay="0" StartRotation="156" EndRotation="-12" XOffset="0" YOffset="0">
+        <Equation Type="Spring" />
+      </Rotation>
+      <Zoom InitialDelay="0" EndDelay="0" StartZoom="5" EndZoom="1">
+        <Equation Type="Spring" />
+      </Zoom>
+    </DecorationEffect>
+    <DecorationEffect Name="CirclesZoomRoateInSpringZoom5" Length="1" TemplateOnlyEffect="True">
+      <TransitionEffect Type="SimpleAlphaBlendTransitionEffect" Length="1.5" EndDelay="0.75" />
+      <Rotation InitialDelay="0" EndDelay="0" StartRotation="86" EndRotation="8" XOffset="0" YOffset="0">
+        <Equation Type="Spring" />
+      </Rotation>
+      <Zoom InitialDelay="0" EndDelay="0" StartZoom="5" EndZoom="1">
+        <Equation Type="Spring" />
+      </Zoom>
+    </DecorationEffect>
+    <DecorationEffect Name="CirclesZoomRoateInSpringZoom6" Length="1" TemplateOnlyEffect="True">
+      <TransitionEffect Type="SimpleAlphaBlendTransitionEffect" Length="1.5" EndDelay="0.75" />
+      <Rotation InitialDelay="0" EndDelay="0" StartRotation="-53" EndRotation="-7" XOffset="0" YOffset="0">
+        <Equation Type="Spring" />
+      </Rotation>
+      <Zoom InitialDelay="0" EndDelay="0" StartZoom="5" EndZoom="1">
+        <Equation Type="Spring" />
+      </Zoom>
+    </DecorationEffect>
+  </DecorationEffectsDatabase>
+</Template>

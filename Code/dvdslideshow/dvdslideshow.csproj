@@ -1,0 +1,558 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<Project DefaultTargets="Build" xmlns="http://schemas.microsoft.com/developer/msbuild/2003" ToolsVersion="14.0">
+  <PropertyGroup>
+    <ProjectType>Local</ProjectType>
+    <ProductVersion>9.0.20706</ProductVersion>
+    <SchemaVersion>2.0</SchemaVersion>
+    <ProjectGuid>{D5EFA5A4-D8CE-423A-BD6F-03A21DE44F73}</ProjectGuid>
+    <SccProjectName>
+    </SccProjectName>
+    <SccLocalPath>
+    </SccLocalPath>
+    <SccAuxPath>
+    </SccAuxPath>
+    <SccProvider>
+    </SccProvider>
+    <Configuration Condition=" '$(Configuration)' == '' ">Debug</Configuration>
+    <Platform Condition=" '$(Platform)' == '' ">AnyCPU</Platform>
+    <ApplicationIcon>
+    </ApplicationIcon>
+    <AssemblyKeyContainerName>
+    </AssemblyKeyContainerName>
+    <AssemblyName>ssdss</AssemblyName>
+    <AssemblyOriginatorKeyFile>
+    </AssemblyOriginatorKeyFile>
+    <DefaultClientScript>JScript</DefaultClientScript>
+    <DefaultHTMLPageLayout>Grid</DefaultHTMLPageLayout>
+    <DefaultTargetSchema>IE50</DefaultTargetSchema>
+    <DelaySign>false</DelaySign>
+    <OutputType>Library</OutputType>
+    <RootNamespace>dvdslideshow</RootNamespace>
+    <RunPostBuildEvent>OnBuildSuccess</RunPostBuildEvent>
+    <StartupObject>
+    </StartupObject>
+    <FileUpgradeFlags>
+    </FileUpgradeFlags>
+    <UpgradeBackupLocation>
+    </UpgradeBackupLocation>
+    <OldToolsVersion>3.5</OldToolsVersion>
+    <TargetFrameworkVersion>v4.8</TargetFrameworkVersion>
+    <TargetFrameworkProfile />
+  </PropertyGroup>
+  <PropertyGroup Condition=" '$(Configuration)|$(Platform)' == 'Debug|AnyCPU' ">
+    <OutputPath>bin\Debug\</OutputPath>
+    <AllowUnsafeBlocks>true</AllowUnsafeBlocks>
+    <BaseAddress>285212672</BaseAddress>
+    <CheckForOverflowUnderflow>false</CheckForOverflowUnderflow>
+    <ConfigurationOverrideFile>
+    </ConfigurationOverrideFile>
+    <DefineConstants>DEBUG;TRACE</DefineConstants>
+    <DocumentationFile>
+    </DocumentationFile>
+    <DebugSymbols>true</DebugSymbols>
+    <FileAlignment>4096</FileAlignment>
+    <NoStdLib>false</NoStdLib>
+    <NoWarn>
+    </NoWarn>
+    <Optimize>false</Optimize>
+    <RegisterForComInterop>false</RegisterForComInterop>
+    <RemoveIntegerChecks>false</RemoveIntegerChecks>
+    <TreatWarningsAsErrors>false</TreatWarningsAsErrors>
+    <WarningLevel>4</WarningLevel>
+    <DebugType>full</DebugType>
+    <ErrorReport>prompt</ErrorReport>
+    <PlatformTarget>AnyCPU</PlatformTarget>
+    <Prefer32Bit>false</Prefer32Bit>
+  </PropertyGroup>
+  <PropertyGroup Condition=" '$(Configuration)|$(Platform)' == 'Release|AnyCPU' ">
+    <OutputPath>bin\Release\</OutputPath>
+    <AllowUnsafeBlocks>true</AllowUnsafeBlocks>
+    <BaseAddress>285212672</BaseAddress>
+    <CheckForOverflowUnderflow>false</CheckForOverflowUnderflow>
+    <ConfigurationOverrideFile>
+    </ConfigurationOverrideFile>
+    <DefineConstants>
+    </DefineConstants>
+    <DocumentationFile>
+    </DocumentationFile>
+    <DebugSymbols>false</DebugSymbols>
+    <FileAlignment>4096</FileAlignment>
+    <NoStdLib>false</NoStdLib>
+    <NoWarn>
+    </NoWarn>
+    <Optimize>true</Optimize>
+    <RegisterForComInterop>false</RegisterForComInterop>
+    <RemoveIntegerChecks>false</RemoveIntegerChecks>
+    <TreatWarningsAsErrors>false</TreatWarningsAsErrors>
+    <WarningLevel>4</WarningLevel>
+    <DebugType>none</DebugType>
+    <ErrorReport>prompt</ErrorReport>
+    <Prefer32Bit>false</Prefer32Bit>
+  </PropertyGroup>
+  <PropertyGroup Condition=" '$(Configuration)|$(Platform)' == 'Debug|x86' ">
+    <DebugSymbols>true</DebugSymbols>
+    <OutputPath>bin\x86\Debug\</OutputPath>
+    <DefineConstants>TRACE;DEBUG;DESIGN_MODE</DefineConstants>
+    <BaseAddress>285212672</BaseAddress>
+    <AllowUnsafeBlocks>true</AllowUnsafeBlocks>
+    <FileAlignment>4096</FileAlignment>
+    <DebugType>full</DebugType>
+    <PlatformTarget>x86</PlatformTarget>
+    <ErrorReport>prompt</ErrorReport>
+    <Prefer32Bit>false</Prefer32Bit>
+  </PropertyGroup>
+  <PropertyGroup Condition=" '$(Configuration)|$(Platform)' == 'Release|x86' ">
+    <OutputPath>bin\x86\Release\</OutputPath>
+    <BaseAddress>285212672</BaseAddress>
+    <AllowUnsafeBlocks>true</AllowUnsafeBlocks>
+    <Optimize>true</Optimize>
+    <FileAlignment>4096</FileAlignment>
+    <PlatformTarget>x86</PlatformTarget>
+    <ErrorReport>prompt</ErrorReport>
+    <Prefer32Bit>false</Prefer32Bit>
+    <CodeAnalysisRuleSet>SecurityRules.ruleset</CodeAnalysisRuleSet>
+  </PropertyGroup>
+  <ItemGroup>
+    <Reference Include="PresentationCore" />
+    <Reference Include="PresentationFramework" />
+    <Reference Include="System">
+      <Name>System</Name>
+    </Reference>
+    <Reference Include="System.Data">
+      <Name>System.Data</Name>
+    </Reference>
+    <Reference Include="System.Drawing">
+      <Name>System.Drawing</Name>
+    </Reference>
+    <Reference Include="System.Windows.Forms">
+      <Name>System.Windows.Forms</Name>
+    </Reference>
+    <Reference Include="System.Xml">
+      <Name>System.XML</Name>
+    </Reference>
+    <Reference Include="WindowsBase" />
+    <Reference Include="Zip, Version=0.9.0.1215, Culture=neutral, PublicKeyToken=a817e7d36080947b">
+      <SpecificVersion>False</SpecificVersion>
+      <HintPath>..\ThirdPartyAssemblies\Zip.dll</HintPath>
+    </Reference>
+  </ItemGroup>
+  <ItemGroup>
+    <Compile Include="AssemblyInfo.cs">
+      <SubType>Code</SubType>
+    </Compile>
+    <Compile Include="BluRayMenuDataFileCreator.cs" />
+    <Compile Include="BluRay\AVCHD\AVCHDLog.cs" />
+    <Compile Include="BluRay\AVCHD\BDJOBDMVCreator.cs" />
+    <Compile Include="BluRay\AVCHD\BluRayFolderCreator.cs" />
+    <Compile Include="BluRay\AVCHD\ClipInfoATCSequence.cs" />
+    <Compile Include="BluRay\AVCHD\ClipInfoCLPICreator.cs" />
+    <Compile Include="BluRay\AVCHD\ClipInfoProgram.cs" />
+    <Compile Include="BluRay\AVCHD\ClipInfoStream.cs" />
+    <Compile Include="BluRay\AVCHD\EndianSwap.cs" />
+    <Compile Include="BluRay\AVCHD\EpCoarseEntry.cs" />
+    <Compile Include="BluRay\AVCHD\EpFineEntry.cs" />
+    <Compile Include="BluRay\AVCHD\EpMap.cs" />
+    <Compile Include="BluRay\AVCHD\FileCopy.cs" />
+    <Compile Include="BluRay\AVCHD\HDMVInstruction.cs" />
+    <Compile Include="BluRay\AVCHD\IFrameMarker.cs" />
+    <Compile Include="BluRay\AVCHD\IndexBDMVCreator.cs" />
+    <Compile Include="BluRay\AVCHD\M2TSVideo.cs" />
+    <Compile Include="BluRay\AVCHD\MOBJCommand.cs" />
+    <Compile Include="BluRay\AVCHD\MOBJObject.cs" />
+    <Compile Include="BluRay\AVCHD\MovieObjectBDMVCreator.cs" />
+    <Compile Include="BluRay\AVCHD\MPLSPlayItem.cs" />
+    <Compile Include="BluRay\AVCHD\MPLSPlayMarker.cs" />
+    <Compile Include="BluRay\AVCHD\PlayListMPLSCreator.cs" />
+    <Compile Include="BluRay\BDMV\AdaptationField.cs" />
+    <Compile Include="BluRay\BDMV\AtscCaDescriptor.cs" />
+    <Compile Include="BluRay\BDMV\AudioDescriptor.cs" />
+    <Compile Include="BluRay\BDMV\AudioStreamProgramMapEntry.cs" />
+    <Compile Include="BluRay\BDMV\AVCVideoDescriptor.cs" />
+    <Compile Include="BluRay\BDMV\BDMVLog.cs" />
+    <Compile Include="BluRay\BDMV\Descriptor.cs" />
+    <Compile Include="BluRay\BDMV\EndianSwap.cs" />
+    <Compile Include="BluRay\BDMV\H264Packetizer.cs" />
+    <Compile Include="BluRay\BDMV\IFrameMarker.cs" />
+    <Compile Include="BluRay\BDMV\LanguageDescriptor.cs" />
+    <Compile Include="BluRay\BDMV\LPCMPacketizer.cs" />
+    <Compile Include="BluRay\BDMV\LPCMRegistrationDescriptor.cs" />
+    <Compile Include="BluRay\BDMV\M2TSFile.cs" />
+    <Compile Include="BluRay\BDMV\M2TSFileGenerator.cs" />
+    <Compile Include="BluRay\BDMV\M2TSFileGeneratorReport.cs" />
+    <Compile Include="BluRay\BDMV\Packetizer.cs" />
+    <Compile Include="BluRay\BDMV\PartialTransportStreamDescriptor.cs" />
+    <Compile Include="BluRay\BDMV\PAT.cs" />
+    <Compile Include="BluRay\BDMV\Payload.cs" />
+    <Compile Include="BluRay\BDMV\PES.cs" />
+    <Compile Include="BluRay\BDMV\PMT.cs" />
+    <Compile Include="BluRay\BDMV\ProgramInfo.cs" />
+    <Compile Include="BluRay\BDMV\ProgramMapEntry.cs" />
+    <Compile Include="BluRay\BDMV\RegistrationDescriptor.cs" />
+    <Compile Include="BluRay\BDMV\SIT.cs" />
+    <Compile Include="BluRay\BDMV\TSPacket.cs" />
+    <Compile Include="BluRay\BDMV\VideoStreamProgramMapEntry.cs" />
+    <Compile Include="BluRay\BluRayErrors.cs" />
+    <Compile Include="BluRay\ISO\FileSystemEntry.cs" />
+    <Compile Include="BluRay\ISO\IsoFile.cs" />
+    <Compile Include="BluRay\ISO\UDF\AllocationDescriptor.cs" />
+    <Compile Include="BluRay\ISO\UDF\AnchorVolumeDescriptorPointer.cs" />
+    <Compile Include="BluRay\ISO\UDF\Charspec.cs" />
+    <Compile Include="BluRay\ISO\UDF\CRC.cs" />
+    <Compile Include="BluRay\ISO\UDF\DString.cs" />
+    <Compile Include="BluRay\ISO\UDF\EntityID.cs" />
+    <Compile Include="BluRay\ISO\UDF\ExtendedFileEntry.cs" />
+    <Compile Include="BluRay\ISO\UDF\ExtentAD.cs" />
+    <Compile Include="BluRay\ISO\UDF\FileIdentifierDescriptor.cs" />
+    <Compile Include="BluRay\ISO\UDF\FileIdentifierDescriptorSet.cs" />
+    <Compile Include="BluRay\ISO\UDF\FileSetDescriptor.cs" />
+    <Compile Include="BluRay\ISO\UDF\FileSystem.cs" />
+    <Compile Include="BluRay\ISO\UDF\ICBTag.cs" />
+    <Compile Include="BluRay\ISO\UDF\IDescriptor.cs" />
+    <Compile Include="BluRay\ISO\UDF\ImplementationUseVolumeDescriptor.cs" />
+    <Compile Include="BluRay\ISO\UDF\IsoUdfGenerator.cs" />
+    <Compile Include="BluRay\ISO\UDF\LbAddr.cs" />
+    <Compile Include="BluRay\ISO\UDF\LogicalVolumeDescriptor.cs" />
+    <Compile Include="BluRay\ISO\UDF\LogicalVolumeInformation.cs" />
+    <Compile Include="BluRay\ISO\UDF\LogicalVolumeIntegrityDescriptor.cs" />
+    <Compile Include="BluRay\ISO\UDF\LogicalVolumeIntegrityDescriptorImplementationUse.cs" />
+    <Compile Include="BluRay\ISO\UDF\LongAd.cs" />
+    <Compile Include="BluRay\ISO\UDF\MetadataPartitionMap.cs" />
+    <Compile Include="BluRay\ISO\UDF\NormalPartitionMap.cs" />
+    <Compile Include="BluRay\ISO\UDF\PartitionDescritor.cs" />
+    <Compile Include="BluRay\ISO\UDF\PartitionMap.cs" />
+    <Compile Include="BluRay\ISO\UDF\PrimaryVolumeDescriptor.cs" />
+    <Compile Include="BluRay\ISO\UDF\ShortAd.cs" />
+    <Compile Include="BluRay\ISO\UDF\Tag.cs" />
+    <Compile Include="BluRay\ISO\UDF\TerminatingDescriptor.cs" />
+    <Compile Include="BluRay\ISO\UDF\TimeStamp.cs" />
+    <Compile Include="BluRay\ISO\UDF\UDFLog.cs" />
+    <Compile Include="BluRay\ISO\UDF\UnallocatedSpaceDescriptor.cs" />
+    <Compile Include="BluRay\ISO\UDF\USDFileSystemEntry.cs" />
+    <Compile Include="BluRay\ISO\UDF\USDLinkedEntry.cs" />
+    <Compile Include="BluRay\ISO\UDF\VolumeDescriptorSequence.cs" />
+    <Compile Include="BluRay\ISO\UDF\VolumeRegconitionSequence.cs" />
+    <Compile Include="CAnimatedDecoration.cs" />
+    <Compile Include="CAudioRecorder.cs" />
+    <Compile Include="CAuidoFile.cs">
+      <SubType>Code</SubType>
+    </Compile>
+    <Compile Include="CBlankStillPictureSlide.cs" />
+    <Compile Include="CBluRayVideoWriter.cs" />
+    <Compile Include="CBlurFilterDecoration.cs" />
+    <Compile Include="CClipArtDecoration.cs">
+      <SubType>Code</SubType>
+    </Compile>
+    <Compile Include="CColourTransformDecoration.cs" />
+    <Compile Include="CDecoration.cs">
+      <SubType>Code</SubType>
+    </Compile>
+    <Compile Include="CDiskAuthoringPreferences.cs">
+      <SubType>Code</SubType>
+    </Compile>
+    <Compile Include="CDVDEncodedProjectVerifier.cs" />
+    <Compile Include="CVideoSnapshotFrameCache.cs" />
+    <Compile Include="GraphicsEng\GDIRoundedRectangle.cs" />
+    <Compile Include="ITextDecorationContainer.cs" />
+    <Compile Include="Menus\CMenuLinkStyle.cs" />
+    <Compile Include="Menus\CMenuLinkStyleDatabase.cs" />
+    <Compile Include="Menus\CMenuPlayAllButton.cs" />
+    <Compile Include="Menus\CMenuPlayAllLoopedButton.cs" />
+    <Compile Include="Menus\CMenuSubPictureRenderer.cs" />
+    <Compile Include="Menus\CMenuSubPictureRenderMethod.cs" />
+    <Compile Include="CDVDVideoWriter.cs">
+      <SubType>Code</SubType>
+    </Compile>
+    <Compile Include="CGroupedDecoration.cs" />
+    <Compile Include="Menus\CMenuSubPictureSelectIconDatabase.cs" />
+    <Compile Include="Menus\CMenuSubPictureStyle.cs" />
+    <Compile Include="CMonotoneTransformDecoration.cs" />
+    <Compile Include="CMultiSlideSlide.cs" />
+    <Compile Include="CNarrationAudioSlide.cs" />
+    <Compile Include="CSepiaTransformDecoration.cs" />
+    <Compile Include="CTextStyleDatabase.cs" />
+    <Compile Include="CTransitionEffectTable.cs" />
+    <Compile Include="CWmaEncoder.cs" />
+    <Compile Include="CGlobalVideosDatabase.cs" />
+    <Compile Include="GraphicsEng\ActiveReader.cs" />
+    <Compile Include="GraphicsEng\CImage.cs">
+      <SubType>Code</SubType>
+    </Compile>
+    <Compile Include="CImageDecoration.cs" />
+    <Compile Include="GraphicsEng\CImagesCache.cs">
+      <SubType>Code</SubType>
+    </Compile>
+    <Compile Include="CImageSlide.cs">
+      <SubType>Code</SubType>
+    </Compile>
+    <Compile Include="Menus\CMainMenu.cs">
+      <SubType>Code</SubType>
+    </Compile>
+    <Compile Include="Menus\CMenuButton.cs">
+      <SubType>Code</SubType>
+    </Compile>
+    <Compile Include="Menus\CMenuButtonInnerVideoRenderer.cs" />
+    <Compile Include="Menus\CMenuLayout.cs">
+      <SubType>Code</SubType>
+    </Compile>
+    <Compile Include="Menus\CMenuLayoutDatabase.cs">
+      <SubType>Code</SubType>
+    </Compile>
+    <Compile Include="Menus\CMenuLinkButton.cs">
+      <SubType>Code</SubType>
+    </Compile>
+    <Compile Include="Menus\CMenuLinkPreviousNextButton.cs" />
+    <Compile Include="Menus\CMenuLinkSubMenuButton.cs" />
+    <Compile Include="Menus\CMenuSlideshowButton.cs">
+      <SubType>Code</SubType>
+    </Compile>
+    <Compile Include="Menus\CMenuButtonStyle.cs">
+      <SubType>Code</SubType>
+    </Compile>
+    <Compile Include="Menus\CMenuButtonStyleDatabase.cs">
+      <SubType>Code</SubType>
+    </Compile>
+    <Compile Include="Menus\CMenuTextSpecification.cs">
+      <SubType>Code</SubType>
+    </Compile>
+    <Compile Include="CTextCharacterSubAnimationDecoration.cs" />
+    <Compile Include="GraphicsEng\BeginSceneParameters.cs" />
+    <Compile Include="GraphicsEng\CMemoryCachedImage.cs" />
+    <Compile Include="GraphicsEng\CompressedImage.cs" />
+    <Compile Include="GraphicsEng\Direct3D\D3DCapabilities.cs" />
+    <Compile Include="GraphicsEng\Direct3D\D3DDynamicSurface.cs" />
+    <Compile Include="GraphicsEng\GraphicsEngineInitialiseResult.cs" />
+    <Compile Include="GraphicsEng\Direct3D\D3DPixelShaderEffect.cs" />
+    <Compile Include="GraphicsEng\Direct3D\D3DSettings.cs" />
+    <Compile Include="GraphicsEng\Direct3D\Direct3DDevice.cs" />
+    <Compile Include="GraphicsEng\Direct3D\D3DSurface.cs" />
+    <Compile Include="DisposableObject.cs" />
+    <Compile Include="GraphicsEng\GDITextDrawer.cs" />
+    <Compile Include="GraphicsEng\Direct3D\ID3DSurface.cs" />
+    <Compile Include="GraphicsEng\DrawableObject.cs" />
+    <Compile Include="GraphicsEng\GraphicsEngine.cs" />
+    <Compile Include="GraphicsEng\DynamicSurface.cs" />
+    <Compile Include="GraphicsEng\GraphicsEngineCapabilities.cs" />
+    <Compile Include="GraphicsEng\IMonitoredObject.cs" />
+    <Compile Include="GraphicsEng\MonitoredObject.cs" />
+    <Compile Include="GraphicsEng\PixelShaderEffect.cs" />
+    <Compile Include="GraphicsEng\PixelShaderEffectDatabase.cs" />
+    <Compile Include="GraphicsEng\RenderSurface.cs" />
+    <Compile Include="GraphicsEng\Surface.cs" />
+    <Compile Include="GraphicsEng\IImageCreator.cs" />
+    <Compile Include="GraphicsEng\LockedRect.cs" />
+    <Compile Include="GraphicsEng\Direct3D\D3DSurfaceCache.cs" />
+    <Compile Include="GraphicsEng\Direct3D\Texture.cs" />
+    <Compile Include="GraphicsEng\Direct3D\TextureManager.cs" />
+    <Compile Include="Filters\BrightnessContrast.cs" />
+    <Compile Include="IAnimatedDecoration.cs" />
+    <Compile Include="Maths\CQuickSlow.cs" />
+    <Compile Include="Maths\CSpring.cs" />
+    <Compile Include="MovingDecorations\CAnimatedDecorationEffectDatabase.cs" />
+    <Compile Include="MovingDecorations\CDeltaDelayable.cs" />
+    <Compile Include="Maths\CEquation.cs" />
+    <Compile Include="Maths\CLinear.cs" />
+    <Compile Include="Maths\CNonLinear.cs" />
+    <Compile Include="MovingDecorations\CHorizontalStretch.cs" />
+    <Compile Include="MovingDecorations\CStraightLineMovement.cs" />
+    <Compile Include="MovingDecorations\CMovement.cs" />
+    <Compile Include="MovingDecorations\CAnimatedDecorationEffect.cs" />
+    <Compile Include="CMusicPerformance.cs">
+      <SubType>Code</SubType>
+    </Compile>
+    <Compile Include="CMusicPerformanceChannel.cs" />
+    <Compile Include="CMusicSlide.cs">
+      <SubType>Code</SubType>
+    </Compile>
+    <Compile Include="CPanZoom.cs">
+      <SubType>Code</SubType>
+    </Compile>
+    <Compile Include="CPattern.cs">
+      <SubType>Code</SubType>
+    </Compile>
+    <Compile Include="CProject.cs">
+      <SubType>Code</SubType>
+    </Compile>
+    <Compile Include="CProjectAuthor.cs">
+      <SubType>Code</SubType>
+    </Compile>
+    <Compile Include="CProjectMemento.cs">
+      <SubType>Code</SubType>
+    </Compile>
+    <Compile Include="CRunExternalDVDBurnTool.cs" />
+    <Compile Include="CScrollingTextDecoration.cs" />
+    <Compile Include="CSlide.cs">
+      <SubType>Code</SubType>
+    </Compile>
+    <Compile Include="CSlideShow.cs">
+      <SubType>Code</SubType>
+    </Compile>
+    <Compile Include="CStillPictureSlide.cs">
+      <SubType>Code</SubType>
+    </Compile>
+    <Compile Include="CTextDecoration.cs">
+      <SubType>Code</SubType>
+    </Compile>
+    <Compile Include="CTextStyle.cs">
+      <SubType>Code</SubType>
+    </Compile>
+    <Compile Include="CTransitionEffect.cs">
+      <SubType>Code</SubType>
+    </Compile>
+    <Compile Include="CVideo.cs">
+      <SubType>Code</SubType>
+    </Compile>
+    <Compile Include="CVideoClock.cs">
+      <SubType>Code</SubType>
+    </Compile>
+    <Compile Include="CVideoDecoration.cs" />
+    <Compile Include="CVideoFrameRateCoverter.cs">
+      <SubType>Code</SubType>
+    </Compile>
+    <Compile Include="CVideoPlayer.cs">
+      <SubType>Code</SubType>
+    </Compile>
+    <Compile Include="CVideoPlayerCache.cs" />
+    <Compile Include="CVideoSlide.cs">
+      <SubType>Code</SubType>
+    </Compile>
+    <Compile Include="CVideoWritter.cs">
+      <SubType>Code</SubType>
+    </Compile>
+    <Compile Include="CWavToRawPCMFileConverter.cs">
+      <SubType>Code</SubType>
+    </Compile>
+    <Compile Include="Encoder.cs" />
+    <Compile Include="Filters\BitmapUtils.cs">
+      <SubType>Code</SubType>
+    </Compile>
+    <Compile Include="Filters\GaussianBlur.cs">
+      <SubType>Code</SubType>
+    </Compile>
+    <Compile Include="globals.cs">
+      <SubType>Code</SubType>
+    </Compile>
+    <Compile Include="IStopWatch.cs">
+      <SubType>Code</SubType>
+    </Compile>
+    <Compile Include="Memento\Caretaker.cs">
+      <SubType>Code</SubType>
+    </Compile>
+    <Compile Include="Memento\IOriginator.cs">
+      <SubType>Code</SubType>
+    </Compile>
+    <Compile Include="Memento\Memento.cs">
+      <SubType>Code</SubType>
+    </Compile>
+    <Compile Include="Memento\Snapshot.cs">
+      <SubType>Code</SubType>
+    </Compile>
+    <Compile Include="MovingDecorations\CRectangleReferenceFrame.cs" />
+    <Compile Include="MovingDecorations\CRotation.cs" />
+    <Compile Include="MovingDecorations\CStretch.cs" />
+    <Compile Include="MovingDecorations\CVerticalStretch.cs" />
+    <Compile Include="MovingDecorations\CZoom.cs" />
+    <Compile Include="PrecisionStopWatch.cs">
+      <SubType>Code</SubType>
+    </Compile>
+    <Compile Include="RenderVideoParameters.cs" />
+    <Compile Include="SlideshowAndSlideIdentifier.cs" />
+    <Compile Include="StopWatch.cs">
+      <SubType>Code</SubType>
+    </Compile>
+    <Compile Include="Transistions\AlphaBlendSlideMixer.cs" />
+    <Compile Include="Transistions\AlphaSwipTransitionEffect.cs">
+      <SubType>Code</SubType>
+    </Compile>
+    <Compile Include="Transistions\BatmanTransitionEffect.cs" />
+    <Compile Include="Transistions\CloudTransitionEffect.cs" />
+    <Compile Include="Transistions\CrossTransitionEffect.cs" />
+    <Compile Include="Transistions\DimondTransitionEffect.cs" />
+    <Compile Include="Transistions\MovementTransitionEffect.cs" />
+    <Compile Include="Transistions\MoveToNextSlideTransitionEffectStaticNextSlide.cs" />
+    <Compile Include="Transistions\NextSlideBlurInTransitionEffect.cs" />
+    <Compile Include="Transistions\RectangleTransitionEffect.cs" />
+    <Compile Include="Transistions\Shader075ThenAlphaBlendTransitionEffect.cs" />
+    <Compile Include="Transistions\BlurTransitionEffect.cs">
+      <SubType>Code</SubType>
+    </Compile>
+    <Compile Include="Transistions\CameraSnapshotTransitionEffect.cs" />
+    <Compile Include="Transistions\CircleInTransitionEffect.cs">
+      <SubType>Code</SubType>
+    </Compile>
+    <Compile Include="Transistions\CircleOutTransitionEffect.cs">
+      <SubType>Code</SubType>
+    </Compile>
+    <Compile Include="Transistions\DiagonalSquaresSaturateTransitionEffect.cs" />
+    <Compile Include="Transistions\FadeDownTransitionEffect.cs">
+      <SubType>Code</SubType>
+    </Compile>
+    <Compile Include="Transistions\FadeToBW.cs">
+      <SubType>Code</SubType>
+    </Compile>
+    <Compile Include="Transistions\FadeUpTransitionEffect.cs">
+      <SubType>Code</SubType>
+    </Compile>
+    <Compile Include="Transistions\HBlurWhiteout.cs">
+      <SubType>Code</SubType>
+    </Compile>
+    <Compile Include="Transistions\HeightMapTransition.cs">
+      <SubType>Code</SubType>
+    </Compile>
+    <Compile Include="Transistions\MiddleColorTransitionEffect.cs">
+      <SubType>Code</SubType>
+    </Compile>
+    <Compile Include="Transistions\MiddleSaturateToColorTransitionEffect.cs">
+      <SubType>Code</SubType>
+    </Compile>
+    <Compile Include="Transistions\MiddleSplitDiagonalTransitionEffect.cs" />
+    <Compile Include="Transistions\MiddleSplitLeftRightTransition.cs" />
+    <Compile Include="Transistions\MiddleSplitUpDownTransition.cs" />
+    <Compile Include="Transistions\MoveToNextSlideTransitionEffect.cs" />
+    <Compile Include="Transistions\MultiCirclesInOutTransitionEffect.cs" />
+    <Compile Include="Transistions\MultiCrossInOutTransitionEffect.cs" />
+    <Compile Include="Transistions\MultiDiagonalSquaresInOutTransitionEffect.cs" />
+    <Compile Include="Transistions\MultipleLinesDiagonalTransitionEffect.cs" />
+    <Compile Include="Transistions\MultipleLinesLeftRightTransitionEffect.cs">
+      <SubType>Code</SubType>
+    </Compile>
+    <Compile Include="Transistions\MultipleLinesUpDownTransitionEffect.cs">
+      <SubType>Code</SubType>
+    </Compile>
+    <Compile Include="Transistions\MultiShapeInOutTransitionEffect.cs" />
+    <Compile Include="Transistions\MultiSquareAlternateInOutTransitionEffect.cs" />
+    <Compile Include="Transistions\MultiSquaresInOutTransitionEffect.cs" />
+    <Compile Include="Transistions\RadialTransitionEffect.cs">
+      <SubType>Code</SubType>
+    </Compile>
+    <Compile Include="Transistions\RandomFizzTransition.cs">
+      <SubType>Code</SubType>
+    </Compile>
+    <Compile Include="Transistions\RandomTransitionEffect.cs">
+      <SubType>Code</SubType>
+    </Compile>
+    <Compile Include="Transistions\SimpleAlphaBlendTransitionEffect.cs">
+      <SubType>Code</SubType>
+    </Compile>
+    <Compile Include="Transistions\ShaderMixTransitionEffect.cs" />
+    <Compile Include="Transistions\FanTransitionEffect.cs" />
+    <Compile Include="Transistions\WibbleTransitionEffect.cs" />
+    <Compile Include="Transistions\ShaderPlusAlphaBlendTransitionEffect.cs" />
+  </ItemGroup>
+  <ItemGroup>
+    <ProjectReference Include="..\ManagedCore\ManagedCore.csproj">
+      <Project>{4b611a2f-d5a9-450b-89ea-c8afc1a220a2}</Project>
+      <Name>ManagedCore</Name>
+    </ProjectReference>
+    <ProjectReference Include="..\MangedToUnManagedWrapper\MangedToUnManagedWrapper.vcxproj">
+      <Project>{cdc6f88e-689a-43f0-a33e-460120f2ca05}</Project>
+      <Name>MangedToUnManagedWrapper</Name>
+    </ProjectReference>
+  </ItemGroup>
+  <Import Project="$(MSBuildBinPath)\Microsoft.CSharp.targets" />
+  <PropertyGroup>
+    <PreBuildEvent>
+    </PreBuildEvent>
+    <PostBuildEvent>
+    </PostBuildEvent>
+  </PropertyGroup>
+</Project>

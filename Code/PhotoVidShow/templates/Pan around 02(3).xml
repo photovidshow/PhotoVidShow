@@ -1,0 +1,58 @@
+<Template Version="1.0.0" Name="Pan around 02" Description="Pan around part 2&#xD;&#xA;">
+  <Slideshow>
+    <Slide Type="BlankStillPictureSlide" PanZoom="False" DisplayTimeLength="6" UsesDefaultTransitionEffect="True" ForceMBSubFrames="30" Color="Color [Black]" MasterBackgroundAspect="1.33311">
+      <TransitionEffect Type="MoveToNextSlideTransitionEffect" Direction="0" BorderFrac="0" Length="1.1" Index="16" />
+      <Decoration Type="GroupedDecoration" MotionBlur="False" RenderMethod="7" InEffect="Pan2SlowMove">
+        <CoverageArea X="0" Y="0" Width="1" Height="1" />
+        <Decoration Type="ImageDecoration" Background="True">
+          <CoverageArea X="0" Y="0" Width="1" Height="1" />
+          <Image Filename="menutemplates\background104.pvsi" />
+        </Decoration>
+        <Decoration Type="ImageDecoration" TemplateFramework="True" Aspect="3" Mask="True">
+          <CoverageArea X="0" Y="0" Width="1" Height="1" />
+          <Image Filename="templates\media\overlays\masks\panaroundframe2mask.png" />
+        </Decoration>
+        <Decoration Type="ImageDecoration" RenderMethod="10" Aspect="2" OriTemImageNum="1">
+          <CoverageArea X="0.4332016" Y="0.4022503" Width="0.1581028" Height="0.3248945" />
+          <Image Filename="image1" />
+        </Decoration>
+        <Decoration Type="ImageDecoration" DegreesRot="-45" RenderMethod="9" Aspect="2" OriTemImageNum="2" BW="True">
+          <CoverageArea X="0.283004" Y="0.230661" Width="0.1857708" Height="0.2911392" />
+          <Image Filename="image2" />
+        </Decoration>
+        <Decoration Type="ImageDecoration" DegreesRot="15" RenderMethod="8" Aspect="2" OriTemImageNum="3">
+          <CoverageArea X="0.4537549" Y="0.2025317" Width="0.2616601" Height="0.3530239" />
+          <Image Filename="image3" />
+        </Decoration>
+        <Decoration Type="ImageDecoration" TemplateFramework="True" Aspect="3">
+          <CoverageArea X="0" Y="0" Width="1" Height="1" />
+          <Image Filename="templates\media\overlays\panaroundframe2.png" />
+        </Decoration>
+      </Decoration>
+      <Decoration Type="ImageDecoration" PostTrans="True" Border="True">
+        <CoverageArea X="0" Y="0" Width="1" Height="1" />
+        <Image Filename="borders\vignette1.pvsi" />
+      </Decoration>
+      <PanZoom>
+        <StartArea X="0" Y="0" Width="1" Height="1" />
+        <EndArea X="0" Y="0" Width="1" Height="1" />
+        <Equation Type="Linear" />
+      </PanZoom>
+    </Slide>
+  </Slideshow>
+  <DecorationEffectsDatabase>
+    <DecorationEffect Name="Pan2SlowMove" Length="6" TemplateOnlyEffect="True">
+      <Movement Type="StraightLineMovement" InitialDelay="0.1833" EndDelay="0.1833">
+        <Start X="-0.16" Y="-0.3" Z="0" />
+        <End X="0.14" Y="0.4" Z="0" />
+        <Equation Type="Linear" />
+      </Movement>
+      <Rotation InitialDelay="0.1833" EndDelay="0.1833" StartRotation="-3" EndRotation="45" XOffset="0" YOffset="0">
+        <Equation Type="Linear" />
+      </Rotation>
+      <Zoom InitialDelay="0.1833" EndDelay="0.1833" StartZoom="2.2" EndZoom="2.2">
+        <Equation Type="NonLinear" />
+      </Zoom>
+    </DecorationEffect>
+  </DecorationEffectsDatabase>
+</Template>

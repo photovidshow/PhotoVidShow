@@ -1,0 +1,47 @@
+float4 params0: register(C0);
+float4 params1: register(C1);
+
+
+// params0[0] = brightness.r
+// params0[1] = brightness.g
+// params0[2] = brightness.b
+
+// params0[3] = contrast.r 
+// params1[0] = contrast.g 
+// params1[1] = contrast.b 
+
+
+struct PS_INPUT
+{
+    float4 Position   : POSITION;
+    float2 Texture0   : TEXCOORD0;
+    float2 Texture1   : TEXCOORD1;
+};
+
+struct PS_OUTPUT
+{
+    float4 Color   : COLOR0;
+};
+
+
+sampler2D Texture1Sampler : register(S0);
+
+PS_OUTPUT ps_main( in PS_INPUT In )
+{
+
+  PS_OUTPUT pixelColor;
+
+  pixelColor.Color = tex2D(Texture1Sampler, In.Texture0);
+
+  // Apply contrast.
+  pixelColor.Color.r *= params0[3];
+  pixelColor.Color.g *= params1[0];
+  pixelColor.Color.b *= params1[1];
+
+  // Apply brightness.
+  pixelColor.Color.r += params0[0];
+  pixelColor.Color.g += params0[1];
+  pixelColor.Color.b += params0[2];
+
+  return pixelColor;
+}

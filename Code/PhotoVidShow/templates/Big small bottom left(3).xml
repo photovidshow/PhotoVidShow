@@ -1,0 +1,93 @@
+<Template Version="1.0.0" Name="Big small bottom left" Description="Shows a small thumbnail image and then a big thumbnail image&#xD;&#xA;">
+  <Slideshow>
+    <Slide Type="MultiSlideSlide" PanZoom="False" DisplayTimeLength="8.983334" UsesDefaultTransitionEffect="True" ForceMBSubFrames="30" ThumbnailPreviewTime="4">
+      <TransitionEffect Type="SimpleAlphaBlendTransitionEffect" Length="0.8" Index="1" />
+      <Slide Type="BlankStillPictureSlide" PanZoom="False" DisplayTimeLength="2" UsesDefaultTransitionEffect="True" ForceMBSubFrames="30" ThumbnailPreviewTime="4" Color="Color [Black]">
+        <TransitionEffect Type="SimpleAlphaBlendTransitionEffect" Length="0.8" Index="1" />
+        <Decoration Type="ImageDecoration" Aspect="2" OriTemImageNum="1">
+          <CoverageArea X="0" Y="-0.1653944" Width="1" Height="1.330789" />
+          <Image Filename="image1" />
+        </Decoration>
+        <Decoration Type="ImageDecoration" Aspect="2" OriTemImageNum="3">
+          <CoverageArea X="-1" Y="-1" Width="0.1" Height="0.1" />
+          <Image Filename="image3" />
+        </Decoration>
+        <Decoration Type="ImageDecoration" Aspect="2" OriTemImageNum="2">
+          <AlphaMap Filename="outlinemasks\edge4.jpg" />
+          <CoverageArea X="-1" Y="-1" Width="0.1" Height="0.1" />
+          <Image Filename="image2" />
+        </Decoration>
+        <PanZoom>
+          <StartArea X="0" Y="0" Width="1" Height="1" />
+          <EndArea X="0" Y="0" Width="1" Height="1" />
+          <Equation Type="Linear" />
+        </PanZoom>
+      </Slide>
+      <Slide Type="BlankStillPictureSlide" PanZoom="False" DisplayTimeLength="7.8" UsesDefaultTransitionEffect="True" ForceMBSubFrames="30" Color="Color [Black]">
+        <TransitionEffect Type="SimpleAlphaBlendTransitionEffect" Length="0.8" Index="1" />
+        <Decoration Type="ImageDecoration" Aspect="2" OriTemImageNum="1">
+          <CoverageArea X="0" Y="-0.1666667" Width="1" Height="1.333333" />
+          <Image Filename="image1" />
+        </Decoration>
+        <Decoration Type="ColourTransformDecoration" br="0.9" bg="0.9" bb="0.9" cr="0.9" cg="0.9" cb="0.9" gamma="1">
+          <CoverageArea X="0" Y="0" Width="1" Height="1" />
+        </Decoration>
+        <Decoration Type="BlurFilterDecoration">
+          <CoverageArea X="0" Y="0" Width="1" Height="1" />
+        </Decoration>
+        <Decoration Type="ImageDecoration" TemplateFramework="True" Aspect="2" StartOffsetTime="1.98" InEffect="SmallBig3MoveOutRight" OutEffect="SmallBig3MoveDown">
+          <CoverageArea X="0.2113" Y="0.0408" Width="0.693" Height="0.922" />
+          <Image Filename="templates\media\white.jpg" />
+        </Decoration>
+        <Decoration Type="ImageDecoration" Aspect="2" OriTemImageNum="3" StartOffsetTime="1.98" InEffect="SmallBig3MoveOutRight" OutEffect="SmallBig3MoveDown">
+          <CoverageArea X="0.2145923" Y="0.04562341" Width="0.6866953" Height="0.913486" />
+          <Image Filename="image3" />
+        </Decoration>
+        <Decoration Type="ImageDecoration" TemplateFramework="True" Aspect="2" StartOffsetTime="0.3" InEffect="SmallBig3MoveOutUpLeft" OutEffect="SmallBig3MoveDown">
+          <AlphaMap Filename="outlinemasks\edge4.jpg" />
+          <CoverageArea X="0.12" Y="0.6278" Width="0.17" Height="0.2322" />
+          <Image Filename="templates\media\white.jpg" />
+        </Decoration>
+        <Decoration Type="ImageDecoration" Aspect="2" OriTemImageNum="2" StartOffsetTime="0.3" InEffect="SmallBig3MoveOutUpLeft" OutEffect="SmallBig3MoveDown">
+          <AlphaMap Filename="outlinemasks\edge4.jpg" />
+          <CoverageArea X="0.123" Y="0.6342" Width="0.1640439" Height="0.2188295" />
+          <Image Filename="image2" />
+        </Decoration>
+        <PanZoom>
+          <StartArea X="0" Y="0" Width="1" Height="1" />
+          <EndArea X="0" Y="0" Width="1" Height="1" />
+          <Equation Type="Linear" />
+        </PanZoom>
+      </Slide>
+    </Slide>
+  </Slideshow>
+  <DecorationEffectsDatabase>
+    <DecorationEffect Name="SmallBig3MoveOutUpLeft" Length="0.5" MotionBlur="15" TemplateOnlyEffect="True">
+      <TransitionEffect Type="SimpleAlphaBlendTransitionEffect" Length="1.5" EndDelay="0.5" />
+      <Movement Type="StraightLineMovement" TranslateXY="True" InitialDelay="0" EndDelay="0">
+        <Start X="0.2" Y="0.2" Z="0" />
+        <End X="0" Y="0" Z="0" />
+        <Equation Type="NonLinear" />
+      </Movement>
+      <Zoom InitialDelay="0" EndDelay="0" StartZoom="0.5" EndZoom="1">
+        <Equation Type="NonLinear" />
+      </Zoom>
+    </DecorationEffect>
+    <DecorationEffect Name="SmallBig3MoveOutRight" Length="0.5" MotionBlur="15" TemplateOnlyEffect="True">
+      <TransitionEffect Type="SimpleAlphaBlendTransitionEffect" Length="1.5" EndDelay="0.5" />
+      <Movement Type="StraightLineMovement" TranslateXY="True" InitialDelay="0" EndDelay="0">
+        <Start X="-1" Y="0.5" Z="3" />
+        <End X="0" Y="0" Z="1" />
+        <Equation Type="NonLinear" />
+      </Movement>
+    </DecorationEffect>
+    <DecorationEffect Name="SmallBig3MoveDown" Length="0.5" MotionBlur="15" TemplateOnlyEffect="True">
+      <TransitionEffect Type="SimpleAlphaBlendTransitionEffect" Length="1.5" InitialDelay="0.45" />
+      <Movement Type="StraightLineMovement" InitialDelay="0" EndDelay="0">
+        <Start X="0" Y="0" Z="0" />
+        <End X="0" Y="1" Z="0" />
+        <Equation Type="NonLinear" />
+      </Movement>
+    </DecorationEffect>
+  </DecorationEffectsDatabase>
+</Template>

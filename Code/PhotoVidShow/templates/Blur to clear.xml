@@ -1,0 +1,54 @@
+<Template Version="1.0.0" Name="Blur to clear" Description="Starts with a blurred slide which then becomes clear">
+  <Slideshow>
+    <Slide Type="MultiSlideSlide" PanZoom="False" DisplayTimeLength="5.966667" UsesDefaultTransitionEffect="True">
+      <TransitionEffect Type="SimpleAlphaBlendTransitionEffect" Length="1.5" Index="1" />
+      <Slide Type="BlankStillPictureSlide" PanZoom="False" DisplayTimeLength="3" Color="Color [Black]">
+        <TransitionEffect Type="SimpleAlphaBlendTransitionEffect" Length="2" Index="1" />
+        <Decoration Type="ImageDecoration" Aspect="3" MoveAsSlidePanZoom="True">
+          <CoverageArea X="0" Y="0" Width="1" Height="1" />
+          <Image Filename="image1" />
+        </Decoration>
+        <Decoration Type="BlurFilterDecoration">
+          <CoverageArea X="0" Y="0" Width="1" Height="1" />
+        </Decoration>
+        <Decoration Type="BlurFilterDecoration">
+          <CoverageArea X="0" Y="0" Width="1" Height="1" />
+        </Decoration>
+        <Decoration Type="BlurFilterDecoration">
+          <CoverageArea X="0" Y="0" Width="1" Height="1" />
+        </Decoration>
+        <Decoration Type="BlurFilterDecoration">
+          <CoverageArea X="0" Y="0" Width="1" Height="1" />
+        </Decoration>
+        <Decoration Type="BlurFilterDecoration">
+          <CoverageArea X="0" Y="0" Width="1" Height="1" />
+        </Decoration>
+        <Decoration Type="BlurFilterDecoration">
+          <CoverageArea X="0" Y="0" Width="1" Height="1" />
+        </Decoration>
+        <Decoration Type="BlurFilterDecoration">
+          <CoverageArea X="0" Y="0" Width="1" Height="1" />
+        </Decoration>
+        <Decoration Type="BlurFilterDecoration">
+          <CoverageArea X="0" Y="0" Width="1" Height="1" />
+        </Decoration>
+        <PanZoom>
+          <StartArea X="0.19385" Y="0.19385" Width="0.6123" Height="0.6123" />
+          <EndArea X="0.125" Y="0.125" Width="0.75" Height="0.75" />
+        </PanZoom>
+      </Slide>
+      <Slide Type="BlankStillPictureSlide" PanZoom="False" DisplayTimeLength="5" UsesDefaultTransitionEffect="True" Color="Color [Black]">
+        <TransitionEffect Type="SimpleAlphaBlendTransitionEffect" Length="1.5" Index="1" />
+        <Decoration Type="ImageDecoration" Aspect="3" MoveAsSlidePanZoom="True">
+          <CoverageArea X="0" Y="0" Width="1" Height="1" />
+          <Image Filename="image1" />
+        </Decoration>
+        <PanZoom>
+          <StartArea X="0.19385" Y="0.19385" Width="0.6123" Height="0.6123" />
+          <EndArea X="0.125" Y="0.125" Width="0.75" Height="0.75" />
+        </PanZoom>
+      </Slide>
+    </Slide>
+  </Slideshow>
+  <DecorationEffectsDatabase />
+</Template>

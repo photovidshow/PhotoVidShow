@@ -1,0 +1,826 @@
+<Template Version="1.0.0" Name="Flying Forest 3" Description="Shows 6 flying images with a forest theme&#xD;&#xA;">
+  <Slideshow>
+    <Slide Type="MultiSlideSlide" PanZoom="False" DisplayTimeLength="26.48333" UsesDefaultTransitionEffect="True" ForceMBSubFrames="5">
+      <TransitionEffect Type="MiddleSaturateToColorTransitionEffect" Color="Color [White]" Length="0.5" Index="9" />
+      <Slide Type="BlankStillPictureSlide" PanZoom="False" DisplayTimeLength="4" UsesDefaultTransitionEffect="True" ForceMBSubFrames="5" Color="Color [Black]">
+        <TransitionEffect Type="SimpleAlphaBlendTransitionEffect" Length="0" Index="1" />
+        <Decoration Type="ImageDecoration" Aspect="2" OriTemImageNum="7" InEffect="FlyingForest3BackgroundSlide1" Brightness="0.9,0.9,0.9">
+          <CoverageArea X="0" Y="0" Width="1" Height="1" />
+          <Image Filename="templates\media\forest2.jpg" />
+        </Decoration>
+        <Decoration Type="ImageDecoration" Aspect="3" OriTemImageNum="2" InEffect="FlyingForest3Image2Slide1" Brightness="0.95,0.95,0.95" Contrast="0.9,0.9,0.9">
+          <CoverageArea X="0.4435" Y="0.424667" Width="0.113" Height="0.15066" />
+          <Image Filename="image2" />
+        </Decoration>
+        <Decoration Type="ImageDecoration" TemplateFramework="True" InEffect="FlyingForest3Image2Slide1" UsePreviousDecorationCoverageAreaPercent="4" Brightness="0.9,0.9,0.9" Contrast="0.8,0.8,0.8">
+          <AlphaMap Filename="outlinemasks\smooth edge.jpg" />
+          <Image Filename="templates\media\overlays\thinframewhite.png" />
+        </Decoration>
+        <Decoration Type="BlurFilterDecoration">
+          <CoverageArea X="0" Y="0" Width="1" Height="1" />
+        </Decoration>
+        <Decoration Type="VideoDecoration" VideoName="filters\particles light(add).pvsv" Volume="0" GlobalPlayer="True" FlipY="True" RenderMethod="1">
+          <CoverageArea X="0" Y="0" Width="1" Height="1" />
+        </Decoration>
+        <Decoration Type="ImageDecoration" Aspect="3" OriTemImageNum="1" InEffect="FlyingForest3Image1Slide1" Brightness="0.95,0.95,0.95" Contrast="0.9,0.9,0.9">
+          <CoverageArea X="0.4435" Y="0.424667" Width="0.113" Height="0.15066" />
+          <Image Filename="image1" />
+        </Decoration>
+        <Decoration Type="ImageDecoration" TemplateFramework="True" InEffect="FlyingForest3Image1Slide1" UsePreviousDecorationCoverageAreaPercent="4" Brightness="0.9,0.9,0.9" Contrast="0.8,0.8,0.8">
+          <AlphaMap Filename="outlinemasks\smooth edge.jpg" />
+          <Image Filename="templates\media\overlays\thinframewhite.png" />
+        </Decoration>
+        <Decoration Type="ImageDecoration" Aspect="2" OriTemImageNum="8" InEffect="FlyingForest3ForgroundSlide1">
+          <CoverageArea X="0" Y="0" Width="1" Height="1" />
+          <Image Filename="borders\grass insects.pvsi" />
+        </Decoration>
+        <Decoration Type="BlurFilterDecoration" BlurFilterType="1">
+          <CoverageArea X="0" Y="0" Width="1" Height="1" />
+        </Decoration>
+        <Decoration Type="ColourTransformDecoration" br="1.02" bg="1.05" bb="0.95" cr="1.3" cg="1.2" cb="1.2" gamma="1">
+          <CoverageArea X="0" Y="0" Width="1" Height="1" />
+        </Decoration>
+        <Decoration Type="ImageDecoration" Border="True">
+          <CoverageArea X="0" Y="0" Width="1" Height="1" />
+          <Image Filename="borders\vignette1.pvsi" />
+        </Decoration>
+        <PanZoom>
+          <StartArea X="0" Y="0" Width="1" Height="1" />
+          <EndArea X="0" Y="0" Width="1" Height="1" />
+          <Equation Type="Linear" />
+        </PanZoom>
+      </Slide>
+      <Slide Type="BlankStillPictureSlide" PanZoom="False" DisplayTimeLength="0.5" UsesDefaultTransitionEffect="True" ForceMBSubFrames="30" Color="Color [Black]">
+        <TransitionEffect Type="SimpleAlphaBlendTransitionEffect" Length="0" Index="1" />
+        <Decoration Type="ImageDecoration" Aspect="2" OriTemImageNum="7" InEffect="FlyingForest3BackgroundSlide2" Brightness="0.9,0.9,0.9">
+          <CoverageArea X="0" Y="0" Width="1" Height="1" />
+          <Image Filename="templates\media\forest2.jpg" />
+        </Decoration>
+        <Decoration Type="ImageDecoration" Aspect="3" OriTemImageNum="2" InEffect="FlyingForest3Image2Slide2" Brightness="0.95,0.95,0.95" Contrast="0.9,0.9,0.9">
+          <CoverageArea X="0.4435" Y="0.424667" Width="0.113" Height="0.15066" />
+          <Image Filename="image2" />
+        </Decoration>
+        <Decoration Type="ImageDecoration" TemplateFramework="True" InEffect="FlyingForest3Image2Slide2" UsePreviousDecorationCoverageAreaPercent="4" Brightness="0.9,0.9,0.9" Contrast="0.8,0.8,0.8">
+          <AlphaMap Filename="outlinemasks\smooth edge.jpg" />
+          <Image Filename="templates\media\overlays\thinframewhite.png" />
+        </Decoration>
+        <Decoration Type="VideoDecoration" VideoName="filters\particles light(add).pvsv" Volume="0" GlobalPlayer="True" FlipY="True" RenderMethod="1">
+          <CoverageArea X="0" Y="0" Width="1" Height="1" />
+        </Decoration>
+        <Decoration Type="ImageDecoration" Aspect="3" OriTemImageNum="1" InEffect="FlyingForest3Image1Slide2" Brightness="0.95,0.95,0.95" Contrast="0.9,0.9,0.9">
+          <CoverageArea X="0.4435" Y="0.424667" Width="0.113" Height="0.15066" />
+          <Image Filename="image1" />
+        </Decoration>
+        <Decoration Type="ImageDecoration" TemplateFramework="True" InEffect="FlyingForest3Image1Slide2" UsePreviousDecorationCoverageAreaPercent="4" Brightness="0.9,0.9,0.9" Contrast="0.8,0.8,0.8">
+          <AlphaMap Filename="outlinemasks\smooth edge.jpg" />
+          <Image Filename="templates\media\overlays\thinframewhite.png" />
+        </Decoration>
+        <Decoration Type="ImageDecoration" FlipX="True" Aspect="2" OriTemImageNum="8" EndOffsetTime="0.5" OutEffect="FlyingForest3ForgroundSlide2">
+          <CoverageArea X="0" Y="0" Width="1" Height="1" />
+          <Image Filename="borders\grass insects.pvsi" />
+        </Decoration>
+        <Decoration Type="BlurFilterDecoration" BlurFilterType="1">
+          <CoverageArea X="0" Y="0" Width="1" Height="1" />
+        </Decoration>
+        <Decoration Type="ColourTransformDecoration" br="1.02" bg="1.05" bb="0.95" cr="1.3" cg="1.2" cb="1.2" gamma="1">
+          <CoverageArea X="0" Y="0" Width="1" Height="1" />
+        </Decoration>
+        <Decoration Type="ImageDecoration" Border="True">
+          <CoverageArea X="0" Y="0" Width="1" Height="1" />
+          <Image Filename="borders\vignette1.pvsi" />
+        </Decoration>
+        <PanZoom>
+          <StartArea X="0" Y="0" Width="1" Height="1" />
+          <EndArea X="0" Y="0" Width="1" Height="1" />
+          <Equation Type="Linear" />
+        </PanZoom>
+      </Slide>
+      <Slide Type="BlankStillPictureSlide" PanZoom="False" DisplayTimeLength="4" UsesDefaultTransitionEffect="True" ForceMBSubFrames="5" Color="Color [Black]">
+        <TransitionEffect Type="SimpleAlphaBlendTransitionEffect" Length="0" Index="1" />
+        <Decoration Type="ImageDecoration" Aspect="2" OriTemImageNum="7" InEffect="FlyingForest3BackgroundSlide3" Brightness="0.9,0.9,0.9">
+          <CoverageArea X="0" Y="0" Width="1" Height="1" />
+          <Image Filename="templates\media\forest2.jpg" />
+        </Decoration>
+        <Decoration Type="ImageDecoration" Aspect="3" OriTemImageNum="2" InEffect="FlyingForest3Image2Slide3" Brightness="0.95,0.95,0.95" Contrast="0.9,0.9,0.9">
+          <CoverageArea X="0.4435" Y="0.424667" Width="0.113" Height="0.15066" />
+          <Image Filename="image2" />
+        </Decoration>
+        <Decoration Type="ImageDecoration" TemplateFramework="True" InEffect="FlyingForest3Image2Slide3" UsePreviousDecorationCoverageAreaPercent="4" Brightness="0.9,0.9,0.9" Contrast="0.8,0.8,0.8">
+          <AlphaMap Filename="outlinemasks\smooth edge.jpg" />
+          <Image Filename="templates\media\overlays\thinframewhite.png" />
+        </Decoration>
+        <Decoration Type="VideoDecoration" VideoName="filters\particles light(add).pvsv" Volume="0" GlobalPlayer="True" FlipY="True" RenderMethod="1">
+          <CoverageArea X="0" Y="0" Width="1" Height="1" />
+        </Decoration>
+        <Decoration Type="BlurFilterDecoration" BlurFilterType="1">
+          <CoverageArea X="0" Y="0" Width="1" Height="1" />
+        </Decoration>
+        <Decoration Type="ColourTransformDecoration" br="1.02" bg="1.05" bb="0.95" cr="1.3" cg="1.2" cb="1.2" gamma="1">
+          <CoverageArea X="0" Y="0" Width="1" Height="1" />
+        </Decoration>
+        <Decoration Type="ImageDecoration" Border="True">
+          <CoverageArea X="0" Y="0" Width="1" Height="1" />
+          <Image Filename="borders\vignette1.pvsi" />
+        </Decoration>
+        <PanZoom>
+          <StartArea X="0" Y="0" Width="1" Height="1" />
+          <EndArea X="0" Y="0" Width="1" Height="1" />
+          <Equation Type="Linear" />
+        </PanZoom>
+      </Slide>
+      <Slide Type="BlankStillPictureSlide" PanZoom="False" DisplayTimeLength="0.5" UsesDefaultTransitionEffect="True" ForceMBSubFrames="30" Color="Color [Black]">
+        <TransitionEffect Type="MiddleSaturateToColorTransitionEffect" Color="Color [White]" Length="0" Index="9" />
+        <Decoration Type="ImageDecoration" Aspect="2" OriTemImageNum="7" InEffect="FlyingForest3BackgroundSlide4" Brightness="0.9,0.9,0.9">
+          <CoverageArea X="0" Y="0" Width="1" Height="1" />
+          <Image Filename="templates\media\forest2.jpg" />
+        </Decoration>
+        <Decoration Type="ImageDecoration" Aspect="3" OriTemImageNum="2" InEffect="FlyingForest3Image2Slide4" Brightness="0.95,0.95,0.95" Contrast="0.9,0.9,0.9">
+          <CoverageArea X="0.4435" Y="0.424667" Width="0.113" Height="0.15066" />
+          <Image Filename="image2" />
+        </Decoration>
+        <Decoration Type="ImageDecoration" TemplateFramework="True" InEffect="FlyingForest3Image2Slide4" UsePreviousDecorationCoverageAreaPercent="4" Brightness="0.9,0.9,0.9" Contrast="0.8,0.8,0.8">
+          <AlphaMap Filename="outlinemasks\smooth edge.jpg" />
+          <Image Filename="templates\media\overlays\thinframewhite.png" />
+        </Decoration>
+        <Decoration Type="BlurFilterDecoration">
+          <CoverageArea X="0" Y="0" Width="1" Height="1" />
+        </Decoration>
+        <Decoration Type="ImageDecoration" Aspect="3" OriTemImageNum="3" InEffect="FlyingForest3Image3Slide4" Brightness="0.95,0.95,0.95" Contrast="0.9,0.9,0.9">
+          <CoverageArea X="0.435" Y="0.424667" Width="0.113" Height="0.15066" />
+          <Image Filename="image3" />
+        </Decoration>
+        <Decoration Type="ImageDecoration" TemplateFramework="True" InEffect="FlyingForest3Image3Slide4" UsePreviousDecorationCoverageAreaPercent="4" Brightness="0.9,0.9,0.9" Contrast="0.8,0.8,0.8">
+          <AlphaMap Filename="outlinemasks\smooth edge.jpg" />
+          <Image Filename="templates\media\overlays\thinframewhite.png" />
+        </Decoration>
+        <Decoration Type="BlurFilterDecoration" BlurFilterType="1">
+          <CoverageArea X="0" Y="0" Width="1" Height="1" />
+        </Decoration>
+        <Decoration Type="ColourTransformDecoration" br="1.02" bg="1.05" bb="0.95" cr="1.3" cg="1.2" cb="1.2" gamma="1">
+          <CoverageArea X="0" Y="0" Width="1" Height="1" />
+        </Decoration>
+        <Decoration Type="VideoDecoration" VideoName="filters\film burn(add).pvsv" Volume="0" GlobalPlayer="True" FlipY="True" RenderMethod="1">
+          <CoverageArea X="0" Y="0" Width="1" Height="1" />
+        </Decoration>
+        <Decoration Type="ImageDecoration" Border="True">
+          <CoverageArea X="0" Y="0" Width="1" Height="1" />
+          <Image Filename="borders\vignette1.pvsi" />
+        </Decoration>
+        <PanZoom>
+          <StartArea X="0" Y="0" Width="1" Height="1" />
+          <EndArea X="0" Y="0" Width="1" Height="1" />
+          <Equation Type="Linear" />
+        </PanZoom>
+      </Slide>
+      <Slide Type="BlankStillPictureSlide" PanZoom="False" DisplayTimeLength="4" UsesDefaultTransitionEffect="True" ForceMBSubFrames="5" Color="Color [Black]">
+        <TransitionEffect Type="MiddleSaturateToColorTransitionEffect" Color="Color [White]" Length="0" Index="9" />
+        <Decoration Type="ImageDecoration" Aspect="2" OriTemImageNum="7" InEffect="FlyingForest3BackgroundSlide5" Brightness="0.9,0.9,0.9">
+          <CoverageArea X="0" Y="0" Width="1" Height="1" />
+          <Image Filename="templates\media\forest2.jpg" />
+        </Decoration>
+        <Decoration Type="ImageDecoration" Aspect="3" OriTemImageNum="2" InEffect="FlyingForest3Image2Slide5" Brightness="0.95,0.95,0.95" Contrast="0.9,0.9,0.9">
+          <CoverageArea X="0.4435" Y="0.424667" Width="0.113" Height="0.15066" />
+          <Image Filename="image2" />
+        </Decoration>
+        <Decoration Type="ImageDecoration" TemplateFramework="True" InEffect="FlyingForest3Image2Slide5" UsePreviousDecorationCoverageAreaPercent="4" Brightness="0.9,0.9,0.9" Contrast="0.8,0.8,0.8">
+          <AlphaMap Filename="outlinemasks\smooth edge.jpg" />
+          <Image Filename="templates\media\overlays\thinframewhite.png" />
+        </Decoration>
+        <Decoration Type="BlurFilterDecoration">
+          <CoverageArea X="0" Y="0" Width="1" Height="1" />
+        </Decoration>
+        <Decoration Type="VideoDecoration" VideoName="filters\particles light(add).pvsv" Volume="0" GlobalPlayer="True" FlipY="True" RenderMethod="1">
+          <CoverageArea X="0" Y="0" Width="1" Height="1" />
+        </Decoration>
+        <Decoration Type="ImageDecoration" Aspect="3" OriTemImageNum="3" InEffect="FlyingForest3Image3Slide5" Brightness="0.95,0.95,0.95" Contrast="0.9,0.9,0.9">
+          <CoverageArea X="0.435" Y="0.424667" Width="0.113" Height="0.15066" />
+          <Image Filename="image3" />
+        </Decoration>
+        <Decoration Type="ImageDecoration" TemplateFramework="True" InEffect="FlyingForest3Image3Slide5" UsePreviousDecorationCoverageAreaPercent="4" Brightness="0.9,0.9,0.9" Contrast="0.8,0.8,0.8">
+          <AlphaMap Filename="outlinemasks\smooth edge.jpg" />
+          <Image Filename="templates\media\overlays\thinframewhite.png" />
+        </Decoration>
+        <Decoration Type="BlurFilterDecoration" BlurFilterType="1">
+          <CoverageArea X="0" Y="0" Width="1" Height="1" />
+        </Decoration>
+        <Decoration Type="ColourTransformDecoration" br="1.02" bg="1.05" bb="0.95" cr="1.3" cg="1.2" cb="1.2" gamma="1">
+          <CoverageArea X="0" Y="0" Width="1" Height="1" />
+        </Decoration>
+        <Decoration Type="ImageDecoration" Border="True">
+          <CoverageArea X="0" Y="0" Width="1" Height="1" />
+          <Image Filename="borders\vignette1.pvsi" />
+        </Decoration>
+        <PanZoom>
+          <StartArea X="0" Y="0" Width="1" Height="1" />
+          <EndArea X="0" Y="0" Width="1" Height="1" />
+          <Equation Type="Linear" />
+        </PanZoom>
+      </Slide>
+      <Slide Type="BlankStillPictureSlide" PanZoom="False" DisplayTimeLength="0.5" UsesDefaultTransitionEffect="True" ForceMBSubFrames="30" Color="Color [Black]">
+        <TransitionEffect Type="MiddleSaturateToColorTransitionEffect" Color="Color [White]" Length="0" Index="9" />
+        <Decoration Type="ImageDecoration" Aspect="2" OriTemImageNum="7" InEffect="FlyingForest3BackgroundSlide6" Brightness="0.9,0.9,0.9">
+          <CoverageArea X="0" Y="0" Width="1" Height="1" />
+          <Image Filename="templates\media\forest2.jpg" />
+        </Decoration>
+        <Decoration Type="ImageDecoration" Aspect="3" OriTemImageNum="2" InEffect="FlyingForest3Image2Slide6" Brightness="0.95,0.95,0.95" Contrast="0.9,0.9,0.9">
+          <CoverageArea X="0.4435" Y="0.424667" Width="0.113" Height="0.15066" />
+          <Image Filename="image2" />
+        </Decoration>
+        <Decoration Type="ImageDecoration" TemplateFramework="True" InEffect="FlyingForest3Image2Slide6" UsePreviousDecorationCoverageAreaPercent="4" Brightness="0.9,0.9,0.9" Contrast="0.8,0.8,0.8">
+          <AlphaMap Filename="outlinemasks\smooth edge.jpg" />
+          <Image Filename="templates\media\overlays\thinframewhite.png" />
+        </Decoration>
+        <Decoration Type="ImageDecoration" Aspect="3" OriTemImageNum="3" InEffect="FlyingForest3Image3Slide6" Brightness="0.95,0.95,0.95" Contrast="0.9,0.9,0.9">
+          <CoverageArea X="0.435" Y="0.424667" Width="0.113" Height="0.15066" />
+          <Image Filename="image3" />
+        </Decoration>
+        <Decoration Type="ImageDecoration" TemplateFramework="True" InEffect="FlyingForest3Image3Slide6" UsePreviousDecorationCoverageAreaPercent="4" Brightness="0.9,0.9,0.9" Contrast="0.8,0.8,0.8">
+          <AlphaMap Filename="outlinemasks\smooth edge.jpg" />
+          <Image Filename="templates\media\overlays\thinframewhite.png" />
+        </Decoration>
+        <Decoration Type="BlurFilterDecoration">
+          <CoverageArea X="0" Y="0" Width="1" Height="1" />
+        </Decoration>
+        <Decoration Type="VideoDecoration" VideoName="filters\particles light(add).pvsv" Volume="0" GlobalPlayer="True" FlipY="True" RenderMethod="1">
+          <CoverageArea X="0" Y="0" Width="1" Height="1" />
+        </Decoration>
+        <Decoration Type="ImageDecoration" Aspect="3" OriTemImageNum="4" InEffect="FlyingForest3Image4Slide6" Brightness="0.95,0.95,0.95" Contrast="0.9,0.9,0.9">
+          <CoverageArea X="0.4435" Y="0.424667" Width="0.113" Height="0.15066" />
+          <Image Filename="image4" />
+        </Decoration>
+        <Decoration Type="ImageDecoration" TemplateFramework="True" InEffect="FlyingForest3Image4Slide6" UsePreviousDecorationCoverageAreaPercent="4" Brightness="0.9,0.9,0.9" Contrast="0.8,0.8,0.8">
+          <AlphaMap Filename="outlinemasks\smooth edge.jpg" />
+          <Image Filename="templates\media\overlays\thinframewhite.png" />
+        </Decoration>
+        <Decoration Type="BlurFilterDecoration" BlurFilterType="1">
+          <CoverageArea X="0" Y="0" Width="1" Height="1" />
+        </Decoration>
+        <Decoration Type="ColourTransformDecoration" br="1.02" bg="1.05" bb="0.95" cr="1.3" cg="1.2" cb="1.2" gamma="1">
+          <CoverageArea X="0" Y="0" Width="1" Height="1" />
+        </Decoration>
+        <Decoration Type="ImageDecoration" Border="True">
+          <CoverageArea X="0" Y="0" Width="1" Height="1" />
+          <Image Filename="borders\vignette1.pvsi" />
+        </Decoration>
+        <PanZoom>
+          <StartArea X="0" Y="0" Width="1" Height="1" />
+          <EndArea X="0" Y="0" Width="1" Height="1" />
+          <Equation Type="Linear" />
+        </PanZoom>
+      </Slide>
+      <Slide Type="BlankStillPictureSlide" PanZoom="False" DisplayTimeLength="4" UsesDefaultTransitionEffect="True" ForceMBSubFrames="5" Color="Color [Black]">
+        <TransitionEffect Type="MiddleSaturateToColorTransitionEffect" Color="Color [White]" Length="0" Index="9" />
+        <Decoration Type="ImageDecoration" Aspect="2" OriTemImageNum="7" InEffect="FlyingForest3BackgroundSlide7" Brightness="0.9,0.9,0.9">
+          <CoverageArea X="0" Y="0" Width="1" Height="1" />
+          <Image Filename="templates\media\forest2.jpg" />
+        </Decoration>
+        <Decoration Type="ImageDecoration" Aspect="3" OriTemImageNum="2" InEffect="FlyingForest3Image2Slide7" Brightness="0.95,0.95,0.95" Contrast="0.9,0.9,0.9">
+          <CoverageArea X="0.4435" Y="0.424667" Width="0.113" Height="0.15066" />
+          <Image Filename="image2" />
+        </Decoration>
+        <Decoration Type="ImageDecoration" TemplateFramework="True" InEffect="FlyingForest3Image2Slide7" UsePreviousDecorationCoverageAreaPercent="4" Brightness="0.9,0.9,0.9" Contrast="0.8,0.8,0.8">
+          <AlphaMap Filename="outlinemasks\smooth edge.jpg" />
+          <Image Filename="templates\media\overlays\thinframewhite.png" />
+        </Decoration>
+        <Decoration Type="ImageDecoration" Aspect="3" OriTemImageNum="3" InEffect="FlyingForest3Image3Slide7" Brightness="0.95,0.95,0.95" Contrast="0.9,0.9,0.9">
+          <CoverageArea X="0.435" Y="0.424667" Width="0.113" Height="0.15066" />
+          <Image Filename="image3" />
+        </Decoration>
+        <Decoration Type="ImageDecoration" TemplateFramework="True" InEffect="FlyingForest3Image3Slide7" UsePreviousDecorationCoverageAreaPercent="4" Brightness="0.9,0.9,0.9" Contrast="0.8,0.8,0.8">
+          <AlphaMap Filename="outlinemasks\smooth edge.jpg" />
+          <Image Filename="templates\media\overlays\thinframewhite.png" />
+        </Decoration>
+        <Decoration Type="BlurFilterDecoration">
+          <CoverageArea X="0" Y="0" Width="1" Height="1" />
+        </Decoration>
+        <Decoration Type="VideoDecoration" VideoName="filters\particles light(add).pvsv" Volume="0" GlobalPlayer="True" FlipY="True" RenderMethod="1">
+          <CoverageArea X="0" Y="0" Width="1" Height="1" />
+        </Decoration>
+        <Decoration Type="ImageDecoration" Aspect="3" OriTemImageNum="4" InEffect="FlyingForest3Image4Slide7" Brightness="0.95,0.95,0.95" Contrast="0.9,0.9,0.9">
+          <CoverageArea X="0.4435" Y="0.424667" Width="0.113" Height="0.15066" />
+          <Image Filename="image4" />
+        </Decoration>
+        <Decoration Type="ImageDecoration" TemplateFramework="True" InEffect="FlyingForest3Image4Slide7" UsePreviousDecorationCoverageAreaPercent="4" Brightness="0.9,0.9,0.9" Contrast="0.8,0.8,0.8">
+          <AlphaMap Filename="outlinemasks\smooth edge.jpg" />
+          <Image Filename="templates\media\overlays\thinframewhite.png" />
+        </Decoration>
+        <Decoration Type="BlurFilterDecoration" BlurFilterType="1">
+          <CoverageArea X="0" Y="0" Width="1" Height="1" />
+        </Decoration>
+        <Decoration Type="ColourTransformDecoration" br="1.02" bg="1.05" bb="0.95" cr="1.3" cg="1.2" cb="1.2" gamma="1">
+          <CoverageArea X="0" Y="0" Width="1" Height="1" />
+        </Decoration>
+        <Decoration Type="ImageDecoration" Border="True">
+          <CoverageArea X="0" Y="0" Width="1" Height="1" />
+          <Image Filename="borders\vignette1.pvsi" />
+        </Decoration>
+        <PanZoom>
+          <StartArea X="0" Y="0" Width="1" Height="1" />
+          <EndArea X="0" Y="0" Width="1" Height="1" />
+          <Equation Type="Linear" />
+        </PanZoom>
+      </Slide>
+      <Slide Type="BlankStillPictureSlide" PanZoom="False" DisplayTimeLength="0.5" UsesDefaultTransitionEffect="True" ForceMBSubFrames="30" Color="Color [Black]">
+        <TransitionEffect Type="MiddleSaturateToColorTransitionEffect" Color="Color [White]" Length="0" Index="9" />
+        <Decoration Type="ImageDecoration" Aspect="2" OriTemImageNum="7" InEffect="FlyingForest3BackgroundSlide8" Brightness="0.9,0.9,0.9">
+          <CoverageArea X="0" Y="0" Width="1" Height="1" />
+          <Image Filename="templates\media\forest2.jpg" />
+        </Decoration>
+        <Decoration Type="ImageDecoration" Aspect="3" OriTemImageNum="2" InEffect="FlyingForest3Image2Slide8" Brightness="0.95,0.95,0.95" Contrast="0.9,0.9,0.9">
+          <CoverageArea X="0.4435" Y="0.424667" Width="0.113" Height="0.15066" />
+          <Image Filename="image2" />
+        </Decoration>
+        <Decoration Type="ImageDecoration" TemplateFramework="True" InEffect="FlyingForest3Image2Slide8" UsePreviousDecorationCoverageAreaPercent="4" Brightness="0.9,0.9,0.9" Contrast="0.8,0.8,0.8">
+          <AlphaMap Filename="outlinemasks\smooth edge.jpg" />
+          <Image Filename="templates\media\overlays\thinframewhite.png" />
+        </Decoration>
+        <Decoration Type="ImageDecoration" Aspect="3" OriTemImageNum="3" InEffect="FlyingForest3Image3Slide8" Brightness="0.95,0.95,0.95" Contrast="0.9,0.9,0.9">
+          <CoverageArea X="0.435" Y="0.424667" Width="0.113" Height="0.15066" />
+          <Image Filename="image3" />
+        </Decoration>
+        <Decoration Type="ImageDecoration" TemplateFramework="True" InEffect="FlyingForest3Image3Slide8" UsePreviousDecorationCoverageAreaPercent="4" Brightness="0.9,0.9,0.9" Contrast="0.8,0.8,0.8">
+          <AlphaMap Filename="outlinemasks\smooth edge.jpg" />
+          <Image Filename="templates\media\overlays\thinframewhite.png" />
+        </Decoration>
+        <Decoration Type="ImageDecoration" Aspect="3" OriTemImageNum="4" InEffect="FlyingForest3Image4Slide8" Brightness="0.95,0.95,0.95" Contrast="0.9,0.9,0.9">
+          <CoverageArea X="0.4435" Y="0.424667" Width="0.113" Height="0.15066" />
+          <Image Filename="image4" />
+        </Decoration>
+        <Decoration Type="ImageDecoration" TemplateFramework="True" InEffect="FlyingForest3Image4Slide8" UsePreviousDecorationCoverageAreaPercent="4" Brightness="0.9,0.9,0.9" Contrast="0.8,0.8,0.8">
+          <AlphaMap Filename="outlinemasks\smooth edge.jpg" />
+          <Image Filename="templates\media\overlays\thinframewhite.png" />
+        </Decoration>
+        <Decoration Type="BlurFilterDecoration">
+          <CoverageArea X="0" Y="0" Width="1" Height="1" />
+        </Decoration>
+        <Decoration Type="ImageDecoration" Aspect="3" OriTemImageNum="5" InEffect="FlyingForest3Image5Slide8" Brightness="0.95,0.95,0.95" Contrast="0.9,0.9,0.9">
+          <CoverageArea X="0.4435" Y="0.424667" Width="0.113" Height="0.15066" />
+          <Image Filename="image5" />
+        </Decoration>
+        <Decoration Type="ImageDecoration" TemplateFramework="True" InEffect="FlyingForest3Image5Slide8" UsePreviousDecorationCoverageAreaPercent="4" Brightness="0.9,0.9,0.9" Contrast="0.8,0.8,0.8">
+          <AlphaMap Filename="outlinemasks\smooth edge.jpg" />
+          <Image Filename="templates\media\overlays\thinframewhite.png" />
+        </Decoration>
+        <Decoration Type="BlurFilterDecoration" BlurFilterType="1">
+          <CoverageArea X="0" Y="0" Width="1" Height="1" />
+        </Decoration>
+        <Decoration Type="ColourTransformDecoration" br="1.02" bg="1.05" bb="0.95" cr="1.3" cg="1.2" cb="1.2" gamma="1">
+          <CoverageArea X="0" Y="0" Width="1" Height="1" />
+        </Decoration>
+        <Decoration Type="VideoDecoration" VideoName="filters\film burn(add).pvsv" Volume="0" GlobalPlayer="True" FlipY="True" RenderMethod="1">
+          <CoverageArea X="0" Y="0" Width="1" Height="1" />
+        </Decoration>
+        <Decoration Type="ImageDecoration" Border="True">
+          <CoverageArea X="0" Y="0" Width="1" Height="1" />
+          <Image Filename="borders\vignette1.pvsi" />
+        </Decoration>
+        <PanZoom>
+          <StartArea X="0" Y="0" Width="1" Height="1" />
+          <EndArea X="0" Y="0" Width="1" Height="1" />
+          <Equation Type="Linear" />
+        </PanZoom>
+      </Slide>
+      <Slide Type="BlankStillPictureSlide" PanZoom="False" DisplayTimeLength="4" UsesDefaultTransitionEffect="True" ForceMBSubFrames="5" Color="Color [Black]">
+        <TransitionEffect Type="MiddleSaturateToColorTransitionEffect" Color="Color [White]" Length="0" Index="9" />
+        <Decoration Type="ImageDecoration" Aspect="2" OriTemImageNum="7" InEffect="FlyingForest3BackgroundSlide9" Brightness="0.9,0.9,0.9">
+          <CoverageArea X="0" Y="0" Width="1" Height="1" />
+          <Image Filename="templates\media\forest2.jpg" />
+        </Decoration>
+        <Decoration Type="ImageDecoration" Aspect="3" OriTemImageNum="4" InEffect="FlyingForest3Image4Slide9" Brightness="0.95,0.95,0.95" Contrast="0.9,0.9,0.9">
+          <CoverageArea X="0.4435" Y="0.424667" Width="0.113" Height="0.15066" />
+          <Image Filename="image4" />
+        </Decoration>
+        <Decoration Type="ImageDecoration" TemplateFramework="True" InEffect="FlyingForest3Image4Slide9" UsePreviousDecorationCoverageAreaPercent="4" Brightness="0.9,0.9,0.9" Contrast="0.8,0.8,0.8">
+          <AlphaMap Filename="outlinemasks\smooth edge.jpg" />
+          <Image Filename="templates\media\overlays\thinframewhite.png" />
+        </Decoration>
+        <Decoration Type="BlurFilterDecoration">
+          <CoverageArea X="0" Y="0" Width="1" Height="1" />
+        </Decoration>
+        <Decoration Type="VideoDecoration" VideoName="filters\particles light(add).pvsv" Volume="0" GlobalPlayer="True" FlipY="True" RenderMethod="1">
+          <CoverageArea X="0" Y="0" Width="1" Height="1" />
+        </Decoration>
+        <Decoration Type="ImageDecoration" Aspect="3" OriTemImageNum="5" InEffect="FlyingForest3Image5Slide9" Brightness="0.95,0.95,0.95" Contrast="0.9,0.9,0.9">
+          <CoverageArea X="0.4435" Y="0.424667" Width="0.113" Height="0.15066" />
+          <Image Filename="image5" />
+        </Decoration>
+        <Decoration Type="ImageDecoration" TemplateFramework="True" InEffect="FlyingForest3Image5Slide9" UsePreviousDecorationCoverageAreaPercent="4" Brightness="0.9,0.9,0.9" Contrast="0.8,0.8,0.8">
+          <AlphaMap Filename="outlinemasks\smooth edge.jpg" />
+          <Image Filename="templates\media\overlays\thinframewhite.png" />
+        </Decoration>
+        <Decoration Type="BlurFilterDecoration" BlurFilterType="1">
+          <CoverageArea X="0" Y="0" Width="1" Height="1" />
+        </Decoration>
+        <Decoration Type="ColourTransformDecoration" br="1.02" bg="1.05" bb="0.95" cr="1.3" cg="1.2" cb="1.2" gamma="1">
+          <CoverageArea X="0" Y="0" Width="1" Height="1" />
+        </Decoration>
+        <Decoration Type="ImageDecoration" Border="True">
+          <CoverageArea X="0" Y="0" Width="1" Height="1" />
+          <Image Filename="borders\vignette1.pvsi" />
+        </Decoration>
+        <PanZoom>
+          <StartArea X="0" Y="0" Width="1" Height="1" />
+          <EndArea X="0" Y="0" Width="1" Height="1" />
+          <Equation Type="Linear" />
+        </PanZoom>
+      </Slide>
+      <Slide Type="BlankStillPictureSlide" PanZoom="False" DisplayTimeLength="0.5" UsesDefaultTransitionEffect="True" ForceMBSubFrames="30" Color="Color [Black]">
+        <TransitionEffect Type="MiddleSaturateToColorTransitionEffect" Color="Color [White]" Length="0" Index="9" />
+        <Decoration Type="ImageDecoration" Aspect="2" OriTemImageNum="7" InEffect="FlyingForest3BackgroundSlide10" Brightness="0.9,0.9,0.9">
+          <CoverageArea X="0" Y="0" Width="1" Height="1" />
+          <Image Filename="templates\media\forest2.jpg" />
+        </Decoration>
+        <Decoration Type="ImageDecoration" Aspect="3" OriTemImageNum="4" InEffect="FlyingForest3Image4Slide10" Brightness="0.95,0.95,0.95" Contrast="0.9,0.9,0.9">
+          <CoverageArea X="0.4435" Y="0.424667" Width="0.113" Height="0.15066" />
+          <Image Filename="image4" />
+        </Decoration>
+        <Decoration Type="ImageDecoration" TemplateFramework="True" InEffect="FlyingForest3Image4Slide10" UsePreviousDecorationCoverageAreaPercent="4" Brightness="0.9,0.9,0.9" Contrast="0.8,0.8,0.8">
+          <AlphaMap Filename="outlinemasks\smooth edge.jpg" />
+          <Image Filename="templates\media\overlays\thinframewhite.png" />
+        </Decoration>
+        <Decoration Type="BlurFilterDecoration">
+          <CoverageArea X="0" Y="0" Width="1" Height="1" />
+        </Decoration>
+        <Decoration Type="VideoDecoration" VideoName="filters\particles light(add).pvsv" Volume="0" GlobalPlayer="True" FlipY="True" RenderMethod="1">
+          <CoverageArea X="0" Y="0" Width="1" Height="1" />
+        </Decoration>
+        <Decoration Type="ImageDecoration" Aspect="3" OriTemImageNum="5" InEffect="FlyingForest3Image5Slide10" Brightness="0.95,0.95,0.95" Contrast="0.9,0.9,0.9">
+          <CoverageArea X="0.4435" Y="0.424667" Width="0.113" Height="0.15066" />
+          <Image Filename="image5" />
+        </Decoration>
+        <Decoration Type="ImageDecoration" TemplateFramework="True" InEffect="FlyingForest3Image5Slide10" UsePreviousDecorationCoverageAreaPercent="4" Brightness="0.9,0.9,0.9" Contrast="0.8,0.8,0.8">
+          <AlphaMap Filename="outlinemasks\smooth edge.jpg" />
+          <Image Filename="templates\media\overlays\thinframewhite.png" />
+        </Decoration>
+        <Decoration Type="ImageDecoration" Aspect="3" OriTemImageNum="6" InEffect="FlyingForest3Image6Slide10" Brightness="0.95,0.95,0.95" Contrast="0.9,0.9,0.9">
+          <CoverageArea X="0.4435" Y="0.424667" Width="0.113" Height="0.15066" />
+          <Image Filename="image6" />
+        </Decoration>
+        <Decoration Type="ImageDecoration" TemplateFramework="True" InEffect="FlyingForest3Image6Slide10" UsePreviousDecorationCoverageAreaPercent="4" Brightness="0.9,0.9,0.9" Contrast="0.8,0.8,0.8">
+          <AlphaMap Filename="outlinemasks\smooth edge.jpg" />
+          <Image Filename="templates\media\overlays\thinframewhite.png" />
+        </Decoration>
+        <Decoration Type="BlurFilterDecoration" BlurFilterType="1">
+          <CoverageArea X="0" Y="0" Width="1" Height="1" />
+        </Decoration>
+        <Decoration Type="ColourTransformDecoration" br="1.02" bg="1.05" bb="0.95" cr="1.3" cg="1.2" cb="1.2" gamma="1">
+          <CoverageArea X="0" Y="0" Width="1" Height="1" />
+        </Decoration>
+        <Decoration Type="ImageDecoration" Border="True">
+          <CoverageArea X="0" Y="0" Width="1" Height="1" />
+          <Image Filename="borders\vignette1.pvsi" />
+        </Decoration>
+        <PanZoom>
+          <StartArea X="0" Y="0" Width="1" Height="1" />
+          <EndArea X="0" Y="0" Width="1" Height="1" />
+          <Equation Type="Linear" />
+        </PanZoom>
+      </Slide>
+      <Slide Type="BlankStillPictureSlide" PanZoom="False" DisplayTimeLength="4" ForceMBSubFrames="5" Color="Color [Black]">
+        <TransitionEffect Type="MiddleSaturateToColorTransitionEffect" Color="Color [White]" Length="0.5" Index="9" />
+        <Decoration Type="ImageDecoration" Aspect="2" OriTemImageNum="7" InEffect="FlyingForest3BackgroundSlide11" Brightness="0.9,0.9,0.9">
+          <CoverageArea X="0" Y="0" Width="1" Height="1" />
+          <Image Filename="templates\media\forest2.jpg" />
+        </Decoration>
+        <Decoration Type="BlurFilterDecoration">
+          <CoverageArea X="0" Y="0" Width="1" Height="1" />
+        </Decoration>
+        <Decoration Type="VideoDecoration" VideoName="filters\particles light(add).pvsv" Volume="0" GlobalPlayer="True" FlipY="True" RenderMethod="1">
+          <CoverageArea X="0" Y="0" Width="1" Height="1" />
+        </Decoration>
+        <Decoration Type="ImageDecoration" Aspect="3" OriTemImageNum="6" InEffect="FlyingForest3Image6Slide11" Brightness="0.95,0.95,0.95" Contrast="0.9,0.9,0.9">
+          <CoverageArea X="0.4435" Y="0.424667" Width="0.113" Height="0.15066" />
+          <Image Filename="image6" />
+        </Decoration>
+        <Decoration Type="ImageDecoration" TemplateFramework="True" InEffect="FlyingForest3Image6Slide11" UsePreviousDecorationCoverageAreaPercent="4" Brightness="0.9,0.9,0.9" Contrast="0.8,0.8,0.8">
+          <AlphaMap Filename="outlinemasks\smooth edge.jpg" />
+          <Image Filename="templates\media\overlays\thinframewhite.png" />
+        </Decoration>
+        <Decoration Type="BlurFilterDecoration" BlurFilterType="1">
+          <CoverageArea X="0" Y="0" Width="1" Height="1" />
+        </Decoration>
+        <Decoration Type="ColourTransformDecoration" br="1.02" bg="1.05" bb="0.95" cr="1.3" cg="1.2" cb="1.2" gamma="1">
+          <CoverageArea X="0" Y="0" Width="1" Height="1" />
+        </Decoration>
+        <Decoration Type="ImageDecoration" Border="True">
+          <CoverageArea X="0" Y="0" Width="1" Height="1" />
+          <Image Filename="borders\vignette1.pvsi" />
+        </Decoration>
+        <PanZoom>
+          <StartArea X="0" Y="0" Width="1" Height="1" />
+          <EndArea X="0" Y="0" Width="1" Height="1" />
+          <Equation Type="Linear" />
+        </PanZoom>
+      </Slide>
+    </Slide>
+  </Slideshow>
+  <DecorationEffectsDatabase>
+    <DecorationEffect Name="FlyingForest3BackgroundSlide1" Length="4" TemplateOnlyEffect="True">
+      <Movement Type="StraightLineMovement" InitialDelay="0" EndDelay="0">
+        <Start X="-0.12" Y="0" Z="0" />
+        <End X="-0.12" Y="0" Z="0" />
+        <Equation Type="Linear" />
+      </Movement>
+      <Zoom InitialDelay="0" EndDelay="0" StartZoom="1.3" EndZoom="1.4">
+        <Equation Type="Linear" />
+      </Zoom>
+    </DecorationEffect>
+    <DecorationEffect Name="FlyingForest3BackgroundSlide2" Length="0.5" TemplateOnlyEffect="True">
+      <Movement Type="StraightLineMovement" InitialDelay="0" EndDelay="0">
+        <Start X="-0.12" Y="0" Z="0" />
+        <End X="-0.08" Y="0" Z="0" />
+        <Equation Type="Linear" />
+      </Movement>
+      <Zoom InitialDelay="0" EndDelay="0" StartZoom="1.4" EndZoom="1.7">
+        <Equation Type="Linear" />
+      </Zoom>
+    </DecorationEffect>
+    <DecorationEffect Name="FlyingForest3BackgroundSlide3" Length="4" TemplateOnlyEffect="True">
+      <Movement Type="StraightLineMovement" InitialDelay="0" EndDelay="0">
+        <Start X="-0.08" Y="0" Z="0" />
+        <End X="-0.06" Y="0" Z="0" />
+        <Equation Type="Linear" />
+      </Movement>
+      <Zoom InitialDelay="0" EndDelay="0" StartZoom="1.7" EndZoom="1.7">
+        <Equation Type="Linear" />
+      </Zoom>
+    </DecorationEffect>
+    <DecorationEffect Name="FlyingForest3BackgroundSlide4" Length="0.5" TemplateOnlyEffect="True">
+      <Movement Type="StraightLineMovement" InitialDelay="0" EndDelay="0">
+        <Start X="-0.06" Y="0" Z="0" />
+        <End X="0.1" Y="0" Z="0" />
+        <Equation Type="Linear" />
+      </Movement>
+      <Zoom InitialDelay="0" EndDelay="0" StartZoom="1.7" EndZoom="1.5">
+        <Equation Type="Linear" />
+      </Zoom>
+    </DecorationEffect>
+    <DecorationEffect Name="FlyingForest3BackgroundSlide5" Length="4" TemplateOnlyEffect="True">
+      <Movement Type="StraightLineMovement" InitialDelay="0" EndDelay="0">
+        <Start X="0.1" Y="0" Z="0" />
+        <End X="0.1" Y="-0.01" Z="0" />
+        <Equation Type="Linear" />
+      </Movement>
+      <Zoom InitialDelay="0" EndDelay="0" StartZoom="1.5" EndZoom="1.5">
+        <Equation Type="Linear" />
+      </Zoom>
+    </DecorationEffect>
+    <DecorationEffect Name="FlyingForest3BackgroundSlide6" Length="0.5" TemplateOnlyEffect="True">
+      <Movement Type="StraightLineMovement" InitialDelay="0" EndDelay="0">
+        <Start X="0.1" Y="-0.01" Z="0" />
+        <End X="0" Y="-0.01" Z="0" />
+        <Equation Type="Linear" />
+      </Movement>
+      <Zoom InitialDelay="0" EndDelay="0" StartZoom="1.5" EndZoom="1.3">
+        <Equation Type="Linear" />
+      </Zoom>
+    </DecorationEffect>
+    <DecorationEffect Name="FlyingForest3BackgroundSlide7" Length="4" TemplateOnlyEffect="True">
+      <Movement Type="StraightLineMovement" InitialDelay="0" EndDelay="0">
+        <Start X="0" Y="-0.01" Z="0" />
+        <End X="0" Y="-0.01" Z="0" />
+        <Equation Type="Linear" />
+      </Movement>
+      <Zoom InitialDelay="0" EndDelay="0" StartZoom="1.3" EndZoom="1.25">
+        <Equation Type="Linear" />
+      </Zoom>
+    </DecorationEffect>
+    <DecorationEffect Name="FlyingForest3BackgroundSlide8" Length="0.5" TemplateOnlyEffect="True">
+      <Movement Type="StraightLineMovement" InitialDelay="0" EndDelay="0">
+        <Start X="0" Y="-0.01" Z="0" />
+        <End X="-0.07" Y="-0.01" Z="0" />
+        <Equation Type="Linear" />
+      </Movement>
+      <Zoom InitialDelay="0" EndDelay="0" StartZoom="1.25" EndZoom="1.2">
+        <Equation Type="Linear" />
+      </Zoom>
+    </DecorationEffect>
+    <DecorationEffect Name="FlyingForest3BackgroundSlide9" Length="4" TemplateOnlyEffect="True">
+      <Movement Type="StraightLineMovement" InitialDelay="0" EndDelay="0">
+        <Start X="-0.07" Y="-0.01" Z="0" />
+        <End X="-0.07" Y="-0.01" Z="0" />
+        <Equation Type="Linear" />
+      </Movement>
+      <Zoom InitialDelay="0" EndDelay="0" StartZoom="1.2" EndZoom="1.18">
+        <Equation Type="Linear" />
+      </Zoom>
+    </DecorationEffect>
+    <DecorationEffect Name="FlyingForest3BackgroundSlide10" Length="0.5" TemplateOnlyEffect="True">
+      <Movement Type="StraightLineMovement" InitialDelay="0" EndDelay="0">
+        <Start X="-0.07" Y="-0.01" Z="0" />
+        <End X="-0.09" Y="-0.01" Z="0" />
+        <Equation Type="Linear" />
+      </Movement>
+      <Zoom InitialDelay="0" EndDelay="0" StartZoom="1.18" EndZoom="1.18">
+        <Equation Type="Linear" />
+      </Zoom>
+    </DecorationEffect>
+    <DecorationEffect Name="FlyingForest3BackgroundSlide11" Length="4" TemplateOnlyEffect="True">
+      <Movement Type="StraightLineMovement" InitialDelay="0" EndDelay="0">
+        <Start X="-0.09" Y="-0.01" Z="0" />
+        <End X="-0.09" Y="-0.01" Z="0" />
+        <Equation Type="Linear" />
+      </Movement>
+      <Zoom InitialDelay="0" EndDelay="0" StartZoom="1.18" EndZoom="1.21">
+        <Equation Type="Linear" />
+      </Zoom>
+    </DecorationEffect>
+    <DecorationEffect Name="FlyingForest3ForgroundSlide1" Length="4" TemplateOnlyEffect="True">
+      <Movement Type="StraightLineMovement" InitialDelay="0" EndDelay="0">
+        <Start X="0.2" Y="0.08" Z="0" />
+        <End X="0.2" Y="0.08" Z="0" />
+        <Equation Type="Linear" />
+      </Movement>
+      <Zoom InitialDelay="0" EndDelay="0" StartZoom="1.1" EndZoom="1.5">
+        <Equation Type="Linear" />
+      </Zoom>
+    </DecorationEffect>
+    <DecorationEffect Name="FlyingForest3ForgroundSlide2" Length="0.5" TemplateOnlyEffect="True">
+      <TransitionEffect Type="SimpleAlphaBlendTransitionEffect" Length="1.5" EndDelay="0.45" />
+      <Movement Type="StraightLineMovement" InitialDelay="0" EndDelay="0.08999997">
+        <Start X="0.35" Y="0" Z="0" />
+        <End X="1.85" Y="0" Z="0" />
+        <Equation Type="Linear" />
+      </Movement>
+      <Zoom InitialDelay="0" EndDelay="0" StartZoom="1.3" EndZoom="3">
+        <Equation Type="Linear" />
+      </Zoom>
+    </DecorationEffect>
+    <DecorationEffect Name="FlyingForest3Image1Slide1" Length="4" TemplateOnlyEffect="True">
+      <Movement Type="StraightLineMovement" TranslateXY="True" InitialDelay="0" EndDelay="0">
+        <Start X="0.01" Y="0" Z="0.23" />
+        <End X="0.01" Y="0" Z="0.2" />
+        <Equation Type="Linear" />
+      </Movement>
+    </DecorationEffect>
+    <DecorationEffect Name="FlyingForest3Image1Slide2" Length="0.5" TemplateOnlyEffect="True">
+      <Movement Type="StraightLineMovement" TranslateXY="True" InitialDelay="0" EndDelay="0">
+        <Start X="0.03" Y="0" Z="0.2" />
+        <End X="0.2" Y="0" Z="0.03" />
+        <Equation Type="Linear" />
+      </Movement>
+    </DecorationEffect>
+    <DecorationEffect Name="FlyingForest3Image2Slide2" Length="0.5" TemplateOnlyEffect="True">
+      <Movement Type="StraightLineMovement" TranslateXY="True" InitialDelay="0" EndDelay="0">
+        <Start X="-0.19" Y="0" Z="0.37" />
+        <End X="-0.02" Y="0" Z="0.2" />
+        <Equation Type="Linear" />
+      </Movement>
+    </DecorationEffect>
+    <DecorationEffect Name="FlyingForest3Image2Slide4" Length="0.5" TemplateOnlyEffect="True">
+      <Movement Type="StraightLineMovement" TranslateXY="True" InitialDelay="0" EndDelay="0">
+        <Start X="0" Y="0" Z="0.2" />
+        <End X="0.35" Y="0" Z="0.37" />
+        <Equation Type="Linear" />
+      </Movement>
+    </DecorationEffect>
+    <DecorationEffect Name="FlyingForest3Image2Slide5" Length="4" TemplateOnlyEffect="True">
+      <Movement Type="StraightLineMovement" TranslateXY="True" InitialDelay="0" EndDelay="0">
+        <Start X="0.35" Y="0" Z="0.37" />
+        <End X="0.35" Y="-0.04" Z="0.37" />
+        <Equation Type="Linear" />
+      </Movement>
+    </DecorationEffect>
+    <DecorationEffect Name="FlyingForest3Image3Slide4" Length="0.5" TemplateOnlyEffect="True">
+      <Movement Type="StraightLineMovement" TranslateXY="True" InitialDelay="0" EndDelay="0">
+        <Start X="-0.34" Y="0.02" Z="0.03" />
+        <End X="0.01" Y="0.02" Z="0.2" />
+        <Equation Type="Linear" />
+      </Movement>
+    </DecorationEffect>
+    <DecorationEffect Name="FlyingForest3Image3Slide6" Length="0.5" TemplateOnlyEffect="True">
+      <Movement Type="StraightLineMovement" TranslateXY="True" InitialDelay="0" EndDelay="0">
+        <Start X="0.01" Y="-0.02" Z="0.2" />
+        <End X="-0.36" Y="-0.02" Z="0.8" />
+        <Equation Type="Linear" />
+      </Movement>
+    </DecorationEffect>
+    <DecorationEffect Name="FlyingForest3Image3Slide7" Length="4" TemplateOnlyEffect="True">
+      <Movement Type="StraightLineMovement" TranslateXY="True" InitialDelay="0" EndDelay="0">
+        <Start X="-0.36" Y="-0.02" Z="0.8" />
+        <End X="-0.36" Y="-0.02" Z="0.84" />
+        <Equation Type="Linear" />
+      </Movement>
+    </DecorationEffect>
+    <DecorationEffect Name="FlyingForest3Image3Slide8" Length="0.5" TemplateOnlyEffect="True">
+      <Movement Type="StraightLineMovement" TranslateXY="True" InitialDelay="0" EndDelay="0">
+        <Start X="-0.36" Y="-0.02" Z="0.84" />
+        <End X="-0.56" Y="-0.02" Z="1.04" />
+        <Equation Type="Linear" />
+      </Movement>
+    </DecorationEffect>
+    <DecorationEffect Name="FlyingForest3Image4Slide6" Length="0.5" TemplateOnlyEffect="True">
+      <TransitionEffect Type="SimpleAlphaBlendTransitionEffect" Length="1.5" InitialDelay="0.58" EndDelay="0.3" />
+      <Movement Type="StraightLineMovement" InitialDelay="0" EndDelay="0">
+        <Start X="0.34" Y="0" Z="-0.4" />
+        <End X="0" Y="0" Z="0.2" />
+        <Equation Type="Linear" />
+      </Movement>
+    </DecorationEffect>
+    <DecorationEffect Name="FlyingForest3Image4Slide7" Length="4" TemplateOnlyEffect="True">
+      <Movement Type="StraightLineMovement" TranslateXY="True" InitialDelay="0" EndDelay="0">
+        <Start X="0" Y="0" Z="0.2" />
+        <End X="0" Y="0" Z="0.24" />
+        <Equation Type="Linear" />
+      </Movement>
+    </DecorationEffect>
+    <DecorationEffect Name="FlyingForest3Image4Slide8" Length="0.5" TemplateOnlyEffect="True">
+      <Movement Type="StraightLineMovement" TranslateXY="True" InitialDelay="0" EndDelay="0">
+        <Start X="0" Y="0" Z="0.24" />
+        <End X="-0.2" Y="0" Z="0.44" />
+        <Equation Type="Linear" />
+      </Movement>
+    </DecorationEffect>
+    <DecorationEffect Name="FlyingForest3Image4Slide9" Length="4" TemplateOnlyEffect="True">
+      <Movement Type="StraightLineMovement" TranslateXY="True" InitialDelay="0" EndDelay="0">
+        <Start X="-0.2" Y="0" Z="0.44" />
+        <End X="-0.2" Y="0" Z="0.5" />
+        <Equation Type="Linear" />
+      </Movement>
+    </DecorationEffect>
+    <DecorationEffect Name="FlyingForest3Image4Slide10" Length="0.5" TemplateOnlyEffect="True">
+      <Movement Type="StraightLineMovement" TranslateXY="True" InitialDelay="0" EndDelay="0">
+        <Start X="-0.2" Y="0" Z="0.5" />
+        <End X="-0.4" Y="0" Z="0.5" />
+        <Equation Type="Linear" />
+      </Movement>
+    </DecorationEffect>
+    <DecorationEffect Name="FlyingForest3Image5Slide9" Length="4" TemplateOnlyEffect="True">
+      <Movement Type="StraightLineMovement" TranslateXY="True" InitialDelay="0" EndDelay="0">
+        <Start X="0" Y="0" Z="0.1" />
+        <End X="0" Y="0" Z="0.16" />
+        <Equation Type="Linear" />
+      </Movement>
+    </DecorationEffect>
+    <DecorationEffect Name="FlyingForest3Image5Slide10" Length="0.5" TemplateOnlyEffect="True">
+      <Movement Type="StraightLineMovement" InitialDelay="0" EndDelay="0">
+        <Start X="0" Y="0" Z="0.16" />
+        <End X="-0.2" Y="0" Z="0.16" />
+        <Equation Type="Linear" />
+      </Movement>
+    </DecorationEffect>
+    <DecorationEffect Name="FlyingForest3Image6Slide11" Length="4" TemplateOnlyEffect="True">
+      <Movement Type="StraightLineMovement" TranslateXY="True" InitialDelay="0" EndDelay="0">
+        <Start X="0" Y="0" Z="0.16" />
+        <End X="0" Y="0" Z="0.13" />
+        <Equation Type="Linear" />
+      </Movement>
+    </DecorationEffect>
+    <DecorationEffect Name="FlyingForest3Image2Slide1" Length="4" TemplateOnlyEffect="True">
+      <Movement Type="StraightLineMovement" TranslateXY="True" InitialDelay="0" EndDelay="0">
+        <Start X="-0.19" Y="0" Z="0.4" />
+        <End X="-0.19" Y="0" Z="0.37" />
+        <Equation Type="Linear" />
+      </Movement>
+    </DecorationEffect>
+    <DecorationEffect Name="FlyingForest3Image2Slide3" Length="4" TemplateOnlyEffect="True">
+      <Movement Type="StraightLineMovement" TranslateXY="True" InitialDelay="0" EndDelay="0">
+        <Start X="-0.02" Y="0" Z="0.2" />
+        <End X="0" Y="0" Z="0.2" />
+        <Equation Type="Linear" />
+      </Movement>
+    </DecorationEffect>
+    <DecorationEffect Name="FlyingForest3Image3Slide5" Length="4" TemplateOnlyEffect="True">
+      <Movement Type="StraightLineMovement" TranslateXY="True" InitialDelay="0" EndDelay="0">
+        <Start X="0.01" Y="0.02" Z="0.2" />
+        <End X="0.01" Y="-0.02" Z="0.2" />
+        <Equation Type="Linear" />
+      </Movement>
+    </DecorationEffect>
+    <DecorationEffect Name="FlyingForest3Image2Slide6" Length="0.5" TemplateOnlyEffect="True">
+      <Movement Type="StraightLineMovement" TranslateXY="True" InitialDelay="0" EndDelay="0">
+        <Start X="0.35" Y="-0.04" Z="0.37" />
+        <End X="0.17" Y="-0.04" Z="0.97" />
+        <Equation Type="Linear" />
+      </Movement>
+    </DecorationEffect>
+    <DecorationEffect Name="FlyingForest3Image2Slide7" Length="0.5" TemplateOnlyEffect="True">
+      <Movement Type="StraightLineMovement" TranslateXY="True" InitialDelay="0" EndDelay="0">
+        <Start X="0.17" Y="-0.04" Z="0.97" />
+        <End X="0.17" Y="-0.04" Z="1.01" />
+        <Equation Type="Linear" />
+      </Movement>
+    </DecorationEffect>
+    <DecorationEffect Name="FlyingForest3Image2Slide8" Length="0.5" TemplateOnlyEffect="True">
+      <Movement Type="StraightLineMovement" TranslateXY="True" InitialDelay="0" EndDelay="0">
+        <Start X="0.17" Y="-0.04" Z="1.2" />
+        <End X="-0.03" Y="-0.04" Z="1.4" />
+        <Equation Type="Linear" />
+      </Movement>
+    </DecorationEffect>
+    <DecorationEffect Name="FlyingForest3Image5Slide8" Length="0.5" TemplateOnlyEffect="True">
+      <Movement Type="StraightLineMovement" TranslateXY="True" InitialDelay="0" EndDelay="0">
+        <Start X="0.2" Y="0" Z="-0.1" />
+        <End X="0" Y="0" Z="0.1" />
+        <Equation Type="Linear" />
+      </Movement>
+    </DecorationEffect>
+    <DecorationEffect Name="FlyingForest3Image6Slide10" Length="0.5" TemplateOnlyEffect="True">
+      <Movement Type="StraightLineMovement" TranslateXY="True" InitialDelay="0" EndDelay="0">
+        <Start X="0.2" Y="0" Z="0.16" />
+        <End X="0" Y="0" Z="0.16" />
+        <Equation Type="Linear" />
+      </Movement>
+    </DecorationEffect>
+  </DecorationEffectsDatabase>
+</Template>

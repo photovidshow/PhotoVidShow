@@ -1,0 +1,59 @@
+// globals
+float4 params:  register(c0);
+
+// params[0] =  1- delta
+// params[1] =  (1/ mSpread) * 255
+// params[2] =  1 / params[1] / 2   (half spread)
+
+
+// Pixel shader input structure
+struct PS_INPUT
+{
+    float4 Position   : POSITION;
+    float2 Texture0   : TEXCOORD0;
+    float2 Texture1   : TEXCOORD1;
+};
+
+
+// Pixel shader output structure
+struct PS_OUTPUT
+{
+    float4 Color   : COLOR0;
+};
+
+sampler2D Tex0 : register(s0);
+sampler2D Tex1 : register(s1);
+
+// Name: Height Map Pixel Shader
+// Type: Pixel shader
+// Desc: Does the height map transition stuff from PVS
+//
+PS_OUTPUT ps_main( in PS_INPUT In )
+{
+    PS_OUTPUT Out;                             //create an output pixel
+
+    Out.Color = tex2D(Tex0, In.Texture0);       //lookup input texture pixel
+    float4 t1 = tex2D(Tex1, In.Texture1);       //lookup in heightmap
+
+    float hmv = t1[2] + (t1[1] *256.0);
+    hmv /= 256.0; 
+
+    if ( params[0] >= hmv  + params[2] )
+    {
+	Out.Color.a = 0;
+    }
+    else if ( params[0] < hmv  - params[2] )
+    { 
+	Out.Color.a *= 1;
+    }	
+    else
+    {
+       Out.Color.a *= 0.5 - (params[0] - hmv ) * params[1];
+    }
+
+    return Out;                                //return output pixel
+}
+
+
+
+

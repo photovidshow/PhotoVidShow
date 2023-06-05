@@ -1,0 +1,69 @@
+float4 params0: register(C0);
+
+// params0[0] = delta
+
+
+struct PS_INPUT
+{
+    float4 Position   : POSITION;
+    float2 Texture0   : TEXCOORD0;
+    float2 Texture1   : TEXCOORD1;
+};
+
+struct PS_OUTPUT
+{
+    float4 Color   : COLOR0;
+};
+
+
+sampler2D Texture1Sampler : register(S0);
+
+PS_OUTPUT ps_main( in PS_INPUT In )
+{
+    PS_OUTPUT pixelColor;
+
+    float2 uv = In.Texture0.xy;
+    float2 center = {0.5, 0.5};
+
+    float spiralStrength = 10 * params0[0];
+    float distanceThreshold = 10;
+
+    float2 dir = uv - center;
+    float l = length(dir);
+
+    dir = dir/l;
+    float angle = atan2(dir.y, dir.x);
+
+    float remainder = frac(l / distanceThreshold);
+
+    float preTransitionWidth = 0.25;
+    float fac;   
+
+    if (remainder < .25)
+    {
+       fac = 1.0;
+    }
+    else if (remainder < 0.5)
+    {
+      fac = 1 - 8 * (remainder - preTransitionWidth);
+    }
+    else if (remainder < 0.75)
+    {
+       fac = -1.0;
+    }
+    else
+    {
+       fac = -(1 - 8 * (remainder - 0.75));
+    }
+
+    float newAng = angle + fac * spiralStrength * l;
+ 
+    float xAmt = cos(newAng) * l;
+    float yAmt = sin(newAng) * l;
+      
+    float2 newCoord = center + float2(xAmt, yAmt);
+
+    pixelColor.Color = tex2D( Texture1Sampler, newCoord);
+
+    return pixelColor;
+}

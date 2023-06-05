@@ -1,0 +1,41 @@
+K 25
+svn:wc:ra_dav:version-url
+V 42
+/svnroot/direct264/!svn/ver/313/x264/tools
+END
+checkasm.c
+K 25
+svn:wc:ra_dav:version-url
+V 53
+/svnroot/direct264/!svn/ver/309/x264/tools/checkasm.c
+END
+q_matrix_jvt.cfg
+K 25
+svn:wc:ra_dav:version-url
+V 59
+/svnroot/direct264/!svn/ver/287/x264/tools/q_matrix_jvt.cfg
+END
+regression-test.pl
+K 25
+svn:wc:ra_dav:version-url
+V 61
+/svnroot/direct264/!svn/ver/287/x264/tools/regression-test.pl
+END
+checkasm-a.asm
+K 25
+svn:wc:ra_dav:version-url
+V 57
+/svnroot/direct264/!svn/ver/300/x264/tools/checkasm-a.asm
+END
+xyuv.c
+K 25
+svn:wc:ra_dav:version-url
+V 49
+/svnroot/direct264/!svn/ver/287/x264/tools/xyuv.c
+END
+countquant_x264.pl
+K 25
+svn:wc:ra_dav:version-url
+V 61
+/svnroot/direct264/!svn/ver/287/x264/tools/countquant_x264.pl
+END

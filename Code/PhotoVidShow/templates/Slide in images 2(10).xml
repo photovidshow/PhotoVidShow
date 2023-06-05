@@ -1,0 +1,348 @@
+<Template Version="1.0.0" Name="Slide in images2" Description="Slides in 10 images with text&#xD;&#xA;">
+  <Slideshow>
+    <Slide Type="MultiSlideSlide" PanZoom="False" DisplayTimeLength="36.98333" UsesDefaultTransitionEffect="True" ForceMBSubFrames="30">
+      <TransitionEffect Type="SimpleAlphaBlendTransitionEffect" Length="1.5" Index="1" />
+      <Slide Type="BlankStillPictureSlide" PanZoom="True" DisplayTimeLength="7" UsesDefaultTransitionEffect="True" ForceMBSubFrames="30" Color="Color [Black]">
+        <TransitionEffect Type="SimpleAlphaBlendTransitionEffect" Length="0" Index="1" />
+        <Decoration Type="GroupedDecoration" MotionBlur="True" RenderMethod="7" MoveAsSlidePanZoom="True">
+          <CoverageArea X="0" Y="0" Width="1" Height="1" />
+          <Decoration Type="ImageDecoration" OriTemImageNum="11" Aspect="2">
+            <CoverageArea X="0" Y="-0.1993055" Width="1" Height="1.398611" />
+            <Image Filename="menutemplates\background36.pvsi" />
+          </Decoration>
+          <Decoration Type="ImageDecoration" TemplateFramework="True" Aspect="2" StartOffsetTime="1" InEffect="MoveRightMore" OutEffect="Fade " Alpha="0.75">
+            <AlphaMap Filename="outlinemasks\gradient edge.jpg" />
+            <CoverageArea X="0.1505929" Y="0.113924" Width="0.6853755" Height="0.7538678" />
+            <Image Filename="templates\media\black.jpg" />
+          </Decoration>
+          <Decoration Type="ImageDecoration" TemplateFramework="True" Aspect="2" StartOffsetTime="1" InEffect="MoveRightMore" OutEffect="Fade ">
+            <AlphaMap Filename="outlinemasks\smooth edge.jpg" />
+            <CoverageArea X="0.1395257" Y="0.09985935" Width="0.684585" Height="0.745429" />
+            <Image Filename="templates\media\white.jpg" />
+          </Decoration>
+          <Decoration Type="ImageDecoration" DegreesRot="0.2836401" Aspect="2" OriTemImageNum="1" StartOffsetTime="1" InEffect="MoveRightMore" OutEffect="Fade ">
+            <AlphaMap Filename="outlinemasks\smooth edge.jpg" />
+            <CoverageArea X="0.1509881" Y="0.1237693" Width="0.6600791" Height="0.6990155" />
+            <Image Filename="image1" />
+          </Decoration>
+          <Decoration Type="TextDecoration" Aspect="2" StartOffsetTime="2" InEffect="FadeRight" OutEffect="Fade " Text="Text1 text1 text1" TemplateEditable="1" HintEditTime="5">
+            <CoverageArea X="0.3581028" Y="0.8677918" Width="0.3008468" Height="0.08981963" />
+            <TextStyle Name="Menu" FontName="Segoe UI" FontSize="26.66667" Bold="True" OutLine="True" OutLineColour="Color [Black]" OutlineLength="5" OutlineAlpha="64" />
+          </Decoration>
+        </Decoration>
+        <Decoration Type="ImageDecoration" Border="True">
+          <CoverageArea X="0" Y="0" Width="1" Height="1" />
+          <Image Filename="borders\vignette1.pvsi" />
+        </Decoration>
+        <PanZoom StartRotation="0.9746137" PanZoomOnAll="True">
+          <StartArea X="0.01976285" Y="0.01969058" Width="0.9604743" Height="0.9604743" />
+          <EndArea X="0.03162055" Y="0.03021403" Width="0.9683794" Height="0.9683795" />
+          <Equation Type="Linear" />
+        </PanZoom>
+      </Slide>
+      <Slide Type="BlankStillPictureSlide" PanZoom="True" DisplayTimeLength="7" UsesDefaultTransitionEffect="True" ForceMBSubFrames="30" Color="Color [Black]">
+        <TransitionEffect Type="SimpleAlphaBlendTransitionEffect" Length="0" Index="1" />
+        <Decoration Type="GroupedDecoration" MotionBlur="True" RenderMethod="7" MoveAsSlidePanZoom="True">
+          <CoverageArea X="0" Y="0" Width="1" Height="1" />
+          <Decoration Type="ImageDecoration" OriTemImageNum="11" Aspect="2">
+            <CoverageArea X="0" Y="-0.1993055" Width="1" Height="1.398611" />
+            <Image Filename="menutemplates\background36.pvsi" />
+          </Decoration>
+          <Decoration Type="ImageDecoration" DegreesRot="4" TemplateFramework="True" Aspect="2" InEffect="MoveUpRightMore" OutEffect="Fade " Alpha="0.75">
+            <AlphaMap Filename="outlinemasks\gradient edge.jpg" />
+            <CoverageArea X="0.5035573" Y="0.3699015" Width="0.4347826" Height="0.5710267" />
+            <Image Filename="templates\media\black.jpg" />
+          </Decoration>
+          <Decoration Type="ImageDecoration" DegreesRot="4" TemplateFramework="True" Aspect="2" InEffect="MoveUpRightMore" OutEffect="Fade ">
+            <AlphaMap Filename="outlinemasks\smooth edge.jpg" />
+            <CoverageArea X="0.5003952" Y="0.3431786" Width="0.427668" Height="0.5822785" />
+            <Image Filename="templates\media\white.jpg" />
+          </Decoration>
+          <Decoration Type="ImageDecoration" DegreesRot="4.45811" Aspect="2" OriTemImageNum="2" InEffect="MoveUpRightMore" OutEffect="Fade ">
+            <AlphaMap Filename="outlinemasks\smooth edge.jpg" />
+            <CoverageArea X="0.512253" Y="0.3670886" Width="0.4031621" Height="0.5386779" />
+            <Image Filename="image2" />
+          </Decoration>
+          <Decoration Type="ImageDecoration" DegreesRot="-9" TemplateFramework="True" Aspect="2" StartOffsetTime="2" InEffect="MoveDownRightMore" OutEffect="Fade " Alpha="0.75">
+            <AlphaMap Filename="outlinemasks\gradient edge.jpg" />
+            <CoverageArea X="0.07509881" Y="0.08860759" Width="0.4996047" Height="0.5625879" />
+            <Image Filename="templates\media\black.jpg" />
+          </Decoration>
+          <Decoration Type="ImageDecoration" DegreesRot="-9" TemplateFramework="True" Aspect="2" StartOffsetTime="2" InEffect="MoveDownRightMore" OutEffect="Fade ">
+            <AlphaMap Filename="outlinemasks\smooth edge.jpg" />
+            <CoverageArea X="0.06358381" Y="0.07197943" Width="0.4971098" Height="0.5655527" />
+            <Image Filename="templates\media\white.jpg" />
+          </Decoration>
+          <Decoration Type="ImageDecoration" DegreesRot="-9" Aspect="2" OriTemImageNum="3" StartOffsetTime="2" InEffect="MoveDownRightMore" OutEffect="Fade ">
+            <AlphaMap Filename="outlinemasks\smooth edge.jpg" />
+            <CoverageArea X="0.07803468" Y="0.09254499" Width="0.466763" Height="0.5248789" />
+            <Image Filename="image3" />
+          </Decoration>
+          <Decoration Type="TextDecoration" DegreesRot="8" StartOffsetTime="3" InEffect="FadeRight" OutEffect="Fade " Text="Text3 text3 text3" TemplateEditable="1" HintEditTime="12.5">
+            <CoverageArea X="0.5699605" Y="0.1195499" Width="0.3003953" Height="0.08968484" />
+            <TextStyle Name="Menu" FontName="Segoe UI" FontSize="26.62665" Bold="True" OutLine="True" OutLineColour="Color [Black]" Alignment="Center" OutlineLength="5" OutlineAlpha="64" />
+          </Decoration>
+          <Decoration Type="TextDecoration" DegreesRot="-8" StartOffsetTime="1" InEffect="FadeRight" OutEffect="Fade " Text="Text2 text2 text2" TemplateEditable="1" HintEditTime="12.5">
+            <CoverageArea X="0.1762844" Y="0.8016878" Width="0.3003954" Height="0.08968486" />
+            <TextStyle Name="Menu" FontName="Segoe UI" FontSize="26.62666" Bold="True" OutLine="True" OutLineColour="Color [Black]" Alignment="Far" OutlineLength="5" OutlineAlpha="64" />
+          </Decoration>
+        </Decoration>
+        <Decoration Type="ImageDecoration" Border="True">
+          <CoverageArea X="0" Y="0" Width="1" Height="1" />
+          <Image Filename="borders\vignette1.pvsi" />
+        </Decoration>
+        <PanZoom EndRotation="0.9746137" PanZoomOnAll="True">
+          <StartArea X="0.03162055" Y="0.03021403" Width="0.9683794" Height="0.9683795" />
+          <EndArea X="0.03320158" Y="0.02250352" Width="0.9604743" Height="0.9592124" />
+          <Equation Type="Linear" />
+        </PanZoom>
+      </Slide>
+      <Slide Type="BlankStillPictureSlide" PanZoom="True" DisplayTimeLength="7" UsesDefaultTransitionEffect="True" ForceMBSubFrames="30" Color="Color [Black]">
+        <TransitionEffect Type="SimpleAlphaBlendTransitionEffect" Length="0" Index="1" />
+        <Decoration Type="GroupedDecoration" MotionBlur="True" RenderMethod="7" MoveAsSlidePanZoom="True">
+          <CoverageArea X="0" Y="0" Width="1" Height="1" />
+          <Decoration Type="ImageDecoration" OriTemImageNum="11" Aspect="2">
+            <CoverageArea X="0" Y="-0.1993055" Width="1" Height="1.398611" />
+            <Image Filename="menutemplates\background36.pvsi" />
+          </Decoration>
+          <Decoration Type="ImageDecoration" DegreesRot="11" TemplateFramework="True" Aspect="2" InEffect="MoveRightMore" OutEffect="Fade " Alpha="0.75">
+            <AlphaMap Filename="outlinemasks\gradient edge.jpg" />
+            <CoverageArea X="0.3715415" Y="0.1012658" Width="0.5399209" Height="0.6104079" />
+            <Image Filename="templates\media\black.jpg" />
+          </Decoration>
+          <Decoration Type="ImageDecoration" DegreesRot="11" TemplateFramework="True" Aspect="2" InEffect="MoveRightMore" OutEffect="Fade ">
+            <AlphaMap Filename="outlinemasks\smooth edge.jpg" />
+            <CoverageArea X="0.3595" Y="0.07985935" Width="0.5399209" Height="0.6118143" />
+            <Image Filename="templates\media\white.jpg" />
+          </Decoration>
+          <Decoration Type="ImageDecoration" DegreesRot="11" Aspect="2" OriTemImageNum="4" InEffect="MoveRightMore" OutEffect="Fade ">
+            <AlphaMap Filename="outlinemasks\smooth edge.jpg" />
+            <CoverageArea X="0.3714" Y="0.096737" Width="0.516996" Height="0.5780591" />
+            <Image Filename="image4" />
+          </Decoration>
+          <Decoration Type="ImageDecoration" DegreesRot="-10" TemplateFramework="True" Aspect="2" StartOffsetTime="2" InEffect="MoveUpLeftMore" OutEffect="Fade " Alpha="0.75">
+            <AlphaMap Filename="outlinemasks\gradient edge.jpg" />
+            <CoverageArea X="0.07905138" Y="0.4289733" Width="0.5043478" Height="0.5077356" />
+            <Image Filename="templates\media\black.jpg" />
+          </Decoration>
+          <Decoration Type="ImageDecoration" DegreesRot="-10" TemplateFramework="True" Aspect="2" StartOffsetTime="2" InEffect="MoveUpLeftMore" OutEffect="Fade ">
+            <AlphaMap Filename="outlinemasks\smooth edge.jpg" />
+            <CoverageArea X="0.0688" Y="0.4135021" Width="0.5043478" Height="0.509142" />
+            <Image Filename="templates\media\white.jpg" />
+          </Decoration>
+          <Decoration Type="ImageDecoration" DegreesRot="-10" Aspect="2" OriTemImageNum="5" StartOffsetTime="2" InEffect="MoveUpLeftMore" OutEffect="Fade ">
+            <AlphaMap Filename="outlinemasks\smooth edge.jpg" />
+            <CoverageArea X="0.08063241" Y="0.4331927" Width="0.4806324" Height="0.4697609" />
+            <Image Filename="image5" />
+          </Decoration>
+          <Decoration Type="TextDecoration" DegreesRot="-7" StartOffsetTime="1" InEffect="FadeRight" OutEffect="Fade " Text="Text4 text4 text4 " TemplateEditable="1" HintEditTime="19.5">
+            <CoverageArea X="0.07351778" Y="0.1547117" Width="0.3003953" Height="0.08860759" />
+            <TextStyle Name="Menu" FontName="Segoe UI" FontSize="26.62665" Bold="True" OutLine="True" OutLineColour="Color [Black]" Alignment="Far" OutlineLength="5" OutlineAlpha="64" />
+          </Decoration>
+          <Decoration Type="TextDecoration" DegreesRot="2" StartOffsetTime="3" InEffect="FadeRight" OutEffect="Fade " Text="Text5 text5 text5" TemplateEditable="1" HintEditTime="19.5">
+            <CoverageArea X="0.5399209" Y="0.862166" Width="0.2932806" Height="0.08756071" />
+            <TextStyle Name="Menu" FontName="Segoe UI" FontSize="25.99601" Bold="True" OutLine="True" OutLineColour="Color [Black]" OutlineLength="5" OutlineAlpha="64" />
+          </Decoration>
+        </Decoration>
+        <Decoration Type="ImageDecoration" Border="True">
+          <CoverageArea X="0" Y="0" Width="1" Height="1" />
+          <Image Filename="borders\vignette1.pvsi" />
+        </Decoration>
+        <PanZoom StartRotation="0.9746137" PanZoomOnAll="True">
+          <StartArea X="0.03320158" Y="0.02250352" Width="0.9604743" Height="0.9592124" />
+          <EndArea X="0.009999966" Y="0.009999938" Width="0.99" Height="0.99" />
+          <Equation Type="NonLinear" />
+        </PanZoom>
+      </Slide>
+      <Slide Type="BlankStillPictureSlide" PanZoom="True" DisplayTimeLength="8" UsesDefaultTransitionEffect="True" ForceMBSubFrames="30" Color="Color [Black]">
+        <TransitionEffect Type="SimpleAlphaBlendTransitionEffect" Length="0" Index="1" />
+        <Decoration Type="GroupedDecoration" MotionBlur="True" RenderMethod="7" MoveAsSlidePanZoom="True">
+          <CoverageArea X="0" Y="0" Width="1" Height="1" />
+          <Decoration Type="ImageDecoration" OriTemImageNum="11" Aspect="2">
+            <CoverageArea X="0" Y="-0.1993055" Width="1" Height="1.398611" />
+            <Image Filename="menutemplates\background36.pvsi" />
+          </Decoration>
+          <Decoration Type="ImageDecoration" DegreesRot="-15" TemplateFramework="True" Aspect="2" InEffect="MoveDownLeftMore" OutEffect="Fade " Alpha="0.75">
+            <AlphaMap Filename="outlinemasks\gradient edge.jpg" />
+            <CoverageArea X="0.06482214" Y="0.06469761" Width="0.3841897" Height="0.443038" />
+            <Image Filename="templates\media\black.jpg" />
+          </Decoration>
+          <Decoration Type="ImageDecoration" DegreesRot="-15" TemplateFramework="True" Aspect="2" InEffect="MoveDownLeftMore" OutEffect="Fade ">
+            <AlphaMap Filename="outlinemasks\smooth edge.jpg" />
+            <CoverageArea X="0.05375494" Y="0.06188467" Width="0.3849802" Height="0.443038" />
+            <Image Filename="templates\media\white.jpg" />
+          </Decoration>
+          <Decoration Type="ImageDecoration" DegreesRot="-15" Aspect="2" OriTemImageNum="6" InEffect="MoveDownLeftMore" OutEffect="Fade ">
+            <AlphaMap Filename="outlinemasks\smooth edge.jpg" />
+            <CoverageArea X="0.06403162" Y="0.07876231" Width="0.3644269" Height="0.4078762" />
+            <Image Filename="image6" />
+          </Decoration>
+          <Decoration Type="ImageDecoration" DegreesRot="13" TemplateFramework="True" Aspect="2" StartOffsetTime="1" InEffect="MoveRightMore" OutEffect="Fade " Alpha="0.75">
+            <AlphaMap Filename="outlinemasks\gradient edge.jpg" />
+            <CoverageArea X="0.5873518" Y="0.08298171" Width="0.3525692" Height="0.4388186" />
+            <Image Filename="templates\media\black.jpg" />
+          </Decoration>
+          <Decoration Type="ImageDecoration" DegreesRot="13" TemplateFramework="True" Aspect="2" StartOffsetTime="1" InEffect="MoveRightMore" OutEffect="Fade ">
+            <AlphaMap Filename="outlinemasks\smooth edge.jpg" />
+            <CoverageArea X="0.5810277" Y="0.07032349" Width="0.3509881" Height="0.4486639" />
+            <Image Filename="templates\media\white.jpg" />
+          </Decoration>
+          <Decoration Type="ImageDecoration" DegreesRot="13.42738" Aspect="2" OriTemImageNum="7" StartOffsetTime="1" InEffect="MoveRightMore" OutEffect="Fade ">
+            <AlphaMap Filename="outlinemasks\smooth edge.jpg" />
+            <CoverageArea X="0.5920948" Y="0.08720113" Width="0.3296443" Height="0.4135021" />
+            <Image Filename="image7" />
+          </Decoration>
+          <Decoration Type="ImageDecoration" TemplateFramework="True" Aspect="2" StartOffsetTime="2" InEffect="MoveDownMore" OutEffect="Fade " Alpha="0.75">
+            <AlphaMap Filename="outlinemasks\gradient edge.jpg" />
+            <CoverageArea X="0.3335968" Y="0.5680591" Width="0.3652174" Height="0.4205345" />
+            <Image Filename="templates\media\black.jpg" />
+          </Decoration>
+          <Decoration Type="ImageDecoration" TemplateFramework="True" Aspect="2" StartOffsetTime="2" InEffect="MoveDownMore" OutEffect="Fade ">
+            <AlphaMap Filename="outlinemasks\smooth edge.jpg" />
+            <CoverageArea X="0.3217391" Y="0.549775" Width="0.3683794" Height="0.4261603" />
+            <Image Filename="templates\media\white.jpg" />
+          </Decoration>
+          <Decoration Type="ImageDecoration" Aspect="2" OriTemImageNum="8" StartOffsetTime="2" InEffect="MoveDownMore" OutEffect="Fade ">
+            <AlphaMap Filename="outlinemasks\smooth edge.jpg" />
+            <CoverageArea X="0.3296443" Y="0.5666526" Width="0.3517787" Height="0.3909986" />
+            <Image Filename="image8" />
+          </Decoration>
+          <Decoration Type="TextDecoration" StartOffsetTime="3" InEffect="FadeRight" OutEffect="Fade " Text="Text6 text6 text6" TemplateEditable="1" HintEditTime="27.5">
+            <CoverageArea X="0.3636364" Y="0.4655415" Width="0.2537549" Height="0.07454289" />
+            <TextStyle Name="Menu" FontName="Segoe UI" FontSize="22.49251" Bold="True" OutLine="True" OutLineColour="Color [Black]" Alignment="Center" OutlineLength="5" OutlineAlpha="64" />
+          </Decoration>
+        </Decoration>
+        <Decoration Type="ImageDecoration" Border="True">
+          <CoverageArea X="0" Y="0" Width="1" Height="1" />
+          <Image Filename="borders\vignette1.pvsi" />
+        </Decoration>
+        <PanZoom PanZoomOnAll="True">
+          <StartArea X="0.009999966" Y="0.009999938" Width="0.99" Height="0.99" />
+          <EndArea X="0.02450593" Y="0.06610408" Width="0.9296443" Height="0.92827" />
+          <Equation Type="Linear" />
+        </PanZoom>
+      </Slide>
+      <Slide Type="BlankStillPictureSlide" PanZoom="True" DisplayTimeLength="8" UsesDefaultTransitionEffect="True" ForceMBSubFrames="30" Color="Color [Black]">
+        <TransitionEffect Type="SimpleAlphaBlendTransitionEffect" Length="1.5" Index="1" />
+        <Decoration Type="GroupedDecoration" MotionBlur="True" RenderMethod="7" MoveAsSlidePanZoom="True">
+          <CoverageArea X="0" Y="0" Width="1" Height="1" />
+          <Decoration Type="ImageDecoration" OriTemImageNum="11" Aspect="2">
+            <CoverageArea X="0" Y="-0.1993055" Width="1" Height="1.398611" />
+            <Image Filename="menutemplates\background36.pvsi" />
+          </Decoration>
+          <Decoration Type="ImageDecoration" DegreesRot="-11.81756" TemplateFramework="True" Aspect="2" StartOffsetTime="1" InEffect="MoveUpLeftMore" OutEffect="Fade " Alpha="0.75">
+            <AlphaMap Filename="outlinemasks\gradient edge.jpg" />
+            <CoverageArea X="0.05296443" Y="0.116737" Width="0.5399209" Height="0.6104079" />
+            <Image Filename="templates\media\black.jpg" />
+          </Decoration>
+          <Decoration Type="ImageDecoration" DegreesRot="-12" TemplateFramework="True" Aspect="2" StartOffsetTime="1" InEffect="MoveUpLeftMore" OutEffect="Fade ">
+            <AlphaMap Filename="outlinemasks\smooth edge.jpg" />
+            <CoverageArea X="0.03952569" Y="0.09985935" Width="0.5399209" Height="0.6118143" />
+            <Image Filename="templates\media\white.jpg" />
+          </Decoration>
+          <Decoration Type="ImageDecoration" DegreesRot="-12" Aspect="2" OriTemImageNum="9" StartOffsetTime="1" InEffect="MoveUpLeftMore" OutEffect="Fade ">
+            <AlphaMap Filename="outlinemasks\smooth edge.jpg" />
+            <CoverageArea X="0.0513834" Y="0.116737" Width="0.516996" Height="0.5780591" />
+            <Image Filename="image9" />
+          </Decoration>
+          <Decoration Type="ImageDecoration" DegreesRot="10" TemplateFramework="True" Aspect="2" StartOffsetTime="3" InEffect="MoveLeftMore" OutEffect="Fade " Alpha="0.75">
+            <AlphaMap Filename="outlinemasks\gradient edge.jpg" />
+            <CoverageArea X="0.4766798" Y="0.4345992" Width="0.505" Height="0.509142" />
+            <Image Filename="templates\media\black.jpg" />
+          </Decoration>
+          <Decoration Type="ImageDecoration" DegreesRot="10" TemplateFramework="True" Aspect="2" StartOffsetTime="3" InEffect="MoveLeftMore" OutEffect="Fade ">
+            <AlphaMap Filename="outlinemasks\smooth edge.jpg" />
+            <CoverageArea X="0.4687747" Y="0.4135021" Width="0.5043478" Height="0.509142" />
+            <Image Filename="templates\media\white.jpg" />
+          </Decoration>
+          <Decoration Type="ImageDecoration" DegreesRot="10" Aspect="2" OriTemImageNum="10" StartOffsetTime="3" InEffect="MoveLeftMore" OutEffect="Fade ">
+            <AlphaMap Filename="outlinemasks\smooth edge.jpg" />
+            <CoverageArea X="0.4790514" Y="0.4289733" Width="0.4830039" Height="0.4796062" />
+            <Image Filename="image10" />
+          </Decoration>
+          <Decoration Type="TextDecoration" DegreesRot="11" StartOffsetTime="2" InEffect="FadeRight" OutEffect="Fade " Text="Text7 text7 text7" TemplateEditable="1" HintEditTime="35.5">
+            <CoverageArea X="0.5802315" Y="0.1744023" Width="0.3008467" Height="0.08981961" />
+            <TextStyle Name="Menu" FontName="Segoe UI" FontSize="26.66667" Bold="True" OutLine="True" OutLineColour="Color [Black]" Alignment="Center" OutlineLength="5" OutlineAlpha="64" />
+          </Decoration>
+          <Decoration Type="TextDecoration" DegreesRot="-4" StartOffsetTime="4" InEffect="FadeRight" OutEffect="Fade " Text="Text8 text8 text8" TemplateEditable="1" HintEditTime="35.5">
+            <CoverageArea X="0.1375494" Y="0.7819972" Width="0.2940711" Height="0.08779672" />
+            <TextStyle Name="Menu" FontName="Segoe UI" FontSize="26.06609" Bold="True" OutLine="True" OutLineColour="Color [Black]" Alignment="Far" OutlineLength="5" OutlineAlpha="64" />
+          </Decoration>
+        </Decoration>
+        <Decoration Type="ImageDecoration" Border="True">
+          <CoverageArea X="0" Y="0" Width="1" Height="1" />
+          <Image Filename="borders\vignette1.pvsi" />
+        </Decoration>
+        <PanZoom EndRotation="0.9746137" PanZoomOnAll="True">
+          <StartArea X="0.02450593" Y="0.06610408" Width="0.9296443" Height="0.92827" />
+          <EndArea X="0.01976285" Y="0.01969058" Width="0.9604743" Height="0.9604743" />
+          <Equation Type="Linear" />
+        </PanZoom>
+      </Slide>
+    </Slide>
+  </Slideshow>
+  <DecorationEffectsDatabase>
+    <DecorationEffect Name="MoveDownMore" Length="1" MotionBlur="15">
+      <TransitionEffect Type="SimpleAlphaBlendTransitionEffect" Length="1.5" EndDelay="0.5" />
+      <Movement Type="StraightLineMovement" InitialDelay="0" EndDelay="0">
+        <Start X="0" Y="-1" Z="0" />
+        <End X="0" Y="0" Z="0" />
+        <Equation Type="NonLinear" />
+      </Movement>
+    </DecorationEffect>
+    <DecorationEffect Name="MoveLeftMore" Length="1" MotionBlur="15">
+      <TransitionEffect Type="SimpleAlphaBlendTransitionEffect" Length="1.5" EndDelay="0.5" />
+      <Movement Type="StraightLineMovement" InitialDelay="0" EndDelay="0">
+        <Start X="1" Y="0" Z="0" />
+        <End X="0" Y="0" Z="0" />
+        <Equation Type="NonLinear" />
+      </Movement>
+    </DecorationEffect>
+    <DecorationEffect Name="MoveRightMore" Length="1" MotionBlur="15">
+      <TransitionEffect Type="SimpleAlphaBlendTransitionEffect" Length="1.5" EndDelay="0.5" />
+      <Movement Type="StraightLineMovement" InitialDelay="0" EndDelay="0">
+        <Start X="-1" Y="0" Z="0" />
+        <End X="0" Y="0" Z="0" />
+        <Equation Type="NonLinear" />
+      </Movement>
+    </DecorationEffect>
+    <DecorationEffect Name="MoveUpRightMore" Length="1" MotionBlur="15">
+      <TransitionEffect Type="SimpleAlphaBlendTransitionEffect" Length="1.5" EndDelay="0.5" />
+      <Movement Type="StraightLineMovement" InitialDelay="0" EndDelay="0">
+        <Start X="-1" Y="1" Z="0" />
+        <End X="0" Y="0" Z="0" />
+        <Equation Type="NonLinear" />
+      </Movement>
+    </DecorationEffect>
+    <DecorationEffect Name="MoveUpLeftMore" Length="1" MotionBlur="15">
+      <TransitionEffect Type="SimpleAlphaBlendTransitionEffect" Length="1.5" EndDelay="0.5" />
+      <Movement Type="StraightLineMovement" InitialDelay="0" EndDelay="0">
+        <Start X="1" Y="1" Z="0" />
+        <End X="0" Y="0" Z="0" />
+        <Equation Type="NonLinear" />
+      </Movement>
+    </DecorationEffect>
+    <DecorationEffect Name="MoveDownRightMore" Length="1" MotionBlur="15">
+      <TransitionEffect Type="SimpleAlphaBlendTransitionEffect" Length="1.5" EndDelay="0.5" />
+      <Movement Type="StraightLineMovement" InitialDelay="0" EndDelay="0">
+        <Start X="-1" Y="-1" Z="0" />
+        <End X="0" Y="0" Z="0" />
+        <Equation Type="NonLinear" />
+      </Movement>
+    </DecorationEffect>
+    <DecorationEffect Name="MoveDownLeftMore" Length="1" MotionBlur="15">
+      <TransitionEffect Type="SimpleAlphaBlendTransitionEffect" Length="1.5" EndDelay="0.5" />
+      <Movement Type="StraightLineMovement" InitialDelay="0" EndDelay="0">
+        <Start X="1" Y="-1" Z="0" />
+        <End X="0" Y="0" Z="0" />
+        <Equation Type="NonLinear" />
+      </Movement>
+    </DecorationEffect>
+    <DecorationEffect Name="FadeRight" Length="1">
+      <TransitionEffect Type="AlphaSwipeTransitionEffect" Direction="1" Spread="32" Length="1.5" />
+    </DecorationEffect>
+    <DecorationEffect Name="Fade " Length="1">
+      <TransitionEffect Type="SimpleAlphaBlendTransitionEffect" Length="1.5" />
+    </DecorationEffect>
+  </DecorationEffectsDatabase>
+</Template>

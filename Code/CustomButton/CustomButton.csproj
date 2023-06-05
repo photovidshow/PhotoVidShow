@@ -1,0 +1,550 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<Project DefaultTargets="Build" xmlns="http://schemas.microsoft.com/developer/msbuild/2003" ToolsVersion="14.0">
+  <PropertyGroup>
+    <ProjectType>Local</ProjectType>
+    <ProductVersion>9.0.20706</ProductVersion>
+    <SchemaVersion>2.0</SchemaVersion>
+    <ProjectGuid>{5420DE45-6417-4FA4-A10E-4518CD97D2F2}</ProjectGuid>
+    <SccProjectName>
+    </SccProjectName>
+    <SccLocalPath>
+    </SccLocalPath>
+    <SccAuxPath>
+    </SccAuxPath>
+    <SccProvider>
+    </SccProvider>
+    <Configuration Condition=" '$(Configuration)' == '' ">Debug</Configuration>
+    <Platform Condition=" '$(Platform)' == '' ">AnyCPU</Platform>
+    <ApplicationIcon>
+    </ApplicationIcon>
+    <AssemblyKeyContainerName>
+    </AssemblyKeyContainerName>
+    <AssemblyName>CustomButton</AssemblyName>
+    <AssemblyOriginatorKeyFile>
+    </AssemblyOriginatorKeyFile>
+    <DefaultClientScript>JScript</DefaultClientScript>
+    <DefaultHTMLPageLayout>Grid</DefaultHTMLPageLayout>
+    <DefaultTargetSchema>IE50</DefaultTargetSchema>
+    <DelaySign>false</DelaySign>
+    <OutputType>Library</OutputType>
+    <RootNamespace>CustomButton</RootNamespace>
+    <RunPostBuildEvent>OnBuildSuccess</RunPostBuildEvent>
+    <StartupObject>
+    </StartupObject>
+    <FileUpgradeFlags>
+    </FileUpgradeFlags>
+    <UpgradeBackupLocation>
+    </UpgradeBackupLocation>
+    <OldToolsVersion>3.5</OldToolsVersion>
+    <TargetFrameworkVersion>v4.8</TargetFrameworkVersion>
+    <TargetFrameworkProfile />
+  </PropertyGroup>
+  <PropertyGroup Condition=" '$(Configuration)|$(Platform)' == 'Debug|AnyCPU' ">
+    <OutputPath>bin\Debug\</OutputPath>
+    <AllowUnsafeBlocks>false</AllowUnsafeBlocks>
+    <BaseAddress>285212672</BaseAddress>
+    <CheckForOverflowUnderflow>false</CheckForOverflowUnderflow>
+    <ConfigurationOverrideFile>
+    </ConfigurationOverrideFile>
+    <DefineConstants>DEBUG;TRACE</DefineConstants>
+    <DocumentationFile>
+    </DocumentationFile>
+    <DebugSymbols>true</DebugSymbols>
+    <FileAlignment>4096</FileAlignment>
+    <NoStdLib>false</NoStdLib>
+    <NoWarn>
+    </NoWarn>
+    <Optimize>false</Optimize>
+    <RegisterForComInterop>false</RegisterForComInterop>
+    <RemoveIntegerChecks>false</RemoveIntegerChecks>
+    <TreatWarningsAsErrors>false</TreatWarningsAsErrors>
+    <WarningLevel>4</WarningLevel>
+    <DebugType>full</DebugType>
+    <ErrorReport>prompt</ErrorReport>
+    <Prefer32Bit>false</Prefer32Bit>
+  </PropertyGroup>
+  <PropertyGroup Condition=" '$(Configuration)|$(Platform)' == 'Release|AnyCPU' ">
+    <OutputPath>bin\Release\</OutputPath>
+    <AllowUnsafeBlocks>false</AllowUnsafeBlocks>
+    <BaseAddress>285212672</BaseAddress>
+    <CheckForOverflowUnderflow>false</CheckForOverflowUnderflow>
+    <ConfigurationOverrideFile>
+    </ConfigurationOverrideFile>
+    <DefineConstants>TRACE</DefineConstants>
+    <DocumentationFile>
+    </DocumentationFile>
+    <DebugSymbols>false</DebugSymbols>
+    <FileAlignment>4096</FileAlignment>
+    <NoStdLib>false</NoStdLib>
+    <NoWarn>
+    </NoWarn>
+    <Optimize>true</Optimize>
+    <RegisterForComInterop>false</RegisterForComInterop>
+    <RemoveIntegerChecks>false</RemoveIntegerChecks>
+    <TreatWarningsAsErrors>false</TreatWarningsAsErrors>
+    <WarningLevel>4</WarningLevel>
+    <DebugType>none</DebugType>
+    <ErrorReport>prompt</ErrorReport>
+    <Prefer32Bit>false</Prefer32Bit>
+  </PropertyGroup>
+  <PropertyGroup Condition=" '$(Configuration)|$(Platform)' == 'Debug|x86' ">
+    <DebugSymbols>true</DebugSymbols>
+    <OutputPath>bin\x86\Debug\</OutputPath>
+    <DefineConstants>DEBUG;TRACE</DefineConstants>
+    <BaseAddress>285212672</BaseAddress>
+    <FileAlignment>4096</FileAlignment>
+    <DebugType>full</DebugType>
+    <PlatformTarget>x86</PlatformTarget>
+    <ErrorReport>prompt</ErrorReport>
+    <Prefer32Bit>false</Prefer32Bit>
+  </PropertyGroup>
+  <PropertyGroup Condition=" '$(Configuration)|$(Platform)' == 'Release|x86' ">
+    <OutputPath>bin\x86\Release\</OutputPath>
+    <DefineConstants>TRACE</DefineConstants>
+    <BaseAddress>285212672</BaseAddress>
+    <Optimize>true</Optimize>
+    <FileAlignment>4096</FileAlignment>
+    <PlatformTarget>x86</PlatformTarget>
+    <ErrorReport>prompt</ErrorReport>
+    <Prefer32Bit>false</Prefer32Bit>
+  </PropertyGroup>
+  <ItemGroup>
+    <Reference Include="System">
+      <Name>System</Name>
+    </Reference>
+    <Reference Include="System.Data">
+      <Name>System.Data</Name>
+    </Reference>
+    <Reference Include="System.Drawing">
+      <Name>System.Drawing</Name>
+    </Reference>
+    <Reference Include="System.Windows.Forms">
+      <Name>System.Windows.Forms</Name>
+    </Reference>
+    <Reference Include="System.Xml">
+      <Name>System.XML</Name>
+    </Reference>
+  </ItemGroup>
+  <ItemGroup>
+    <Compile Include="AdjustImageColoursControl.cs">
+      <SubType>UserControl</SubType>
+    </Compile>
+    <Compile Include="AdjustImageColoursControl.Designer.cs">
+      <DependentUpon>AdjustImageColoursControl.cs</DependentUpon>
+    </Compile>
+    <Compile Include="AnimatedDecorationNamer.cs">
+      <SubType>Form</SubType>
+    </Compile>
+    <Compile Include="AnimatedDecorationNamer.Designer.cs">
+      <DependentUpon>AnimatedDecorationNamer.cs</DependentUpon>
+    </Compile>
+    <Compile Include="AnimatedDecorationsEditor.cs">
+      <SubType>Form</SubType>
+    </Compile>
+    <Compile Include="AnimatedDecorationsEditor.Designer.cs">
+      <DependentUpon>AnimatedDecorationsEditor.cs</DependentUpon>
+    </Compile>
+    <Compile Include="AssemblyInfo.cs">
+      <SubType>Code</SubType>
+    </Compile>
+    <Compile Include="BitmapButton.cs">
+      <SubType>Component</SubType>
+    </Compile>
+    <Compile Include="BrightnessContrastControll.cs">
+      <SubType>UserControl</SubType>
+    </Compile>
+    <Compile Include="BrightnessContrastControll.Designer.cs">
+      <DependentUpon>BrightnessContrastControll.cs</DependentUpon>
+    </Compile>
+    <Compile Include="ClipartSelectForm.cs">
+      <SubType>Form</SubType>
+    </Compile>
+    <Compile Include="ClipartSelectForm.Designer.cs">
+      <DependentUpon>ClipartSelectForm.cs</DependentUpon>
+    </Compile>
+    <Compile Include="ClipartThumbnail.cs">
+      <SubType>UserControl</SubType>
+    </Compile>
+    <Compile Include="ColorListBox.cs">
+      <SubType>Component</SubType>
+    </Compile>
+    <Compile Include="DecorationThumbnailGenerator.cs" />
+    <Compile Include="MotionBlurHelp.cs">
+      <SubType>Form</SubType>
+    </Compile>
+    <Compile Include="MotionBlurHelp.Designer.cs">
+      <DependentUpon>MotionBlurHelp.cs</DependentUpon>
+    </Compile>
+    <Compile Include="PreviewMenuForm.cs">
+      <SubType>Form</SubType>
+    </Compile>
+    <Compile Include="PreviewMenuForm.Designer.cs">
+      <DependentUpon>PreviewMenuForm.cs</DependentUpon>
+    </Compile>
+    <Compile Include="CreateBlankSlideForm.cs">
+      <SubType>Form</SubType>
+    </Compile>
+    <Compile Include="CreateBlankSlideForm.Designer.cs">
+      <DependentUpon>CreateBlankSlideForm.cs</DependentUpon>
+    </Compile>
+    <Compile Include="CreateSlideFromTemplateForm.cs">
+      <SubType>Form</SubType>
+    </Compile>
+    <Compile Include="CreateSlideFromTemplateForm.Designer.cs">
+      <DependentUpon>CreateSlideFromTemplateForm.cs</DependentUpon>
+    </Compile>
+    <Compile Include="CTemplateImportExporter.cs">
+      <SubType>Form</SubType>
+    </Compile>
+    <Compile Include="CTemplateImportExporter.Designer.cs">
+      <DependentUpon>CTemplateImportExporter.cs</DependentUpon>
+    </Compile>
+    <Compile Include="DoubleBufferPanel.cs">
+      <SubType>Component</SubType>
+    </Compile>
+    <Compile Include="FontSelectorForm.cs">
+      <SubType>Form</SubType>
+    </Compile>
+    <Compile Include="FontSelectorForm.Designer.cs">
+      <DependentUpon>FontSelectorForm.cs</DependentUpon>
+    </Compile>
+    <Compile Include="FrontEndGlobals.cs" />
+    <Compile Include="ImageCombo.cs">
+      <SubType>Component</SubType>
+    </Compile>
+    <Compile Include="ImageComboItem.cs" />
+    <Compile Include="ManualScrollablePanel.cs">
+      <SubType>UserControl</SubType>
+    </Compile>
+    <Compile Include="Properties\Resources.Designer.cs">
+      <AutoGen>True</AutoGen>
+      <DesignTime>True</DesignTime>
+      <DependentUpon>Resources.resx</DependentUpon>
+    </Compile>
+    <Compile Include="RecordNarrationForm.cs">
+      <SubType>Form</SubType>
+    </Compile>
+    <Compile Include="RecordNarrationForm.Designer.cs">
+      <DependentUpon>RecordNarrationForm.cs</DependentUpon>
+    </Compile>
+    <Compile Include="SelectBackgroundControl.cs">
+      <SubType>UserControl</SubType>
+    </Compile>
+    <Compile Include="SelectBackgroundControl.Designer.cs">
+      <DependentUpon>SelectBackgroundControl.cs</DependentUpon>
+    </Compile>
+    <Compile Include="SelectDecorationMotionForm.cs">
+      <SubType>Form</SubType>
+    </Compile>
+    <Compile Include="SelectDecorationMotionForm.Designer.cs">
+      <DependentUpon>SelectDecorationMotionForm.cs</DependentUpon>
+    </Compile>
+    <Compile Include="CropUserControl.cs">
+      <SubType>UserControl</SubType>
+    </Compile>
+    <Compile Include="CropUserControl.Designer.cs">
+      <DependentUpon>CropUserControl.cs</DependentUpon>
+    </Compile>
+    <Compile Include="EditSlideMediaForm.cs">
+      <SubType>Form</SubType>
+    </Compile>
+    <Compile Include="EditSlideMediaForm.Designer.cs">
+      <DependentUpon>EditSlideMediaForm.cs</DependentUpon>
+    </Compile>
+    <Compile Include="EditTemplateMediaOrder.cs">
+      <SubType>UserControl</SubType>
+    </Compile>
+    <Compile Include="EditTemplateMediaOrder.Designer.cs">
+      <DependentUpon>EditTemplateMediaOrder.cs</DependentUpon>
+    </Compile>
+    <Compile Include="FontSelectorControl.cs">
+      <SubType>UserControl</SubType>
+    </Compile>
+    <Compile Include="FontSelectorControl.Designer.cs">
+      <DependentUpon>FontSelectorControl.cs</DependentUpon>
+    </Compile>
+    <Compile Include="ImageMenuItem.cs">
+      <SubType>Component</SubType>
+    </Compile>
+    <Compile Include="MiniPreviewController.cs" />
+    <Compile Include="NumericUpDownButtonDelegate..cs" />
+    <Compile Include="NumericUpDownOverride.cs">
+      <SubType>Component</SubType>
+    </Compile>
+    <Compile Include="OrderLayersForm.cs">
+      <SubType>Form</SubType>
+    </Compile>
+    <Compile Include="OrderLayersForm.Designer.cs">
+      <DependentUpon>OrderLayersForm.cs</DependentUpon>
+    </Compile>
+    <Compile Include="OrientateControl.cs">
+      <SubType>UserControl</SubType>
+    </Compile>
+    <Compile Include="OrientateControl.Designer.cs">
+      <DependentUpon>OrientateControl.cs</DependentUpon>
+    </Compile>
+    <Compile Include="OverlaySelectionControl.cs">
+      <SubType>UserControl</SubType>
+    </Compile>
+    <Compile Include="OverlaySelectionControl.Designer.cs">
+      <DependentUpon>OverlaySelectionControl.cs</DependentUpon>
+    </Compile>
+    <Compile Include="PredefinedSlideDesignsControl.cs">
+      <SubType>UserControl</SubType>
+    </Compile>
+    <Compile Include="PredefinedSlideDesignsControl.Designer.cs">
+      <DependentUpon>PredefinedSlideDesignsControl.cs</DependentUpon>
+    </Compile>
+    <Compile Include="FilterTabControlBase.cs">
+      <SubType>UserControl</SubType>
+    </Compile>
+    <Compile Include="RectTracker.cs" />
+    <Compile Include="SelectAlphaMapControl.cs">
+      <SubType>UserControl</SubType>
+    </Compile>
+    <Compile Include="SelectAlphaMapControl.Designer.cs">
+      <DependentUpon>SelectAlphaMapControl.cs</DependentUpon>
+    </Compile>
+    <Compile Include="SetStartEndSlideTime.cs">
+      <SubType>UserControl</SubType>
+    </Compile>
+    <Compile Include="SetStartEndSlideTime.Designer.cs">
+      <DependentUpon>SetStartEndSlideTime.cs</DependentUpon>
+    </Compile>
+    <Compile Include="SimpleBitmapButton.cs">
+      <SubType>Component</SubType>
+    </Compile>
+    <Compile Include="SlideFiltersControl.cs">
+      <SubType>UserControl</SubType>
+    </Compile>
+    <Compile Include="SlideFiltersControl.Designer.cs">
+      <DependentUpon>SlideFiltersControl.cs</DependentUpon>
+    </Compile>
+    <Compile Include="StartupOutputChoiceForm.cs">
+      <SubType>Form</SubType>
+    </Compile>
+    <Compile Include="StartupOutputChoiceForm.Designer.cs">
+      <DependentUpon>StartupOutputChoiceForm.cs</DependentUpon>
+    </Compile>
+    <Compile Include="TabControlEx.cs">
+      <SubType>Component</SubType>
+    </Compile>
+    <Compile Include="TextEditControl.cs">
+      <SubType>UserControl</SubType>
+    </Compile>
+    <Compile Include="TextEditControl.Designer.cs">
+      <DependentUpon>TextEditControl.cs</DependentUpon>
+    </Compile>
+    <Compile Include="TrimVideoControl.cs">
+      <SubType>UserControl</SubType>
+    </Compile>
+    <Compile Include="TrimVideoControl.Designer.cs">
+      <DependentUpon>TrimVideoControl.cs</DependentUpon>
+    </Compile>
+    <Compile Include="VideoPropertiesWindow.cs">
+      <SubType>Form</SubType>
+    </Compile>
+    <Compile Include="VideoPropertiesWindow.Designer.cs">
+      <DependentUpon>VideoPropertiesWindow.cs</DependentUpon>
+    </Compile>
+    <EmbeddedResource Include="AdjustImageColoursControl.resx">
+      <SubType>Designer</SubType>
+      <DependentUpon>AdjustImageColoursControl.cs</DependentUpon>
+    </EmbeddedResource>
+    <EmbeddedResource Include="AnimatedDecorationNamer.resx">
+      <DependentUpon>AnimatedDecorationNamer.cs</DependentUpon>
+      <SubType>Designer</SubType>
+    </EmbeddedResource>
+    <EmbeddedResource Include="AnimatedDecorationsEditor.resx">
+      <DependentUpon>AnimatedDecorationsEditor.cs</DependentUpon>
+      <SubType>Designer</SubType>
+    </EmbeddedResource>
+    <EmbeddedResource Include="BitmapButton.resx">
+      <DependentUpon>BitmapButton.cs</DependentUpon>
+      <SubType>Designer</SubType>
+    </EmbeddedResource>
+    <EmbeddedResource Include="BrightnessContrastControll.resx">
+      <SubType>Designer</SubType>
+      <DependentUpon>BrightnessContrastControll.cs</DependentUpon>
+    </EmbeddedResource>
+    <EmbeddedResource Include="ClipartSelectForm.resx">
+      <SubType>Designer</SubType>
+      <DependentUpon>ClipartSelectForm.cs</DependentUpon>
+    </EmbeddedResource>
+    <EmbeddedResource Include="ClipartThumbnail.resx">
+      <DependentUpon>ClipartThumbnail.cs</DependentUpon>
+      <SubType>Designer</SubType>
+    </EmbeddedResource>
+    <EmbeddedResource Include="MotionBlurHelp.resx">
+      <SubType>Designer</SubType>
+      <DependentUpon>MotionBlurHelp.cs</DependentUpon>
+    </EmbeddedResource>
+    <EmbeddedResource Include="PreviewMenuForm.resx">
+      <DependentUpon>PreviewMenuForm.cs</DependentUpon>
+      <SubType>Designer</SubType>
+    </EmbeddedResource>
+    <EmbeddedResource Include="CreateBlankSlideForm.resx">
+      <SubType>Designer</SubType>
+      <DependentUpon>CreateBlankSlideForm.cs</DependentUpon>
+    </EmbeddedResource>
+    <EmbeddedResource Include="CreateSlideFromTemplateForm.resx">
+      <SubType>Designer</SubType>
+      <DependentUpon>CreateSlideFromTemplateForm.cs</DependentUpon>
+    </EmbeddedResource>
+    <EmbeddedResource Include="CTemplateImportExporter.resx">
+      <SubType>Designer</SubType>
+      <DependentUpon>CTemplateImportExporter.cs</DependentUpon>
+    </EmbeddedResource>
+    <EmbeddedResource Include="FontSelectorForm.resx">
+      <SubType>Designer</SubType>
+      <DependentUpon>FontSelectorForm.cs</DependentUpon>
+    </EmbeddedResource>
+    <EmbeddedResource Include="ImageCombo.resx">
+      <DependentUpon>ImageCombo.cs</DependentUpon>
+      <SubType>Designer</SubType>
+    </EmbeddedResource>
+    <EmbeddedResource Include="ManualScrollablePanel.resx">
+      <DependentUpon>ManualScrollablePanel.cs</DependentUpon>
+      <SubType>Designer</SubType>
+    </EmbeddedResource>
+    <EmbeddedResource Include="Properties\Resources.resx">
+      <SubType>Designer</SubType>
+      <Generator>ResXFileCodeGenerator</Generator>
+      <LastGenOutput>Resources.Designer.cs</LastGenOutput>
+    </EmbeddedResource>
+    <EmbeddedResource Include="RecordNarrationForm.resx">
+      <SubType>Designer</SubType>
+      <DependentUpon>RecordNarrationForm.cs</DependentUpon>
+    </EmbeddedResource>
+    <EmbeddedResource Include="SelectBackgroundControl.resx">
+      <SubType>Designer</SubType>
+      <DependentUpon>SelectBackgroundControl.cs</DependentUpon>
+    </EmbeddedResource>
+    <EmbeddedResource Include="SelectDecorationMotionForm.resx">
+      <DependentUpon>SelectDecorationMotionForm.cs</DependentUpon>
+      <SubType>Designer</SubType>
+    </EmbeddedResource>
+    <EmbeddedResource Include="CropUserControl.resx">
+      <SubType>Designer</SubType>
+      <DependentUpon>CropUserControl.cs</DependentUpon>
+    </EmbeddedResource>
+    <EmbeddedResource Include="EditSlideMediaForm.resx">
+      <SubType>Designer</SubType>
+      <DependentUpon>EditSlideMediaForm.cs</DependentUpon>
+    </EmbeddedResource>
+    <EmbeddedResource Include="EditTemplateMediaOrder.resx">
+      <SubType>Designer</SubType>
+      <DependentUpon>EditTemplateMediaOrder.cs</DependentUpon>
+    </EmbeddedResource>
+    <EmbeddedResource Include="FontSelectorControl.resx">
+      <SubType>Designer</SubType>
+      <DependentUpon>FontSelectorControl.cs</DependentUpon>
+    </EmbeddedResource>
+    <EmbeddedResource Include="ImageMenuItem.resx">
+      <DependentUpon>ImageMenuItem.cs</DependentUpon>
+      <SubType>Designer</SubType>
+    </EmbeddedResource>
+    <EmbeddedResource Include="OrderLayersForm.resx">
+      <SubType>Designer</SubType>
+      <DependentUpon>OrderLayersForm.cs</DependentUpon>
+    </EmbeddedResource>
+    <EmbeddedResource Include="OrientateControl.resx">
+      <SubType>Designer</SubType>
+      <DependentUpon>OrientateControl.cs</DependentUpon>
+    </EmbeddedResource>
+    <EmbeddedResource Include="OverlaySelectionControl.resx">
+      <SubType>Designer</SubType>
+      <DependentUpon>OverlaySelectionControl.cs</DependentUpon>
+    </EmbeddedResource>
+    <EmbeddedResource Include="PredefinedSlideDesignsControl.resx">
+      <SubType>Designer</SubType>
+      <DependentUpon>PredefinedSlideDesignsControl.cs</DependentUpon>
+    </EmbeddedResource>
+    <EmbeddedResource Include="SelectAlphaMapControl.resx">
+      <SubType>Designer</SubType>
+      <DependentUpon>SelectAlphaMapControl.cs</DependentUpon>
+    </EmbeddedResource>
+    <EmbeddedResource Include="SetStartEndSlideTime.resx">
+      <SubType>Designer</SubType>
+      <DependentUpon>SetStartEndSlideTime.cs</DependentUpon>
+    </EmbeddedResource>
+    <EmbeddedResource Include="SimpleBitmapButton.resx">
+      <DependentUpon>SimpleBitmapButton.cs</DependentUpon>
+      <SubType>Designer</SubType>
+    </EmbeddedResource>
+    <EmbeddedResource Include="SlideFiltersControl.resx">
+      <DependentUpon>SlideFiltersControl.cs</DependentUpon>
+      <SubType>Designer</SubType>
+    </EmbeddedResource>
+    <EmbeddedResource Include="StartupOutputChoiceForm.resx">
+      <DependentUpon>StartupOutputChoiceForm.cs</DependentUpon>
+      <SubType>Designer</SubType>
+    </EmbeddedResource>
+    <EmbeddedResource Include="TabControlEx.resx">
+      <DependentUpon>TabControlEx.cs</DependentUpon>
+      <SubType>Designer</SubType>
+    </EmbeddedResource>
+    <EmbeddedResource Include="TextEditControl.resx">
+      <SubType>Designer</SubType>
+      <DependentUpon>TextEditControl.cs</DependentUpon>
+    </EmbeddedResource>
+    <EmbeddedResource Include="TrimVideoControl.resx">
+      <SubType>Designer</SubType>
+      <DependentUpon>TrimVideoControl.cs</DependentUpon>
+    </EmbeddedResource>
+    <EmbeddedResource Include="VideoPropertiesWindow.resx">
+      <DependentUpon>VideoPropertiesWindow.cs</DependentUpon>
+    </EmbeddedResource>
+  </ItemGroup>
+  <ItemGroup>
+    <ProjectReference Include="..\dvdslideshow\dvdslideshow.csproj">
+      <Project>{D5EFA5A4-D8CE-423A-BD6F-03A21DE44F73}</Project>
+      <Name>dvdslideshow</Name>
+    </ProjectReference>
+    <ProjectReference Include="..\fontcombo\FontCombo.csproj">
+      <Project>{E764A681-F213-4581-8492-9EE617B5E398}</Project>
+      <Name>FontCombo</Name>
+    </ProjectReference>
+    <ProjectReference Include="..\ManagedCore\ManagedCore.csproj">
+      <Project>{4B611A2F-D5A9-450B-89EA-C8AFC1A220A2}</Project>
+      <Name>ManagedCore</Name>
+    </ProjectReference>
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="Resources\back24.bmp" />
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="Resources\video file3.png" />
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="Resources\dvd video 144x144.png" />
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="Resources\static1.png" />
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="Resources\mb1.png" />
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="Resources\static2.png" />
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="Resources\mb2.png" />
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="Resources\undo1.png" />
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="Resources\redo1.png" />
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="Resources\red-dot21.png" />
+  </ItemGroup>
+  <Import Project="$(MSBuildBinPath)\Microsoft.CSharp.targets" />
+  <PropertyGroup>
+    <PreBuildEvent>
+    </PreBuildEvent>
+    <PostBuildEvent>
+    </PostBuildEvent>
+  </PropertyGroup>
+</Project>

@@ -1,0 +1,137 @@
+<Template Version="1.0.0" Name="Groups of three zoom in" Description="Three groups of three images slowly zooming in&#xD;&#xA;">
+  <Slideshow>
+    <Slide Type="BlankStillPictureSlide" PanZoom="False" DisplayTimeLength="13" UsesDefaultTransitionEffect="True" ForceMBSubFrames="1" Color="Color [Black]">
+      <TransitionEffect Type="SimpleAlphaBlendTransitionEffect" Length="1.5" Index="1" />
+      <Decoration Type="ImageDecoration" Aspect="2" InEffect="GroupsOf3ZoomInBackground">
+        <CoverageArea X="8.940697E-08" Y="-0.1666667" Width="0.9999998" Height="1.333333" />
+        <Image Filename="templates\media\forest.jpg" />
+      </Decoration>
+      <Decoration Type="ImageDecoration" Aspect="2" TemplateFramework="True" InEffect="GroupsOf3ZoomInGroup1">
+        <AlphaMap Filename="outlinemasks\gradient edge.jpg" />
+        <CoverageArea X="0.06866953" Y="0.09414759" Width="0.8097282" Height="0.7557252" />
+        <Image Filename="templates\media\white.jpg" />
+      </Decoration>
+      <Decoration Type="ImageDecoration" Aspect="2" OriTemImageNum="1" InEffect="GroupsOf3ZoomInGroup1">
+        <AlphaMap Filename="outlinemasks\gradient edge.jpg" />
+        <CoverageArea X="0.08726753" Y="0.1221374" Width="0.5236052" Height="0.697201" />
+        <Image Filename="image1" />
+      </Decoration>
+      <Decoration Type="ImageDecoration" Aspect="2" OriTemImageNum="2" InEffect="GroupsOf3ZoomInGroup1">
+        <AlphaMap Filename="outlinemasks\gradient edge.jpg" />
+        <CoverageArea X="0.620887" Y="0.1221374" Width="0.2403433" Height="0.4147583" />
+        <Image Filename="image2" />
+      </Decoration>
+      <Decoration Type="ImageDecoration" Aspect="2" OriTemImageNum="3" InEffect="GroupsOf3ZoomInGroup1" BW="True">
+        <AlphaMap Filename="outlinemasks\gradient edge.jpg" />
+        <CoverageArea X="0.6223176" Y="0.562341" Width="0.2360515" Height="0.2519084" />
+        <Image Filename="image3" />
+      </Decoration>
+      <Decoration Type="TextDecoration" InEffect="GroupsOf3ZoomInGroup1" Text="Header1" TemplateEditable="1" HintEditTime="11">
+        <CoverageArea X="0.07861635" Y="0.6097902" Width="0.3407532" Height="0.1710891" />
+        <TextStyle Name="Blue Fenugreek" FontName="Arial" FontSize="73.50375" FontColor="Color [A=255, R=193, G=240, B=249]" Bold="True" OutLine="True" OutLineColour="Color [A=255, R=21, G=189, B=219]" FontColor2="Color [A=255, R=98, G=219, B=240]" Gradient="True" OutlineLength="5" OutlineAlpha="52" />
+      </Decoration>
+      <Decoration Type="TextDecoration" InEffect="GroupsOf3ZoomInGroup1" Text="text1 text1 text1" TemplateEditable="1" HintEditTime="11">
+        <CoverageArea X="0.3042187" Y="0.735369" Width="0.2937784" Height="0.07992592" />
+        <TextStyle Name="Blue Fenugreek" FontName="Arial" FontSize="34.33799" FontColor="Color [A=255, R=193, G=240, B=249]" Bold="True" OutLine="True" OutLineColour="Color [A=255, R=21, G=189, B=219]" Alignment="Far" FontColor2="Color [A=255, R=98, G=219, B=240]" Gradient="True" OutlineLength="5" OutlineAlpha="52" />
+      </Decoration>
+      <Decoration Type="ImageDecoration" Aspect="2" TemplateFramework="True" InEffect="GroupsOf3ZoomInGroup2">
+        <AlphaMap Filename="outlinemasks\gradient edge.jpg" />
+        <CoverageArea X="0.06866953" Y="0.09414759" Width="0.8097282" Height="0.7557252" />
+        <Image Filename="templates\media\white.jpg" />
+      </Decoration>
+      <Decoration Type="ImageDecoration" Aspect="2" OriTemImageNum="4" InEffect="GroupsOf3ZoomInGroup2">
+        <AlphaMap Filename="outlinemasks\gradient edge.jpg" />
+        <CoverageArea X="0.08726753" Y="0.1246819" Width="0.5236052" Height="0.6977913" />
+        <Image Filename="image4" />
+      </Decoration>
+      <Decoration Type="ImageDecoration" Aspect="2" OriTemImageNum="5" InEffect="GroupsOf3ZoomInGroup2">
+        <AlphaMap Filename="outlinemasks\gradient edge.jpg" />
+        <CoverageArea X="0.620887" Y="0.1221374" Width="0.2403433" Height="0.4147583" />
+        <Image Filename="image5" />
+      </Decoration>
+      <Decoration Type="ImageDecoration" Aspect="2" OriTemImageNum="6" InEffect="GroupsOf3ZoomInGroup2" BW="True">
+        <AlphaMap Filename="outlinemasks\gradient edge.jpg" />
+        <CoverageArea X="0.6223176" Y="0.562341" Width="0.2360515" Height="0.2519084" />
+        <Image Filename="image6" />
+      </Decoration>
+      <Decoration Type="TextDecoration" InEffect="GroupsOf3ZoomInGroup2" Text="Header2" TemplateEditable="1" HintEditTime="6">
+        <CoverageArea X="0.07861635" Y="0.606993" Width="0.3407532" Height="0.1710891" />
+        <TextStyle Name="Blue Fenugreek" FontName="Arial" FontSize="73.50375" FontColor="Color [A=255, R=193, G=240, B=249]" Bold="True" OutLine="True" OutLineColour="Color [A=255, R=21, G=189, B=219]" FontColor2="Color [A=255, R=98, G=219, B=240]" Gradient="True" OutlineLength="5" OutlineAlpha="52" />
+      </Decoration>
+      <Decoration Type="TextDecoration" InEffect="GroupsOf3ZoomInGroup2" Text="text2 text2 text2" TemplateEditable="1" HintEditTime="6">
+        <CoverageArea X="0.3042189" Y="0.735369" Width="0.2937783" Height="0.0799259" />
+        <TextStyle Name="Blue Fenugreek" FontName="Arial" FontSize="34.33798" FontColor="Color [A=255, R=193, G=240, B=249]" Bold="True" OutLine="True" OutLineColour="Color [A=255, R=21, G=189, B=219]" Alignment="Far" FontColor2="Color [A=255, R=98, G=219, B=240]" Gradient="True" OutlineLength="5" OutlineAlpha="52" />
+      </Decoration>
+      <Decoration Type="ImageDecoration" Aspect="2" TemplateFramework="True" InEffect="GroupsOf3ZoomInGroup3">
+        <AlphaMap Filename="outlinemasks\gradient edge.jpg" />
+        <CoverageArea X="0.06866953" Y="0.09414759" Width="0.8097282" Height="0.7557252" />
+        <Image Filename="templates\media\white.jpg" />
+      </Decoration>
+      <Decoration Type="ImageDecoration" Aspect="2" OriTemImageNum="7" InEffect="GroupsOf3ZoomInGroup3">
+        <AlphaMap Filename="outlinemasks\gradient edge.jpg" />
+        <CoverageArea X="0.08726753" Y="0.1246819" Width="0.5236052" Height="0.6977913" />
+        <Image Filename="image7" />
+      </Decoration>
+      <Decoration Type="ImageDecoration" Aspect="2" OriTemImageNum="8" InEffect="GroupsOf3ZoomInGroup3">
+        <AlphaMap Filename="outlinemasks\gradient edge.jpg" />
+        <CoverageArea X="0.620887" Y="0.1221374" Width="0.2403433" Height="0.4147583" />
+        <Image Filename="image8" />
+      </Decoration>
+      <Decoration Type="ImageDecoration" Aspect="2" OriTemImageNum="9" InEffect="GroupsOf3ZoomInGroup3" BW="True">
+        <AlphaMap Filename="outlinemasks\gradient edge.jpg" />
+        <CoverageArea X="0.6223176" Y="0.562341" Width="0.2360515" Height="0.2519084" />
+        <Image Filename="image9" />
+      </Decoration>
+      <Decoration Type="TextDecoration" InEffect="GroupsOf3ZoomInGroup3" Text="Header3" TemplateEditable="1" HintEditTime="1.5">
+        <CoverageArea X="0.07868383" Y="0.610687" Width="0.3414285" Height="0.1714281" />
+        <TextStyle Name="Blue Fenugreek" FontName="Arial" FontSize="73.64941" FontColor="Color [A=255, R=193, G=240, B=249]" Bold="True" OutLine="True" OutLineColour="Color [A=255, R=21, G=189, B=219]" FontColor2="Color [A=255, R=98, G=219, B=240]" Gradient="True" OutlineLength="5" OutlineAlpha="52" />
+      </Decoration>
+      <Decoration Type="TextDecoration" InEffect="GroupsOf3ZoomInGroup3" Text="text3 text3 text3" TemplateEditable="1" HintEditTime="1.5">
+        <CoverageArea X="0.3042189" Y="0.735369" Width="0.2937783" Height="0.0799259" />
+        <TextStyle Name="Blue Fenugreek" FontName="Arial" FontSize="34.33798" FontColor="Color [A=255, R=193, G=240, B=249]" Bold="True" OutLine="True" OutLineColour="Color [A=255, R=21, G=189, B=219]" Alignment="Far" FontColor2="Color [A=255, R=98, G=219, B=240]" Gradient="True" OutlineLength="5" OutlineAlpha="52" />
+      </Decoration>
+      <Decoration Type="ColourTransformDecoration" br="0.93" bg="0.86" bb="0.84" cr="1.06" cg="1.06" cb="1.06" gamma="1">
+        <CoverageArea X="0" Y="0" Width="1" Height="1" />
+      </Decoration>
+      <Decoration Type="ImageDecoration" RenderMethod="4" Border="True">
+        <CoverageArea X="0" Y="0" Width="1" Height="1" />
+        <Image Filename="borders\spotlight(mod1x).pvsi" />
+      </Decoration>
+      <PanZoom>
+        <StartArea X="0.125" Y="0.125" Width="0.75" Height="0.75" />
+        <EndArea X="0.18515" Y="0.18515" Width="0.6296999" Height="0.6296999" />
+        <Equation Type="Linear" />
+      </PanZoom>
+    </Slide>
+  </Slideshow>
+  <DecorationEffectsDatabase>
+    <DecorationEffect Name="GroupsOf3ZoomInGroup3" Length="12" TemplateOnlyEffect="True">
+      <Movement Type="StraightLineMovement" TranslateXY="True" InitialDelay="0.08" EndDelay="0">
+        <Start X="-0.5" Y="0.1" Z="2" />
+        <End X="-0.5" Y="0.1" Z="-1.2" />
+        <Equation Type="NonLinear" />
+      </Movement>
+    </DecorationEffect>
+    <DecorationEffect Name="GroupsOf3ZoomInGroup2" Length="12" TemplateOnlyEffect="True">
+      <Movement Type="StraightLineMovement" TranslateXY="True" InitialDelay="0.08" EndDelay="0">
+        <Start X="0.5" Y="0.1" Z="3.3" />
+        <End X="0.5" Y="0.1" Z="0.1" />
+        <Equation Type="NonLinear" />
+      </Movement>
+    </DecorationEffect>
+    <DecorationEffect Name="GroupsOf3ZoomInGroup1" Length="12" TemplateOnlyEffect="True">
+      <Movement Type="StraightLineMovement" TranslateXY="True" InitialDelay="0.08" EndDelay="0">
+        <Start X="0" Y="0.1" Z="4.6" />
+        <End X="0" Y="0.1" Z="1.4" />
+        <Equation Type="NonLinear" />
+      </Movement>
+    </DecorationEffect>
+    <DecorationEffect Name="GroupsOf3ZoomInBackground" Length="12" TemplateOnlyEffect="True">
+      <Movement Type="StraightLineMovement" InitialDelay="0.08" EndDelay="0">
+        <Start X="0" Y="0" Z="1" />
+        <End X="0" Y="0" Z="0.5" />
+        <Equation Type="NonLinear" />
+      </Movement>
+    </DecorationEffect>
+  </DecorationEffectsDatabase>
+</Template>

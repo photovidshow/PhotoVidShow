@@ -1,0 +1,488 @@
+<Template Version="1.0.0" Name="Pinboard pan 2" Description="Pans around a pin board with 10 images&#xD;&#xA;">
+  <Slideshow>
+    <Slide Type="MultiSlideSlide" PanZoom="False" DisplayTimeLength="32.18333" UsesDefaultTransitionEffect="True" ForceMBSubFrames="30">
+      <TransitionEffect Type="MoveToNextSlideTransitionEffect" Direction="1" BorderFrac="0" Length="0.7" Index="25" />
+      <Slide Type="BlankStillPictureSlide" PanZoom="True" DisplayTimeLength="3" Color="Color [Black]" MasterBackgroundAspect="0.7484375">
+        <TransitionEffect Type="MoveToNextSlideTransitionEffect" Direction="1" BorderFrac="0" Length="0" Index="25" />
+        <Decoration Type="GroupedDecoration" MotionBlur="False" RenderMethod="7" MoveAsSlidePanZoom="True">
+          <CoverageArea X="0" Y="0" Width="1" Height="1" />
+          <Decoration Type="ImageDecoration" DegreesRot="-18.10376" Aspect="2" OriTemImageNum="1" EndOffsetTime="7">
+            <AlphaMap Filename="outlinemasks\smooth edge.jpg" />
+            <CoverageArea X="0.3391304" Y="0.1912799" Width="0.1786561" Height="0.2461322" />
+            <Image Filename="image1" />
+          </Decoration>
+          <Decoration Type="ImageDecoration" DegreesRot="10" Aspect="2" OriTemImageNum="2" EndOffsetTime="7">
+            <AlphaMap Filename="outlinemasks\smooth edge.jpg" />
+            <CoverageArea X="0.4916996" Y="0.5161744" Width="0.1786561" Height="0.2503516" />
+            <Image Filename="image2" />
+          </Decoration>
+          <Decoration Type="ColourTransformDecoration" br="1" bg="0.9" bb="0.9" cr="1.04" cg="1.05" cb="1.05" gamma="1">
+            <CoverageArea X="0" Y="0" Width="1" Height="1" />
+          </Decoration>
+          <Decoration Type="ImageDecoration" TemplateFramework="True" Aspect="3">
+            <CoverageArea X="0" Y="0" Width="1" Height="1" />
+            <Image Filename="templates\media\overlays\twopinboard.pvsi" />
+          </Decoration>
+        </Decoration>
+        <Decoration Type="ImageDecoration" PostTrans="True" Border="True">
+          <CoverageArea X="0" Y="0" Width="1" Height="1" />
+          <Image Filename="borders\vignette1.pvsi" />
+        </Decoration>
+        <PanZoom InitialDelay="0.1" StartRotation="-4" EndRotation="1.299204" PanZoomOnAll="True">
+          <StartArea X="0.3011858" Y="0.08720113" Width="0.3960474" Height="0.3966245" />
+          <EndArea X="0.2948617" Y="0.1195499" Width="0.3944664" Height="0.3944664" />
+          <Equation Type="Linear" />
+        </PanZoom>
+      </Slide>
+      <Slide Type="BlankStillPictureSlide" PanZoom="True" DisplayTimeLength="1" Color="Color [Black]" MasterBackgroundAspect="0.7484375">
+        <TransitionEffect Type="MoveToNextSlideTransitionEffect" Direction="1" BorderFrac="0" Length="0" Index="25" />
+        <Decoration Type="GroupedDecoration" MotionBlur="False" RenderMethod="7" MoveAsSlidePanZoom="True">
+          <CoverageArea X="0" Y="0" Width="1" Height="1" />
+          <Decoration Type="ImageDecoration" DegreesRot="-18.10376" Aspect="2" OriTemImageNum="1" EndOffsetTime="7">
+            <AlphaMap Filename="outlinemasks\smooth edge.jpg" />
+            <CoverageArea X="0.3391304" Y="0.1912799" Width="0.1786561" Height="0.2461322" />
+            <Image Filename="image1" />
+          </Decoration>
+          <Decoration Type="ImageDecoration" DegreesRot="10" Aspect="2" OriTemImageNum="2" EndOffsetTime="7">
+            <AlphaMap Filename="outlinemasks\smooth edge.jpg" />
+            <CoverageArea X="0.4916996" Y="0.5161744" Width="0.1786561" Height="0.2503516" />
+            <Image Filename="image2" />
+          </Decoration>
+          <Decoration Type="ColourTransformDecoration" br="1" bg="0.9" bb="0.9" cr="1.04" cg="1.05" cb="1.05" gamma="1">
+            <CoverageArea X="0" Y="0" Width="1" Height="1" />
+          </Decoration>
+          <Decoration Type="ImageDecoration" TemplateFramework="True" Aspect="3">
+            <CoverageArea X="0" Y="0" Width="1" Height="1" />
+            <Image Filename="templates\media\overlays\twopinboard.pvsi" />
+          </Decoration>
+        </Decoration>
+        <Decoration Type="ImageDecoration" PostTrans="True" Border="True">
+          <CoverageArea X="0" Y="0" Width="1" Height="1" />
+          <Image Filename="borders\vignette1.pvsi" />
+        </Decoration>
+        <PanZoom StartRotation="1.299204" EndRotation="4" PanZoomOnAll="True">
+          <StartArea X="0.2948617" Y="0.1195499" Width="0.3944664" Height="0.3944664" />
+          <EndArea X="0.3019763" Y="0.4331927" Width="0.3944664" Height="0.395218" />
+          <Equation Type="NonLinear" />
+        </PanZoom>
+      </Slide>
+      <Slide Type="BlankStillPictureSlide" PanZoom="True" DisplayTimeLength="3" UsesDefaultTransitionEffect="True" Color="Color [Black]" MasterBackgroundAspect="0.7484375">
+        <TransitionEffect Type="MoveToNextSlideTransitionEffect" Direction="1" BorderFrac="0" Length="0.7" Index="25" />
+        <Decoration Type="GroupedDecoration" MotionBlur="False" RenderMethod="7" MoveAsSlidePanZoom="True">
+          <CoverageArea X="0" Y="0" Width="1" Height="1" />
+          <Decoration Type="ImageDecoration" DegreesRot="-18.10376" Aspect="2" OriTemImageNum="1" EndOffsetTime="7">
+            <AlphaMap Filename="outlinemasks\smooth edge.jpg" />
+            <CoverageArea X="0.3391304" Y="0.1912799" Width="0.1786561" Height="0.2461322" />
+            <Image Filename="image1" />
+          </Decoration>
+          <Decoration Type="ImageDecoration" DegreesRot="10" Aspect="2" OriTemImageNum="2" EndOffsetTime="7">
+            <AlphaMap Filename="outlinemasks\smooth edge.jpg" />
+            <CoverageArea X="0.4916996" Y="0.5161744" Width="0.1786561" Height="0.2503516" />
+            <Image Filename="image2" />
+          </Decoration>
+          <Decoration Type="ColourTransformDecoration" br="1" bg="0.9" bb="0.9" cr="1.04" cg="1.05" cb="1.05" gamma="1">
+            <CoverageArea X="0" Y="0" Width="1" Height="1" />
+          </Decoration>
+          <Decoration Type="ImageDecoration" TemplateFramework="True" Aspect="3">
+            <CoverageArea X="0" Y="0" Width="1" Height="1" />
+            <Image Filename="templates\media\overlays\twopinboard.pvsi" />
+          </Decoration>
+        </Decoration>
+        <Decoration Type="ImageDecoration" PostTrans="True" Border="True">
+          <CoverageArea X="0" Y="0" Width="1" Height="1" />
+          <Image Filename="borders\vignette1.pvsi" />
+        </Decoration>
+        <PanZoom EndDelay="0.89" StartRotation="4" EndRotation="9" PanZoomOnAll="True">
+          <StartArea X="0.3019763" Y="0.4331927" Width="0.3944664" Height="0.395218" />
+          <EndArea X="0.3146245" Y="0.4542897" Width="0.3786561" Height="0.3797468" />
+          <Equation Type="NonLinear" />
+        </PanZoom>
+      </Slide>
+      <Slide Type="BlankStillPictureSlide" PanZoom="True" DisplayTimeLength="3" Color="Color [Black]" MasterBackgroundAspect="0.7484375">
+        <TransitionEffect Type="MoveToNextSlideTransitionEffect" Direction="1" BorderFrac="0" Length="0" Index="25" />
+        <Decoration Type="GroupedDecoration" MotionBlur="False" RenderMethod="7" MoveAsSlidePanZoom="True">
+          <CoverageArea X="0" Y="0" Width="1" Height="1" />
+          <Decoration Type="ImageDecoration" DegreesRot="18" Aspect="2" OriTemImageNum="3" EndOffsetTime="7">
+            <AlphaMap Filename="outlinemasks\smooth edge.jpg" />
+            <CoverageArea X="0.4837945" Y="0.188467" Width="0.1762846" Height="0.2503516" />
+            <Image Filename="image3" />
+          </Decoration>
+          <Decoration Type="ImageDecoration" DegreesRot="-10" Aspect="2" OriTemImageNum="4" EndOffsetTime="7">
+            <AlphaMap Filename="outlinemasks\smooth edge.jpg" />
+            <CoverageArea X="0.3288538" Y="0.5203938" Width="0.1833992" Height="0.2475387" />
+            <Image Filename="image4" />
+          </Decoration>
+          <Decoration Type="ColourTransformDecoration" br="1" bg="0.9" bb="0.9" cr="1.04" cg="1.05" cb="1.05" gamma="1">
+            <CoverageArea X="0" Y="0" Width="1" Height="1" />
+          </Decoration>
+          <Decoration Type="ImageDecoration" FlipX="True" TemplateFramework="True" Aspect="3">
+            <CoverageArea X="0" Y="0" Width="1" Height="1" />
+            <Image Filename="templates\media\overlays\twopinboard.pvsi" />
+          </Decoration>
+        </Decoration>
+        <Decoration Type="ImageDecoration" PostTrans="True" Border="True">
+          <CoverageArea X="0" Y="0" Width="1" Height="1" />
+          <Image Filename="borders\vignette1.pvsi" />
+        </Decoration>
+        <PanZoom InitialDelay="0.11" StartRotation="4" EndRotation="-2.44861" PanZoomOnAll="True">
+          <StartArea X="0.3067194" Y="0.08298171" Width="0.3944664" Height="0.395218" />
+          <EndArea X="0.3106719" Y="0.1054852" Width="0.3944664" Height="0.3938115" />
+          <Equation Type="Linear" />
+        </PanZoom>
+      </Slide>
+      <Slide Type="BlankStillPictureSlide" PanZoom="True" DisplayTimeLength="1" Color="Color [Black]" MasterBackgroundAspect="0.7484375">
+        <TransitionEffect Type="MoveToNextSlideTransitionEffect" Direction="1" BorderFrac="0" Length="0" Index="25" />
+        <Decoration Type="GroupedDecoration" MotionBlur="False" RenderMethod="7" MoveAsSlidePanZoom="True">
+          <CoverageArea X="0" Y="0" Width="1" Height="1" />
+          <Decoration Type="ImageDecoration" DegreesRot="18" Aspect="2" OriTemImageNum="3" EndOffsetTime="7">
+            <AlphaMap Filename="outlinemasks\smooth edge.jpg" />
+            <CoverageArea X="0.4837945" Y="0.188467" Width="0.1762846" Height="0.2503516" />
+            <Image Filename="image3" />
+          </Decoration>
+          <Decoration Type="ImageDecoration" DegreesRot="-10" Aspect="2" OriTemImageNum="4" EndOffsetTime="7">
+            <AlphaMap Filename="outlinemasks\smooth edge.jpg" />
+            <CoverageArea X="0.3288538" Y="0.5203938" Width="0.1833992" Height="0.2475387" />
+            <Image Filename="image4" />
+          </Decoration>
+          <Decoration Type="ColourTransformDecoration" br="1" bg="0.9" bb="0.9" cr="1.04" cg="1.05" cb="1.05" gamma="1">
+            <CoverageArea X="0" Y="0" Width="1" Height="1" />
+          </Decoration>
+          <Decoration Type="ImageDecoration" FlipX="True" TemplateFramework="True" Aspect="3">
+            <CoverageArea X="0" Y="0" Width="1" Height="1" />
+            <Image Filename="templates\media\overlays\twopinboard.pvsi" />
+          </Decoration>
+        </Decoration>
+        <Decoration Type="ImageDecoration" PostTrans="True" Border="True">
+          <CoverageArea X="0" Y="0" Width="1" Height="1" />
+          <Image Filename="borders\vignette1.pvsi" />
+        </Decoration>
+        <PanZoom StartRotation="-2.44861" EndRotation="-2.44861" PanZoomOnAll="True">
+          <StartArea X="0.3106719" Y="0.1054852" Width="0.3944664" Height="0.3938115" />
+          <EndArea X="0.3003953" Y="0.4725738" Width="0.3944664" Height="0.3944664" />
+          <Equation Type="NonLinear" />
+        </PanZoom>
+      </Slide>
+      <Slide Type="BlankStillPictureSlide" PanZoom="True" DisplayTimeLength="3" UsesDefaultTransitionEffect="True" Color="Color [Black]" MasterBackgroundAspect="0.7484375">
+        <TransitionEffect Type="MoveToNextSlideTransitionEffect" Direction="1" BorderFrac="0" Length="0.7" Index="25" />
+        <Decoration Type="GroupedDecoration" MotionBlur="False" RenderMethod="7" MoveAsSlidePanZoom="True">
+          <CoverageArea X="0" Y="0" Width="1" Height="1" />
+          <Decoration Type="ImageDecoration" DegreesRot="18" Aspect="2" OriTemImageNum="3" EndOffsetTime="7">
+            <AlphaMap Filename="outlinemasks\smooth edge.jpg" />
+            <CoverageArea X="0.4837945" Y="0.188467" Width="0.1762846" Height="0.2503516" />
+            <Image Filename="image3" />
+          </Decoration>
+          <Decoration Type="ImageDecoration" DegreesRot="-10" Aspect="2" OriTemImageNum="4" EndOffsetTime="7">
+            <AlphaMap Filename="outlinemasks\smooth edge.jpg" />
+            <CoverageArea X="0.3288538" Y="0.5203938" Width="0.1833992" Height="0.2475387" />
+            <Image Filename="image4" />
+          </Decoration>
+          <Decoration Type="ColourTransformDecoration" br="1" bg="0.9" bb="0.9" cr="1.04" cg="1.05" cb="1.05" gamma="1">
+            <CoverageArea X="0" Y="0" Width="1" Height="1" />
+          </Decoration>
+          <Decoration Type="ImageDecoration" FlipX="True" TemplateFramework="True" Aspect="3">
+            <CoverageArea X="0" Y="0" Width="1" Height="1" />
+            <Image Filename="templates\media\overlays\twopinboard.pvsi" />
+          </Decoration>
+        </Decoration>
+        <Decoration Type="ImageDecoration" PostTrans="True" Border="True">
+          <CoverageArea X="0" Y="0" Width="1" Height="1" />
+          <Image Filename="borders\vignette1.pvsi" />
+        </Decoration>
+        <PanZoom EndDelay="0.9" StartRotation="-2.44861" EndRotation="-6" PanZoomOnAll="True">
+          <StartArea X="0.3003953" Y="0.4725738" Width="0.3944664" Height="0.3944664" />
+          <EndArea X="0.3019763" Y="0.4711674" Width="0.3944664" Height="0.3938115" />
+          <Equation Type="Linear" />
+        </PanZoom>
+      </Slide>
+      <Slide Type="BlankStillPictureSlide" PanZoom="True" DisplayTimeLength="3" Color="Color [Black]" MasterBackgroundAspect="0.7484375">
+        <TransitionEffect Type="MoveToNextSlideTransitionEffect" Direction="2" BorderFrac="0" Length="0" Index="22" />
+        <Decoration Type="GroupedDecoration" MotionBlur="False" RenderMethod="7" MoveAsSlidePanZoom="True">
+          <CoverageArea X="0" Y="0" Width="1" Height="1" />
+          <Decoration Type="ImageDecoration" DegreesRot="-18" Aspect="2" OriTemImageNum="5" EndOffsetTime="7">
+            <AlphaMap Filename="outlinemasks\smooth edge.jpg" />
+            <CoverageArea X="0.3399209" Y="0.1870605" Width="0.1794466" Height="0.2531646" />
+            <Image Filename="image5" />
+          </Decoration>
+          <Decoration Type="ImageDecoration" DegreesRot="10" Aspect="2" OriTemImageNum="6" EndOffsetTime="7">
+            <AlphaMap Filename="outlinemasks\smooth edge.jpg" />
+            <CoverageArea X="0.4924901" Y="0.5147679" Width="0.1810277" Height="0.2630098" />
+            <Image Filename="image6" />
+          </Decoration>
+          <Decoration Type="ColourTransformDecoration" br="1" bg="0.9" bb="0.9" cr="1.04" cg="1.05" cb="1.05" gamma="1">
+            <CoverageArea X="0" Y="0" Width="1" Height="1" />
+          </Decoration>
+          <Decoration Type="ImageDecoration" TemplateFramework="True" Aspect="3">
+            <CoverageArea X="0" Y="0" Width="1" Height="1" />
+            <Image Filename="templates\media\overlays\twopinboard.pvsi" />
+          </Decoration>
+        </Decoration>
+        <Decoration Type="ImageDecoration" PostTrans="True" Border="True">
+          <CoverageArea X="0" Y="0" Width="1" Height="1" />
+          <Image Filename="borders\vignette1.pvsi" />
+        </Decoration>
+        <PanZoom InitialDelay="0.11" StartRotation="-4" EndRotation="-2.575786" PanZoomOnAll="True">
+          <StartArea X="0.3027668" Y="0.08438819" Width="0.3881857" Height="0.3881857" />
+          <EndArea X="0.3114625" Y="0.1054852" Width="0.3754941" Height="0.3755274" />
+          <Equation Type="Linear" />
+        </PanZoom>
+      </Slide>
+      <Slide Type="BlankStillPictureSlide" PanZoom="True" DisplayTimeLength="1" Color="Color [Black]" MasterBackgroundAspect="0.7484375">
+        <TransitionEffect Type="MoveToNextSlideTransitionEffect" Direction="2" BorderFrac="0" Length="0" Index="22" />
+        <Decoration Type="GroupedDecoration" MotionBlur="False" RenderMethod="7" MoveAsSlidePanZoom="True">
+          <CoverageArea X="0" Y="0" Width="1" Height="1" />
+          <Decoration Type="ImageDecoration" DegreesRot="-18" Aspect="2" OriTemImageNum="5" EndOffsetTime="7">
+            <AlphaMap Filename="outlinemasks\smooth edge.jpg" />
+            <CoverageArea X="0.3399209" Y="0.1870605" Width="0.1794466" Height="0.2531646" />
+            <Image Filename="image5" />
+          </Decoration>
+          <Decoration Type="ImageDecoration" DegreesRot="10" Aspect="2" OriTemImageNum="6" EndOffsetTime="7">
+            <AlphaMap Filename="outlinemasks\smooth edge.jpg" />
+            <CoverageArea X="0.4924901" Y="0.5147679" Width="0.1810277" Height="0.2630098" />
+            <Image Filename="image6" />
+          </Decoration>
+          <Decoration Type="ColourTransformDecoration" br="1" bg="0.9" bb="0.9" cr="1.04" cg="1.05" cb="1.05" gamma="1">
+            <CoverageArea X="0" Y="0" Width="1" Height="1" />
+          </Decoration>
+          <Decoration Type="ImageDecoration" TemplateFramework="True" Aspect="3">
+            <CoverageArea X="0" Y="0" Width="1" Height="1" />
+            <Image Filename="templates\media\overlays\twopinboard.pvsi" />
+          </Decoration>
+        </Decoration>
+        <Decoration Type="ImageDecoration" PostTrans="True" Border="True">
+          <CoverageArea X="0" Y="0" Width="1" Height="1" />
+          <Image Filename="borders\vignette1.pvsi" />
+        </Decoration>
+        <PanZoom StartRotation="-2.575786" EndRotation="-2.285437" PanZoomOnAll="True">
+          <StartArea X="0.3114625" Y="0.1054852" Width="0.3754941" Height="0.3755274" />
+          <EndArea X="0.4039526" Y="0.5063291" Width="0.284585" Height="0.284585" />
+          <Equation Type="NonLinear" />
+        </PanZoom>
+      </Slide>
+      <Slide Type="BlankStillPictureSlide" PanZoom="True" DisplayTimeLength="3" UsesDefaultTransitionEffect="True" Color="Color [Black]" MasterBackgroundAspect="0.7484375">
+        <TransitionEffect Type="MoveToNextSlideTransitionEffect" Direction="2" BorderFrac="0" Length="0.7" Index="22" />
+        <Decoration Type="GroupedDecoration" MotionBlur="False" RenderMethod="7" MoveAsSlidePanZoom="True">
+          <CoverageArea X="0" Y="0" Width="1" Height="1" />
+          <Decoration Type="ImageDecoration" DegreesRot="-18" Aspect="2" OriTemImageNum="5" EndOffsetTime="7">
+            <AlphaMap Filename="outlinemasks\smooth edge.jpg" />
+            <CoverageArea X="0.3399209" Y="0.1870605" Width="0.1794466" Height="0.2531646" />
+            <Image Filename="image5" />
+          </Decoration>
+          <Decoration Type="ImageDecoration" DegreesRot="10" Aspect="2" OriTemImageNum="6" EndOffsetTime="7">
+            <AlphaMap Filename="outlinemasks\smooth edge.jpg" />
+            <CoverageArea X="0.4924901" Y="0.5147679" Width="0.1810277" Height="0.2630098" />
+            <Image Filename="image6" />
+          </Decoration>
+          <Decoration Type="ColourTransformDecoration" br="1" bg="0.9" bb="0.9" cr="1.04" cg="1.05" cb="1.05" gamma="1">
+            <CoverageArea X="0" Y="0" Width="1" Height="1" />
+          </Decoration>
+          <Decoration Type="ImageDecoration" TemplateFramework="True" Aspect="3">
+            <CoverageArea X="0" Y="0" Width="1" Height="1" />
+            <Image Filename="templates\media\overlays\twopinboard.pvsi" />
+          </Decoration>
+        </Decoration>
+        <Decoration Type="ImageDecoration" PostTrans="True" Border="True">
+          <CoverageArea X="0" Y="0" Width="1" Height="1" />
+          <Image Filename="borders\vignette1.pvsi" />
+        </Decoration>
+        <PanZoom EndDelay="0.89" StartRotation="-2.285437" EndRotation="4" PanZoomOnAll="True">
+          <StartArea X="0.4039526" Y="0.5063291" Width="0.284585" Height="0.284585" />
+          <EndArea X="0.4039526" Y="0.5063291" Width="0.284585" Height="0.2827004" />
+          <Equation Type="NonLinear" />
+        </PanZoom>
+      </Slide>
+      <Slide Type="BlankStillPictureSlide" PanZoom="True" DisplayTimeLength="3" Color="Color [Black]" MasterBackgroundAspect="0.7484375">
+        <TransitionEffect Type="MoveToNextSlideTransitionEffect" Direction="1" BorderFrac="0" Length="0" Index="25" />
+        <Decoration Type="GroupedDecoration" MotionBlur="False" RenderMethod="7" MoveAsSlidePanZoom="True">
+          <CoverageArea X="0" Y="0" Width="1" Height="1" />
+          <Decoration Type="ImageDecoration" DegreesRot="-18" Aspect="2" OriTemImageNum="7" EndOffsetTime="7">
+            <AlphaMap Filename="outlinemasks\smooth edge.jpg" />
+            <CoverageArea X="0.3383399" Y="0.1912799" Width="0.1841897" Height="0.2419128" />
+            <Image Filename="image7" />
+          </Decoration>
+          <Decoration Type="ImageDecoration" DegreesRot="10" Aspect="2" OriTemImageNum="8" EndOffsetTime="7">
+            <AlphaMap Filename="outlinemasks\smooth edge.jpg" />
+            <CoverageArea X="0.4916996" Y="0.5161744" Width="0.1770751" Height="0.254571" />
+            <Image Filename="image8" />
+          </Decoration>
+          <Decoration Type="ColourTransformDecoration" br="1" bg="0.9" bb="0.9" cr="1.04" cg="1.05" cb="1.05" gamma="1">
+            <CoverageArea X="0" Y="0" Width="1" Height="1" />
+          </Decoration>
+          <Decoration Type="ImageDecoration" TemplateFramework="True" Aspect="3">
+            <CoverageArea X="0" Y="0" Width="1" Height="1" />
+            <Image Filename="templates\media\overlays\twopinboard.pvsi" />
+          </Decoration>
+        </Decoration>
+        <Decoration Type="ImageDecoration" PostTrans="True" Border="True">
+          <CoverageArea X="0" Y="0" Width="1" Height="1" />
+          <Image Filename="borders\vignette1.pvsi" />
+        </Decoration>
+        <PanZoom InitialDelay="0.11" StartRotation="-15.22308" EndRotation="-17.06271" PanZoomOnAll="True">
+          <StartArea X="0.3090909" Y="0.07313643" Width="0.284585" Height="0.2827004" />
+          <EndArea X="0.3177866" Y="0.1209564" Width="0.2948617" Height="0.2925457" />
+          <Equation Type="Linear" />
+        </PanZoom>
+      </Slide>
+      <Slide Type="BlankStillPictureSlide" PanZoom="True" DisplayTimeLength="1" Color="Color [Black]" MasterBackgroundAspect="0.7484375">
+        <TransitionEffect Type="MoveToNextSlideTransitionEffect" Direction="1" BorderFrac="0" Length="0" Index="25" />
+        <Decoration Type="GroupedDecoration" MotionBlur="False" RenderMethod="7" MoveAsSlidePanZoom="True">
+          <CoverageArea X="0" Y="0" Width="1" Height="1" />
+          <Decoration Type="ImageDecoration" DegreesRot="-18" Aspect="2" OriTemImageNum="7" EndOffsetTime="7">
+            <AlphaMap Filename="outlinemasks\smooth edge.jpg" />
+            <CoverageArea X="0.3383399" Y="0.1912799" Width="0.1841897" Height="0.2419128" />
+            <Image Filename="image7" />
+          </Decoration>
+          <Decoration Type="ImageDecoration" DegreesRot="10" Aspect="2" OriTemImageNum="8" EndOffsetTime="7">
+            <AlphaMap Filename="outlinemasks\smooth edge.jpg" />
+            <CoverageArea X="0.4916996" Y="0.5161744" Width="0.1770751" Height="0.254571" />
+            <Image Filename="image8" />
+          </Decoration>
+          <Decoration Type="ColourTransformDecoration" br="1" bg="0.9" bb="0.9" cr="1.04" cg="1.05" cb="1.05" gamma="1">
+            <CoverageArea X="0" Y="0" Width="1" Height="1" />
+          </Decoration>
+          <Decoration Type="ImageDecoration" TemplateFramework="True" Aspect="3">
+            <CoverageArea X="0" Y="0" Width="1" Height="1" />
+            <Image Filename="templates\media\overlays\twopinboard.pvsi" />
+          </Decoration>
+        </Decoration>
+        <Decoration Type="ImageDecoration" PostTrans="True" Border="True">
+          <CoverageArea X="0" Y="0" Width="1" Height="1" />
+          <Image Filename="borders\vignette1.pvsi" />
+        </Decoration>
+        <PanZoom StartRotation="-17.06271" EndRotation="-4.790004" PanZoomOnAll="True">
+          <StartArea X="0.3177866" Y="0.1209564" Width="0.2948617" Height="0.2925457" />
+          <EndArea X="0.3660079" Y="0.4739803" Width="0.3249012" Height="0.3249012" />
+          <Equation Type="NonLinear" />
+        </PanZoom>
+      </Slide>
+      <Slide Type="BlankStillPictureSlide" PanZoom="True" DisplayTimeLength="3" UsesDefaultTransitionEffect="True" Color="Color [Black]" MasterBackgroundAspect="0.7484375">
+        <TransitionEffect Type="MoveToNextSlideTransitionEffect" Direction="1" BorderFrac="0" Length="0.7" Index="25" />
+        <Decoration Type="GroupedDecoration" MotionBlur="False" RenderMethod="7" MoveAsSlidePanZoom="True">
+          <CoverageArea X="0" Y="0" Width="1" Height="1" />
+          <Decoration Type="ImageDecoration" DegreesRot="-18" Aspect="2" OriTemImageNum="7" EndOffsetTime="7">
+            <AlphaMap Filename="outlinemasks\smooth edge.jpg" />
+            <CoverageArea X="0.3383399" Y="0.1912799" Width="0.1841897" Height="0.2419128" />
+            <Image Filename="image7" />
+          </Decoration>
+          <Decoration Type="ImageDecoration" DegreesRot="10" Aspect="2" OriTemImageNum="8" EndOffsetTime="7">
+            <AlphaMap Filename="outlinemasks\smooth edge.jpg" />
+            <CoverageArea X="0.4916996" Y="0.5161744" Width="0.1770751" Height="0.254571" />
+            <Image Filename="image8" />
+          </Decoration>
+          <Decoration Type="ColourTransformDecoration" br="1" bg="0.9" bb="0.9" cr="1.04" cg="1.05" cb="1.05" gamma="1">
+            <CoverageArea X="0" Y="0" Width="1" Height="1" />
+          </Decoration>
+          <Decoration Type="ImageDecoration" TemplateFramework="True" Aspect="3">
+            <CoverageArea X="0" Y="0" Width="1" Height="1" />
+            <Image Filename="templates\media\overlays\twopinboard.pvsi" />
+          </Decoration>
+        </Decoration>
+        <Decoration Type="ImageDecoration" PostTrans="True" Border="True">
+          <CoverageArea X="0" Y="0" Width="1" Height="1" />
+          <Image Filename="borders\vignette1.pvsi" />
+        </Decoration>
+        <PanZoom EndDelay="0.89" StartRotation="-4.790004" EndRotation="4" PanZoomOnAll="True">
+          <StartArea X="0.3660079" Y="0.4739803" Width="0.3249012" Height="0.3249012" />
+          <EndArea X="0.3667984" Y="0.4739803" Width="0.3249012" Height="0.3249012" />
+          <Equation Type="Linear" />
+        </PanZoom>
+      </Slide>
+      <Slide Type="BlankStillPictureSlide" PanZoom="True" DisplayTimeLength="3" Color="Color [Black]" MasterBackgroundAspect="0.7484375">
+        <TransitionEffect Type="MoveToNextSlideTransitionEffect" Direction="2" BorderFrac="0" Length="0" Index="22" />
+        <Decoration Type="GroupedDecoration" MotionBlur="False" RenderMethod="7" MoveAsSlidePanZoom="True">
+          <CoverageArea X="0" Y="0" Width="1" Height="1" />
+          <Decoration Type="ImageDecoration" DegreesRot="-18" Aspect="2" OriTemImageNum="9" EndOffsetTime="7">
+            <AlphaMap Filename="outlinemasks\smooth edge.jpg" />
+            <CoverageArea X="0.3383399" Y="0.1870605" Width="0.1794466" Height="0.2489451" />
+            <Image Filename="image9" />
+          </Decoration>
+          <Decoration Type="ImageDecoration" DegreesRot="10" Aspect="2" OriTemImageNum="10" EndOffsetTime="7">
+            <AlphaMap Filename="outlinemasks\smooth edge.jpg" />
+            <CoverageArea X="0.4893281" Y="0.511955" Width="0.1794466" Height="0.2587904" />
+            <Image Filename="image10" />
+          </Decoration>
+          <Decoration Type="ColourTransformDecoration" br="1" bg="0.9" bb="0.9" cr="1.04" cg="1.05" cb="1.05" gamma="1">
+            <CoverageArea X="0" Y="0" Width="1" Height="1" />
+          </Decoration>
+          <Decoration Type="ImageDecoration" TemplateFramework="True" Aspect="3">
+            <CoverageArea X="0" Y="0" Width="1" Height="1" />
+            <Image Filename="templates\media\overlays\twopinboard.pvsi" />
+          </Decoration>
+        </Decoration>
+        <Decoration Type="ImageDecoration" PostTrans="True" Border="True">
+          <CoverageArea X="0" Y="0" Width="1" Height="1" />
+          <Image Filename="borders\vignette1.pvsi" />
+        </Decoration>
+        <PanZoom InitialDelay="0.09" StartRotation="-1.544612" EndRotation="-4.535851" PanZoomOnAll="True">
+          <StartArea X="0.2932806" Y="0.1153305" Width="0.284585" Height="0.2841069" />
+          <EndArea X="0.3059289" Y="0.1504923" Width="0.2932806" Height="0.2925457" />
+          <Equation Type="Linear" />
+        </PanZoom>
+      </Slide>
+      <Slide Type="BlankStillPictureSlide" PanZoom="True" DisplayTimeLength="1" Color="Color [Black]" MasterBackgroundAspect="0.7484375">
+        <TransitionEffect Type="MoveToNextSlideTransitionEffect" Direction="2" BorderFrac="0" Length="0" Index="22" />
+        <Decoration Type="GroupedDecoration" MotionBlur="False" RenderMethod="7" MoveAsSlidePanZoom="True">
+          <CoverageArea X="0" Y="0" Width="1" Height="1" />
+          <Decoration Type="ImageDecoration" DegreesRot="-18" Aspect="2" OriTemImageNum="9" EndOffsetTime="7">
+            <AlphaMap Filename="outlinemasks\smooth edge.jpg" />
+            <CoverageArea X="0.3383399" Y="0.1870605" Width="0.1794466" Height="0.2489451" />
+            <Image Filename="image9" />
+          </Decoration>
+          <Decoration Type="ImageDecoration" DegreesRot="10" Aspect="2" OriTemImageNum="10" EndOffsetTime="7">
+            <AlphaMap Filename="outlinemasks\smooth edge.jpg" />
+            <CoverageArea X="0.4893281" Y="0.511955" Width="0.1794466" Height="0.2587904" />
+            <Image Filename="image10" />
+          </Decoration>
+          <Decoration Type="ColourTransformDecoration" br="1" bg="0.9" bb="0.9" cr="1.04" cg="1.05" cb="1.05" gamma="1">
+            <CoverageArea X="0" Y="0" Width="1" Height="1" />
+          </Decoration>
+          <Decoration Type="ImageDecoration" TemplateFramework="True" Aspect="3">
+            <CoverageArea X="0" Y="0" Width="1" Height="1" />
+            <Image Filename="templates\media\overlays\twopinboard.pvsi" />
+          </Decoration>
+        </Decoration>
+        <Decoration Type="ImageDecoration" PostTrans="True" Border="True">
+          <CoverageArea X="0" Y="0" Width="1" Height="1" />
+          <Image Filename="borders\vignette1.pvsi" />
+        </Decoration>
+        <PanZoom StartRotation="-4.535851" EndRotation="0.2541284" PanZoomOnAll="True">
+          <StartArea X="0.3059289" Y="0.1504923" Width="0.2932806" Height="0.2925457" />
+          <EndArea X="0.2980237" Y="0.4486639" Width="0.4071146" Height="0.4064698" />
+          <Equation Type="NonLinear" />
+        </PanZoom>
+      </Slide>
+      <Slide Type="BlankStillPictureSlide" PanZoom="True" DisplayTimeLength="3" Color="Color [Black]" MasterBackgroundAspect="0.7484375">
+        <TransitionEffect Type="MoveToNextSlideTransitionEffect" Direction="1" BorderFrac="0" Length="0.7" Index="25" />
+        <Decoration Type="GroupedDecoration" MotionBlur="False" RenderMethod="7" MoveAsSlidePanZoom="True">
+          <CoverageArea X="0" Y="0" Width="1" Height="1" />
+          <Decoration Type="ImageDecoration" DegreesRot="-18" Aspect="2" OriTemImageNum="9" EndOffsetTime="7">
+            <AlphaMap Filename="outlinemasks\smooth edge.jpg" />
+            <CoverageArea X="0.3383399" Y="0.1870605" Width="0.1794466" Height="0.2489451" />
+            <Image Filename="image9" />
+          </Decoration>
+          <Decoration Type="ImageDecoration" DegreesRot="10" Aspect="2" OriTemImageNum="10" EndOffsetTime="7">
+            <AlphaMap Filename="outlinemasks\smooth edge.jpg" />
+            <CoverageArea X="0.4893281" Y="0.511955" Width="0.1794466" Height="0.2587904" />
+            <Image Filename="image10" />
+          </Decoration>
+          <Decoration Type="ColourTransformDecoration" br="1" bg="0.9" bb="0.9" cr="1.04" cg="1.05" cb="1.05" gamma="1">
+            <CoverageArea X="0" Y="0" Width="1" Height="1" />
+          </Decoration>
+          <Decoration Type="ImageDecoration" TemplateFramework="True" Aspect="3">
+            <CoverageArea X="0" Y="0" Width="1" Height="1" />
+            <Image Filename="templates\media\overlays\twopinboard.pvsi" />
+          </Decoration>
+        </Decoration>
+        <Decoration Type="ImageDecoration" PostTrans="True" Border="True">
+          <CoverageArea X="0" Y="0" Width="1" Height="1" />
+          <Image Filename="borders\vignette1.pvsi" />
+        </Decoration>
+        <PanZoom EndDelay="0.9" StartRotation="0.2541284" EndRotation="3.081638" PanZoomOnAll="True">
+          <StartArea X="0.2980237" Y="0.4486639" Width="0.4071146" Height="0.4064698" />
+          <EndArea X="0.2972332" Y="0.4486639" Width="0.4063241" Height="0.4063241" />
+          <Equation Type="Linear" />
+        </PanZoom>
+      </Slide>
+    </Slide>
+  </Slideshow>
+  <DecorationEffectsDatabase />
+</Template>

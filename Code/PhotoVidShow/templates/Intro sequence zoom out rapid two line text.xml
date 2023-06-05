@@ -1,0 +1,36 @@
+<Template Version="1.0.0" Name="Intro sequence zoom out fast" Description="Intro sequence with two lines of text with first rapidly zooming out&#xD;&#xA;&#xD;&#xA;&#xD;&#xA;">
+  <Slideshow>
+    <Slide Type="BlankStillPictureSlide" PanZoom="False" DisplayTimeLength="9" UsesDefaultTransitionEffect="True" ThumbnailPreviewTime="5.5" Color="Color [Black]">
+      <TransitionEffect Type="SimpleAlphaBlendTransitionEffect" Length="1.5" Index="1" />
+      <Decoration Type="TextDecoration" InEffect="DelayMoveIn" Text="My slideshow presentation" HintEditTime="5.5">
+        <CoverageArea X="0.21" Y="0.302391" Width="0.58" Height="0.1201373" />
+        <TextStyle Name="Vanilla" FontName="Segoe UI" FontSize="23.26761" OutLine="True" OutLineColour="Color [White]" Alignment="Center" OutlineLength="4" OutlineAlpha="14" />
+      </Decoration>
+      <Decoration Type="TextDecoration" StartOffsetTime="1.38" InEffect="MoveInSlow" Text="Text2 text2 text2 text2&#xD;&#xA;" HintEditTime="5.5">
+        <CoverageArea X="0.3720764" Y="0.4345992" Width="0.2534756" Height="0.06287374" />
+        <TextStyle Name="Vanilla" FontName="Segoe UI" FontSize="18.66667" OutLine="True" OutLineColour="Color [White]" Alignment="Center" OutlineLength="4" OutlineAlpha="14" />
+      </Decoration>
+      <PanZoom>
+        <StartArea X="0" Y="0" Width="1" Height="1" />
+        <EndArea X="0" Y="0" Width="1" Height="1" />
+        <Equation Type="Linear" />
+      </PanZoom>
+    </Slide>
+  </Slideshow>
+  <DecorationEffectsDatabase>
+    <DecorationEffect Name="MoveInSlow" LengthSetToDecorationLength="True">
+      <TransitionEffect Type="SimpleAlphaBlendTransitionEffect" Length="1.5" EndDelay="0.94" />
+      <Zoom InitialDelay="0" EndDelay="0" StartZoom="0.9" EndZoom="1">
+        <Equation Type="Linear" />
+      </Zoom>
+    </DecorationEffect>
+    <DecorationEffect Name="DelayMoveIn" Length="1" MotionBlur="30" HasCharDelay="True" CharTimeOffset="0.075" CharOrder="0">
+      <TransitionEffect Type="SimpleAlphaBlendTransitionEffect" Length="1.5" EndDelay="0.5" />
+      <Movement Type="StraightLineMovement" InitialDelay="0" EndDelay="0">
+        <Start X="0" Y="0" Z="-1" />
+        <End X="0" Y="0" Z="1" />
+        <Equation Type="NonLinear" />
+      </Movement>
+    </DecorationEffect>
+  </DecorationEffectsDatabase>
+</Template>

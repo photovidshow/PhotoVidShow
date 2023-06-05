@@ -1,0 +1,164 @@
+<Template Version="1.0.0" Name="Mirror move in and right 8 slides" Description="Move in and right 8 slides with mirror effect">
+  <Slideshow>
+    <Slide Type="BlankStillPictureSlide" PanZoom="False" DisplayTimeLength="9.8" UsesDefaultTransitionEffect="True" Color="Color [Black]">
+      <TransitionEffect Type="HBlurWhiteout" Length="0.8" Index="3" />
+      <Decoration Type="ImageDecoration" Background="True">
+        <CoverageArea X="0" Y="-0.09052056" Width="1" Height="1.181041" />
+        <Image Filename="menutemplates\background14.pvsi" />
+      </Decoration>
+      <Decoration Type="ImageDecoration" Aspect="3" OriTemImageNum="8" InEffect="MirrorMoveInAndright8SlidesImage8">
+        <AlphaMap Filename="outlinemasks\smooth edge.jpg" />
+        <CoverageArea X="0.361" Y="0.0979" Width="0.448" Height="0.5972" />
+        <Image Filename="image8" />
+      </Decoration>
+      <Decoration Type="ImageDecoration" Rotate="180" FlipX="True" Aspect="3" OriTemImageNum="8" InEffect="MirrorMoveInAndright8SlidesImage8">
+        <AlphaMap Filename="outlinemasks\smooth edge vertical mirror.jpg" />
+        <CoverageArea X="0.361" Y="0.69" Width="0.448" Height="0.5972" />
+        <Image Filename="image8" />
+      </Decoration>
+      <Decoration Type="ImageDecoration" Aspect="3" OriTemImageNum="7" InEffect="MirrorMoveInAndright8SlidesImage7">
+        <AlphaMap Filename="outlinemasks\smooth edge.jpg" />
+        <CoverageArea X="0.361" Y="0.0979" Width="0.448" Height="0.5972" />
+        <Image Filename="image7" />
+      </Decoration>
+      <Decoration Type="ImageDecoration" Rotate="180" FlipX="True" Aspect="3" OriTemImageNum="7" InEffect="MirrorMoveInAndright8SlidesImage7">
+        <AlphaMap Filename="outlinemasks\smooth edge vertical mirror.jpg" />
+        <CoverageArea X="0.361" Y="0.69" Width="0.448" Height="0.5972" />
+        <Image Filename="image7" />
+      </Decoration>
+      <Decoration Type="ImageDecoration" Aspect="3" OriTemImageNum="6" InEffect="MirrorMoveInAndright8SlidesImage6">
+        <AlphaMap Filename="outlinemasks\smooth edge.jpg" />
+        <CoverageArea X="0.361" Y="0.0979" Width="0.448" Height="0.5972" />
+        <Image Filename="image6" />
+      </Decoration>
+      <Decoration Type="ImageDecoration" Rotate="180" FlipX="True" Aspect="3" OriTemImageNum="6" InEffect="MirrorMoveInAndright8SlidesImage6">
+        <AlphaMap Filename="outlinemasks\smooth edge vertical mirror.jpg" />
+        <CoverageArea X="0.361" Y="0.69" Width="0.448" Height="0.5972" />
+        <Image Filename="image6" />
+      </Decoration>
+      <Decoration Type="ImageDecoration" Aspect="3" OriTemImageNum="5" InEffect="MirrorMoveInAndright8SlidesImage5">
+        <AlphaMap Filename="outlinemasks\smooth edge.jpg" />
+        <CoverageArea X="0.361" Y="0.0979" Width="0.448" Height="0.5972" />
+        <Image Filename="image5" />
+      </Decoration>
+      <Decoration Type="ImageDecoration" Rotate="180" FlipX="True" Aspect="3" OriTemImageNum="5" InEffect="MirrorMoveInAndright8SlidesImage5">
+        <AlphaMap Filename="outlinemasks\smooth edge vertical mirror.jpg" />
+        <CoverageArea X="0.361" Y="0.69" Width="0.448" Height="0.5972" />
+        <Image Filename="image5" />
+      </Decoration>
+      <Decoration Type="ImageDecoration" Aspect="3" OriTemImageNum="4" InEffect="MirrorMoveInAndright8SlidesImage4">
+        <AlphaMap Filename="outlinemasks\smooth edge.jpg" />
+        <CoverageArea X="0.361" Y="0.0979" Width="0.448" Height="0.5972" />
+        <Image Filename="image4" />
+      </Decoration>
+      <Decoration Type="ImageDecoration" Rotate="180" FlipX="True" Aspect="3" OriTemImageNum="4" InEffect="MirrorMoveInAndright8SlidesImage4">
+        <AlphaMap Filename="outlinemasks\smooth edge vertical mirror.jpg" />
+        <CoverageArea X="0.361" Y="0.69" Width="0.448" Height="0.5972" />
+        <Image Filename="image4" />
+      </Decoration>
+      <Decoration Type="ImageDecoration" Aspect="3" OriTemImageNum="3" InEffect="MirrorMoveInAndright8SlidesImage3">
+        <AlphaMap Filename="outlinemasks\smooth edge.jpg" />
+        <CoverageArea X="0.361" Y="0.0979" Width="0.448" Height="0.5973333" />
+        <Image Filename="image3" />
+      </Decoration>
+      <Decoration Type="ImageDecoration" Rotate="180" FlipX="True" Aspect="3" OriTemImageNum="3" InEffect="MirrorMoveInAndright8SlidesImage3">
+        <AlphaMap Filename="outlinemasks\smooth edge vertical mirror.jpg" />
+        <CoverageArea X="0.361" Y="0.69" Width="0.448" Height="0.5972" />
+        <Image Filename="image3" />
+      </Decoration>
+      <Decoration Type="ImageDecoration" Aspect="3" OriTemImageNum="2" InEffect="MirrorMoveInAndright8SlidesImage2">
+        <AlphaMap Filename="outlinemasks\smooth edge.jpg" />
+        <CoverageArea X="0.361" Y="0.0979" Width="0.448" Height="0.5972" />
+        <Image Filename="image2" />
+      </Decoration>
+      <Decoration Type="ImageDecoration" Rotate="180" FlipX="True" Aspect="3" OriTemImageNum="2" InEffect="MirrorMoveInAndright8SlidesImage2">
+        <AlphaMap Filename="outlinemasks\smooth edge vertical mirror.jpg" />
+        <CoverageArea X="0.361" Y="0.69" Width="0.448" Height="0.5972" />
+        <Image Filename="image2" />
+      </Decoration>
+      <Decoration Type="ImageDecoration" Aspect="3" OriTemImageNum="1" InEffect="MirrorMoveInAndright8SlidesImage1">
+        <AlphaMap Filename="outlinemasks\smooth edge.jpg" />
+        <CoverageArea X="0.3610377" Y="0.0979021" Width="0.447981" Height="0.5972028" />
+        <Image Filename="image1" />
+      </Decoration>
+      <Decoration Type="ImageDecoration" Rotate="180" FlipX="True" Aspect="3" OriTemImageNum="1" InEffect="MirrorMoveInAndright8SlidesImage1">
+        <AlphaMap Filename="outlinemasks\smooth edge vertical mirror.jpg" />
+        <CoverageArea X="0.361" Y="0.69" Width="0.448" Height="0.5972" />
+        <Image Filename="image1" />
+      </Decoration>
+      <Decoration Type="ColourTransformDecoration" br="0.95" bg="0.95" bb="0.95" cr="1.15" cg="1.15" cb="1.15" gamma="1">
+        <CoverageArea X="0" Y="0" Width="1" Height="1" />
+      </Decoration>
+      <Decoration Type="BlurFilterDecoration" StrengthF="0" BlurFilterType="1">
+        <CoverageArea X="0" Y="0" Width="1" Height="1" />
+      </Decoration>
+      <Decoration Type="ImageDecoration" Border="True">
+        <CoverageArea X="0" Y="0" Width="1" Height="1" />
+        <Image Filename="borders\vignette1.pvsi" />
+      </Decoration>
+      <PanZoom>
+        <StartArea X="0" Y="0" Width="1" Height="1" />
+        <EndArea X="0" Y="0" Width="1" Height="1" />
+        <Equation Type="Linear" />
+      </PanZoom>
+    </Slide>
+  </Slideshow>
+  <DecorationEffectsDatabase>
+    <DecorationEffect Name="MirrorMoveInAndright8SlidesImage1" Length="34" TemplateOnlyEffect="True">
+      <Movement Type="StraightLineMovement" TranslateXY="True" InitialDelay="0" EndDelay="0">
+        <Start X="-0.8" Y="0" Z="2.5" />
+        <End X="10.2" Y="0" Z="-18" />
+        <Equation Type="Linear" />
+      </Movement>
+    </DecorationEffect>
+    <DecorationEffect Name="MirrorMoveInAndright8SlidesImage2" Length="34" TemplateOnlyEffect="True">
+      <Movement Type="StraightLineMovement" TranslateXY="True" InitialDelay="0" EndDelay="0">
+        <Start X="-1.1" Y="0" Z="3" />
+        <End X="9.9" Y="0" Z="-17.5" />
+        <Equation Type="Linear" />
+      </Movement>
+    </DecorationEffect>
+    <DecorationEffect Name="MirrorMoveInAndright8SlidesImage3" Length="34" TemplateOnlyEffect="True">
+      <Movement Type="StraightLineMovement" TranslateXY="True" InitialDelay="0" EndDelay="0">
+        <Start X="-1.4" Y="0" Z="3.5" />
+        <End X="9.6" Y="0" Z="-17" />
+        <Equation Type="Linear" />
+      </Movement>
+    </DecorationEffect>
+    <DecorationEffect Name="MirrorMoveInAndright8SlidesImage4" Length="34" TemplateOnlyEffect="True">
+      <Movement Type="StraightLineMovement" TranslateXY="True" InitialDelay="0" EndDelay="0">
+        <Start X="-1.7" Y="0" Z="4" />
+        <End X="9.3" Y="0" Z="-16.5" />
+        <Equation Type="Linear" />
+      </Movement>
+    </DecorationEffect>
+    <DecorationEffect Name="MirrorMoveInAndright8SlidesImage5" Length="34" TemplateOnlyEffect="True">
+      <Movement Type="StraightLineMovement" TranslateXY="True" InitialDelay="0" EndDelay="0">
+        <Start X="-2" Y="0" Z="4.5" />
+        <End X="9" Y="0" Z="-16" />
+        <Equation Type="Linear" />
+      </Movement>
+    </DecorationEffect>
+    <DecorationEffect Name="MirrorMoveInAndright8SlidesImage6" Length="34" TemplateOnlyEffect="True">
+      <Movement Type="StraightLineMovement" TranslateXY="True" InitialDelay="0" EndDelay="0">
+        <Start X="-2.3" Y="0" Z="5" />
+        <End X="8.7" Y="0" Z="-15.5" />
+        <Equation Type="Linear" />
+      </Movement>
+    </DecorationEffect>
+    <DecorationEffect Name="MirrorMoveInAndright8SlidesImage7" Length="34" TemplateOnlyEffect="True">
+      <Movement Type="StraightLineMovement" TranslateXY="True" InitialDelay="0" EndDelay="0">
+        <Start X="-2.6" Y="0" Z="5.5" />
+        <End X="8.4" Y="0" Z="-15" />
+        <Equation Type="Linear" />
+      </Movement>
+    </DecorationEffect>
+    <DecorationEffect Name="MirrorMoveInAndright8SlidesImage8" Length="34" TemplateOnlyEffect="True">
+      <Movement Type="StraightLineMovement" TranslateXY="True" InitialDelay="0" EndDelay="0">
+        <Start X="-2.9" Y="0" Z="6" />
+        <End X="8.1" Y="0" Z="-14.5" />
+        <Equation Type="Linear" />
+      </Movement>
+    </DecorationEffect>
+  </DecorationEffectsDatabase>
+</Template>
