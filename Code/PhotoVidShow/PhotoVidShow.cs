@@ -129,6 +129,7 @@ namespace PhotoVidShow
                 }
             }
 
+            /*  SRG removed windows store version
             // If running Windows app store version
             if (CGlobals.RunningWindowsStoreVersion == true)
             {
@@ -137,6 +138,7 @@ namespace PhotoVidShow
                 bool trial = st.IsTrial();
                 CGlobals.RunningWindowsStoreTrial = trial;
             }
+            */
 
 #if (DEBUG)
             Form1 mainWindow = new Form1(open_with_file);

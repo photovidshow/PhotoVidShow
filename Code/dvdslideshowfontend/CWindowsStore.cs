@@ -4,7 +4,13 @@ using System.Linq;
 using System.Text;
 using System.Threading.Tasks;
 using System.Runtime.InteropServices;
-using Windows.Services.Store;
+
+// SRG removed windows store version
+
+//using Windows.Services.Store;
+
+
+
 
 //
 // For this class to access uwp classes you need to include these two assemblies
@@ -13,6 +19,8 @@ using Windows.Services.Store;
 // These show up as Windows and System.Runtime\WindowsRuntime in the reference assemblies.  Ans will only 
 // work for Windows 10
 // 
+
+/*
 namespace dvdslideshowfontend
 {
     [ComImport]
@@ -46,3 +54,4 @@ namespace dvdslideshowfontend
         }
     }
 }
+*/
